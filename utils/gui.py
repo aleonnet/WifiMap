@@ -305,17 +305,24 @@ class TrajTrainGUI:
         self.path_label.pack()
 
         self.exitButton = tk.Button(frame, text='Exit', fg='red', width=25,
-                                    command=self.master.destroy)
+                                    command=self.exit_train)
         self.exitButton.pack(pady=10)
 
         frame.pack(side=tk.LEFT, padx=10, pady=10, expand=True)
 
-        folder = dir_path + '/data'
-        Path(folder).mkdir(parents=True, exist_ok=True)
-        self.f = open(folder + '/train_traj_' +
-                      datetime.now().strftime('%m_%d_%H:%M')+'.txt', 'w')
-        self.path_f = open(folder + '/train_traj_' +
-                           datetime.now().strftime('%m_%d_%H:%M')+'.txt', 'w')
+        self.folder = dir_path + '/data'
+        Path(self.folder).mkdir(parents=True, exist_ok=True)
+        self.f, self.path_f = None, None
+        self.path_name = self.folder + '/train_traj_' + \
+            datetime.now().strftime('%m_%d_%H:%M')+'.txt'
+
+    def exit_train(self):
+        if self.f:
+            self.f.close()
+        if self.path_f:
+            self.path_f.close()
+        self.path_f.close()
+        self.master.destroy()
 
     def clear_radio(self):
         self.monitor_btn.configure(highlightbackground='red')
@@ -331,6 +338,10 @@ class TrajTrainGUI:
         self.path_label.delete('1.0', tk.END)
         self.path_label.insert(tk.INSERT, path_info)
         self.path_label.configure(state='disabled')
+        if self.path_f:
+            self.path_f.close()
+        self.path_f = open(self.path_name, 'w')
+        self.path_f.write(path_info)
 
     def update_pbar(self):
         progress = str(self.pbar).split('|')
@@ -355,7 +366,10 @@ class TrajTrainGUI:
                 pass
 
     def changeMode(self):
-        self.draw_mode = self.v.get()
+        if self.draw_mode == self.v.get():
+            self.clear_radio()
+        else:
+            self.draw_mode = self.v.get()
 
     def mouse_motion(self, event):
         x, y = event.x, event.y
@@ -364,7 +378,11 @@ class TrajTrainGUI:
 
     def monitor(self):
         self.monitor_mode = not self.monitor_mode
-        if self.monitor_mode:
+        if self.monitor_mode and self.paths:
+            if self.f:
+                self.f.close()
+            filename = self.folder + '/' + str(self.paths[-1]) + '.txt'
+            self.f = open(filename, 'w')
             self.monitor_btn['text'] = 'Stop Scan'
             self.monitor_btn.configure(highlightbackground='black')
             x = threading.Thread(target=self.doWork)
@@ -414,9 +432,11 @@ class TrajTrainGUI:
             pre_c = self.canvas.coords(item)
             self.canvas.move(item, x - x0, y - y0)
             self.dnd_item = (item, x, y)
-            for i in self.paths:
-                if self.compare(i[1], pre_c):
-                    i[1] = self.canvas.coords(item)
+            for i in range(len(self.paths)):
+                t, c = self.paths[i]
+                if self.compare(c, pre_c):
+                    del self.paths[i]
+                    self.paths.append([t, self.canvas.coords(item)])
                     break
             self.canvas.tag_raise(item, 'all')
             items = self.canvas.find_withtag("draggable")
@@ -440,7 +460,6 @@ class TrajTrainGUI:
                 self.line_start = None
                 line = (x_origin, y_origin, x, y)
                 self.paths.append([str(datetime.now()), line])
-                self.f.write(str(datetime.now()) + ' ' + str(line) + '\n')
                 self.arrow = tk.LAST
                 self.color = 'black'
                 self.width = 4
