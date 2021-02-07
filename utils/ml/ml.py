@@ -205,10 +205,10 @@ y_predict = classifier.predict(X_test)
 
 def plotPred(y_predict, y_test, y_voted):
     cols = ['target', 'predict', 'voted']
-    df = pd.DataFrame({'target': y_test, 
-    'predict': y_predict, 'voted': y_voted}, columns=cols)
-    df.reset_index().plot(x='index', y=cols, kind ='line', legend=True, 
-                 subplots = True,sharex = True, figsize = (20,10), ls='none', marker='o')
+    df = pd.DataFrame({'target': y_test,
+                       'predict': y_predict, 'voted': y_voted}, columns=cols)
+    df.reset_index().plot(x='index', y=cols, kind='line', legend=True,
+                          subplots=True, sharex=True, figsize=(20, 10), ls='none', marker='o')
     if save:
         utils.save_fig(prefix +
                        'voted_' + str(window) + '_' +
@@ -217,11 +217,10 @@ def plotPred(y_predict, y_test, y_voted):
         plt.show()
 
 
-
 n = len(y_predict)
 y_voted = []
-for i in range(1,n+1):
-    y_voted.append(stats.mode(y_predict[max(0,i-window):i])[0][0])
+for i in range(1, n+1):
+    y_voted.append(stats.mode(y_predict[max(0, i-window):i])[0][0])
 
 
 plotPred(y_predict, y_test, y_voted)
@@ -266,7 +265,6 @@ else:
     plt.show()
 
 # %%
-
 
 
 for i, j in enumerate(y_predict):

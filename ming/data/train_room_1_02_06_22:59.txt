@@ -1,0 +1,77 @@
+room 1 2021-02-06 22:59:26.054696
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        CSMguest 04:bd:88:76:f4:30 -90  149,+1  Y  -- NONE
+                         eduroam 18:64:72:29:09:d2 -90  157,+1  Y  -- WPA2(802.1x/AES/AES) 
+                        CSMguest 18:64:72:29:09:d1 -90  157,+1  Y  -- NONE
+             HP Photosmart C5280 70:8b:cd:5e:4f:f0 -89  8       Y  -- WPA2(PSK/AES/AES) 
+                         eduroam 04:bd:88:76:f4:32 -89  149,+1  Y  -- WPA2(802.1x/AES/AES) 
+      DIRECT-33-HP M281 LaserJet 76:40:bb:7c:af:33 -89  40,-1   Y  -- WPA2(PSK/AES/AES) 
+                     CSMwireless 04:bd:88:76:f4:31 -88  149,+1  Y  -- NONE
+                     CSMwireless 18:64:72:29:09:d0 -88  157,+1  Y  -- NONE
+                         eduroam 04:bd:88:76:f7:32 -88  40,-1   Y  -- WPA2(802.1x/AES/AES) 
+                        CSMguest 04:bd:88:76:f7:30 -88  40,-1   Y  -- NONE
+                     CSMwireless 04:bd:88:76:f5:91 -88  36,+1   Y  -- NONE
+                        CSMguest 04:bd:88:76:f5:90 -88  36,+1   Y  -- NONE
+                     CSMwireless 04:bd:88:76:f7:31 -87  40,-1   Y  -- NONE
+                         eduroam 04:bd:88:76:f5:92 -87  36,+1   Y  -- WPA2(802.1x/AES/AES) 
+                         eduroam 84:d4:7e:4a:ce:82 -87  1       Y  -- WPA2(802.1x/AES/AES) 
+                         eduroam 6c:f3:7f:7f:7c:c2 -86  1       Y  -- WPA2(802.1x/AES/AES) 
+                         eduroam 04:bd:88:76:f6:82 -83  1       Y  -- WPA2(802.1x/AES/AES) 
+                        CSMguest 04:bd:88:76:f7:20 -82  1       Y  -- NONE
+                     CSMwireless 84:d4:7e:4a:68:01 -80  11      Y  -- NONE
+                         eduroam 84:d4:7e:4a:68:02 -79  11      Y  -- WPA2(802.1x/AES/AES) 
+                     CSMwireless 04:bd:88:76:f6:81 -77  1       Y  -- NONE
+                        CSMguest 18:64:72:29:09:c1 -75  11      Y  -- NONE
+                         eduroam 18:64:72:29:09:c2 -75  11      Y  -- WPA2(802.1x/AES/AES) 
+                     CSMwireless 18:64:72:29:09:c0 -74  11      Y  -- NONE
+                     CSMwireless 04:bd:88:76:f4:21 -74  1       Y  -- NONE
+                         eduroam 04:bd:88:76:f5:82 -72  11      Y  -- WPA2(802.1x/AES/AES) 
+                         eduroam 04:bd:88:76:f4:22 -71  1       Y  -- WPA2(802.1x/AES/AES) 
+                     CSMwireless 04:bd:88:76:f9:e1 -35  1       Y  -- NONE
+                        CSMguest 04:bd:88:76:f9:e0 -35  1       Y  -- NONE
+                         eduroam 04:bd:88:76:f9:e2 -33  1       Y  -- WPA2(802.1x/AES/AES) 
+                         eduroam 04:bd:88:76:f9:f2 -39  149,+1  Y  -- WPA2(802.1x/AES/AES) 
+                     CSMwireless 04:bd:88:76:f9:f1 -39  149,+1  Y  -- NONE
+                        CSMguest 04:bd:88:76:f9:f0 -39  149,+1  Y  -- NONE
+
+
+room 1 2021-02-06 22:59:31.056240
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        CSMguest 04:bd:88:76:f4:30 -90  149,+1  Y  -- NONE
+                         eduroam 18:64:72:29:09:d2 -90  157,+1  Y  -- WPA2(802.1x/AES/AES) 
+      DIRECT-33-HP M281 LaserJet 76:40:bb:7c:af:33 -90  40,-1   Y  -- WPA2(PSK/AES/AES) 
+             HP Photosmart C5280 70:8b:cd:5e:4f:f0 -89  8       Y  -- WPA2(PSK/AES/AES) 
+                         eduroam 04:bd:88:76:f4:32 -89  149,+1  Y  -- WPA2(802.1x/AES/AES) 
+                     CSMwireless 18:64:72:29:09:d0 -89  157,+1  Y  -- NONE
+                     CSMwireless 04:bd:88:76:f4:31 -88  149,+1  Y  -- NONE
+                        CSMguest 18:64:72:29:09:d1 -88  157,+1  Y  -- NONE
+                         eduroam 04:bd:88:76:f7:32 -88  40,-1   Y  -- WPA2(802.1x/AES/AES) 
+                        CSMguest 04:bd:88:76:f7:30 -88  40,-1   Y  -- NONE
+                     CSMwireless 04:bd:88:76:f5:91 -88  36,+1   Y  -- NONE
+                        CSMguest 04:bd:88:76:f5:90 -88  36,+1   Y  -- NONE
+                     CSMwireless 04:bd:88:76:f7:31 -87  40,-1   Y  -- NONE
+                         eduroam 04:bd:88:76:f5:92 -87  36,+1   Y  -- WPA2(802.1x/AES/AES) 
+                         eduroam 84:d4:7e:4a:ce:82 -87  1       Y  -- WPA2(802.1x/AES/AES) 
+                         eduroam 6c:f3:7f:7f:7c:c2 -86  1       Y  -- WPA2(802.1x/AES/AES) 
+                         eduroam 04:bd:88:76:f6:82 -83  1       Y  -- WPA2(802.1x/AES/AES) 
+                        CSMguest 04:bd:88:76:f7:20 -82  1       Y  -- NONE
+                     CSMwireless 84:d4:7e:4a:68:01 -80  11      Y  -- NONE
+                         eduroam 84:d4:7e:4a:68:02 -79  11      Y  -- WPA2(802.1x/AES/AES) 
+                        CSMguest 04:bd:88:76:f6:80 -77  1       Y  -- NONE
+                     CSMwireless 04:bd:88:76:f6:81 -76  1       Y  -- NONE
+                     CSMwireless 04:bd:88:76:f5:81 -75  11      Y  -- NONE
+                     CSMwireless 18:64:72:29:09:c0 -75  11      Y  -- NONE
+                        CSMguest 18:64:72:29:09:c1 -75  11      Y  -- NONE
+                         eduroam 18:64:72:29:09:c2 -75  11      Y  -- WPA2(802.1x/AES/AES) 
+                     CSMwireless 04:bd:88:76:f4:21 -75  1       Y  -- NONE
+                        CSMguest 04:bd:88:76:f4:20 -74  1       Y  -- NONE
+                         eduroam 04:bd:88:76:f5:82 -72  11      Y  -- WPA2(802.1x/AES/AES) 
+                         eduroam 04:bd:88:76:f4:22 -71  1       Y  -- WPA2(802.1x/AES/AES) 
+                     CSMwireless 04:bd:88:76:f9:e1 -35  1       Y  -- NONE
+                        CSMguest 04:bd:88:76:f9:e0 -35  1       Y  -- NONE
+                         eduroam 04:bd:88:76:f9:e2 -34  1       Y  -- WPA2(802.1x/AES/AES) 
+                         eduroam 04:bd:88:76:f9:f2 -39  149,+1  Y  -- WPA2(802.1x/AES/AES) 
+                     CSMwireless 04:bd:88:76:f9:f1 -39  149,+1  Y  -- NONE
+                        CSMguest 04:bd:88:76:f9:f0 -39  149,+1  Y  -- NONE
+
+

@@ -1,1 +1,5 @@
 tqdm
+sklearn
+matplotlib
+pandas
+opencv-python

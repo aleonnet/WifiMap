@@ -16,7 +16,7 @@ import tkinter.scrolledtext as st
 
 
 from .scan import *
-from .roomtrain import train
+from .roomtrain import RoomTrain
 
 # %%
 
@@ -62,8 +62,8 @@ class Main:
             self.combo.current(0)
             self.display_user()
 
-        self.butnew("Room Level Training", "Room Level Training", RoomTrain)
-        self.butnew("Trajectory Training", "Trajectory Training", TrajTrain)
+        self.butnew("Room Level Training", "Room Level Training", RoomTrainGUI)
+        self.butnew("Trajectory Training", "Trajectory Training", TrajTrainGUI)
         self.butnew("Floor Plan Construction",
                     "Floor Plan Construction", FloorPlan)
 
@@ -97,7 +97,7 @@ class Main:
 # %%
 
 
-class RoomTrain:
+class RoomTrainGUI:
     def __init__(self, master, title):
         self.master = master
         self.master.title(title)
@@ -121,22 +121,25 @@ class RoomTrain:
         self.room_form = RoomForm(self.frame)
         self.room_form.grid(row=1, column=1, padx=10, pady=10)
 
-        self.pbar_label = tk.Label(self.frame, text="", height=2,
-                                   anchor="e", justify=tk.LEFT)
+        self.pbar_label = tk.Label(self.frame, text="", height=2)
 
-        self.pbar_label.grid(row=3, column=0, columnspan=2, pady=20)
+        self.pbar_label.grid(row=3, column=0, columnspan=2, pady=10)
         self.scan_flag = False
-        self.scan_btn = tk.Button(self.frame, text='Start Scan', fg='blue', width=25, pady=10,
+        self.scan_btn = tk.Button(self.frame, text='Start Scan', width=25, pady=10,
                                   command=self.scan_click)
-        self.scan_btn.grid(row=4, column=0, columnspan=2)
+        self.scan_btn.grid(row=4, column=0, columnspan=2, pady=5)
 
-        self.train_btn = tk.Button(self.frame, text='Room-Level Train', fg='blue', width=25, pady=10,
+        self.train_info = tk.StringVar()
+        self.train_label = tk.Label(self.frame, textvariable=self.train_info)
+
+        self.train_label.grid(row=5, column=0, columnspan=2, pady=10)
+        self.train_btn = tk.Button(self.frame, text='Room-Level Train', width=25, pady=10,
                                    command=self.room_train)
-        self.train_btn.grid(row=5, column=0, columnspan=2)
+        self.train_btn.grid(row=6, column=0, columnspan=2, pady=5)
 
         self.exitButton = tk.Button(self.frame, text='Exit', fg='red', width=25,
                                     command=self.exit_train)
-        self.exitButton.grid(row=6, column=0, columnspan=2, pady=10)
+        self.exitButton.grid(row=7, column=0, columnspan=2, pady=10)
         self.frame.pack(expand=True)
 
     def exit_train(self):
@@ -145,7 +148,25 @@ class RoomTrain:
         self.master.destroy()
 
     def room_train(self):
-        train()
+        self.train = RoomTrain(dir_path)
+        x = threading.Thread(target=self.train1)
+        x.start()
+
+    def train1(self):
+        s = self.train.combine()
+        self.train_info.set(s)
+        x = threading.Thread(target=self.train2)
+        x.start()
+
+    def train2(self):
+        s = self.train.preprocess()
+        self.train_info.set(s)
+        x = threading.Thread(target=self.train3)
+        x.start()
+
+    def train3(self):
+        s = self.train.train()
+        self.train_info.set(s)
 
     def doWork(self):
         if self.scan_flag:
@@ -214,7 +235,7 @@ class RoomTrain:
             output_file.write(text)
 
 
-class TrajTrain:
+class TrajTrainGUI:
     def __init__(self, master, title):
         self.master = master
         self.master.title(title)

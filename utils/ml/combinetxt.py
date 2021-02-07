@@ -2,21 +2,25 @@
 import os
 import shutil
 from glob import glob
-from utils.gui import dir_path
+from pathlib import Path
 
 # %%
 
 
-def combinetxt():
-    pattern = 'train_room_*.txt'
-    out_name = 'test_raw_combined.txt'
+def combinetxt(dir_path):
 
-    with open('values/' + out_name, 'wb') as out_file:
-        print(os.path.join(dir_path, pattern))
-        for file_name in glob(os.path.join(dir_path, pattern)):
-            print(file_name)
+    pattern = 'train_room_*.txt'
+    out_name = 'train_raw_combined.txt'
+    folder = dir_path + '/values'
+    Path(folder).mkdir(parents=True, exist_ok=True)
+
+    with open(folder + '/' + out_name, 'wb') as out_file:
+        for file_name in glob(os.path.join(dir_path, 'data', pattern)):
+            # print(file_name)
             if file_name == out_name:
                 # don't want to copy the output into the output
                 continue
             with open(file_name, 'rb') as read_file:
                 shutil.copyfileobj(read_file, out_file)
+
+    return folder + '/' + out_name
