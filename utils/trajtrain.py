@@ -1,17 +1,19 @@
 # %%
 from sklearn.ensemble import RandomForestClassifier
-from pickle import dump
+from pickle import load
 
-from .ml.combinetxt import combinetxt
 from .ml.preprocess import *
-
 
 # %%
 
 
-class RoomTrain:
+class TrajTrain:
     def __init__(self, dir_path) -> None:
         self.dir_path = dir_path
+        self.modelname = self.dir_path + '/values/model.sav'
+        with open(self.modelname, 'rb') as f:
+            self.train_df, self.sorted_bssid, self.rooms, self.rooms_mean, self.classifier = load(
+                f)
 
     def combine(self):
         self.train_filename = combinetxt(self.dir_path)
@@ -28,7 +30,7 @@ class RoomTrain:
         return "Preprocess Finished"
 
     def train(self):
-        self.modelname = self.dir_path + '/values/model.sav'
+
         self.classifier = RandomForestClassifier(
             n_estimators=500, random_state=42)
 

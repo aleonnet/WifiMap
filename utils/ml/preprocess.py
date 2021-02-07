@@ -2,7 +2,7 @@
 import pandas as pd
 import re
 
-test = False
+# test = False
 # test = True
 
 
@@ -46,6 +46,12 @@ def txt_to_dict(file_name):
         if "raw" in file_name:
             line = filef.readline()  # skip empty line
         if bssid_list and valid:
+            zipped_lists = zip(rssi_list, bssid_list)
+            sorted_pairs = sorted(zipped_lists, reverse=True)
+            tuples = zip(*sorted_pairs)
+            rssi_list, bssid_list = [list(tuple) for tuple in tuples]
+            if headline[1] == 'unknown':
+                headline[1] = '0'
             data_dict['room'].append(int(headline[1]))  # int
             data_dict['time'].append(headline[2] + "-" + headline[3])
             data_dict['bssid'].append(bssid_list)
@@ -65,9 +71,9 @@ def test_data_dict(data_dict, sorted_bssid):
     print(data_dict['rssi'][0], "\n")
 
 
-if test:
-    file_name = 'data/testMac.txt'
-    file_name2 = 'data/test_raw_Ji.txt'
+# if test:
+#     file_name = 'data/testMac.txt'
+#     file_name2 = 'data/test_raw_Ji.txt'
 #     data_dict, sorted_bssid = txt_to_dict(file_name)
 #     data_dict2, sorted_bssid2 = txt_to_dict(file_name2)
 #     test_data_dict(data_dict, sorted_bssid)
@@ -143,12 +149,12 @@ def load_data(file_name, sorted_bssid=None, process=no_process, value=-100):
 # %%
 # test load_data
 
-if test:
-    data_frame, sorted_bssid = load_data(file_name, sorted_bssid=[
-        '84:d4:7e:4a:4c:02', '84:d4:7e:4a:4c:00'], process=test_process)
-    data_frame2, sorted_bssid2 = load_data(file_name2, process=train_process)
-    rooms, rooms_mean = get_room_mean(data_frame)
-    print(rooms_mean)
+# if test:
+#     data_frame, sorted_bssid = load_data(file_name, sorted_bssid=[
+#         '84:d4:7e:4a:4c:02', '84:d4:7e:4a:4c:00'], process=test_process)
+#     data_frame2, sorted_bssid2 = load_data(file_name2, process=train_process)
+#     rooms, rooms_mean = get_room_mean(data_frame)
+#     print(rooms_mean)
 
 
 # %%
