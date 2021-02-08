@@ -99,8 +99,6 @@ class TrajTrain:
                 # print(y_pred.shape)
                 fitted.append(y_pred.flatten())
             self.plot_guassian_fit(X, sim_df, x, fitted, short_name)
-            dump([fitted, models], open(
-                '/Users/mili/Desktop/test/' + short_name+'.txt', 'wb'))
             order_result = calc_order(fitted, 4)
             # print(order_result)
             # print(room_sizes)

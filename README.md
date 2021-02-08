@@ -11,8 +11,6 @@
 
 * `cd WifiMap`
 
-* `open .` to open the current folder and change the content in `roomMap.txt`
-
 * `python3 -m pip install -r requirements.txt`
 
 * `python3 main.py`
