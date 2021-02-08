@@ -14,7 +14,12 @@ import tkinter.ttk as ttk
 import tkinter.font as tkfont
 import tkinter.scrolledtext as st
 from pickle import load, dump
-
+from PIL import Image, ImageDraw, ImageTk
+import tkinter as tk
+from pickle import load
+import numpy as np
+from matplotlib import cm, colors
+from collections import defaultdict
 from .scan import *
 from .roomtrain import RoomTrain
 from .trajtrain import TrajTrain
@@ -502,14 +507,17 @@ class TrajTrainGUI:
                 self.update_path()
 
 
+# %%
 class FloorPlan:
     def __init__(self, master, title):
         self.master = master
         self.master.title(title)
         self.master.geometry('800x800')
+        self.width = 600
+        self.height = 800
 
         self.canvas = tk.Canvas(
-            self.master, bg="white", width=600, height=800)
+            self.master, bg="white", width=self.width, height=self.height)
 
         x1 = 0
         x2 = 600
@@ -545,12 +553,201 @@ class FloorPlan:
     def load_raw(self):
         self.rooms, self.result = load(open(
             dir_path + '/values/traj.sav', 'rb'))
+        self.room_range = range(len(self.rooms))
+        self.colors = cm.get_cmap('jet', len(self.rooms))
+        self.hex_colors = []
+        for i in self.room_range:
+            self.hex_colors.append(colors.rgb2hex(self.colors(i)))
+        self.images = []
+        self.default_size = 0.01
+        self.vert_order = defaultdict(int)  # upper list
+        self.hori_order = defaultdict(int)  # right list
 
     def draw_raw(self):
+        to_draw = []
         for path, x, order, room_sizes in self.result:
-            path = [int(i) for i in path.split('(, )')]
+            path = [int(''.join([c for c in i if c.isdigit()]))
+                    for i in path.split(' ')]
             self.canvas.create_line(path)
-            print(path)
+            indexes = defaultdict(list)
+            for i, j in zip(x, order):
+                indexes[j].append(i)
+            mean_order = []
+            for i in self.room_range:
+                ls = indexes[i]
+                if ls:
+                    i_mean = sum(ls)/len(ls)
+                    mean_order.append([i_mean, i])
+                    # print(self.rooms[i], i_mean)
+            mean_order.sort(key=lambda x: x[0])
+            mean_order = [[x[0]-mean_order[0][0], -1]] + \
+                mean_order + [[2*x[-1]-mean_order[-1][0], -1]]
+            # print(mean_order)
+            direction = self.update_order(path, [i[1]
+                                                 for i in mean_order[1:-1]])
+            intervals = defaultdict(list)
+            for i in range(1, len(mean_order)-1):
+                loc, room_id_z = mean_order[i]
+                intervals[room_id_z].append((loc + mean_order[i-1][0])/2)
+                intervals[room_id_z].append((loc + mean_order[i+1][0])/2)
+                intervals[room_id_z].append(
+                    intervals[room_id_z][-1] - intervals[room_id_z][-2])
+            # print(intervals)
+            max_size = x[-1]
+            # print(max_size, room_sizes)
+            for i in self.room_range:
+                room_sizes[i] /= 3
+                size = room_sizes[i]
+                if i in intervals:
+                    # room_sizes[i] = min(room_sizes[i], intervals[i][2])
+                    if size > intervals[i][2]*2:
+                        room_sizes[i] = intervals[i][2]
+                    else:
+                        room_sizes[i] = (
+                            room_sizes[i] + intervals[i][2])/2
+                    intervals[i].append(room_sizes[i])
+                else:
+                    room_sizes[i] = self.default_size
+            # print(room_sizes)
+            # print(intervals)
+            ordered_intervals = []
+            for i in range(1, len(mean_order)-1):
+                loc, room_id_z = mean_order[i]
+                ordered_intervals.append([room_id_z, intervals[room_id_z]])
+            to_draw.append([path, direction, x[-1]-x[0], ordered_intervals])
+        self.vert_order = {i: j for i, j in self.vert_order.items() if j > 0}
+        self.hori_order = {i: j for i, j in self.hori_order.items() if j > 0}
+        print(self.vert_order)
+        print(self.hori_order)
+        for path, direction, i_interval, intervals in to_draw:
+            self.calc_and_draw(path, direction, i_interval, intervals)
+
+    def update_order(self, path, room_order):
+        direction = ''
+        if len(room_order) > 1:
+            x1, y1, x2, y2 = path
+            delta_x = x2-x1
+            delta_y = y2-y1
+            old_order = room_order
+            if abs(delta_y/delta_x) > 2:  # vertical path
+                if delta_y < 0:
+                    direction = 'down'
+                    room_order = room_order[::-1]
+                else:
+                    direction = 'up'
+                for i in range(len(room_order)-1):
+                    for j in range(i+1, len(room_order)):
+                        self.vert_order[(room_order[i], room_order[j])] += 1
+                        self.vert_order[(room_order[j], room_order[i])] -= 1
+            elif abs(delta_x/delta_y) > 2:
+                if delta_x < 0:
+                    new_order = room_order[::-1]
+                    direction = 'left'
+                else:
+                    direction = 'right'
+                for i in range(len(room_order)-1):
+                    for j in range(i+1, len(room_order)):
+                        self.hori_order[(room_order[i], room_order[j])] += 1
+                        self.hori_order[(room_order[j], room_order[i])] -= 1
+
+            print(direction, old_order)
+        return direction
+
+    def calc_and_draw(self, path, direction, i_interval, intervals):
+        x1, y1, x2, y2 = path
+        delta_x = x2-x1
+        delta_y = y2-y1
+        # hypotenuse = math.sqrt(delta_x**2 + delta_y**2)
+        # print(intervals)
+
+        for i in range(len(intervals)):
+            room_id_z, interval = intervals[i]
+            h1, h2, w, h = interval
+            xa = x1 + h1/i_interval*delta_x
+            ya = y1 + h1/i_interval*delta_y
+            xb = x1 + h2/i_interval*delta_x
+            yb = y1 + h2/i_interval*delta_y
+            h /= i_interval*2
+            x11 = int(xb - h*delta_y)
+            y11 = int(yb + h*delta_x)
+            x22 = int(xa - h*delta_y)
+            y22 = int(ya + h*delta_x)
+            x3 = int(xa + h*delta_y)
+            y3 = int(ya - h*delta_x)
+            x4 = int(xb + h*delta_y)
+            y4 = int(yb - h*delta_x)
+
+            # if direction == 'up':
+            #     y11 += shift
+            #     y22 += shift
+            #     y3 += shift
+            #     y4 += shift
+            # elif direction == 'down':
+            #     y11 += shift
+            #     y22 += shift
+            #     y3 += shift
+            #     y4 += shift
+            # elif direction == 'left':
+            #     x11 += shift
+            #     x22 += shift
+            #     x3 += shift
+            #     x4 += shift
+            # elif direction == 'right':
+            #     x11 += shift
+            #     x22 += shift
+            #     x3 += shift
+            #     x4 += shift
+
+            # if abs(delta_y/delta_x) > 1:  # vertical path
+            #     if room_id_z in self.hori_order:
+            #         # shift left
+            #         shift = -int(h*abs(delta_y))
+            #     else:
+            #         # shift right
+            #         shift = int(h*abs(delta_y))
+            #     x11 += shift
+            #     x22 += shift
+            #     x3 += shift
+            #     x4 += shift
+            # else:
+            #     if room_id_z in self.vert_order:
+            #         # shift down
+            #         shift = -int(h*abs(delta_x))
+            #     else:
+            #         # shift up
+            #         shift = int(h*abs(delta_x))
+            #     y11 += shift
+            #     y22 += shift
+            #     y3 += shift
+            #     y4 += shift
+
+            self.create_polygon(x11, y11, x22, y22, x3, y3, x4, y4,
+                                fill=self.hex_colors[room_id_z], outline=self.hex_colors[room_id_z], alpha=.2)
+            self.canvas.create_text(
+                sum([x11, x22, x3, x4])/4, sum([y11, y22, y3, y4])/4, text=self.rooms[room_id_z])
+
+    def create_polygon(self, *args, **kwargs):
+        if "alpha" in kwargs:
+            if "fill" in kwargs:
+                # Get and process the input data
+                fill = self.master.winfo_rgb(kwargs.pop("fill"))\
+                    + (int(kwargs.pop("alpha") * 255),)
+                outline = kwargs.pop(
+                    "outline") if "outline" in kwargs else None
+
+                # We need to find a rectangle the polygon is inscribed in
+                # (max(args[::2]), max(args[1::2])) are x and y of the bottom right point of this rectangle
+                # and they also are the width and height of it respectively (the image will be inserted into
+                # (0, 0) coords for simplicity)
+                image = Image.new("RGBA", (max(args[::2]), max(args[1::2])))
+                ImageDraw.Draw(image).polygon(args, fill=fill, outline=outline)
+
+                # prevent the Image from being garbage-collected
+                self.images.append(ImageTk.PhotoImage(image))
+                # insert the Image to the 0, 0 coords
+                return self.canvas.create_image(0, 0, image=self.images[-1], anchor="nw")
+            raise ValueError("fill color must be specified!")
+        return self.canvas.create_polygon(*args, **kwargs)
 
 
 # %%
