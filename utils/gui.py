@@ -172,7 +172,7 @@ class RoomTrainGUI:
     def doWork(self):
         if self.scan_flag:
             try:
-                self.f = open(self.file_name, 'w')
+                self.f = open(self.file_name, 'a')
                 self.f.write('room ' + str(self.room_id) +
                              ' ' + str(datetime.now()) + '\n')
                 self.f.write(scan())
@@ -388,7 +388,7 @@ class TrajTrainGUI:
         self.update_pbar()
         while self.monitor_mode:
             try:
-                self.f = open(self.file_name, 'w')
+                self.f = open(self.file_name, 'a')
                 self.f.write('room unkown ' + str(datetime.now()) + '\n')
                 self.f.write(scan())
                 self.f.write('\n\n')
