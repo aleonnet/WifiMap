@@ -1,0 +1,1117 @@
+room 2 2020-12-08 10:24:55.968765
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                     xfinitywifi 82:f2:9e:92:65:d8 -79  1       Y  US NONE
+                       NETGEAR76 a4:11:62:07:e2:dc -83  1       Y  US WPA2(PSK/AES/AES) 
+                       Ortola.n0 5c:b0:66:dd:b5:97 -74  1       Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                          SInlow 00:23:6c:bf:84:99 -86  1       Y  US WPA2(PSK/AES/AES) 
+                          George 70:54:25:31:2c:c7 -43  11      Y  US WPA2(PSK/AES/AES) 
+                          Dissly 78:f2:9e:92:65:d8 -75  1       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6e:b0:66:dd:b5:97 -74  1       Y  US NONE
+         DIRECT-21-HP M428fdw LJ b2:5c:da:64:76:21 -85  6       Y  -- WPA2(PSK/AES/AES) 
+                          Cayman 26:08:f5:ed:14:c5 -84  6,+1    Y  -- WPA2(PSK/AES/AES) 
+                 AdventureAwaits 74:ac:b9:36:78:0c -88  11,-1   Y  -- WPA2(PSK,FT-PSK/AES/AES) 
+                     xfinitywifi 6a:54:25:31:2c:c7 -48  11      Y  US NONE
+                          Cayman 58:96:30:93:02:79 -65  11      Y  -- WPA2(PSK/AES/AES) 
+                          Cayman 26:08:f5:ed:13:d5 -87  6,+1    Y  -- WPA2(PSK/AES/AES) 
+                          Cayman 26:08:f5:ed:14:79 -77  1,+1    Y  -- WPA2(PSK/AES/AES) 
+         Richard's Wi-Fi Network 0c:51:01:e7:27:78 -72  1       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 82:f2:9e:92:65:e0 -80  36      Y  US NONE
+         Richard's Wi-Fi Network 0c:51:01:e7:27:79 -85  149     Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8e:b0:66:dd:b5:98 -80  149     Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 6e:b0:66:dd:b5:98 -80  149     Y  US NONE
+                       Ortola.n0 5c:b0:66:dd:b5:98 -80  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                      Dissly-5.0 78:f2:9e:92:65:e0 -80  36      Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 5a:96:30:9b:02:7e -73  44      Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 5a:96:30:9b:02:7c -72  44      Y  US NONE
+                          Cayman 58:96:30:93:02:7a -72  44      Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8e:f2:9e:92:65:e0 -81  36      Y  US WPA2(802.1x/AES/AES) 
+                          George 70:54:25:31:2c:c8 -42  44      Y  US WPA2(PSK/AES/AES) 
+                          Cayman 26:08:f5:ed:14:7a -83  44      Y  -- WPA2(PSK/AES/AES) 
+
+
+room 2 2020-12-08 10:25:05.969176
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                       NETGEAR76 a4:11:62:07:e2:dc -83  1       Y  US WPA2(PSK/AES/AES) 
+                          SInlow 00:23:6c:bf:84:99 -86  1       Y  US WPA2(PSK/AES/AES) 
+                          George 70:54:25:31:2c:c7 -43  11      Y  US WPA2(PSK/AES/AES) 
+                          Cayman 26:08:f5:ed:14:c5 -84  6,+1    Y  -- WPA2(PSK/AES/AES) 
+                          Cayman 26:08:f5:ed:14:79 -77  1,+1    Y  -- WPA2(PSK/AES/AES) 
+                 AdventureAwaits 74:ac:b9:36:78:0c -88  11,-1   Y  -- WPA2(PSK,FT-PSK/AES/AES) 
+                       Ortola.n0 5c:b0:66:dd:b5:97 -68  1       Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                     xfinitywifi 6a:54:25:31:2c:c7 -50  11      Y  US NONE
+                          Cayman 58:96:30:93:02:79 -69  11      Y  -- WPA2(PSK/AES/AES) 
+         DIRECT-21-HP M428fdw LJ b2:5c:da:64:76:21 -84  6       Y  -- WPA2(PSK/AES/AES) 
+                          Cayman 26:08:f5:ed:13:d5 -83  6,+1    Y  -- WPA2(PSK/AES/AES) 
+                       NETGEAR94 10:0d:7f:5a:b8:e1 -85  3       Y  -- WPA2(PSK/AES/AES) 
+                     xfinitywifi 6e:b0:66:dd:b5:97 -83  1       Y  US NONE
+                     xfinitywifi 82:f2:9e:92:65:d8 -66  1       Y  US NONE
+                          Dissly 78:f2:9e:92:65:d8 -64  1       Y  US WPA2(PSK/AES/AES) 
+         Richard's Wi-Fi Network 0c:51:01:e7:27:78 -54  1       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 82:f2:9e:92:65:e0 -76  36      Y  US NONE
+                      Dissly-5.0 78:f2:9e:92:65:e0 -77  36      Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi ca:52:61:f2:5d:96 -84  149     Y  US NONE
+                         XFINITY 8e:b0:66:dd:b5:98 -77  149     Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 6e:b0:66:dd:b5:98 -77  149     Y  US NONE
+                       Ortola.n0 5c:b0:66:dd:b5:98 -77  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                         XFINITY 8e:f2:9e:92:65:e0 -76  36      Y  US WPA2(802.1x/AES/AES) 
+                         XFINITY 5a:96:30:9b:02:7e -81  44      Y  US WPA2(802.1x/AES/AES) 
+                          George 70:54:25:31:2c:c8 -45  44      Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 5a:96:30:9b:02:7c -81  44      Y  US NONE
+                          Cayman 58:96:30:93:02:7a -80  44      Y  US WPA2(PSK/AES/AES) 
+
+
+room 2 2020-12-08 10:25:15.973871
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                       NETGEAR76 a4:11:62:07:e2:dc -83  1       Y  US WPA2(PSK/AES/AES) 
+                          SInlow 00:23:6c:bf:84:99 -86  1       Y  US WPA2(PSK/AES/AES) 
+                          George 70:54:25:31:2c:c7 -43  11      Y  US WPA2(PSK/AES/AES) 
+                          Cayman 26:08:f5:ed:14:79 -77  1,+1    Y  -- WPA2(PSK/AES/AES) 
+                 AdventureAwaits 74:ac:b9:36:78:0c -88  11,-1   Y  -- WPA2(PSK,FT-PSK/AES/AES) 
+                       Ortola.n0 5c:b0:66:dd:b5:97 -68  1       Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                       NETGEAR94 10:0d:7f:5a:b8:e1 -85  3       Y  -- WPA2(PSK/AES/AES) 
+         DIRECT-21-HP M428fdw LJ b2:5c:da:64:76:21 -84  6       Y  -- WPA2(PSK/AES/AES) 
+                         cassius 98:0d:67:96:31:ef -86  11      Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                     xfinitywifi 6a:54:25:31:2c:c7 -50  11      Y  US NONE
+                          Cayman 58:96:30:93:02:79 -69  11      Y  -- WPA2(PSK/AES/AES) 
+                          Cayman 26:08:f5:ed:13:d5 -85  6,+1    Y  -- WPA2(PSK/AES/AES) 
+                          Cayman 26:08:f5:ed:14:c5 -76  6,+1    Y  -- WPA2(PSK/AES/AES) 
+                     xfinitywifi 6e:b0:66:dd:b5:97 -83  1       Y  US NONE
+                     xfinitywifi 82:f2:9e:92:65:d8 -65  1       Y  US NONE
+                          Dissly 78:f2:9e:92:65:d8 -64  1       Y  US WPA2(PSK/AES/AES) 
+         Richard's Wi-Fi Network 0c:51:01:e7:27:78 -59  1       Y  US WPA2(PSK/AES/AES) 
+                          Truman 4c:01:43:e0:d1:c8 -87  40      Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8e:f2:9e:92:65:e0 -76  36      Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 82:f2:9e:92:65:e0 -77  36      Y  US NONE
+                         XFINITY 8e:b0:66:dd:b5:98 -77  149     Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 6e:b0:66:dd:b5:98 -77  149     Y  US NONE
+                       Ortola.n0 5c:b0:66:dd:b5:98 -77  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                      Dissly-5.0 78:f2:9e:92:65:e0 -77  36      Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 5a:96:30:9b:02:7e -82  44      Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 5a:96:30:9b:02:7c -82  44      Y  US NONE
+                          George 70:54:25:31:2c:c8 -45  44      Y  US WPA2(PSK/AES/AES) 
+                          Cayman 58:96:30:93:02:7a -80  44      Y  US WPA2(PSK/AES/AES) 
+
+
+room 2 2020-12-08 10:25:25.974152
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                          SInlow 00:23:6c:bf:84:99 -86  1       Y  US WPA2(PSK/AES/AES) 
+                          George 70:54:25:31:2c:c7 -43  11      Y  US WPA2(PSK/AES/AES) 
+                          Cayman 26:08:f5:ed:14:79 -77  1,+1    Y  -- WPA2(PSK/AES/AES) 
+                 AdventureAwaits 74:ac:b9:36:78:0c -88  11,-1   Y  -- WPA2(PSK,FT-PSK/AES/AES) 
+                       Ortola.n0 5c:b0:66:dd:b5:97 -68  1       Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                       NETGEAR94 10:0d:7f:5a:b8:e1 -85  3       Y  -- WPA2(PSK/AES/AES) 
+         DIRECT-21-HP M428fdw LJ b2:5c:da:64:76:21 -84  6       Y  -- WPA2(PSK/AES/AES) 
+                     xfinitywifi 6e:b0:66:dd:b5:97 -83  1       Y  US NONE
+                          Cayman 26:08:f5:ed:14:c5 -76  6,+1    Y  -- WPA2(PSK/AES/AES) 
+                         cassius 98:0d:67:96:31:ef -86  11      Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                          Cayman 58:96:30:93:02:79 -65  11      Y  -- WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:54:25:31:2c:c7 -69  11      Y  US NONE
+                          Cayman 26:08:f5:ed:13:d5 -85  6,+1    Y  -- WPA2(PSK/AES/AES) 
+                       NETGEAR76 a4:11:62:07:e2:dc -82  1       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 82:f2:9e:92:65:d8 -66  1       Y  US NONE
+                          Dissly 78:f2:9e:92:65:d8 -63  1       Y  US WPA2(PSK/AES/AES) 
+         Richard's Wi-Fi Network 0c:51:01:e7:27:78 -59  1       Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8e:f2:9e:92:65:e0 -77  36      Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 82:f2:9e:92:65:e0 -77  36      Y  US NONE
+         Richard's Wi-Fi Network 0c:51:01:e7:27:79 -79  149     Y  US WPA2(PSK/AES/AES) 
+                         XFINITY d2:52:61:f2:5d:96 -83  149     Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi ca:52:61:f2:5d:96 -84  149     Y  US NONE
+                         XFINITY 8e:b0:66:dd:b5:98 -77  149     Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 6e:b0:66:dd:b5:98 -77  149     Y  US NONE
+                       Ortola.n0 5c:b0:66:dd:b5:98 -76  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                      Dissly-5.0 78:f2:9e:92:65:e0 -77  36      Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:54:25:31:2c:c8 -46  44      Y  US NONE
+                         XFINITY 5a:96:30:9b:02:7e -82  44      Y  US WPA2(802.1x/AES/AES) 
+                         XFINITY 72:54:25:31:2c:c8 -46  44      Y  US WPA2(802.1x/AES/AES) 
+                          George 70:54:25:31:2c:c8 -46  44      Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 5a:96:30:9b:02:7c -82  44      Y  US NONE
+                          Cayman 58:96:30:93:02:7a -80  44      Y  US WPA2(PSK/AES/AES) 
+
+
+room 2 2020-12-08 10:25:35.974184
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                          SInlow 00:23:6c:bf:84:99 -86  1       Y  US WPA2(PSK/AES/AES) 
+                          George 70:54:25:31:2c:c7 -43  11      Y  US WPA2(PSK/AES/AES) 
+                          Cayman 26:08:f5:ed:14:79 -77  1,+1    Y  -- WPA2(PSK/AES/AES) 
+                 AdventureAwaits 74:ac:b9:36:78:0c -88  11,-1   Y  -- WPA2(PSK,FT-PSK/AES/AES) 
+                       Ortola.n0 5c:b0:66:dd:b5:97 -68  1       Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                       NETGEAR94 10:0d:7f:5a:b8:e1 -85  3       Y  -- WPA2(PSK/AES/AES) 
+         DIRECT-21-HP M428fdw LJ b2:5c:da:64:76:21 -84  6       Y  -- WPA2(PSK/AES/AES) 
+                     xfinitywifi 6e:b0:66:dd:b5:97 -83  1       Y  US NONE
+         Richard's Wi-Fi Network 0c:51:01:e7:27:78 -59  1       Y  US WPA2(PSK/AES/AES) 
+                       NETGEAR76 a4:11:62:07:e2:dc -82  1       Y  US WPA2(PSK/AES/AES) 
+                         cassius 98:0d:67:96:31:ef -86  11      Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                     xfinitywifi 6a:54:25:31:2c:c7 -50  11      Y  US NONE
+                          Cayman 58:96:30:93:02:79 -72  11      Y  -- WPA2(PSK/AES/AES) 
+                          Cayman 26:08:f5:ed:13:d5 -85  6,+1    Y  -- WPA2(PSK/AES/AES) 
+                          Cayman 26:08:f5:ed:14:c5 -83  6,+1    Y  -- WPA2(PSK/AES/AES) 
+                     xfinitywifi 82:f2:9e:92:65:d8 -67  1       Y  US NONE
+                          Dissly 78:f2:9e:92:65:d8 -65  1       Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8e:f2:9e:92:65:e0 -77  36      Y  US WPA2(802.1x/AES/AES) 
+                      Dissly-5.0 78:f2:9e:92:65:e0 -77  36      Y  US WPA2(PSK/AES/AES) 
+                         XFINITY d2:52:61:f2:5d:96 -83  149     Y  US WPA2(802.1x/AES/AES) 
+                         XFINITY 8e:b0:66:dd:b5:98 -77  149     Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 6e:b0:66:dd:b5:98 -77  149     Y  US NONE
+                       Ortola.n0 5c:b0:66:dd:b5:98 -77  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                         XFINITY 72:54:25:31:2c:c8 -45  44      Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 82:f2:9e:92:65:e0 -77  36      Y  US NONE
+                         XFINITY 5a:96:30:9b:02:7e -82  44      Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 5a:96:30:9b:02:7c -81  44      Y  US NONE
+                          George 70:54:25:31:2c:c8 -45  44      Y  US WPA2(PSK/AES/AES) 
+                          Cayman 58:96:30:93:02:7a -80  44      Y  US WPA2(PSK/AES/AES) 
+
+
+room 2 2020-12-08 10:25:45.974143
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                          Cayman 26:08:f5:ed:14:79 -77  1,+1    Y  -- WPA2(PSK/AES/AES) 
+                 AdventureAwaits 74:ac:b9:36:78:0c -88  11,-1   Y  -- WPA2(PSK,FT-PSK/AES/AES) 
+                       Ortola.n0 5c:b0:66:dd:b5:97 -68  1       Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                       NETGEAR94 10:0d:7f:5a:b8:e1 -85  3       Y  -- WPA2(PSK/AES/AES) 
+         DIRECT-21-HP M428fdw LJ b2:5c:da:64:76:21 -84  6       Y  -- WPA2(PSK/AES/AES) 
+                       NETGEAR76 a4:11:62:07:e2:dc -82  1       Y  US WPA2(PSK/AES/AES) 
+                         cassius 98:0d:67:96:31:ef -86  11      Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                     xfinitywifi 6a:54:25:31:2c:c7 -51  11      Y  US NONE
+                          Cayman 58:96:30:93:02:79 -68  11      Y  -- WPA2(PSK/AES/AES) 
+                          Cayman 26:08:f5:ed:13:d5 -86  6,+1    Y  -- WPA2(PSK/AES/AES) 
+                          Cayman 26:08:f5:ed:14:c5 -82  6,+1    Y  -- WPA2(PSK/AES/AES) 
+                     xfinitywifi 6e:b0:66:dd:b5:97 -80  1       Y  US NONE
+                     xfinitywifi 82:f2:9e:92:65:d8 -73  1       Y  US NONE
+                          Dissly 78:f2:9e:92:65:d8 -76  1       Y  US WPA2(PSK/AES/AES) 
+         Richard's Wi-Fi Network 0c:51:01:e7:27:78 -75  1       Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8e:f2:9e:92:65:e0 -80  36      Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 82:f2:9e:92:65:e0 -79  36      Y  US NONE
+                      Dissly-5.0 78:f2:9e:92:65:e0 -80  36      Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8e:b0:66:dd:b5:98 -81  149     Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 6e:b0:66:dd:b5:98 -81  149     Y  US NONE
+                       Ortola.n0 5c:b0:66:dd:b5:98 -81  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                          Cayman 26:08:f5:ed:14:7a -86  44      Y  -- WPA2(PSK/AES/AES) 
+                         XFINITY 5a:96:30:9b:02:7e -78  44      Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 5a:96:30:9b:02:7c -78  44      Y  US NONE
+                          George 70:54:25:31:2c:c8 -41  44      Y  US WPA2(PSK/AES/AES) 
+                          Cayman 58:96:30:93:02:7a -78  44      Y  US WPA2(PSK/AES/AES) 
+
+
+room 2 2020-12-08 10:25:55.970048
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                          Cayman 26:08:f5:ed:14:79 -77  1,+1    Y  -- WPA2(PSK/AES/AES) 
+                 AdventureAwaits 74:ac:b9:36:78:0c -88  11,-1   Y  -- WPA2(PSK,FT-PSK/AES/AES) 
+                       Ortola.n0 5c:b0:66:dd:b5:97 -68  1       Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                       NETGEAR94 10:0d:7f:5a:b8:e1 -85  3       Y  -- WPA2(PSK/AES/AES) 
+                       NETGEAR76 a4:11:62:07:e2:dc -82  1       Y  US WPA2(PSK/AES/AES) 
+                          Cayman 26:08:f5:ed:14:c5 -82  6,+1    Y  -- WPA2(PSK/AES/AES) 
+                          Cayman 26:08:f5:ed:13:d5 -86  6,+1    Y  -- WPA2(PSK/AES/AES) 
+                          George 70:54:25:31:2c:c7 -45  11      Y  US WPA2(PSK/AES/AES) 
+                         cassius 98:0d:67:96:31:ef -84  11      Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                     xfinitywifi 6a:54:25:31:2c:c7 -50  11      Y  US NONE
+                          Cayman 58:96:30:93:02:79 -68  11      Y  -- WPA2(PSK/AES/AES) 
+         DIRECT-21-HP M428fdw LJ b2:5c:da:64:76:21 -84  6       Y  -- WPA2(PSK/AES/AES) 
+                     xfinitywifi 6e:b0:66:dd:b5:97 -80  1       Y  US NONE
+                     xfinitywifi 82:f2:9e:92:65:d8 -76  1       Y  US NONE
+                          Dissly 78:f2:9e:92:65:d8 -68  1       Y  US WPA2(PSK/AES/AES) 
+         Richard's Wi-Fi Network 0c:51:01:e7:27:78 -76  1       Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8e:b0:66:dd:b5:98 -80  149     Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 6e:b0:66:dd:b5:98 -80  149     Y  US NONE
+                       Ortola.n0 5c:b0:66:dd:b5:98 -80  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                         XFINITY 8e:f2:9e:92:65:e0 -83  36      Y  US WPA2(802.1x/AES/AES) 
+                         XFINITY 5a:96:30:9b:02:7e -80  44      Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 5a:96:30:9b:02:7c -80  44      Y  US NONE
+                          George 70:54:25:31:2c:c8 -41  44      Y  US WPA2(PSK/AES/AES) 
+                          Cayman 58:96:30:93:02:7a -79  44      Y  US WPA2(PSK/AES/AES) 
+
+
+room 2 2020-12-08 10:26:05.974153
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                       NETGEAR76 a4:11:62:07:e2:dc -82  1       Y  US WPA2(PSK/AES/AES) 
+                          Cayman 26:08:f5:ed:14:c5 -82  6,+1    Y  -- WPA2(PSK/AES/AES) 
+         Richard's Wi-Fi Network 0c:51:01:e7:27:78 -76  1       Y  US WPA2(PSK/AES/AES) 
+                          Dissly 78:f2:9e:92:65:d8 -68  1       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6e:b0:66:dd:b5:97 -80  1       Y  US NONE
+                          George 70:54:25:31:2c:c7 -45  11      Y  US WPA2(PSK/AES/AES) 
+                         cassius 98:0d:67:96:31:ef -88  11      Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                          Cayman 58:96:30:93:02:79 -68  11      Y  -- WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:54:25:31:2c:c7 -51  11      Y  US NONE
+         DIRECT-21-HP M428fdw LJ b2:5c:da:64:76:21 -87  6       Y  -- WPA2(PSK/AES/AES) 
+                          Cayman 26:08:f5:ed:13:d5 -86  6,+1    Y  -- WPA2(PSK/AES/AES) 
+                       NETGEAR94 10:0d:7f:5a:b8:e1 -86  3       Y  -- WPA2(PSK/AES/AES) 
+                     xfinitywifi 82:f2:9e:92:65:d8 -70  1       Y  US NONE
+                         XFINITY 8e:f2:9e:92:65:e0 -80  36      Y  US WPA2(802.1x/AES/AES) 
+                      Dissly-5.0 78:f2:9e:92:65:e0 -80  36      Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi ca:52:61:f2:5d:96 -84  149     Y  US NONE
+                         XFINITY 8e:b0:66:dd:b5:98 -79  149     Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 6e:b0:66:dd:b5:98 -80  149     Y  US NONE
+                       Ortola.n0 5c:b0:66:dd:b5:98 -80  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                         XFINITY 5a:96:30:9b:02:7e -80  44      Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 5a:96:30:9b:02:7c -78  44      Y  US NONE
+                          Cayman 58:96:30:93:02:7a -78  44      Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 82:f2:9e:92:65:e0 -79  36      Y  US NONE
+                          George 70:54:25:31:2c:c8 -41  44      Y  US WPA2(PSK/AES/AES) 
+
+
+room 2 2020-12-08 10:26:15.974184
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                          Cayman 26:08:f5:ed:14:c5 -82  6,+1    Y  -- WPA2(PSK/AES/AES) 
+                     xfinitywifi 6e:b0:66:dd:b5:97 -80  1       Y  US NONE
+                          George 70:54:25:31:2c:c7 -45  11      Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 82:f2:9e:92:65:d8 -70  1       Y  US NONE
+                       NETGEAR94 10:0d:7f:5a:b8:e1 -86  3       Y  -- WPA2(PSK/AES/AES) 
+         DIRECT-21-HP M428fdw LJ b2:5c:da:64:76:21 -87  6       Y  -- WPA2(PSK/AES/AES) 
+                         cassius 98:0d:67:96:31:ef -88  11      Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                          George 70:54:25:31:2c:c8 -41  44      Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:54:25:31:2c:c7 -52  11      Y  US NONE
+                          Cayman 58:96:30:93:02:79 -68  11      Y  -- WPA2(PSK/AES/AES) 
+                          Cayman 26:08:f5:ed:13:d5 -82  6,+1    Y  -- WPA2(PSK/AES/AES) 
+                          Dissly 78:f2:9e:92:65:d8 -68  1       Y  US WPA2(PSK/AES/AES) 
+         Richard's Wi-Fi Network 0c:51:01:e7:27:78 -74  1       Y  US WPA2(PSK/AES/AES) 
+                       NETGEAR76 a4:11:62:07:e2:dc -76  1       Y  US WPA2(PSK/AES/AES) 
+                          Truman 4c:01:43:e0:d1:c8 -90  40      Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8e:f2:9e:92:65:e0 -80  36      Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 82:f2:9e:92:65:e0 -79  36      Y  US NONE
+                         XFINITY 8e:b0:66:dd:b5:98 -81  149     Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 6e:b0:66:dd:b5:98 -81  149     Y  US NONE
+                         XFINITY d2:52:61:f2:5d:96 -81  149     Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi ca:52:61:f2:5d:96 -81  149     Y  US NONE
+                       Ortola.n0 5c:b0:66:dd:b5:98 -81  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                      Dissly-5.0 78:f2:9e:92:65:e0 -80  36      Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:54:25:31:2c:c8 -42  44      Y  US NONE
+                         XFINITY 5a:96:30:9b:02:7e -80  44      Y  US WPA2(802.1x/AES/AES) 
+
+
+room 2 2020-12-08 10:26:25.974131
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                     xfinitywifi 6e:b0:66:dd:b5:97 -80  1       Y  US NONE
+                          George 70:54:25:31:2c:c7 -45  11      Y  US WPA2(PSK/AES/AES) 
+                       NETGEAR94 10:0d:7f:5a:b8:e1 -86  3       Y  -- WPA2(PSK/AES/AES) 
+         DIRECT-21-HP M428fdw LJ b2:5c:da:64:76:21 -87  6       Y  -- WPA2(PSK/AES/AES) 
+                       NETGEAR76 a4:11:62:07:e2:dc -76  1       Y  US WPA2(PSK/AES/AES) 
+         Richard's Wi-Fi Network 0c:51:01:e7:27:78 -74  1       Y  US WPA2(PSK/AES/AES) 
+                 CenturyLink2854 98:0d:67:92:bd:2b -88  11      Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                         cassius 98:0d:67:96:31:ef -85  11      Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                          Cayman 58:96:30:93:02:79 -67  11      Y  -- WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:54:25:31:2c:c7 -51  11      Y  US NONE
+                          Cayman 26:08:f5:ed:13:d5 -84  6,+1    Y  -- WPA2(PSK/AES/AES) 
+                          Cayman 26:08:f5:ed:14:c5 -78  6,+1    Y  -- WPA2(PSK/AES/AES) 
+                          Dissly 78:f2:9e:92:65:d8 -77  1       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 82:f2:9e:92:65:d8 -71  1       Y  US NONE
+                         XFINITY 8e:f2:9e:92:65:e0 -80  36      Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 82:f2:9e:92:65:e0 -80  36      Y  US NONE
+                      Dissly-5.0 78:f2:9e:92:65:e0 -80  36      Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8e:b0:66:dd:b5:98 -82  149     Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 6e:b0:66:dd:b5:98 -83  149     Y  US NONE
+                       Ortola.n0 5c:b0:66:dd:b5:98 -83  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                     xfinitywifi 6a:54:25:31:2c:c8 -41  44      Y  US NONE
+                         XFINITY 72:54:25:31:2c:c8 -41  44      Y  US WPA2(802.1x/AES/AES) 
+                         XFINITY 5a:96:30:9b:02:7e -78  44      Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 5a:96:30:9b:02:7c -77  44      Y  US NONE
+                          George 70:54:25:31:2c:c8 -41  44      Y  US WPA2(PSK/AES/AES) 
+                          Cayman 58:96:30:93:02:7a -77  44      Y  US WPA2(PSK/AES/AES) 
+
+
+room 2 2020-12-08 10:26:35.974176
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                          George 70:54:25:31:2c:c7 -45  11      Y  US WPA2(PSK/AES/AES) 
+         DIRECT-21-HP M428fdw LJ b2:5c:da:64:76:21 -87  6       Y  -- WPA2(PSK/AES/AES) 
+                       NETGEAR76 a4:11:62:07:e2:dc -76  1       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 82:f2:9e:92:65:d8 -71  1       Y  US NONE
+                          Dissly 78:f2:9e:92:65:d8 -77  1       Y  US WPA2(PSK/AES/AES) 
+                         cassius 98:0d:67:96:31:ef -85  11      Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                 CenturyLink2854 98:0d:67:92:bd:2b -88  11      Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                 DIRECT-528E4E6B 3a:1a:52:8e:ce:6b -82  11      Y  -- WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:54:25:31:2c:c7 -49  11      Y  US NONE
+                          Cayman 58:96:30:93:02:79 -69  11      Y  -- WPA2(PSK/AES/AES) 
+                     myqwest4245 04:bf:6d:d9:14:e5 -89  7       Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                          Cayman 26:08:f5:ed:14:c5 -83  6,+1    Y  -- WPA2(PSK/AES/AES) 
+                          Cayman 26:08:f5:ed:13:d5 -85  6,+1    Y  -- WPA2(PSK/AES/AES) 
+                       NETGEAR94 10:0d:7f:5a:b8:e1 -87  3       Y  -- WPA2(PSK/AES/AES) 
+                          Cayman 26:08:f5:ed:14:79 -82  1,+1    Y  -- WPA2(PSK/AES/AES) 
+                     xfinitywifi 6e:b0:66:dd:b5:97 -78  1       Y  US NONE
+         Richard's Wi-Fi Network 0c:51:01:e7:27:78 -85  1       Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8e:f2:9e:92:65:e0 -81  36      Y  US WPA2(802.1x/AES/AES) 
+                      Dissly-5.0 78:f2:9e:92:65:e0 -81  36      Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8e:b0:66:dd:b5:98 -81  149     Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 6e:b0:66:dd:b5:98 -80  149     Y  US NONE
+                       Ortola.n0 5c:b0:66:dd:b5:98 -80  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                         XFINITY 72:54:25:31:2c:c8 -41  44      Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 82:f2:9e:92:65:e0 -81  36      Y  US NONE
+                          George 70:54:25:31:2c:c8 -41  44      Y  US WPA2(PSK/AES/AES) 
+
+
+room 2 2020-12-08 10:26:45.974151
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+         DIRECT-21-HP M428fdw LJ b2:5c:da:64:76:21 -87  6       Y  -- WPA2(PSK/AES/AES) 
+                       NETGEAR76 a4:11:62:07:e2:dc -76  1       Y  US WPA2(PSK/AES/AES) 
+                          Dissly 78:f2:9e:92:65:d8 -77  1       Y  US WPA2(PSK/AES/AES) 
+                         cassius 98:0d:67:96:31:ef -85  11      Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                 CenturyLink2854 98:0d:67:92:bd:2b -88  11      Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+         Richard's Wi-Fi Network 0c:51:01:e7:27:78 -85  1       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6e:b0:66:dd:b5:97 -78  1       Y  US NONE
+                     myqwest4245 04:bf:6d:d9:14:e5 -89  7       Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                 DIRECT-528E4E6B 3a:1a:52:8e:ce:6b -82  11      Y  -- WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:54:25:31:2c:c7 -50  11      Y  US NONE
+                          Cayman 58:96:30:93:02:79 -68  11      Y  -- WPA2(PSK/AES/AES) 
+                          George 70:54:25:31:2c:c7 -44  11      Y  US WPA2(PSK/AES/AES) 
+                          Cayman 26:08:f5:ed:13:d5 -86  6,+1    Y  -- WPA2(PSK/AES/AES) 
+                          Cayman 26:08:f5:ed:14:c5 -81  6,+1    Y  -- WPA2(PSK/AES/AES) 
+                       NETGEAR94 10:0d:7f:5a:b8:e1 -62  3       Y  -- WPA2(PSK/AES/AES) 
+                     xfinitywifi 82:f2:9e:92:65:d8 -61  1       Y  US NONE
+                          Cayman 26:08:f5:ed:14:79 -77  1,+1    Y  -- WPA2(PSK/AES/AES) 
+                         XFINITY 8e:f2:9e:92:65:e0 -80  36      Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 82:f2:9e:92:65:e0 -80  36      Y  US NONE
+                      Dissly-5.0 78:f2:9e:92:65:e0 -80  36      Y  US WPA2(PSK/AES/AES) 
+                         XFINITY d2:52:61:f2:5d:96 -83  149     Y  US WPA2(802.1x/AES/AES) 
+                         XFINITY 8e:b0:66:dd:b5:98 -81  149     Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 6e:b0:66:dd:b5:98 -81  149     Y  US NONE
+                       Ortola.n0 5c:b0:66:dd:b5:98 -81  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                          Cayman 58:96:30:93:02:7a -78  44      Y  US WPA2(PSK/AES/AES) 
+                          Cayman 26:08:f5:ed:14:7a -87  44      Y  -- WPA2(PSK/AES/AES) 
+                          Truman 4c:01:43:e0:d1:c8 -87  40      Y  US WPA2(PSK/AES/AES) 
+                          George 70:54:25:31:2c:c8 -40  44      Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 5a:96:30:9b:02:7e -80  44      Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 5a:96:30:9b:02:7c -79  44      Y  US NONE
+
+
+room 2 2020-12-08 10:26:55.974268
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                 CenturyLink2854 98:0d:67:92:bd:2b -88  11      Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                     xfinitywifi 6e:b0:66:dd:b5:97 -78  1       Y  US NONE
+                     myqwest4245 04:bf:6d:d9:14:e5 -89  7       Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                          Cayman 26:08:f5:ed:14:79 -77  1,+1    Y  -- WPA2(PSK/AES/AES) 
+                          George 70:54:25:31:2c:c7 -44  11      Y  US WPA2(PSK/AES/AES) 
+                 DIRECT-528E4E6B 3a:1a:52:8e:ce:6b -88  11      Y  -- WPA2(PSK/AES/AES) 
+                         cassius 98:0d:67:96:31:ef -87  11      Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                          Cayman 58:96:30:93:02:79 -70  11      Y  -- WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:54:25:31:2c:c7 -50  11      Y  US NONE
+                          Cayman 26:08:f5:ed:13:d5 -83  6,+1    Y  -- WPA2(PSK/AES/AES) 
+         DIRECT-21-HP M428fdw LJ b2:5c:da:64:76:21 -85  6       Y  -- WPA2(PSK/AES/AES) 
+                          Cayman 26:08:f5:ed:14:c5 -72  6,+1    Y  -- WPA2(PSK/AES/AES) 
+                       NETGEAR94 10:0d:7f:5a:b8:e1 -86  3       Y  -- WPA2(PSK/AES/AES) 
+                       NETGEAR76 a4:11:62:07:e2:dc -77  1       Y  US WPA2(PSK/AES/AES) 
+         Richard's Wi-Fi Network 0c:51:01:e7:27:78 -78  1       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 82:f2:9e:92:65:d8 -56  1       Y  US NONE
+                          Dissly 78:f2:9e:92:65:d8 -70  1       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 82:f2:9e:92:65:e0 -79  36      Y  US NONE
+                      Dissly-5.0 78:f2:9e:92:65:e0 -80  36      Y  US WPA2(PSK/AES/AES) 
+                         XFINITY d2:52:61:f2:5d:96 -83  149     Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi ca:52:61:f2:5d:96 -84  149     Y  US NONE
+                         XFINITY 8e:b0:66:dd:b5:98 -81  149     Y  US WPA2(802.1x/AES/AES) 
+                       Ortola.n0 5c:b0:66:dd:b5:98 -82  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                     xfinitywifi 6e:b0:66:dd:b5:98 -81  149     Y  US NONE
+                         XFINITY 8e:f2:9e:92:65:e0 -79  36      Y  US WPA2(802.1x/AES/AES) 
+                         XFINITY 5a:96:30:9b:02:7e -80  44      Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 5a:96:30:9b:02:7c -80  44      Y  US NONE
+                          George 70:54:25:31:2c:c8 -40  44      Y  US WPA2(PSK/AES/AES) 
+                          Cayman 58:96:30:93:02:7a -78  44      Y  US WPA2(PSK/AES/AES) 
+
+
+room 2 2020-12-08 10:27:05.974274
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                 CenturyLink2854 98:0d:67:92:bd:2b -88  11      Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                     xfinitywifi 6e:b0:66:dd:b5:97 -78  1       Y  US NONE
+                     myqwest4245 04:bf:6d:d9:14:e5 -89  7       Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                          Cayman 26:08:f5:ed:14:79 -77  1,+1    Y  -- WPA2(PSK/AES/AES) 
+                          George 70:54:25:31:2c:c7 -44  11      Y  US WPA2(PSK/AES/AES) 
+                          Dissly 78:f2:9e:92:65:d8 -70  1       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 82:f2:9e:92:65:d8 -56  1       Y  US NONE
+         Richard's Wi-Fi Network 0c:51:01:e7:27:78 -78  1       Y  US WPA2(PSK/AES/AES) 
+                          Cayman 26:08:f5:ed:14:c5 -72  6,+1    Y  -- WPA2(PSK/AES/AES) 
+         DIRECT-21-HP M428fdw LJ b2:5c:da:64:76:21 -85  6       Y  -- WPA2(PSK/AES/AES) 
+                          Cayman 26:08:f5:ed:13:d5 -83  6,+1    Y  -- WPA2(PSK/AES/AES) 
+                 DIRECT-528E4E6B 3a:1a:52:8e:ce:6b -88  11      Y  -- WPA2(PSK/AES/AES) 
+                         cassius 98:0d:67:96:31:ef -85  11      Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                          Cayman 58:96:30:93:02:79 -68  11      Y  -- WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:54:25:31:2c:c7 -50  11      Y  US NONE
+                       NETGEAR94 10:0d:7f:5a:b8:e1 -86  3       Y  -- WPA2(PSK/AES/AES) 
+                       NETGEAR76 a4:11:62:07:e2:dc -79  1       Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8e:f2:9e:92:65:e0 -79  36      Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 82:f2:9e:92:65:e0 -79  36      Y  US NONE
+                      Dissly-5.0 78:f2:9e:92:65:e0 -79  36      Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8e:b0:66:dd:b5:98 -82  149     Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 6e:b0:66:dd:b5:98 -81  149     Y  US NONE
+                     xfinitywifi ca:52:61:f2:5d:96 -83  149     Y  US NONE
+                       Ortola.n0 5c:b0:66:dd:b5:98 -78  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                          George 70:54:25:31:2c:c8 -40  44      Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 5a:96:30:9b:02:7e -80  44      Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 5a:96:30:9b:02:7c -80  44      Y  US NONE
+                          Cayman 58:96:30:93:02:7a -78  44      Y  US WPA2(PSK/AES/AES) 
+
+
+room 2 2020-12-08 10:27:15.974146
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                 CenturyLink2854 98:0d:67:92:bd:2b -88  11      Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                     xfinitywifi 6e:b0:66:dd:b5:97 -78  1       Y  US NONE
+                     myqwest4245 04:bf:6d:d9:14:e5 -89  7       Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                          Cayman 26:08:f5:ed:14:79 -77  1,+1    Y  -- WPA2(PSK/AES/AES) 
+                          George 70:54:25:31:2c:c7 -44  11      Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 82:f2:9e:92:65:d8 -56  1       Y  US NONE
+         Richard's Wi-Fi Network 0c:51:01:e7:27:78 -78  1       Y  US WPA2(PSK/AES/AES) 
+                          Cayman 26:08:f5:ed:14:c5 -72  6,+1    Y  -- WPA2(PSK/AES/AES) 
+                          Cayman 26:08:f5:ed:13:d5 -83  6,+1    Y  -- WPA2(PSK/AES/AES) 
+                 DIRECT-528E4E6B 3a:1a:52:8e:ce:6b -88  11      Y  -- WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:54:25:31:2c:c7 -50  11      Y  US NONE
+                         cassius 98:0d:67:96:31:ef -85  11      Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                          Cayman 58:96:30:93:02:79 -69  11      Y  -- WPA2(PSK/AES/AES) 
+         DIRECT-21-HP M428fdw LJ b2:5c:da:64:76:21 -85  6       Y  -- WPA2(PSK/AES/AES) 
+                       NETGEAR94 10:0d:7f:5a:b8:e1 -87  3       Y  -- WPA2(PSK/AES/AES) 
+                       NETGEAR76 a4:11:62:07:e2:dc -75  1       Y  US WPA2(PSK/AES/AES) 
+                          Dissly 78:f2:9e:92:65:d8 -78  1       Y  US WPA2(PSK/AES/AES) 
+                          Truman 4c:01:43:e0:d1:c8 -89  40      Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8e:f2:9e:92:65:e0 -80  36      Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 82:f2:9e:92:65:e0 -80  36      Y  US NONE
+                         XFINITY d2:52:61:f2:5d:96 -83  149     Y  US WPA2(802.1x/AES/AES) 
+                         XFINITY 8e:b0:66:dd:b5:98 -82  149     Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi ca:52:61:f2:5d:96 -82  149     Y  US NONE
+                     xfinitywifi 6e:b0:66:dd:b5:98 -82  149     Y  US NONE
+                       Ortola.n0 5c:b0:66:dd:b5:98 -82  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                      Dissly-5.0 78:f2:9e:92:65:e0 -80  36      Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:54:25:31:2c:c8 -40  44      Y  US NONE
+                         XFINITY 5a:96:30:9b:02:7e -79  44      Y  US WPA2(802.1x/AES/AES) 
+                          George 70:54:25:31:2c:c8 -40  44      Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 5a:96:30:9b:02:7c -78  44      Y  US NONE
+                          Cayman 58:96:30:93:02:7a -78  44      Y  US WPA2(PSK/AES/AES) 
+
+
+room 2 2020-12-08 10:27:25.974147
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                 CenturyLink2854 98:0d:67:92:bd:2b -88  11      Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                     xfinitywifi 6e:b0:66:dd:b5:97 -78  1       Y  US NONE
+                     myqwest4245 04:bf:6d:d9:14:e5 -89  7       Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                          Cayman 26:08:f5:ed:14:79 -77  1,+1    Y  -- WPA2(PSK/AES/AES) 
+                          George 70:54:25:31:2c:c7 -44  11      Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 82:f2:9e:92:65:d8 -56  1       Y  US NONE
+                 DIRECT-528E4E6B 3a:1a:52:8e:ce:6b -88  11      Y  -- WPA2(PSK/AES/AES) 
+                       NETGEAR94 10:0d:7f:5a:b8:e1 -87  3       Y  -- WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:54:25:31:2c:c7 -50  11      Y  US NONE
+                         cassius 98:0d:67:96:31:ef -85  11      Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                          Cayman 58:96:30:93:02:79 -69  11      Y  -- WPA2(PSK/AES/AES) 
+                          Cayman 26:08:f5:ed:13:d5 -85  6,+1    Y  -- WPA2(PSK/AES/AES) 
+                          Cayman 26:08:f5:ed:14:c5 -71  6,+1    Y  -- WPA2(PSK/AES/AES) 
+         DIRECT-21-HP M428fdw LJ b2:5c:da:64:76:21 -85  6       Y  -- WPA2(PSK/AES/AES) 
+                          Dissly 78:f2:9e:92:65:d8 -71  1       Y  US WPA2(PSK/AES/AES) 
+         Richard's Wi-Fi Network 0c:51:01:e7:27:78 -77  1       Y  US WPA2(PSK/AES/AES) 
+                       NETGEAR76 a4:11:62:07:e2:dc -74  1       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 82:f2:9e:92:65:e0 -79  36      Y  US NONE
+                      Dissly-5.0 78:f2:9e:92:65:e0 -80  36      Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8e:b0:66:dd:b5:98 -82  149     Y  US WPA2(802.1x/AES/AES) 
+                         XFINITY d2:52:61:f2:5d:96 -83  149     Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 6e:b0:66:dd:b5:98 -82  149     Y  US NONE
+                     xfinitywifi ca:52:61:f2:5d:96 -83  149     Y  US NONE
+                       Ortola.n0 5c:b0:66:dd:b5:98 -83  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                         XFINITY 8e:f2:9e:92:65:e0 -79  36      Y  US WPA2(802.1x/AES/AES) 
+                         XFINITY 72:54:25:31:2c:c8 -40  44      Y  US WPA2(802.1x/AES/AES) 
+                         XFINITY 5a:96:30:9b:02:7e -79  44      Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 5a:96:30:9b:02:7c -78  44      Y  US NONE
+                          George 70:54:25:31:2c:c8 -40  44      Y  US WPA2(PSK/AES/AES) 
+                          Cayman 58:96:30:93:02:7a -78  44      Y  US WPA2(PSK/AES/AES) 
+
+
+room 2 2020-12-08 10:27:35.974159
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                     xfinitywifi 6e:b0:66:dd:b5:97 -78  1       Y  US NONE
+                     myqwest4245 04:bf:6d:d9:14:e5 -89  7       Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                          George 70:54:25:31:2c:c7 -44  11      Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 82:f2:9e:92:65:d8 -56  1       Y  US NONE
+                 DIRECT-528E4E6B 3a:1a:52:8e:ce:6b -88  11      Y  -- WPA2(PSK/AES/AES) 
+                       NETGEAR94 10:0d:7f:5a:b8:e1 -87  3       Y  -- WPA2(PSK/AES/AES) 
+                       NETGEAR76 a4:11:62:07:e2:dc -74  1       Y  US WPA2(PSK/AES/AES) 
+         Richard's Wi-Fi Network 0c:51:01:e7:27:78 -77  1       Y  US WPA2(PSK/AES/AES) 
+                          Cayman 26:08:f5:ed:13:d5 -85  6,+1    Y  -- WPA2(PSK/AES/AES) 
+                         cassius 98:0d:67:96:31:ef -86  11      Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                     xfinitywifi 6a:54:25:31:2c:c7 -50  11      Y  US NONE
+                          Cayman 58:96:30:93:02:79 -68  11      Y  -- WPA2(PSK/AES/AES) 
+         DIRECT-21-HP M428fdw LJ b2:5c:da:64:76:21 -76  6       Y  -- WPA2(PSK/AES/AES) 
+                          Cayman 26:08:f5:ed:14:c5 -80  6,+1    Y  -- WPA2(PSK/AES/AES) 
+                          Cayman 26:08:f5:ed:14:79 -76  1,+1    Y  -- WPA2(PSK/AES/AES) 
+                          Dissly 78:f2:9e:92:65:d8 -70  1       Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8e:f2:9e:92:65:e0 -79  36      Y  US WPA2(802.1x/AES/AES) 
+                      Dissly-5.0 78:f2:9e:92:65:e0 -80  36      Y  US WPA2(PSK/AES/AES) 
+                         XFINITY d2:52:61:f2:5d:96 -82  149     Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi ca:52:61:f2:5d:96 -84  149     Y  US NONE
+                         XFINITY 8e:b0:66:dd:b5:98 -82  149     Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 6e:b0:66:dd:b5:98 -82  149     Y  US NONE
+                       Ortola.n0 5c:b0:66:dd:b5:98 -82  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                     xfinitywifi 82:f2:9e:92:65:e0 -79  36      Y  US NONE
+                         XFINITY 5a:96:30:9b:02:7e -79  44      Y  US WPA2(802.1x/AES/AES) 
+                          George 70:54:25:31:2c:c8 -40  44      Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 5a:96:30:9b:02:7c -79  44      Y  US NONE
+                          Cayman 58:96:30:93:02:7a -77  44      Y  US WPA2(PSK/AES/AES) 
+
+
+room 2 2020-12-08 10:27:45.974176
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                          George 70:54:25:31:2c:c7 -44  11      Y  US WPA2(PSK/AES/AES) 
+                 DIRECT-528E4E6B 3a:1a:52:8e:ce:6b -88  11      Y  -- WPA2(PSK/AES/AES) 
+                       NETGEAR94 10:0d:7f:5a:b8:e1 -87  3       Y  -- WPA2(PSK/AES/AES) 
+         Richard's Wi-Fi Network 0c:51:01:e7:27:78 -77  1       Y  US WPA2(PSK/AES/AES) 
+                          Cayman 26:08:f5:ed:14:79 -76  1,+1    Y  -- WPA2(PSK/AES/AES) 
+         DIRECT-21-HP M428fdw LJ b2:5c:da:64:76:21 -76  6       Y  -- WPA2(PSK/AES/AES) 
+                         cassius 98:0d:67:96:31:ef -89  11      Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                     xfinitywifi 6a:54:25:31:2c:c7 -50  11      Y  US NONE
+                          Cayman 58:96:30:93:02:79 -70  11      Y  -- WPA2(PSK/AES/AES) 
+                          Cayman 26:08:f5:ed:14:c5 -83  6,+1    Y  -- WPA2(PSK/AES/AES) 
+                          Cayman 26:08:f5:ed:13:d5 -85  6,+1    Y  -- WPA2(PSK/AES/AES) 
+                     xfinitywifi 82:f2:9e:92:65:d8 -73  1       Y  US NONE
+                          Dissly 78:f2:9e:92:65:d8 -69  1       Y  US WPA2(PSK/AES/AES) 
+                       NETGEAR76 a4:11:62:07:e2:dc -60  1       Y  US WPA2(PSK/AES/AES) 
+                          Truman 4c:01:43:e0:d1:c8 -91  40      Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8e:f2:9e:92:65:e0 -79  36      Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 82:f2:9e:92:65:e0 -79  36      Y  US NONE
+                         XFINITY d2:52:61:f2:5d:96 -81  149     Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi ca:52:61:f2:5d:96 -82  149     Y  US NONE
+                         XFINITY 8e:b0:66:dd:b5:98 -83  149     Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 6e:b0:66:dd:b5:98 -83  149     Y  US NONE
+                       Ortola.n0 5c:b0:66:dd:b5:98 -82  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                      Dissly-5.0 78:f2:9e:92:65:e0 -80  36      Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 5a:96:30:9b:02:7e -79  44      Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 5a:96:30:9b:02:7c -77  44      Y  US NONE
+                          George 70:54:25:31:2c:c8 -40  44      Y  US WPA2(PSK/AES/AES) 
+                          Cayman 58:96:30:93:02:7a -77  44      Y  US WPA2(PSK/AES/AES) 
+
+
+room 2 2020-12-08 10:27:55.974145
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                 DIRECT-528E4E6B 3a:1a:52:8e:ce:6b -88  11      Y  -- WPA2(PSK/AES/AES) 
+                       NETGEAR94 10:0d:7f:5a:b8:e1 -87  3       Y  -- WPA2(PSK/AES/AES) 
+                          Cayman 26:08:f5:ed:14:79 -76  1,+1    Y  -- WPA2(PSK/AES/AES) 
+         DIRECT-21-HP M428fdw LJ b2:5c:da:64:76:21 -76  6       Y  -- WPA2(PSK/AES/AES) 
+                       NETGEAR76 a4:11:62:07:e2:dc -60  1       Y  US WPA2(PSK/AES/AES) 
+                          Cayman 26:08:f5:ed:13:d5 -85  6,+1    Y  -- WPA2(PSK/AES/AES) 
+                         cassius 98:0d:67:96:31:ef -89  11      Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                     xfinitywifi 6a:54:25:31:2c:c7 -50  11      Y  US NONE
+                          Cayman 58:96:30:93:02:79 -70  11      Y  -- WPA2(PSK/AES/AES) 
+                          Cayman 26:08:f5:ed:14:c5 -80  6,+1    Y  -- WPA2(PSK/AES/AES) 
+         Richard's Wi-Fi Network 0c:51:01:e7:27:78 -74  1       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 82:f2:9e:92:65:d8 -73  1       Y  US NONE
+                          Dissly 78:f2:9e:92:65:d8 -71  1       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 82:f2:9e:92:65:e0 -80  36      Y  US NONE
+                      Dissly-5.0 78:f2:9e:92:65:e0 -80  36      Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8e:b0:66:dd:b5:98 -83  149     Y  US WPA2(802.1x/AES/AES) 
+                       Ortola.n0 5c:b0:66:dd:b5:98 -83  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                     xfinitywifi 6e:b0:66:dd:b5:98 -83  149     Y  US NONE
+                         XFINITY d2:52:61:f2:5d:96 -81  149     Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi ca:52:61:f2:5d:96 -82  149     Y  US NONE
+                         XFINITY 8e:f2:9e:92:65:e0 -80  36      Y  US WPA2(802.1x/AES/AES) 
+                         XFINITY 5a:96:30:9b:02:7e -78  44      Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 5a:96:30:9b:02:7c -78  44      Y  US NONE
+                          George 70:54:25:31:2c:c8 -40  44      Y  US WPA2(PSK/AES/AES) 
+                          Cayman 58:96:30:93:02:7a -77  44      Y  US WPA2(PSK/AES/AES) 
+
+
+room 2 2020-12-08 10:28:05.974156
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                          Cayman 26:08:f5:ed:14:79 -76  1,+1    Y  -- WPA2(PSK/AES/AES) 
+         DIRECT-21-HP M428fdw LJ b2:5c:da:64:76:21 -76  6       Y  -- WPA2(PSK/AES/AES) 
+                          Cayman 26:08:f5:ed:13:d5 -85  6,+1    Y  -- WPA2(PSK/AES/AES) 
+         Richard's Wi-Fi Network 0c:51:01:e7:27:78 -74  1       Y  US WPA2(PSK/AES/AES) 
+                         cassius 98:0d:67:96:31:ef -89  11      Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                     xfinitywifi 6a:54:25:31:2c:c7 -51  11      Y  US NONE
+                          Cayman 58:96:30:93:02:79 -70  11      Y  -- WPA2(PSK/AES/AES) 
+                          Cayman 26:08:f5:ed:14:c5 -81  6,+1    Y  -- WPA2(PSK/AES/AES) 
+                       NETGEAR94 10:0d:7f:5a:b8:e1 -85  3       Y  -- WPA2(PSK/AES/AES) 
+                     xfinitywifi 82:f2:9e:92:65:d8 -73  1       Y  US NONE
+                       NETGEAR76 a4:11:62:07:e2:dc -73  1       Y  US WPA2(PSK/AES/AES) 
+                          Dissly 78:f2:9e:92:65:d8 -71  1       Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8e:f2:9e:92:65:e0 -79  36      Y  US WPA2(802.1x/AES/AES) 
+                      Dissly-5.0 78:f2:9e:92:65:e0 -79  36      Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8e:b0:66:dd:b5:98 -81  149     Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 6e:b0:66:dd:b5:98 -81  149     Y  US NONE
+                       Ortola.n0 5c:b0:66:dd:b5:98 -82  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                     xfinitywifi 82:f2:9e:92:65:e0 -79  36      Y  US NONE
+                         XFINITY 5a:96:30:9b:02:7e -78  44      Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 5a:96:30:9b:02:7c -78  44      Y  US NONE
+                          George 70:54:25:31:2c:c8 -41  44      Y  US WPA2(PSK/AES/AES) 
+                          Cayman 58:96:30:93:02:7a -78  44      Y  US WPA2(PSK/AES/AES) 
+
+
+room 2 2020-12-08 10:28:15.974268
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+         DIRECT-21-HP M428fdw LJ b2:5c:da:64:76:21 -76  6       Y  -- WPA2(PSK/AES/AES) 
+                          Cayman 26:08:f5:ed:13:d5 -85  6,+1    Y  -- WPA2(PSK/AES/AES) 
+                          Dissly 78:f2:9e:92:65:d8 -71  1       Y  US WPA2(PSK/AES/AES) 
+                       NETGEAR76 a4:11:62:07:e2:dc -73  1       Y  US WPA2(PSK/AES/AES) 
+                          Cayman 26:08:f5:ed:14:c5 -81  6,+1    Y  -- WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:54:25:31:2c:c7 -51  11      Y  US NONE
+                          George 70:54:25:31:2c:c7 -45  11      Y  US WPA2(PSK/AES/AES) 
+                          Cayman 58:96:30:93:02:79 -67  11      Y  -- WPA2(PSK/AES/AES) 
+                 DIRECT-528E4E6B 3a:1a:52:8e:ce:6b -88  11      Y  -- WPA2(PSK/AES/AES) 
+                         cassius 98:0d:67:96:31:ef -88  11      Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                       NETGEAR94 10:0d:7f:5a:b8:e1 -82  3       Y  -- WPA2(PSK/AES/AES) 
+                     xfinitywifi 82:f2:9e:92:65:d8 -72  1       Y  US NONE
+         Richard's Wi-Fi Network 0c:51:01:e7:27:78 -75  1       Y  US WPA2(PSK/AES/AES) 
+                          Cayman 26:08:f5:ed:14:79 -82  1,+1    Y  -- WPA2(PSK/AES/AES) 
+                         XFINITY 8e:f2:9e:92:65:e0 -81  36      Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 82:f2:9e:92:65:e0 -81  36      Y  US NONE
+                      Dissly-5.0 78:f2:9e:92:65:e0 -81  36      Y  US WPA2(PSK/AES/AES) 
+                         XFINITY d2:52:61:f2:5d:96 -83  149     Y  US WPA2(802.1x/AES/AES) 
+                         XFINITY 8e:b0:66:dd:b5:98 -82  149     Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 6e:b0:66:dd:b5:98 -83  149     Y  US NONE
+                       Ortola.n0 5c:b0:66:dd:b5:98 -81  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                     xfinitywifi 5a:96:30:9b:02:7c -79  44      Y  US NONE
+                     xfinitywifi 6a:54:25:31:2c:c8 -40  44      Y  US NONE
+                         XFINITY 5a:96:30:9b:02:7e -78  44      Y  US WPA2(802.1x/AES/AES) 
+                          Cayman 58:96:30:93:02:7a -79  44      Y  US WPA2(PSK/AES/AES) 
+                          George 70:54:25:31:2c:c8 -40  44      Y  US WPA2(PSK/AES/AES) 
+
+
+room 2 2020-12-08 10:28:25.974162
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+         DIRECT-21-HP M428fdw LJ b2:5c:da:64:76:21 -76  6       Y  -- WPA2(PSK/AES/AES) 
+                       NETGEAR76 a4:11:62:07:e2:dc -73  1       Y  US WPA2(PSK/AES/AES) 
+                          Cayman 26:08:f5:ed:14:79 -82  1,+1    Y  -- WPA2(PSK/AES/AES) 
+         Richard's Wi-Fi Network 0c:51:01:e7:27:78 -75  1       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 82:f2:9e:92:65:d8 -72  1       Y  US NONE
+                       NETGEAR94 10:0d:7f:5a:b8:e1 -82  3       Y  -- WPA2(PSK/AES/AES) 
+                 DIRECT-528E4E6B 3a:1a:52:8e:ce:6b -88  11      Y  -- WPA2(PSK/AES/AES) 
+                          George 70:54:25:31:2c:c7 -45  11      Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:54:25:31:2c:c7 -51  11      Y  US NONE
+                         cassius 98:0d:67:96:31:ef -92  11      Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                          Cayman 58:96:30:93:02:79 -67  11      Y  -- WPA2(PSK/AES/AES) 
+                          Cayman 26:08:f5:ed:14:c5 -74  6,+1    Y  -- WPA2(PSK/AES/AES) 
+                          Cayman 26:08:f5:ed:13:d5 -83  6,+1    Y  -- WPA2(PSK/AES/AES) 
+                          Dissly 78:f2:9e:92:65:d8 -60  1       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6e:b0:66:dd:b5:97 -80  1       Y  US NONE
+                       Ortola.n0 5c:b0:66:dd:b5:97 -80  1       Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                     xfinitywifi 82:f2:9e:92:65:e0 -80  36      Y  US NONE
+                      Dissly-5.0 78:f2:9e:92:65:e0 -81  36      Y  US WPA2(PSK/AES/AES) 
+                         XFINITY d2:52:61:f2:5d:96 -83  149     Y  US WPA2(802.1x/AES/AES) 
+                         XFINITY 8e:b0:66:dd:b5:98 -82  149     Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 6e:b0:66:dd:b5:98 -83  149     Y  US NONE
+                     xfinitywifi ca:52:61:f2:5d:96 -83  149     Y  US NONE
+                       Ortola.n0 5c:b0:66:dd:b5:98 -81  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                         XFINITY 8e:f2:9e:92:65:e0 -81  36      Y  US WPA2(802.1x/AES/AES) 
+                         XFINITY 72:54:25:31:2c:c8 -40  44      Y  US WPA2(802.1x/AES/AES) 
+                         XFINITY 5a:96:30:9b:02:7e -75  44      Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 5a:96:30:9b:02:7c -77  44      Y  US NONE
+                          George 70:54:25:31:2c:c8 -40  44      Y  US WPA2(PSK/AES/AES) 
+                          Cayman 58:96:30:93:02:7a -77  44      Y  US WPA2(PSK/AES/AES) 
+
+
+room 2 2020-12-08 10:28:35.974159
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+         DIRECT-21-HP M428fdw LJ b2:5c:da:64:76:21 -76  6       Y  -- WPA2(PSK/AES/AES) 
+                          Cayman 26:08:f5:ed:14:79 -82  1,+1    Y  -- WPA2(PSK/AES/AES) 
+         Richard's Wi-Fi Network 0c:51:01:e7:27:78 -75  1       Y  US WPA2(PSK/AES/AES) 
+                 DIRECT-528E4E6B 3a:1a:52:8e:ce:6b -88  11      Y  -- WPA2(PSK/AES/AES) 
+                          George 70:54:25:31:2c:c7 -45  11      Y  US WPA2(PSK/AES/AES) 
+                       Ortola.n0 5c:b0:66:dd:b5:97 -80  1       Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                     xfinitywifi 6e:b0:66:dd:b5:97 -80  1       Y  US NONE
+                          Dissly 78:f2:9e:92:65:d8 -60  1       Y  US WPA2(PSK/AES/AES) 
+                          Cayman 26:08:f5:ed:14:c5 -74  6,+1    Y  -- WPA2(PSK/AES/AES) 
+                         cassius 98:0d:67:96:31:ef -89  11      Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                     xfinitywifi 6a:54:25:31:2c:c7 -51  11      Y  US NONE
+                          Cayman 58:96:30:93:02:79 -71  11      Y  -- WPA2(PSK/AES/AES) 
+                          Cayman 26:08:f5:ed:13:d5 -87  6,+1    Y  -- WPA2(PSK/AES/AES) 
+                       NETGEAR94 10:0d:7f:5a:b8:e1 -85  3       Y  -- WPA2(PSK/AES/AES) 
+                     xfinitywifi 82:f2:9e:92:65:d8 -74  1       Y  US NONE
+                       NETGEAR76 a4:11:62:07:e2:dc -75  1       Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8e:f2:9e:92:65:e0 -81  36      Y  US WPA2(802.1x/AES/AES) 
+                      Dissly-5.0 78:f2:9e:92:65:e0 -81  36      Y  US WPA2(PSK/AES/AES) 
+                         XFINITY d2:52:61:f2:5d:96 -83  149     Y  US WPA2(802.1x/AES/AES) 
+                         XFINITY 8e:b0:66:dd:b5:98 -82  149     Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 6e:b0:66:dd:b5:98 -81  149     Y  US NONE
+                       Ortola.n0 5c:b0:66:dd:b5:98 -81  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                     xfinitywifi 82:f2:9e:92:65:e0 -81  36      Y  US NONE
+                         XFINITY 5a:96:30:9b:02:7e -78  44      Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 5a:96:30:9b:02:7c -78  44      Y  US NONE
+                          George 70:54:25:31:2c:c8 -40  44      Y  US WPA2(PSK/AES/AES) 
+                          Cayman 58:96:30:93:02:7a -77  44      Y  US WPA2(PSK/AES/AES) 
+
+
+room 2 2020-12-08 10:28:45.974142
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                          Cayman 26:08:f5:ed:14:79 -82  1,+1    Y  -- WPA2(PSK/AES/AES) 
+         Richard's Wi-Fi Network 0c:51:01:e7:27:78 -75  1       Y  US WPA2(PSK/AES/AES) 
+                 DIRECT-528E4E6B 3a:1a:52:8e:ce:6b -88  11      Y  -- WPA2(PSK/AES/AES) 
+                          George 70:54:25:31:2c:c7 -45  11      Y  US WPA2(PSK/AES/AES) 
+                       Ortola.n0 5c:b0:66:dd:b5:97 -80  1       Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                     xfinitywifi 6e:b0:66:dd:b5:97 -80  1       Y  US NONE
+                          Dissly 78:f2:9e:92:65:d8 -60  1       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 82:f2:9e:92:65:d8 -74  1       Y  US NONE
+                       NETGEAR94 10:0d:7f:5a:b8:e1 -85  3       Y  -- WPA2(PSK/AES/AES) 
+                         cassius 98:0d:67:96:31:ef -89  11      Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                     Morningstar 3c:7a:8a:31:7e:ea -90  11      Y  US WPA2(PSK/AES/AES) 
+                          Cayman 58:96:30:93:02:79 -68  11      Y  -- WPA2(PSK/AES/AES) 
+                        xr3FAinZ 00:24:b2:60:2d:ad -90  11      Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:54:25:31:2c:c7 -51  11      Y  US NONE
+                          Cayman 26:08:f5:ed:13:d5 -86  6,+1    Y  -- WPA2(PSK/AES/AES) 
+                          Cayman 26:08:f5:ed:14:c5 -80  6,+1    Y  -- WPA2(PSK/AES/AES) 
+                       NETGEAR76 a4:11:62:07:e2:dc -77  1       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 82:f2:9e:92:65:e0 -80  36      Y  US NONE
+                         XFINITY 8e:b0:66:dd:b5:98 -82  149     Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 6e:b0:66:dd:b5:98 -82  149     Y  US NONE
+                       Ortola.n0 5c:b0:66:dd:b5:98 -82  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+         Richard's Wi-Fi Network 0c:51:01:e7:27:79 -80  149     Y  US WPA2(PSK/AES/AES) 
+                         XFINITY d2:52:61:f2:5d:96 -82  149     Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi ca:52:61:f2:5d:96 -82  149     Y  US NONE
+                          Cayman 26:08:f5:ed:14:7a -86  44      Y  -- WPA2(PSK/AES/AES) 
+                      Dissly-5.0 78:f2:9e:92:65:e0 -81  36      Y  US WPA2(PSK/AES/AES) 
+                          Truman 4c:01:43:e0:d1:c8 -88  40      Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8e:f2:9e:92:65:e0 -80  36      Y  US WPA2(802.1x/AES/AES) 
+                         XFINITY 5a:96:30:9b:02:7e -79  44      Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 5a:96:30:9b:02:7c -77  44      Y  US NONE
+                          George 70:54:25:31:2c:c8 -40  44      Y  US WPA2(PSK/AES/AES) 
+                          Cayman 58:96:30:93:02:7a -77  44      Y  US WPA2(PSK/AES/AES) 
+
+
+room 2 2020-12-08 10:28:55.974154
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                          Cayman 26:08:f5:ed:14:79 -82  1,+1    Y  -- WPA2(PSK/AES/AES) 
+                 DIRECT-528E4E6B 3a:1a:52:8e:ce:6b -88  11      Y  -- WPA2(PSK/AES/AES) 
+                          George 70:54:25:31:2c:c7 -45  11      Y  US WPA2(PSK/AES/AES) 
+                       Ortola.n0 5c:b0:66:dd:b5:97 -80  1       Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                     xfinitywifi 6e:b0:66:dd:b5:97 -80  1       Y  US NONE
+                       NETGEAR94 10:0d:7f:5a:b8:e1 -85  3       Y  -- WPA2(PSK/AES/AES) 
+                       NETGEAR76 a4:11:62:07:e2:dc -77  1       Y  US WPA2(PSK/AES/AES) 
+                        xr3FAinZ 00:24:b2:60:2d:ad -90  11      Y  US WPA2(PSK/AES/AES) 
+                     Morningstar 3c:7a:8a:31:7e:ea -90  11      Y  US WPA2(PSK/AES/AES) 
+                         cassius 98:0d:67:96:31:ef -88  11      Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                     xfinitywifi 6a:54:25:31:2c:c7 -50  11      Y  US NONE
+                          Cayman 58:96:30:93:02:79 -67  11      Y  -- WPA2(PSK/AES/AES) 
+                          Cayman 26:08:f5:ed:13:d5 -85  6,+1    Y  -- WPA2(PSK/AES/AES) 
+                          Cayman 26:08:f5:ed:14:c5 -81  6,+1    Y  -- WPA2(PSK/AES/AES) 
+                     xfinitywifi 82:f2:9e:92:65:d8 -79  1       Y  US NONE
+                          Dissly 78:f2:9e:92:65:d8 -71  1       Y  US WPA2(PSK/AES/AES) 
+         Richard's Wi-Fi Network 0c:51:01:e7:27:78 -75  1       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 82:f2:9e:92:65:e0 -80  36      Y  US NONE
+                      Dissly-5.0 78:f2:9e:92:65:e0 -81  36      Y  US WPA2(PSK/AES/AES) 
+                         XFINITY d2:52:61:f2:5d:96 -82  149     Y  US WPA2(802.1x/AES/AES) 
+                         XFINITY 8e:b0:66:dd:b5:98 -81  149     Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi ca:52:61:f2:5d:96 -82  149     Y  US NONE
+                     xfinitywifi 6e:b0:66:dd:b5:98 -82  149     Y  US NONE
+                       Ortola.n0 5c:b0:66:dd:b5:98 -81  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                         XFINITY 8e:f2:9e:92:65:e0 -81  36      Y  US WPA2(802.1x/AES/AES) 
+                          George 70:54:25:31:2c:c8 -39  44      Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 5a:96:30:9b:02:7e -80  44      Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 5a:96:30:9b:02:7c -78  44      Y  US NONE
+                          Cayman 58:96:30:93:02:7a -77  44      Y  US WPA2(PSK/AES/AES) 
+
+
+room 2 2020-12-08 10:29:05.974148
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                          Cayman 26:08:f5:ed:14:79 -82  1,+1    Y  -- WPA2(PSK/AES/AES) 
+                 DIRECT-528E4E6B 3a:1a:52:8e:ce:6b -88  11      Y  -- WPA2(PSK/AES/AES) 
+                          George 70:54:25:31:2c:c7 -45  11      Y  US WPA2(PSK/AES/AES) 
+                       Ortola.n0 5c:b0:66:dd:b5:97 -80  1       Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                       NETGEAR94 10:0d:7f:5a:b8:e1 -85  3       Y  -- WPA2(PSK/AES/AES) 
+                       NETGEAR76 a4:11:62:07:e2:dc -77  1       Y  US WPA2(PSK/AES/AES) 
+                        xr3FAinZ 00:24:b2:60:2d:ad -90  11      Y  US WPA2(PSK/AES/AES) 
+                     Morningstar 3c:7a:8a:31:7e:ea -90  11      Y  US WPA2(PSK/AES/AES) 
+         Richard's Wi-Fi Network 0c:51:01:e7:27:78 -75  1       Y  US WPA2(PSK/AES/AES) 
+                          Cayman 58:96:30:93:02:79 -67  11      Y  -- WPA2(PSK/AES/AES) 
+                         cassius 98:0d:67:96:31:ef -88  11      Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                     xfinitywifi 6a:54:25:31:2c:c7 -50  11      Y  US NONE
+                        tl9bb6a4 88:6a:e3:9b:b6:a4 -92  11      Y  US WPA2(PSK/AES/AES) 
+                          Cayman 26:08:f5:ed:13:d5 -83  6,+1    Y  -- WPA2(PSK/AES/AES) 
+                          Cayman 26:08:f5:ed:14:c5 -81  6,+1    Y  -- WPA2(PSK/AES/AES) 
+                     xfinitywifi 6e:b0:66:dd:b5:97 -81  1       Y  US NONE
+                     xfinitywifi 82:f2:9e:92:65:d8 -74  1       Y  US NONE
+                          Dissly 78:f2:9e:92:65:d8 -72  1       Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8e:f2:9e:92:65:e0 -80  36      Y  US WPA2(802.1x/AES/AES) 
+                      Dissly-5.0 78:f2:9e:92:65:e0 -81  36      Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8e:b0:66:dd:b5:98 -81  149     Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 6e:b0:66:dd:b5:98 -82  149     Y  US NONE
+                       Ortola.n0 5c:b0:66:dd:b5:98 -82  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                     xfinitywifi 82:f2:9e:92:65:e0 -80  36      Y  US NONE
+                         XFINITY 5a:96:30:9b:02:7e -78  44      Y  US WPA2(802.1x/AES/AES) 
+                          George 70:54:25:31:2c:c8 -40  44      Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 5a:96:30:9b:02:7c -79  44      Y  US NONE
+                          Cayman 58:96:30:93:02:7a -77  44      Y  US WPA2(PSK/AES/AES) 
+
+
+room 2 2020-12-08 10:29:15.974139
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                          Cayman 26:08:f5:ed:14:79 -82  1,+1    Y  -- WPA2(PSK/AES/AES) 
+                 DIRECT-528E4E6B 3a:1a:52:8e:ce:6b -88  11      Y  -- WPA2(PSK/AES/AES) 
+                          George 70:54:25:31:2c:c7 -45  11      Y  US WPA2(PSK/AES/AES) 
+                       Ortola.n0 5c:b0:66:dd:b5:97 -80  1       Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                       NETGEAR76 a4:11:62:07:e2:dc -77  1       Y  US WPA2(PSK/AES/AES) 
+                        xr3FAinZ 00:24:b2:60:2d:ad -90  11      Y  US WPA2(PSK/AES/AES) 
+                     Morningstar 3c:7a:8a:31:7e:ea -90  11      Y  US WPA2(PSK/AES/AES) 
+                          Dissly 78:f2:9e:92:65:d8 -72  1       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6e:b0:66:dd:b5:97 -81  1       Y  US NONE
+                          Cayman 26:08:f5:ed:14:c5 -81  6,+1    Y  -- WPA2(PSK/AES/AES) 
+                        tl9bb6a4 88:6a:e3:9b:b6:a4 -92  11      Y  US WPA2(PSK/AES/AES) 
+                         cassius 98:0d:67:96:31:ef -86  11      Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                     xfinitywifi 6a:54:25:31:2c:c7 -51  11      Y  US NONE
+                          Cayman 58:96:30:93:02:79 -69  11      Y  -- WPA2(PSK/AES/AES) 
+         DIRECT-21-HP M428fdw LJ b2:5c:da:64:76:21 -86  6       Y  -- WPA2(PSK/AES/AES) 
+                          Cayman 26:08:f5:ed:13:d5 -84  6,+1    Y  -- WPA2(PSK/AES/AES) 
+                       NETGEAR94 10:0d:7f:5a:b8:e1 -87  3       Y  -- WPA2(PSK/AES/AES) 
+                     xfinitywifi 82:f2:9e:92:65:d8 -73  1       Y  US NONE
+         Richard's Wi-Fi Network 0c:51:01:e7:27:78 -61  1       Y  US WPA2(PSK/AES/AES) 
+                          Truman 4c:01:43:e0:d1:c8 -93  40      Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 82:f2:9e:92:65:e0 -80  36      Y  US NONE
+                     xfinitywifi ca:52:61:f2:5d:96 -83  149     Y  US NONE
+         Richard's Wi-Fi Network 0c:51:01:e7:27:79 -80  149     Y  US WPA2(PSK/AES/AES) 
+                         XFINITY d2:52:61:f2:5d:96 -82  149     Y  US WPA2(802.1x/AES/AES) 
+                         XFINITY 8e:b0:66:dd:b5:98 -83  149     Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 6e:b0:66:dd:b5:98 -82  149     Y  US NONE
+                       Ortola.n0 5c:b0:66:dd:b5:98 -79  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                      Dissly-5.0 78:f2:9e:92:65:e0 -81  36      Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:54:25:31:2c:c8 -39  44      Y  US NONE
+                          George 70:54:25:31:2c:c8 -39  44      Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 5a:96:30:9b:02:7e -80  44      Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 5a:96:30:9b:02:7c -79  44      Y  US NONE
+                          Cayman 58:96:30:93:02:7a -78  44      Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8e:f2:9e:92:65:e0 -81  36      Y  US WPA2(802.1x/AES/AES) 
+
+
+room 2 2020-12-08 10:29:25.972925
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                       NETGEAR76 a4:11:62:07:e2:dc -77  1       Y  US WPA2(PSK/AES/AES) 
+                        xr3FAinZ 00:24:b2:60:2d:ad -90  11      Y  US WPA2(PSK/AES/AES) 
+                     Morningstar 3c:7a:8a:31:7e:ea -90  11      Y  US WPA2(PSK/AES/AES) 
+                          Dissly 78:f2:9e:92:65:d8 -72  1       Y  US WPA2(PSK/AES/AES) 
+                        tl9bb6a4 88:6a:e3:9b:b6:a4 -92  11      Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 82:f2:9e:92:65:d8 -73  1       Y  US NONE
+                         cassius 98:0d:67:96:31:ef -85  11      Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                     xfinitywifi 6a:54:25:31:2c:c7 -51  11      Y  US NONE
+                          Cayman 58:96:30:93:02:79 -71  11      Y  -- WPA2(PSK/AES/AES) 
+         DIRECT-21-HP M428fdw LJ b2:5c:da:64:76:21 -86  6       Y  -- WPA2(PSK/AES/AES) 
+                          Cayman 26:08:f5:ed:14:c5 -82  6,+1    Y  -- WPA2(PSK/AES/AES) 
+                          Cayman 26:08:f5:ed:13:d5 -86  6,+1    Y  -- WPA2(PSK/AES/AES) 
+                       NETGEAR94 10:0d:7f:5a:b8:e1 -86  3       Y  -- WPA2(PSK/AES/AES) 
+                     xfinitywifi 6e:b0:66:dd:b5:97 -81  1       Y  US NONE
+                       Ortola.n0 5c:b0:66:dd:b5:97 -80  1       Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+         Richard's Wi-Fi Network 0c:51:01:e7:27:78 -74  1       Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8e:f2:9e:92:65:e0 -80  36      Y  US WPA2(802.1x/AES/AES) 
+                      Dissly-5.0 78:f2:9e:92:65:e0 -81  36      Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6e:b0:66:dd:b5:98 -82  149     Y  US NONE
+                         XFINITY d2:52:61:f2:5d:96 -83  149     Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi ca:52:61:f2:5d:96 -83  149     Y  US NONE
+                         XFINITY 72:54:25:31:2c:c8 -39  44      Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 82:f2:9e:92:65:e0 -81  36      Y  US NONE
+                         XFINITY 5a:96:30:9b:02:7e -79  44      Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 5a:96:30:9b:02:7c -78  44      Y  US NONE
+                          George 70:54:25:31:2c:c8 -39  44      Y  US WPA2(PSK/AES/AES) 
+                          Cayman 58:96:30:93:02:7a -78  44      Y  US WPA2(PSK/AES/AES) 
+
+
+room 2 2020-12-08 10:29:35.974143
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                       NETGEAR76 a4:11:62:07:e2:dc -77  1       Y  US WPA2(PSK/AES/AES) 
+                        xr3FAinZ 00:24:b2:60:2d:ad -90  11      Y  US WPA2(PSK/AES/AES) 
+                     Morningstar 3c:7a:8a:31:7e:ea -90  11      Y  US WPA2(PSK/AES/AES) 
+                        tl9bb6a4 88:6a:e3:9b:b6:a4 -92  11      Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 82:f2:9e:92:65:d8 -73  1       Y  US NONE
+                       Ortola.n0 5c:b0:66:dd:b5:97 -80  1       Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                     xfinitywifi 6e:b0:66:dd:b5:97 -81  1       Y  US NONE
+                          Cayman 26:08:f5:ed:14:c5 -82  6,+1    Y  -- WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:54:25:31:2c:c7 -50  11      Y  US NONE
+                          Cayman 58:96:30:93:02:79 -68  11      Y  -- WPA2(PSK/AES/AES) 
+                 DIRECT-528E4E6B 3a:1a:52:8e:ce:6b -90  11      Y  -- WPA2(PSK/AES/AES) 
+                         cassius 98:0d:67:96:31:ef -86  11      Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+         DIRECT-21-HP M428fdw LJ b2:5c:da:64:76:21 -86  6       Y  -- WPA2(PSK/AES/AES) 
+                          Cayman 26:08:f5:ed:13:d5 -86  6,+1    Y  -- WPA2(PSK/AES/AES) 
+                       NETGEAR94 10:0d:7f:5a:b8:e1 -85  3       Y  -- WPA2(PSK/AES/AES) 
+                          Dissly 78:f2:9e:92:65:d8 -73  1       Y  US WPA2(PSK/AES/AES) 
+         Richard's Wi-Fi Network 0c:51:01:e7:27:78 -74  1       Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8e:f2:9e:92:65:e0 -80  36      Y  US WPA2(802.1x/AES/AES) 
+                         XFINITY d2:52:61:f2:5d:96 -83  149     Y  US WPA2(802.1x/AES/AES) 
+                         XFINITY 8e:b0:66:dd:b5:98 -82  149     Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 6e:b0:66:dd:b5:98 -82  149     Y  US NONE
+                     xfinitywifi ca:52:61:f2:5d:96 -82  149     Y  US NONE
+                       Ortola.n0 5c:b0:66:dd:b5:98 -81  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                     xfinitywifi 82:f2:9e:92:65:e0 -81  36      Y  US NONE
+                         XFINITY 5a:96:30:9b:02:7e -80  44      Y  US WPA2(802.1x/AES/AES) 
+                          Cayman 26:08:f5:ed:14:7a -86  44      Y  -- WPA2(PSK/AES/AES) 
+                     xfinitywifi 5a:96:30:9b:02:7c -79  44      Y  US NONE
+                          George 70:54:25:31:2c:c8 -40  44      Y  US WPA2(PSK/AES/AES) 
+                          Cayman 58:96:30:93:02:7a -78  44      Y  US WPA2(PSK/AES/AES) 
+                      Dissly-5.0 78:f2:9e:92:65:e0 -80  36      Y  US WPA2(PSK/AES/AES) 
+
+
+room 2 2020-12-08 10:29:45.974143
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        xr3FAinZ 00:24:b2:60:2d:ad -90  11      Y  US WPA2(PSK/AES/AES) 
+                     Morningstar 3c:7a:8a:31:7e:ea -90  11      Y  US WPA2(PSK/AES/AES) 
+                        tl9bb6a4 88:6a:e3:9b:b6:a4 -92  11      Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 82:f2:9e:92:65:d8 -73  1       Y  US NONE
+                       Ortola.n0 5c:b0:66:dd:b5:97 -80  1       Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                     xfinitywifi 6e:b0:66:dd:b5:97 -81  1       Y  US NONE
+                          Cayman 26:08:f5:ed:14:c5 -82  6,+1    Y  -- WPA2(PSK/AES/AES) 
+         Richard's Wi-Fi Network 0c:51:01:e7:27:78 -74  1       Y  US WPA2(PSK/AES/AES) 
+                          Dissly 78:f2:9e:92:65:d8 -73  1       Y  US WPA2(PSK/AES/AES) 
+                          Cayman 26:08:f5:ed:13:d5 -86  6,+1    Y  -- WPA2(PSK/AES/AES) 
+         DIRECT-21-HP M428fdw LJ b2:5c:da:64:76:21 -86  6       Y  -- WPA2(PSK/AES/AES) 
+                 DIRECT-528E4E6B 3a:1a:52:8e:ce:6b -90  11      Y  -- WPA2(PSK/AES/AES) 
+                          George 70:54:25:31:2c:c7 -45  11      Y  US WPA2(PSK/AES/AES) 
+                         cassius 98:0d:67:96:31:ef -86  11      Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                     xfinitywifi 6a:54:25:31:2c:c7 -51  11      Y  US NONE
+                          Cayman 58:96:30:93:02:79 -67  11      Y  -- WPA2(PSK/AES/AES) 
+                       NETGEAR94 10:0d:7f:5a:b8:e1 -84  3       Y  -- WPA2(PSK/AES/AES) 
+                       NETGEAR76 a4:11:62:07:e2:dc -77  1       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 82:f2:9e:92:65:e0 -80  36      Y  US NONE
+         Richard's Wi-Fi Network 0c:51:01:e7:27:79 -80  149     Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8e:b0:66:dd:b5:98 -82  149     Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 6e:b0:66:dd:b5:98 -81  149     Y  US NONE
+                       Ortola.n0 5c:b0:66:dd:b5:98 -82  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                          Cayman 26:08:f5:ed:14:7a -87  44      Y  -- WPA2(PSK/AES/AES) 
+                      Dissly-5.0 78:f2:9e:92:65:e0 -80  36      Y  US WPA2(PSK/AES/AES) 
+                          Truman 4c:01:43:e0:d1:c8 -87  40      Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 5a:96:30:9b:02:7e -80  44      Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 5a:96:30:9b:02:7c -80  44      Y  US NONE
+                          Cayman 58:96:30:93:02:7a -79  44      Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8e:f2:9e:92:65:e0 -80  36      Y  US WPA2(802.1x/AES/AES) 
+                          George 70:54:25:31:2c:c8 -40  44      Y  US WPA2(PSK/AES/AES) 
+
+
+room 2 2020-12-08 10:29:55.974150
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        tl9bb6a4 88:6a:e3:9b:b6:a4 -92  11      Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 82:f2:9e:92:65:d8 -73  1       Y  US NONE
+                          Cayman 26:08:f5:ed:14:c5 -82  6,+1    Y  -- WPA2(PSK/AES/AES) 
+         Richard's Wi-Fi Network 0c:51:01:e7:27:78 -74  1       Y  US WPA2(PSK/AES/AES) 
+                          Cayman 26:08:f5:ed:13:d5 -86  6,+1    Y  -- WPA2(PSK/AES/AES) 
+         DIRECT-21-HP M428fdw LJ b2:5c:da:64:76:21 -86  6       Y  -- WPA2(PSK/AES/AES) 
+                 DIRECT-528E4E6B 3a:1a:52:8e:ce:6b -90  11      Y  -- WPA2(PSK/AES/AES) 
+                       NETGEAR76 a4:11:62:07:e2:dc -77  1       Y  US WPA2(PSK/AES/AES) 
+                          George 70:54:25:31:2c:c7 -45  11      Y  US WPA2(PSK/AES/AES) 
+                         cassius 98:0d:67:96:31:ef -86  11      Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                     xfinitywifi 6a:54:25:31:2c:c7 -50  11      Y  US NONE
+                          Cayman 58:96:30:93:02:79 -70  11      Y  -- WPA2(PSK/AES/AES) 
+                       NETGEAR94 10:0d:7f:5a:b8:e1 -87  3       Y  -- WPA2(PSK/AES/AES) 
+                          Dissly 78:f2:9e:92:65:d8 -69  1       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6e:b0:66:dd:b5:97 -82  1       Y  US NONE
+                       Ortola.n0 5c:b0:66:dd:b5:97 -77  1       Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                         XFINITY 8e:f2:9e:92:65:e0 -81  36      Y  US WPA2(802.1x/AES/AES) 
+                      Dissly-5.0 78:f2:9e:92:65:e0 -81  36      Y  US WPA2(PSK/AES/AES) 
+                         XFINITY d2:52:61:f2:5d:96 -83  149     Y  US WPA2(802.1x/AES/AES) 
+                         XFINITY 8e:b0:66:dd:b5:98 -81  149     Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 6e:b0:66:dd:b5:98 -79  149     Y  US NONE
+                       Ortola.n0 5c:b0:66:dd:b5:98 -79  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                     xfinitywifi 82:f2:9e:92:65:e0 -81  36      Y  US NONE
+                         XFINITY 5a:96:30:9b:02:7e -79  44      Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 5a:96:30:9b:02:7c -79  44      Y  US NONE
+                          George 70:54:25:31:2c:c8 -40  44      Y  US WPA2(PSK/AES/AES) 
+                          Cayman 58:96:30:93:02:7a -78  44      Y  US WPA2(PSK/AES/AES) 
+
+
+room 2 2020-12-08 10:30:05.976118
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        tl9bb6a4 88:6a:e3:9b:b6:a4 -92  11      Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 82:f2:9e:92:65:d8 -73  1       Y  US NONE
+                 DIRECT-528E4E6B 3a:1a:52:8e:ce:6b -90  11      Y  -- WPA2(PSK/AES/AES) 
+                       NETGEAR76 a4:11:62:07:e2:dc -77  1       Y  US WPA2(PSK/AES/AES) 
+                          George 70:54:25:31:2c:c7 -45  11      Y  US WPA2(PSK/AES/AES) 
+                          Dissly 78:f2:9e:92:65:d8 -69  1       Y  US WPA2(PSK/AES/AES) 
+                          Cayman 58:96:30:93:02:79 -69  11      Y  -- WPA2(PSK/AES/AES) 
+                         cassius 98:0d:67:96:31:ef -83  11      Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                     xfinitywifi 6a:54:25:31:2c:c7 -51  11      Y  US NONE
+         DIRECT-21-HP M428fdw LJ b2:5c:da:64:76:21 -85  6       Y  -- WPA2(PSK/AES/AES) 
+                          Cayman 26:08:f5:ed:13:d5 -85  6,+1    Y  -- WPA2(PSK/AES/AES) 
+                          Cayman 26:08:f5:ed:14:c5 -80  6,+1    Y  -- WPA2(PSK/AES/AES) 
+                       NETGEAR94 10:0d:7f:5a:b8:e1 -87  3       Y  -- WPA2(PSK/AES/AES) 
+                     xfinitywifi 6e:b0:66:dd:b5:97 -58  1       Y  US NONE
+                       Ortola.n0 5c:b0:66:dd:b5:97 -81  1       Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+         Richard's Wi-Fi Network 0c:51:01:e7:27:78 -73  1       Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8e:f2:9e:92:65:e0 -81  36      Y  US WPA2(802.1x/AES/AES) 
+                      Dissly-5.0 78:f2:9e:92:65:e0 -81  36      Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8e:b0:66:dd:b5:98 -81  149     Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 6e:b0:66:dd:b5:98 -81  149     Y  US NONE
+                       Ortola.n0 5c:b0:66:dd:b5:98 -81  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                     xfinitywifi 82:f2:9e:92:65:e0 -80  36      Y  US NONE
+                          George 70:54:25:31:2c:c8 -40  44      Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 5a:96:30:9b:02:7e -80  44      Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 5a:96:30:9b:02:7c -78  44      Y  US NONE
+                          Cayman 58:96:30:93:02:7a -78  44      Y  US WPA2(PSK/AES/AES) 
+
+
+room 2 2020-12-08 10:30:15.971038
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                 DIRECT-528E4E6B 3a:1a:52:8e:ce:6b -90  11      Y  -- WPA2(PSK/AES/AES) 
+                       NETGEAR76 a4:11:62:07:e2:dc -77  1       Y  US WPA2(PSK/AES/AES) 
+         Richard's Wi-Fi Network 0c:51:01:e7:27:78 -73  1       Y  US WPA2(PSK/AES/AES) 
+                       Ortola.n0 5c:b0:66:dd:b5:97 -81  1       Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                     xfinitywifi 6e:b0:66:dd:b5:97 -58  1       Y  US NONE
+                       NETGEAR94 10:0d:7f:5a:b8:e1 -87  3       Y  -- WPA2(PSK/AES/AES) 
+                          Cayman 26:08:f5:ed:13:d5 -85  6,+1    Y  -- WPA2(PSK/AES/AES) 
+         DIRECT-21-HP M428fdw LJ b2:5c:da:64:76:21 -85  6       Y  -- WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:54:25:31:2c:c7 -51  11      Y  US NONE
+                         cassius 98:0d:67:96:31:ef -53  11      Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                          Cayman 58:96:30:93:02:79 -68  11      Y  -- WPA2(PSK/AES/AES) 
+                          George 70:54:25:31:2c:c7 -45  11      Y  US WPA2(PSK/AES/AES) 
+                          Cayman 26:08:f5:ed:14:c5 -81  6,+1    Y  -- WPA2(PSK/AES/AES) 
+                     xfinitywifi 82:f2:9e:92:65:d8 -74  1       Y  US NONE
+                          Dissly 78:f2:9e:92:65:d8 -85  1       Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8e:f2:9e:92:65:e0 -81  36      Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 82:f2:9e:92:65:e0 -80  36      Y  US NONE
+         Richard's Wi-Fi Network 0c:51:01:e7:27:79 -80  149     Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8e:b0:66:dd:b5:98 -81  149     Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 6e:b0:66:dd:b5:98 -82  149     Y  US NONE
+                       Ortola.n0 5c:b0:66:dd:b5:98 -81  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                         XFINITY d2:52:61:f2:5d:96 -82  149     Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi ca:52:61:f2:5d:96 -82  149     Y  US NONE
+                      Dissly-5.0 78:f2:9e:92:65:e0 -80  36      Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:54:25:31:2c:c8 -40  44      Y  US NONE
+                          Truman 4c:01:43:e0:d1:c8 -87  40      Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 72:54:25:31:2c:c8 -40  44      Y  US WPA2(802.1x/AES/AES) 
+                         XFINITY 5a:96:30:9b:02:7e -79  44      Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 5a:96:30:9b:02:7c -79  44      Y  US NONE
+                          George 70:54:25:31:2c:c8 -40  44      Y  US WPA2(PSK/AES/AES) 
+                          Cayman 58:96:30:93:02:7a -78  44      Y  US WPA2(PSK/AES/AES) 
+
+
+room 2 2020-12-08 10:30:25.978468
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                 DIRECT-528E4E6B 3a:1a:52:8e:ce:6b -90  11      Y  -- WPA2(PSK/AES/AES) 
+                       NETGEAR76 a4:11:62:07:e2:dc -77  1       Y  US WPA2(PSK/AES/AES) 
+         Richard's Wi-Fi Network 0c:51:01:e7:27:78 -73  1       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6e:b0:66:dd:b5:97 -58  1       Y  US NONE
+                       NETGEAR94 10:0d:7f:5a:b8:e1 -87  3       Y  -- WPA2(PSK/AES/AES) 
+                          Cayman 26:08:f5:ed:13:d5 -85  6,+1    Y  -- WPA2(PSK/AES/AES) 
+                          Dissly 78:f2:9e:92:65:d8 -85  1       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 82:f2:9e:92:65:d8 -74  1       Y  US NONE
+                          Cayman 26:08:f5:ed:14:c5 -81  6,+1    Y  -- WPA2(PSK/AES/AES) 
+                          George 70:54:25:31:2c:c7 -45  11      Y  US WPA2(PSK/AES/AES) 
+                          Cayman 58:96:30:93:02:79 -68  11      Y  -- WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:54:25:31:2c:c7 -51  11      Y  US NONE
+                         cassius 98:0d:67:96:31:ef -93  11      Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+         DIRECT-21-HP M428fdw LJ b2:5c:da:64:76:21 -87  6       Y  -- WPA2(PSK/AES/AES) 
+                       Ortola.n0 5c:b0:66:dd:b5:97 -77  1       Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                         XFINITY 8e:f2:9e:92:65:e0 -80  36      Y  US WPA2(802.1x/AES/AES) 
+                      Dissly-5.0 78:f2:9e:92:65:e0 -80  36      Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8e:b0:66:dd:b5:98 -81  149     Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 6e:b0:66:dd:b5:98 -81  149     Y  US NONE
+                       Ortola.n0 5c:b0:66:dd:b5:98 -81  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                         XFINITY 72:54:25:31:2c:c8 -40  44      Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 82:f2:9e:92:65:e0 -80  36      Y  US NONE
+                         XFINITY 5a:96:30:9b:02:7e -80  44      Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 5a:96:30:9b:02:7c -79  44      Y  US NONE
+                          George 70:54:25:31:2c:c8 -40  44      Y  US WPA2(PSK/AES/AES) 
+                          Cayman 58:96:30:93:02:7a -78  44      Y  US WPA2(PSK/AES/AES) 
+
+
+room 2 2020-12-08 10:30:35.979101
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                 DIRECT-528E4E6B 3a:1a:52:8e:ce:6b -90  11      Y  -- WPA2(PSK/AES/AES) 
+                       NETGEAR76 a4:11:62:07:e2:dc -77  1       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6e:b0:66:dd:b5:97 -58  1       Y  US NONE
+                       NETGEAR94 10:0d:7f:5a:b8:e1 -87  3       Y  -- WPA2(PSK/AES/AES) 
+                          George 70:54:25:31:2c:c7 -45  11      Y  US WPA2(PSK/AES/AES) 
+                       Ortola.n0 5c:b0:66:dd:b5:97 -77  1       Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                      purplecasa d4:5d:df:3f:fc:90 -92  11      Y  US WPA2(PSK/AES/AES) 
+                          Cayman 58:96:30:93:02:79 -65  11      Y  -- WPA2(PSK/AES/AES) 
+                         cassius 98:0d:67:96:31:ef -84  11      Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                     xfinitywifi 6a:54:25:31:2c:c7 -51  11      Y  US NONE
+                          Cayman 26:08:f5:ed:14:c5 -81  6,+1    Y  -- WPA2(PSK/AES/AES) 
+         DIRECT-21-HP M428fdw LJ b2:5c:da:64:76:21 -86  6       Y  -- WPA2(PSK/AES/AES) 
+                          Cayman 26:08:f5:ed:13:d5 -86  6,+1    Y  -- WPA2(PSK/AES/AES) 
+                     xfinitywifi 82:f2:9e:92:65:d8 -80  1       Y  US NONE
+                          Dissly 78:f2:9e:92:65:d8 -72  1       Y  US WPA2(PSK/AES/AES) 
+         Richard's Wi-Fi Network 0c:51:01:e7:27:78 -74  1       Y  US WPA2(PSK/AES/AES) 
+                      Dissly-5.0 78:f2:9e:92:65:e0 -81  36      Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8e:f2:9e:92:65:e0 -81  36      Y  US WPA2(802.1x/AES/AES) 
+                         XFINITY d2:52:61:f2:5d:96 -84  149     Y  US WPA2(802.1x/AES/AES) 
+                         XFINITY 8e:b0:66:dd:b5:98 -82  149     Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 6e:b0:66:dd:b5:98 -82  149     Y  US NONE
+                       Ortola.n0 5c:b0:66:dd:b5:98 -81  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                     xfinitywifi 82:f2:9e:92:65:e0 -81  36      Y  US NONE
+                          Cayman 26:08:f5:ed:14:7a -87  44      Y  -- WPA2(PSK/AES/AES) 
+                         XFINITY 5a:96:30:9b:02:7e -80  44      Y  US WPA2(802.1x/AES/AES) 
+                          George 70:54:25:31:2c:c8 -40  44      Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 5a:96:30:9b:02:7c -79  44      Y  US NONE
+                          Cayman 58:96:30:93:02:7a -78  44      Y  US WPA2(PSK/AES/AES) 
+
+
+room 2 2020-12-08 10:45:45.744838
+
+

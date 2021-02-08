@@ -1,0 +1,1399 @@
+room 1 2020-12-08 08:58:29.306058
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                 AdventureAwaits 74:ac:b9:36:78:0c -69  11,-1   Y  -- WPA2(PSK,FT-PSK/AES/AES) 
+                        tl9bb6a4 88:6a:e3:9b:b6:a4 -82  11      Y  US WPA2(PSK/AES/AES) 
+                            WP18 60:b7:6e:a0:96:5f -84  11      Y  US WPA2(PSK/AES/AES) 
+                          Cayman 26:08:f5:ed:14:c5 -82  6,+1    Y  -- WPA2(PSK/AES/AES) 
+                          Cayman 26:08:f5:ed:13:d5 -85  6,+1    Y  -- WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:54:25:31:2c:c7 -72  11      Y  US NONE
+                          Cayman 58:96:30:93:02:79 -73  11      Y  -- WPA2(PSK/AES/AES) 
+                          George 70:54:25:31:2c:c7 -65  11      Y  US WPA2(PSK/AES/AES) 
+                         cassius 98:0d:67:96:31:ef -83  11      Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                     myqwest4245 04:bf:6d:d9:14:e5 -84  7       Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                        42424242 1c:f2:9a:b5:cb:fc -79  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi c6:a4:62:f4:79:10 -77  1       Y  US NONE
+                     xfinitywifi 82:f2:9e:92:65:d8 -65  1       Y  US NONE
+                          Dissly 78:f2:9e:92:65:d8 -74  1       Y  US WPA2(PSK/AES/AES) 
+         Richard's Wi-Fi Network 0c:51:01:e7:27:78 -64  1       Y  US WPA2(PSK/AES/AES) 
+      DIRECT-4c-HP M283 LaserJet da:12:65:bf:3d:4c -91  40,-1   Y  -- WPA2(PSK/AES/AES) 
+           Happy WiFi Happy LiFi e2:63:da:ae:88:d7 -89  36      Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 82:f2:9e:92:65:e0 -64  36      Y  US NONE
+                         XFINITY 32:f1:9e:f4:7e:d5 -86  157     Y  US WPA2(802.1x/AES/AES) 
+                     Hehhehheh-5 20:f1:9e:f4:7e:d5 -86  157     Y  US WPA2(PSK/AES/AES) 
+                 AdventureAwaits 74:ac:b9:cb:ad:81 -74  157     Y  -- WPA2(PSK,FT-PSK/AES/AES) 
+              CenturyLink0720_5G 54:83:3a:7c:74:28 -88  157     Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                 AdventureAwaits 74:ac:b9:c8:0e:01 -83  36      Y  -- WPA2(PSK,FT-PSK/AES/AES) 
+                      Dissly-5.0 78:f2:9e:92:65:e0 -64  36      Y  US WPA2(PSK/AES/AES) 
+                 AdventureAwaits 74:ac:b9:36:78:0d -77  40      Y  -- WPA2(PSK,FT-PSK/AES/AES) 
+                         XFINITY 8e:f2:9e:92:65:e0 -64  36      Y  US WPA2(802.1x/AES/AES) 
+          DIRECT-dNJEFF-DELLmsLn c2:b8:83:c6:60:2e -42  44      Y  -- WPA2(PSK/AES/AES) 
+                         XFINITY 5a:96:30:9b:02:7e -82  44      Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 5a:96:30:9b:02:7c -81  44      Y  US NONE
+                          George 70:54:25:31:2c:c8 -67  44      Y  US WPA2(PSK/AES/AES) 
+                          Cayman 58:96:30:93:02:7a -81  44      Y  US WPA2(PSK/AES/AES) 
+
+
+room 1 2020-12-08 08:58:39.308101
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                 AdventureAwaits 74:ac:b9:36:78:0c -69  11,-1   Y  -- WPA2(PSK,FT-PSK/AES/AES) 
+                        tl9bb6a4 88:6a:e3:9b:b6:a4 -82  11      Y  US WPA2(PSK/AES/AES) 
+                            WP18 60:b7:6e:a0:96:5f -84  11      Y  US WPA2(PSK/AES/AES) 
+                          Cayman 26:08:f5:ed:13:d5 -85  6,+1    Y  -- WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:54:25:31:2c:c7 -72  11      Y  US NONE
+                     xfinitywifi c6:a4:62:f4:79:10 -77  1       Y  US NONE
+                     myqwest4245 04:bf:6d:d9:14:e5 -84  7       Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                         cassius 98:0d:67:96:31:ef -83  11      Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                          George 70:54:25:31:2c:c7 -62  11      Y  US WPA2(PSK/AES/AES) 
+                          Cayman 58:96:30:93:02:79 -71  11      Y  -- WPA2(PSK/AES/AES) 
+                        42424242 1c:f2:9a:b5:cb:fc -79  6       Y  US WPA2(PSK/AES/AES) 
+                        ouch-air 88:1f:a1:37:e0:60 -84  6       Y  US WPA2(PSK/AES/AES) 
+                          Cayman 26:08:f5:ed:14:c5 -84  6,+1    Y  -- WPA2(PSK/AES/AES) 
+         Richard's Wi-Fi Network 0c:51:01:e7:27:78 -59  1       Y  US WPA2(PSK/AES/AES) 
+                          Dissly 78:f2:9e:92:65:d8 -65  1       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 82:f2:9e:92:65:d8 -67  1       Y  US NONE
+                 AdventureAwaits 74:ac:b9:36:78:0d -76  40      Y  -- WPA2(PSK,FT-PSK/AES/AES) 
+      DIRECT-4c-HP M283 LaserJet da:12:65:bf:3d:4c -89  40,-1   Y  -- WPA2(PSK/AES/AES) 
+                 AdventureAwaits 74:ac:b9:c8:0e:01 -85  36      Y  -- WPA2(PSK,FT-PSK/AES/AES) 
+                      Dissly-5.0 78:f2:9e:92:65:e0 -72  36      Y  US WPA2(PSK/AES/AES) 
+                 AdventureAwaits 74:ac:b9:cb:ad:81 -76  157     Y  -- WPA2(PSK,FT-PSK/AES/AES) 
+              CenturyLink0720_5G 54:83:3a:7c:74:28 -88  157     Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                        42424242 1c:f2:9a:b5:cb:f8 -85  149     Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8e:f2:9e:92:65:e0 -72  36      Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 6a:54:25:31:2c:c8 -63  44      Y  US NONE
+                     xfinitywifi 82:f2:9e:92:65:e0 -72  36      Y  US NONE
+                         XFINITY 5a:96:30:9b:02:7e -83  44      Y  US WPA2(802.1x/AES/AES) 
+                          Cayman 26:08:f5:ed:14:7a -85  44      Y  -- WPA2(PSK/AES/AES) 
+                     xfinitywifi 5a:96:30:9b:02:7c -83  44      Y  US NONE
+          DIRECT-dNJEFF-DELLmsLn c2:b8:83:c6:60:2e -50  44      Y  -- WPA2(PSK/AES/AES) 
+                          George 70:54:25:31:2c:c8 -63  44      Y  US WPA2(PSK/AES/AES) 
+                          Cayman 58:96:30:93:02:7a -82  44      Y  US WPA2(PSK/AES/AES) 
+
+
+room 1 2020-12-08 08:58:49.307757
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                          Cayman 26:08:f5:ed:13:d5 -85  6,+1    Y  -- WPA2(PSK/AES/AES) 
+                     xfinitywifi c6:a4:62:f4:79:10 -77  1       Y  US NONE
+                     myqwest4245 04:bf:6d:d9:14:e5 -84  7       Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                     xfinitywifi 82:f2:9e:92:65:d8 -67  1       Y  US NONE
+                        42424242 1c:f2:9a:b5:cb:fc -79  6       Y  US WPA2(PSK/AES/AES) 
+                         cassius 98:0d:67:96:31:ef -84  11      Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                     xfinitywifi 6a:54:25:31:2c:c7 -70  11      Y  US NONE
+                          George 70:54:25:31:2c:c7 -63  11      Y  US WPA2(PSK/AES/AES) 
+                          Cayman 58:96:30:93:02:79 -73  11      Y  -- WPA2(PSK/AES/AES) 
+           Happy WiFi Happy LiFi e0:63:da:ad:88:d7 -81  7       Y  US WPA2(PSK/AES/AES) 
+                          Cayman 26:08:f5:ed:14:c5 -81  6,+1    Y  -- WPA2(PSK/AES/AES) 
+                        ouch-air 88:1f:a1:37:e0:60 -84  6       Y  US WPA2(PSK/AES/AES) 
+                        dissid_2 b0:7f:b9:d7:06:73 -88  3       Y  -- WPA2(PSK/AES/AES) 
+                          Dissly 78:f2:9e:92:65:d8 -65  1       Y  US WPA2(PSK/AES/AES) 
+                 CenturyLink0720 54:83:3a:7c:74:27 -75  1       Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+      DIRECT-0d-HP M102 LaserJet 5e:3a:45:14:9e:0d -76  1       Y  -- WPA2(PSK/AES/AES) 
+         Richard's Wi-Fi Network 0c:51:01:e7:27:78 -64  1       Y  US WPA2(PSK/AES/AES) 
+                 AdventureAwaits 74:ac:b9:36:78:0d -76  40      Y  -- WPA2(PSK,FT-PSK/AES/AES) 
+      DIRECT-4c-HP M283 LaserJet da:12:65:bf:3d:4c -90  40,-1   Y  -- WPA2(PSK/AES/AES) 
+                         XFINITY 8e:f2:9e:92:65:e0 -66  36      Y  US WPA2(802.1x/AES/AES) 
+                      Dissly-5.0 78:f2:9e:92:65:e0 -66  36      Y  US WPA2(PSK/AES/AES) 
+                 AdventureAwaits 74:ac:b9:cb:ad:81 -75  157     Y  -- WPA2(PSK,FT-PSK/AES/AES) 
+              CenturyLink0720_5G 54:83:3a:7c:74:28 -88  157     Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                         XFINITY 8e:b0:66:dd:b5:98 -88  149     Y  US WPA2(802.1x/AES/AES) 
+         Richard's Wi-Fi Network 0c:51:01:e7:27:79 -67  149     Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 82:f2:9e:92:65:e0 -66  36      Y  US NONE
+                         XFINITY 72:54:25:31:2c:c8 -61  44      Y  US WPA2(802.1x/AES/AES) 
+              Happy WiFi Shed-5G ee:63:da:ae:88:d7 -87  36      Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 5a:96:30:9b:02:7e -83  44      Y  US WPA2(802.1x/AES/AES) 
+                 AdventureAwaits 74:ac:b9:c8:0e:01 -86  36      Y  -- WPA2(PSK,FT-PSK/AES/AES) 
+                          Cayman 26:08:f5:ed:14:7a -86  44      Y  -- WPA2(PSK/AES/AES) 
+                     xfinitywifi 5a:96:30:9b:02:7c -84  44      Y  US NONE
+                          George 70:54:25:31:2c:c8 -61  44      Y  US WPA2(PSK/AES/AES) 
+          DIRECT-dNJEFF-DELLmsLn c2:b8:83:c6:60:2e -40  44      Y  -- WPA2(PSK/AES/AES) 
+                          Cayman 58:96:30:93:02:7a -83  44      Y  US WPA2(PSK/AES/AES) 
+
+
+room 1 2020-12-08 08:58:59.306495
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                          Cayman 26:08:f5:ed:13:d5 -85  6,+1    Y  -- WPA2(PSK/AES/AES) 
+                     xfinitywifi c6:a4:62:f4:79:10 -77  1       Y  US NONE
+      DIRECT-0d-HP M102 LaserJet 5e:3a:45:14:9e:0d -76  1       Y  -- WPA2(PSK/AES/AES) 
+                 CenturyLink0720 54:83:3a:7c:74:27 -75  1       Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                        dissid_2 b0:7f:b9:d7:06:73 -88  3       Y  -- WPA2(PSK/AES/AES) 
+                        ouch-air 88:1f:a1:37:e0:60 -84  6       Y  US WPA2(PSK/AES/AES) 
+           Happy WiFi Happy LiFi e0:63:da:ad:88:d7 -81  7       Y  US WPA2(PSK/AES/AES) 
+                          Cayman 58:96:30:93:02:79 -73  11      Y  -- WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:54:25:31:2c:c7 -70  11      Y  US NONE
+                         cassius 98:0d:67:96:31:ef -82  11      Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                          George 70:54:25:31:2c:c7 -64  11      Y  US WPA2(PSK/AES/AES) 
+                     myqwest4245 04:bf:6d:d9:14:e5 -83  7       Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                          Cayman 26:08:f5:ed:14:c5 -82  6,+1    Y  -- WPA2(PSK/AES/AES) 
+                        42424242 1c:f2:9a:b5:cb:fc -78  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 82:f2:9e:92:65:d8 -65  1       Y  US NONE
+                          Dissly 78:f2:9e:92:65:d8 -63  1       Y  US WPA2(PSK/AES/AES) 
+         Richard's Wi-Fi Network 0c:51:01:e7:27:78 -62  1       Y  US WPA2(PSK/AES/AES) 
+                 AdventureAwaits 74:ac:b9:36:78:0d -76  40      Y  -- WPA2(PSK,FT-PSK/AES/AES) 
+      DIRECT-4c-HP M283 LaserJet da:12:65:bf:3d:4c -89  40,-1   Y  -- WPA2(PSK/AES/AES) 
+           Happy WiFi Happy LiFi e2:63:da:ae:88:d7 -87  36      Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 82:f2:9e:92:65:e0 -66  36      Y  US NONE
+              CenturyLink0720_5G 54:83:3a:7c:74:28 -87  157     Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                 AdventureAwaits 74:ac:b9:cb:ad:81 -75  157     Y  -- WPA2(PSK,FT-PSK/AES/AES) 
+                     xfinitywifi 6e:b0:66:dd:b5:98 -87  149     Y  US NONE
+         Richard's Wi-Fi Network 0c:51:01:e7:27:79 -71  149     Y  US WPA2(PSK/AES/AES) 
+              Happy WiFi Shed-5G ee:63:da:ae:88:d7 -87  36      Y  US WPA2(PSK/AES/AES) 
+                 AdventureAwaits 74:ac:b9:c8:0e:01 -85  36      Y  -- WPA2(PSK,FT-PSK/AES/AES) 
+                      Dissly-5.0 78:f2:9e:92:65:e0 -66  36      Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8e:f2:9e:92:65:e0 -66  36      Y  US WPA2(802.1x/AES/AES) 
+          DIRECT-dNJEFF-DELLmsLn c2:b8:83:c6:60:2e -44  44      Y  -- WPA2(PSK/AES/AES) 
+                         XFINITY 5a:96:30:9b:02:7e -82  44      Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 5a:96:30:9b:02:7c -81  44      Y  US NONE
+                          Cayman 26:08:f5:ed:14:7a -84  44      Y  -- WPA2(PSK/AES/AES) 
+                          George 70:54:25:31:2c:c8 -66  44      Y  US WPA2(PSK/AES/AES) 
+                          Cayman 58:96:30:93:02:7a -81  44      Y  US WPA2(PSK/AES/AES) 
+
+
+room 1 2020-12-08 08:59:09.308550
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+      DIRECT-0d-HP M102 LaserJet 5e:3a:45:14:9e:0d -76  1       Y  -- WPA2(PSK/AES/AES) 
+                        dissid_2 b0:7f:b9:d7:06:73 -88  3       Y  -- WPA2(PSK/AES/AES) 
+                        ouch-air 88:1f:a1:37:e0:60 -84  6       Y  US WPA2(PSK/AES/AES) 
+           Happy WiFi Happy LiFi e0:63:da:ad:88:d7 -81  7       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:54:25:31:2c:c7 -70  11      Y  US NONE
+                          George 70:54:25:31:2c:c7 -64  11      Y  US WPA2(PSK/AES/AES) 
+                         cassius 98:0d:67:96:31:ef -83  11      Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                          Cayman 58:96:30:93:02:79 -75  11      Y  -- WPA2(PSK/AES/AES) 
+                     myqwest4245 04:bf:6d:d9:14:e5 -80  7       Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                        42424242 1c:f2:9a:b5:cb:fc -79  6       Y  US WPA2(PSK/AES/AES) 
+                          Cayman 26:08:f5:ed:14:c5 -83  6,+1    Y  -- WPA2(PSK/AES/AES) 
+                          Cayman 26:08:f5:ed:14:79 -71  1,+1    Y  -- WPA2(PSK/AES/AES) 
+                     xfinitywifi c6:a4:62:f4:79:10 -77  1       Y  US NONE
+                 CenturyLink0720 54:83:3a:7c:74:27 -77  1       Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                     xfinitywifi 82:f2:9e:92:65:d8 -64  1       Y  US NONE
+                          Dissly 78:f2:9e:92:65:d8 -61  1       Y  US WPA2(PSK/AES/AES) 
+         Richard's Wi-Fi Network 0c:51:01:e7:27:78 -61  1       Y  US WPA2(PSK/AES/AES) 
+                 AdventureAwaits 74:ac:b9:36:78:0d -77  40      Y  -- WPA2(PSK,FT-PSK/AES/AES) 
+      DIRECT-4c-HP M283 LaserJet da:12:65:bf:3d:4c -89  40,-1   Y  -- WPA2(PSK/AES/AES) 
+                 AdventureAwaits 74:ac:b9:c8:0e:01 -84  36      Y  -- WPA2(PSK,FT-PSK/AES/AES) 
+                     xfinitywifi 82:f2:9e:92:65:e0 -67  36      Y  US NONE
+                      Dissly-5.0 78:f2:9e:92:65:e0 -68  36      Y  US WPA2(PSK/AES/AES) 
+              CenturyLink0720_5G 54:83:3a:7c:74:28 -88  157     Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                 AdventureAwaits 74:ac:b9:cb:ad:81 -75  157     Y  -- WPA2(PSK,FT-PSK/AES/AES) 
+                       Ortola.n0 5c:b0:66:dd:b5:98 -87  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                        42424242 1c:f2:9a:b5:cb:f8 -89  149     Y  US WPA2(PSK/AES/AES) 
+         Richard's Wi-Fi Network 0c:51:01:e7:27:79 -69  149     Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8e:f2:9e:92:65:e0 -67  36      Y  US WPA2(802.1x/AES/AES) 
+          DIRECT-dNJEFF-DELLmsLn c2:b8:83:c6:60:2e -41  44      Y  -- WPA2(PSK/AES/AES) 
+                         XFINITY 5a:96:30:9b:02:7e -82  44      Y  US WPA2(802.1x/AES/AES) 
+                          Cayman 26:08:f5:ed:14:7a -85  44      Y  -- WPA2(PSK/AES/AES) 
+                     xfinitywifi 5a:96:30:9b:02:7c -81  44      Y  US NONE
+                          George 70:54:25:31:2c:c8 -66  44      Y  US WPA2(PSK/AES/AES) 
+                          Cayman 58:96:30:93:02:7a -81  44      Y  US WPA2(PSK/AES/AES) 
+
+
+room 1 2020-12-08 08:59:19.307518
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+      DIRECT-0d-HP M102 LaserJet 5e:3a:45:14:9e:0d -76  1       Y  -- WPA2(PSK/AES/AES) 
+                        dissid_2 b0:7f:b9:d7:06:73 -88  3       Y  -- WPA2(PSK/AES/AES) 
+           Happy WiFi Happy LiFi e0:63:da:ad:88:d7 -81  7       Y  US WPA2(PSK/AES/AES) 
+                 CenturyLink0720 54:83:3a:7c:74:27 -77  1       Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                     xfinitywifi c6:a4:62:f4:79:10 -77  1       Y  US NONE
+                          Cayman 26:08:f5:ed:14:79 -71  1,+1    Y  -- WPA2(PSK/AES/AES) 
+                          Cayman 26:08:f5:ed:14:c5 -83  6,+1    Y  -- WPA2(PSK/AES/AES) 
+                        42424242 1c:f2:9a:b5:cb:fc -79  6       Y  US WPA2(PSK/AES/AES) 
+                          Cayman 58:96:30:93:02:79 -75  11      Y  -- WPA2(PSK/AES/AES) 
+                         cassius 98:0d:67:96:31:ef -77  11      Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                     xfinitywifi 6a:54:25:31:2c:c7 -69  11      Y  US NONE
+                          George 70:54:25:31:2c:c7 -62  11      Y  US WPA2(PSK/AES/AES) 
+                     myqwest4245 04:bf:6d:d9:14:e5 -84  7       Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                      JZ3050-2.4 98:9d:5d:d0:fc:8d -81  6       Y  -- WPA2(PSK/AES/AES) 
+                        ouch-air 88:1f:a1:37:e0:60 -83  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 82:f2:9e:92:65:d8 -65  1       Y  US NONE
+         Richard's Wi-Fi Network 0c:51:01:e7:27:78 -61  1       Y  US WPA2(PSK/AES/AES) 
+                          Dissly 78:f2:9e:92:65:d8 -62  1       Y  US WPA2(PSK/AES/AES) 
+                 AdventureAwaits 74:ac:b9:36:78:0d -79  40      Y  -- WPA2(PSK,FT-PSK/AES/AES) 
+      DIRECT-4c-HP M283 LaserJet da:12:65:bf:3d:4c -89  40,-1   Y  -- WPA2(PSK/AES/AES) 
+                         XFINITY 8e:f2:9e:92:65:e0 -68  36      Y  US WPA2(802.1x/AES/AES) 
+                      Dissly-5.0 78:f2:9e:92:65:e0 -68  36      Y  US WPA2(PSK/AES/AES) 
+              CenturyLink0720_5G 54:83:3a:7c:74:28 -88  157     Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                 AdventureAwaits 74:ac:b9:cb:ad:81 -74  157     Y  -- WPA2(PSK,FT-PSK/AES/AES) 
+                         XFINITY 8e:b0:66:dd:b5:98 -86  149     Y  US WPA2(802.1x/AES/AES) 
+                          Cayman 26:08:f5:ed:14:c6 -87  44      Y  -- WPA2(PSK/AES/AES) 
+                     xfinitywifi 82:f2:9e:92:65:e0 -68  36      Y  US NONE
+              Happy WiFi Shed-5G ee:63:da:ae:88:d7 -86  36      Y  US WPA2(PSK/AES/AES) 
+                 AdventureAwaits 74:ac:b9:c8:0e:01 -85  36      Y  -- WPA2(PSK,FT-PSK/AES/AES) 
+                         XFINITY 5a:96:30:9b:02:7e -82  44      Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 5a:96:30:9b:02:7c -83  44      Y  US NONE
+                          Cayman 26:08:f5:ed:14:7a -85  44      Y  -- WPA2(PSK/AES/AES) 
+          DIRECT-dNJEFF-DELLmsLn c2:b8:83:c6:60:2e -46  44      Y  -- WPA2(PSK/AES/AES) 
+                          George 70:54:25:31:2c:c8 -63  44      Y  US WPA2(PSK/AES/AES) 
+                          Cayman 58:96:30:93:02:7a -82  44      Y  US WPA2(PSK/AES/AES) 
+
+
+room 1 2020-12-08 08:59:29.310655
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+      DIRECT-0d-HP M102 LaserJet 5e:3a:45:14:9e:0d -76  1       Y  -- WPA2(PSK/AES/AES) 
+                        dissid_2 b0:7f:b9:d7:06:73 -88  3       Y  -- WPA2(PSK/AES/AES) 
+           Happy WiFi Happy LiFi e0:63:da:ad:88:d7 -81  7       Y  US WPA2(PSK/AES/AES) 
+                 CenturyLink0720 54:83:3a:7c:74:27 -77  1       Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                     xfinitywifi c6:a4:62:f4:79:10 -77  1       Y  US NONE
+                          Cayman 26:08:f5:ed:14:79 -71  1,+1    Y  -- WPA2(PSK/AES/AES) 
+                        ouch-air 88:1f:a1:37:e0:60 -83  6       Y  US WPA2(PSK/AES/AES) 
+                      JZ3050-2.4 98:9d:5d:d0:fc:8d -81  6       Y  -- WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:54:25:31:2c:c7 -69  11      Y  US NONE
+                          George 70:54:25:31:2c:c7 -62  11      Y  US WPA2(PSK/AES/AES) 
+                          Cayman 58:96:30:93:02:79 -73  11      Y  -- WPA2(PSK/AES/AES) 
+                         cassius 98:0d:67:96:31:ef -81  11      Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                     myqwest4245 04:bf:6d:d9:14:e5 -85  7       Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                          Cayman 26:08:f5:ed:14:c5 -80  6,+1    Y  -- WPA2(PSK/AES/AES) 
+                        42424242 1c:f2:9a:b5:cb:fc -79  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 82:f2:9e:92:65:d8 -87  1       Y  US NONE
+                          Dissly 78:f2:9e:92:65:d8 -65  1       Y  US WPA2(PSK/AES/AES) 
+         Richard's Wi-Fi Network 0c:51:01:e7:27:78 -61  1       Y  US WPA2(PSK/AES/AES) 
+                 AdventureAwaits 74:ac:b9:36:78:0d -80  40      Y  -- WPA2(PSK,FT-PSK/AES/AES) 
+           Happy WiFi Happy LiFi e2:63:da:ae:88:d7 -87  36      Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 82:f2:9e:92:65:e0 -67  36      Y  US NONE
+                 AdventureAwaits 74:ac:b9:cb:ad:81 -74  157     Y  -- WPA2(PSK,FT-PSK/AES/AES) 
+              CenturyLink0720_5G 54:83:3a:7c:74:28 -88  157     Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                     xfinitywifi 6e:b0:66:dd:b5:98 -86  149     Y  US NONE
+              Happy WiFi Shed-5G ee:63:da:ae:88:d7 -86  36      Y  US WPA2(PSK/AES/AES) 
+                 AdventureAwaits 74:ac:b9:c8:0e:01 -84  36      Y  -- WPA2(PSK,FT-PSK/AES/AES) 
+                      Dissly-5.0 78:f2:9e:92:65:e0 -67  36      Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8e:f2:9e:92:65:e0 -67  36      Y  US WPA2(802.1x/AES/AES) 
+      DIRECT-4c-HP M283 LaserJet da:12:65:bf:3d:4c -90  40,-1   Y  -- WPA2(PSK/AES/AES) 
+                          George 70:54:25:31:2c:c8 -63  44      Y  US WPA2(PSK/AES/AES) 
+          DIRECT-dNJEFF-DELLmsLn c2:b8:83:c6:60:2e -48  44      Y  -- WPA2(PSK/AES/AES) 
+
+
+room 1 2020-12-08 08:59:39.308813
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+      DIRECT-0d-HP M102 LaserJet 5e:3a:45:14:9e:0d -76  1       Y  -- WPA2(PSK/AES/AES) 
+                        dissid_2 b0:7f:b9:d7:06:73 -88  3       Y  -- WPA2(PSK/AES/AES) 
+           Happy WiFi Happy LiFi e0:63:da:ad:88:d7 -81  7       Y  US WPA2(PSK/AES/AES) 
+                 CenturyLink0720 54:83:3a:7c:74:27 -77  1       Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                     xfinitywifi c6:a4:62:f4:79:10 -77  1       Y  US NONE
+                          Cayman 26:08:f5:ed:14:79 -71  1,+1    Y  -- WPA2(PSK/AES/AES) 
+                        ouch-air 88:1f:a1:37:e0:60 -83  6       Y  US WPA2(PSK/AES/AES) 
+                      JZ3050-2.4 98:9d:5d:d0:fc:8d -81  6       Y  -- WPA2(PSK/AES/AES) 
+         Richard's Wi-Fi Network 0c:51:01:e7:27:78 -61  1       Y  US WPA2(PSK/AES/AES) 
+                        42424242 1c:f2:9a:b5:cb:fc -79  6       Y  US WPA2(PSK/AES/AES) 
+                     myqwest4245 04:bf:6d:d9:14:e5 -85  7       Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                         cassius 98:0d:67:96:31:ef -81  11      Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                     xfinitywifi 6a:54:25:31:2c:c7 -71  11      Y  US NONE
+                          Cayman 58:96:30:93:02:79 -74  11      Y  -- WPA2(PSK/AES/AES) 
+                          George 70:54:25:31:2c:c7 -63  11      Y  US WPA2(PSK/AES/AES) 
+                        tl9bb6a4 88:6a:e3:9b:b6:a4 -90  11      Y  US WPA2(PSK/AES/AES) 
+                          Cayman 26:08:f5:ed:14:c5 -77  6,+1    Y  -- WPA2(PSK/AES/AES) 
+                          Dissly 78:f2:9e:92:65:d8 -63  1       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 82:f2:9e:92:65:d8 -65  1       Y  US NONE
+                 AdventureAwaits 74:ac:b9:36:78:0d -80  40      Y  -- WPA2(PSK,FT-PSK/AES/AES) 
+      DIRECT-4c-HP M283 LaserJet da:12:65:bf:3d:4c -90  40,-1   Y  -- WPA2(PSK/AES/AES) 
+              Happy WiFi Shed-5G ee:63:da:ae:88:d7 -87  36      Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8e:f2:9e:92:65:e0 -67  36      Y  US WPA2(802.1x/AES/AES) 
+                 AdventureAwaits 74:ac:b9:c8:0e:01 -85  36      Y  -- WPA2(PSK,FT-PSK/AES/AES) 
+                      Dissly-5.0 78:f2:9e:92:65:e0 -66  36      Y  US WPA2(PSK/AES/AES) 
+                 AdventureAwaits 74:ac:b9:cb:ad:81 -74  157     Y  -- WPA2(PSK,FT-PSK/AES/AES) 
+              CenturyLink0720_5G 54:83:3a:7c:74:28 -87  157     Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                        42424242 1c:f2:9a:b6:26:c3 -91  149     Y  US WPA2(PSK/AES/AES) 
+                       Ortola.n0 5c:b0:66:dd:b5:98 -86  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+         Richard's Wi-Fi Network 0c:51:01:e7:27:79 -69  149     Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:54:25:31:2c:c8 -66  44      Y  US NONE
+           Happy WiFi Happy LiFi e2:63:da:ae:88:d7 -86  36      Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 82:f2:9e:92:65:e0 -67  36      Y  US NONE
+          DIRECT-dNJEFF-DELLmsLn c2:b8:83:c6:60:2e -48  44      Y  -- WPA2(PSK/AES/AES) 
+                         XFINITY 5a:96:30:9b:02:7e -83  44      Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 5a:96:30:9b:02:7c -83  44      Y  US NONE
+                          Cayman 26:08:f5:ed:14:7a -86  44      Y  -- WPA2(PSK/AES/AES) 
+                          George 70:54:25:31:2c:c8 -66  44      Y  US WPA2(PSK/AES/AES) 
+                          Cayman 58:96:30:93:02:7a -82  44      Y  US WPA2(PSK/AES/AES) 
+
+
+room 1 2020-12-08 08:59:49.308941
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        dissid_2 b0:7f:b9:d7:06:73 -88  3       Y  -- WPA2(PSK/AES/AES) 
+                 CenturyLink0720 54:83:3a:7c:74:27 -77  1       Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                     xfinitywifi c6:a4:62:f4:79:10 -77  1       Y  US NONE
+                          Cayman 26:08:f5:ed:14:79 -71  1,+1    Y  -- WPA2(PSK/AES/AES) 
+                        ouch-air 88:1f:a1:37:e0:60 -83  6       Y  US WPA2(PSK/AES/AES) 
+                      JZ3050-2.4 98:9d:5d:d0:fc:8d -81  6       Y  -- WPA2(PSK/AES/AES) 
+                        42424242 1c:f2:9a:b5:cb:fc -79  6       Y  US WPA2(PSK/AES/AES) 
+                     myqwest4245 04:bf:6d:d9:14:e5 -85  7       Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                         cassius 98:0d:67:96:31:ef -86  11      Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                     xfinitywifi 6a:54:25:31:2c:c7 -71  11      Y  US NONE
+                          George 70:54:25:31:2c:c7 -63  11      Y  US WPA2(PSK/AES/AES) 
+                        tl9bb6a4 88:6a:e3:9b:b6:a4 -78  11      Y  US WPA2(PSK/AES/AES) 
+                          Cayman 58:96:30:93:02:79 -75  11      Y  -- WPA2(PSK/AES/AES) 
+           Happy WiFi Happy LiFi e0:63:da:ad:88:d7 -81  7       Y  US WPA2(PSK/AES/AES) 
+                          Cayman 26:08:f5:ed:14:c5 -80  6,+1    Y  -- WPA2(PSK/AES/AES) 
+      DIRECT-0d-HP M102 LaserJet 5e:3a:45:14:9e:0d -76  1       Y  -- WPA2(PSK/AES/AES) 
+                     xfinitywifi 82:f2:9e:92:65:d8 -66  1       Y  US NONE
+                          Dissly 78:f2:9e:92:65:d8 -62  1       Y  US WPA2(PSK/AES/AES) 
+         Richard's Wi-Fi Network 0c:51:01:e7:27:78 -62  1       Y  US WPA2(PSK/AES/AES) 
+                 AdventureAwaits 74:ac:b9:36:78:0d -78  40      Y  -- WPA2(PSK,FT-PSK/AES/AES) 
+      DIRECT-4c-HP M283 LaserJet da:12:65:bf:3d:4c -91  40,-1   Y  -- WPA2(PSK/AES/AES) 
+                         XFINITY 8e:f2:9e:92:65:e0 -64  36      Y  US WPA2(802.1x/AES/AES) 
+                      Dissly-5.0 78:f2:9e:92:65:e0 -64  36      Y  US WPA2(PSK/AES/AES) 
+                 AdventureAwaits 74:ac:b9:cb:ad:81 -74  157     Y  -- WPA2(PSK,FT-PSK/AES/AES) 
+              CenturyLink0720_5G 54:83:3a:7c:74:28 -88  157     Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                         XFINITY 8e:b0:66:dd:b5:98 -88  149     Y  US WPA2(802.1x/AES/AES) 
+         Richard's Wi-Fi Network 0c:51:01:e7:27:79 -68  149     Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 82:f2:9e:92:65:e0 -64  36      Y  US NONE
+              Happy WiFi Shed-5G ee:63:da:ae:88:d7 -85  36      Y  US WPA2(PSK/AES/AES) 
+                 AdventureAwaits 74:ac:b9:c8:0e:01 -85  36      Y  -- WPA2(PSK,FT-PSK/AES/AES) 
+                         XFINITY 5a:96:30:9b:02:7e -84  44      Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 5a:96:30:9b:02:7c -84  44      Y  US NONE
+                          Cayman 58:96:30:93:02:7a -83  44      Y  US WPA2(PSK/AES/AES) 
+                          George 70:54:25:31:2c:c8 -63  44      Y  US WPA2(PSK/AES/AES) 
+          DIRECT-dNJEFF-DELLmsLn c2:b8:83:c6:60:2e -45  44      Y  -- WPA2(PSK/AES/AES) 
+
+
+room 1 2020-12-08 08:59:59.309706
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                     xfinitywifi c6:a4:62:f4:79:10 -77  1       Y  US NONE
+                          Cayman 26:08:f5:ed:14:79 -71  1,+1    Y  -- WPA2(PSK/AES/AES) 
+                        ouch-air 88:1f:a1:37:e0:60 -83  6       Y  US WPA2(PSK/AES/AES) 
+                      JZ3050-2.4 98:9d:5d:d0:fc:8d -81  6       Y  -- WPA2(PSK/AES/AES) 
+           Happy WiFi Happy LiFi e0:63:da:ad:88:d7 -81  7       Y  US WPA2(PSK/AES/AES) 
+                        tl9bb6a4 88:6a:e3:9b:b6:a4 -78  11      Y  US WPA2(PSK/AES/AES) 
+                         cassius 98:0d:67:96:31:ef -86  11      Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                     xfinitywifi 6a:54:25:31:2c:c7 -70  11      Y  US NONE
+                          George 70:54:25:31:2c:c7 -63  11      Y  US WPA2(PSK/AES/AES) 
+                          Cayman 58:96:30:93:02:79 -73  11      Y  -- WPA2(PSK/AES/AES) 
+                     myqwest4245 04:bf:6d:d9:14:e5 -82  7       Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                          Cayman 26:08:f5:ed:14:c5 -81  6,+1    Y  -- WPA2(PSK/AES/AES) 
+                        42424242 1c:f2:9a:b5:cb:fc -78  6       Y  US WPA2(PSK/AES/AES) 
+      DIRECT-0d-HP M102 LaserJet 5e:3a:45:14:9e:0d -76  1       Y  -- WPA2(PSK/AES/AES) 
+                 CenturyLink0720 54:83:3a:7c:74:27 -75  1       Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                     xfinitywifi 82:f2:9e:92:65:d8 -66  1       Y  US NONE
+                          Dissly 78:f2:9e:92:65:d8 -62  1       Y  US WPA2(PSK/AES/AES) 
+         Richard's Wi-Fi Network 0c:51:01:e7:27:78 -61  1       Y  US WPA2(PSK/AES/AES) 
+           Happy WiFi Happy LiFi e2:63:da:ae:88:d7 -89  36      Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 82:f2:9e:92:65:e0 -65  36      Y  US NONE
+              CenturyLink0720_5G 54:83:3a:7c:74:28 -88  157     Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                 AdventureAwaits 74:ac:b9:cb:ad:81 -75  157     Y  -- WPA2(PSK,FT-PSK/AES/AES) 
+         Richard's Wi-Fi Network 0c:51:01:e7:27:79 -69  149     Y  US WPA2(PSK/AES/AES) 
+              Happy WiFi Shed-5G ee:63:da:ae:88:d7 -86  36      Y  US WPA2(PSK/AES/AES) 
+                 AdventureAwaits 74:ac:b9:c8:0e:01 -85  36      Y  -- WPA2(PSK,FT-PSK/AES/AES) 
+                      Dissly-5.0 78:f2:9e:92:65:e0 -64  36      Y  US WPA2(PSK/AES/AES) 
+                 AdventureAwaits 74:ac:b9:36:78:0d -77  40      Y  -- WPA2(PSK,FT-PSK/AES/AES) 
+                         XFINITY 8e:f2:9e:92:65:e0 -65  36      Y  US WPA2(802.1x/AES/AES) 
+      DIRECT-4c-HP M283 LaserJet da:12:65:bf:3d:4c -90  40,-1   Y  -- WPA2(PSK/AES/AES) 
+                          Cayman 26:08:f5:ed:14:7a -83  44      Y  -- WPA2(PSK/AES/AES) 
+          DIRECT-dNJEFF-DELLmsLn c2:b8:83:c6:60:2e -42  44      Y  -- WPA2(PSK/AES/AES) 
+                         XFINITY 5a:96:30:9b:02:7e -83  44      Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 5a:96:30:9b:02:7c -83  44      Y  US NONE
+                          George 70:54:25:31:2c:c8 -63  44      Y  US WPA2(PSK/AES/AES) 
+                          Cayman 58:96:30:93:02:7a -82  44      Y  US WPA2(PSK/AES/AES) 
+
+
+room 1 2020-12-08 09:00:09.309192
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                     xfinitywifi c6:a4:62:f4:79:10 -77  1       Y  US NONE
+                          Cayman 26:08:f5:ed:14:79 -71  1,+1    Y  -- WPA2(PSK/AES/AES) 
+                      JZ3050-2.4 98:9d:5d:d0:fc:8d -81  6       Y  -- WPA2(PSK/AES/AES) 
+           Happy WiFi Happy LiFi e0:63:da:ad:88:d7 -81  7       Y  US WPA2(PSK/AES/AES) 
+      DIRECT-4c-HP M283 LaserJet da:12:65:bf:3d:4c -90  40,-1   Y  -- WPA2(PSK/AES/AES) 
+      DIRECT-0d-HP M102 LaserJet 5e:3a:45:14:9e:0d -76  1       Y  -- WPA2(PSK/AES/AES) 
+                        42424242 1c:f2:9a:b5:cb:fc -78  6       Y  US WPA2(PSK/AES/AES) 
+                          Cayman 58:96:30:93:02:79 -73  11      Y  -- WPA2(PSK/AES/AES) 
+                          George 70:54:25:31:2c:c7 -63  11      Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:54:25:31:2c:c7 -70  11      Y  US NONE
+                         cassius 98:0d:67:96:31:ef -86  11      Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                            WP18 60:b7:6e:a0:96:5f -84  11      Y  US WPA2(PSK/AES/AES) 
+                        tl9bb6a4 88:6a:e3:9b:b6:a4 -79  11      Y  US WPA2(PSK/AES/AES) 
+                     myqwest4245 04:bf:6d:d9:14:e5 -83  7       Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                        ouch-air 88:1f:a1:37:e0:60 -85  6       Y  US WPA2(PSK/AES/AES) 
+                          Cayman 26:08:f5:ed:14:c5 -80  6,+1    Y  -- WPA2(PSK/AES/AES) 
+                     xfinitywifi 82:f2:9e:92:65:d8 -62  1       Y  US NONE
+                 CenturyLink0720 54:83:3a:7c:74:27 -78  1       Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                          Dissly 78:f2:9e:92:65:d8 -61  1       Y  US WPA2(PSK/AES/AES) 
+         Richard's Wi-Fi Network 0c:51:01:e7:27:78 -63  1       Y  US WPA2(PSK/AES/AES) 
+                 AdventureAwaits 74:ac:b9:c8:0e:01 -85  36      Y  -- WPA2(PSK,FT-PSK/AES/AES) 
+                     xfinitywifi 82:f2:9e:92:65:e0 -64  36      Y  US NONE
+                      Dissly-5.0 78:f2:9e:92:65:e0 -64  36      Y  US WPA2(PSK/AES/AES) 
+                 AdventureAwaits 74:ac:b9:cb:ad:81 -75  157     Y  -- WPA2(PSK,FT-PSK/AES/AES) 
+                     xfinitywifi 6e:b0:66:dd:b5:98 -87  149     Y  US NONE
+         Richard's Wi-Fi Network 0c:51:01:e7:27:79 -70  149     Y  US WPA2(PSK/AES/AES) 
+                 AdventureAwaits 74:ac:b9:36:78:0d -77  40      Y  -- WPA2(PSK,FT-PSK/AES/AES) 
+                         XFINITY 8e:f2:9e:92:65:e0 -64  36      Y  US WPA2(802.1x/AES/AES) 
+                         XFINITY 5a:96:30:9b:02:7e -82  44      Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 5a:96:30:9b:02:7c -82  44      Y  US NONE
+                          Cayman 26:08:f5:ed:14:7a -84  44      Y  -- WPA2(PSK/AES/AES) 
+          DIRECT-dNJEFF-DELLmsLn c2:b8:83:c6:60:2e -46  44      Y  -- WPA2(PSK/AES/AES) 
+                          George 70:54:25:31:2c:c8 -64  44      Y  US WPA2(PSK/AES/AES) 
+                          Cayman 58:96:30:93:02:7a -81  44      Y  US WPA2(PSK/AES/AES) 
+
+
+room 1 2020-12-08 09:00:19.311484
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                     xfinitywifi 6a:54:25:31:2c:c7 -70  11      Y  US NONE
+                 CenturyLink0720 54:83:3a:7c:74:27 -78  1       Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                        ouch-air 88:1f:a1:37:e0:60 -85  6       Y  US WPA2(PSK/AES/AES) 
+                     myqwest4245 04:bf:6d:d9:14:e5 -83  7       Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                            WP18 60:b7:6e:a0:96:5f -84  11      Y  US WPA2(PSK/AES/AES) 
+                         cassius 98:0d:67:96:31:ef -83  11      Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                          George 70:54:25:31:2c:c7 -60  11      Y  US WPA2(PSK/AES/AES) 
+                          Cayman 58:96:30:93:02:79 -74  11      Y  -- WPA2(PSK/AES/AES) 
+                        tl9bb6a4 88:6a:e3:9b:b6:a4 -79  11      Y  US WPA2(PSK/AES/AES) 
+           Happy WiFi Happy LiFi e0:63:da:ad:88:d7 -80  7       Y  US WPA2(PSK/AES/AES) 
+                        42424242 1c:f2:9a:b5:cb:fc -77  6       Y  US WPA2(PSK/AES/AES) 
+                      JZ3050-2.4 98:9d:5d:d0:fc:8d -80  6       Y  -- WPA2(PSK/AES/AES) 
+                          Cayman 26:08:f5:ed:14:c5 -84  6,+1    Y  -- WPA2(PSK/AES/AES) 
+      DIRECT-0d-HP M102 LaserJet 5e:3a:45:14:9e:0d -77  1       Y  -- WPA2(PSK/AES/AES) 
+                          Cayman 26:08:f5:ed:14:79 -70  1,+1    Y  -- WPA2(PSK/AES/AES) 
+                     xfinitywifi 82:f2:9e:92:65:d8 -64  1       Y  US NONE
+                          Dissly 78:f2:9e:92:65:d8 -71  1       Y  US WPA2(PSK/AES/AES) 
+         Richard's Wi-Fi Network 0c:51:01:e7:27:78 -60  1       Y  US WPA2(PSK/AES/AES) 
+      DIRECT-4c-HP M283 LaserJet da:12:65:bf:3d:4c -90  40,-1   Y  -- WPA2(PSK/AES/AES) 
+                 AdventureAwaits 74:ac:b9:36:78:0d -80  40      Y  -- WPA2(PSK,FT-PSK/AES/AES) 
+                         XFINITY 8e:f2:9e:92:65:e0 -66  36      Y  US WPA2(802.1x/AES/AES) 
+                      Dissly-5.0 78:f2:9e:92:65:e0 -66  36      Y  US WPA2(PSK/AES/AES) 
+                 AdventureAwaits 74:ac:b9:c8:0e:01 -83  36      Y  -- WPA2(PSK,FT-PSK/AES/AES) 
+                     xfinitywifi 2a:f1:9e:f4:7e:d5 -85  157     Y  US NONE
+                 AdventureAwaits 74:ac:b9:cb:ad:81 -72  157     Y  -- WPA2(PSK,FT-PSK/AES/AES) 
+         Richard's Wi-Fi Network 0c:51:01:e7:27:79 -68  149     Y  US WPA2(PSK/AES/AES) 
+           Happy WiFi Happy LiFi e2:63:da:ae:88:d7 -85  36      Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 82:f2:9e:92:65:e0 -66  36      Y  US NONE
+                         XFINITY 5a:96:30:9b:02:7e -83  44      Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 5a:96:30:9b:02:7c -83  44      Y  US NONE
+          DIRECT-dNJEFF-DELLmsLn c2:b8:83:c6:60:2e -40  44      Y  -- WPA2(PSK/AES/AES) 
+                          George 70:54:25:31:2c:c8 -63  44      Y  US WPA2(PSK/AES/AES) 
+                          Cayman 58:96:30:93:02:7a -82  44      Y  US WPA2(PSK/AES/AES) 
+
+
+room 1 2020-12-08 09:00:29.311077
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                     xfinitywifi 6a:54:25:31:2c:c7 -70  11      Y  US NONE
+                 CenturyLink0720 54:83:3a:7c:74:27 -78  1       Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                            WP18 60:b7:6e:a0:96:5f -84  11      Y  US WPA2(PSK/AES/AES) 
+                          Cayman 26:08:f5:ed:14:79 -70  1,+1    Y  -- WPA2(PSK/AES/AES) 
+                          Cayman 26:08:f5:ed:14:c5 -84  6,+1    Y  -- WPA2(PSK/AES/AES) 
+                      JZ3050-2.4 98:9d:5d:d0:fc:8d -80  6       Y  -- WPA2(PSK/AES/AES) 
+                        42424242 1c:f2:9a:b5:cb:fc -77  6       Y  US WPA2(PSK/AES/AES) 
+                          George 70:54:25:31:2c:c7 -60  11      Y  US WPA2(PSK/AES/AES) 
+                         cassius 98:0d:67:96:31:ef -83  11      Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                        tl9bb6a4 88:6a:e3:9b:b6:a4 -79  11      Y  US WPA2(PSK/AES/AES) 
+                          Cayman 58:96:30:93:02:79 -70  11      Y  -- WPA2(PSK/AES/AES) 
+                     myqwest4245 04:bf:6d:d9:14:e5 -88  7       Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                        ouch-air 88:1f:a1:37:e0:60 -86  6       Y  US WPA2(PSK/AES/AES) 
+           Happy WiFi Happy LiFi e0:63:da:ad:88:d7 -79  7       Y  US WPA2(PSK/AES/AES) 
+         Richard's Wi-Fi Network 0c:51:01:e7:27:78 -58  1       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 82:f2:9e:92:65:d8 -62  1       Y  US NONE
+                          Dissly 78:f2:9e:92:65:d8 -60  1       Y  US WPA2(PSK/AES/AES) 
+      DIRECT-0d-HP M102 LaserJet 5e:3a:45:14:9e:0d -75  1       Y  -- WPA2(PSK/AES/AES) 
+      DIRECT-4c-HP M283 LaserJet da:12:65:bf:3d:4c -90  40,-1   Y  -- WPA2(PSK/AES/AES) 
+           Happy WiFi Happy LiFi e2:63:da:ae:88:d7 -88  36      Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 82:f2:9e:92:65:e0 -63  36      Y  US NONE
+              CenturyLink0720_5G 54:83:3a:7c:74:28 -88  157     Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                 AdventureAwaits 74:ac:b9:cb:ad:81 -74  157     Y  -- WPA2(PSK,FT-PSK/AES/AES) 
+                     xfinitywifi 6e:b0:66:dd:b5:98 -88  149     Y  US NONE
+                 AdventureAwaits 74:ac:b9:c8:0e:01 -84  36      Y  -- WPA2(PSK,FT-PSK/AES/AES) 
+                      Dissly-5.0 78:f2:9e:92:65:e0 -63  36      Y  US WPA2(PSK/AES/AES) 
+                 AdventureAwaits 74:ac:b9:36:78:0d -77  40      Y  -- WPA2(PSK,FT-PSK/AES/AES) 
+                         XFINITY 8e:f2:9e:92:65:e0 -63  36      Y  US WPA2(802.1x/AES/AES) 
+                         XFINITY 5a:96:30:9b:02:7e -83  44      Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 5a:96:30:9b:02:7c -83  44      Y  US NONE
+          DIRECT-dNJEFF-DELLmsLn c2:b8:83:c6:60:2e -43  44      Y  -- WPA2(PSK/AES/AES) 
+                          George 70:54:25:31:2c:c8 -64  44      Y  US WPA2(PSK/AES/AES) 
+                          Cayman 58:96:30:93:02:7a -84  44      Y  US WPA2(PSK/AES/AES) 
+
+
+room 1 2020-12-08 09:00:39.309757
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                 CenturyLink0720 54:83:3a:7c:74:27 -78  1       Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                            WP18 60:b7:6e:a0:96:5f -84  11      Y  US WPA2(PSK/AES/AES) 
+                          Cayman 26:08:f5:ed:14:79 -70  1,+1    Y  -- WPA2(PSK/AES/AES) 
+                          Cayman 26:08:f5:ed:14:c5 -84  6,+1    Y  -- WPA2(PSK/AES/AES) 
+                      JZ3050-2.4 98:9d:5d:d0:fc:8d -80  6       Y  -- WPA2(PSK/AES/AES) 
+      DIRECT-0d-HP M102 LaserJet 5e:3a:45:14:9e:0d -75  1       Y  -- WPA2(PSK/AES/AES) 
+           Happy WiFi Happy LiFi e0:63:da:ad:88:d7 -79  7       Y  US WPA2(PSK/AES/AES) 
+                        ouch-air 88:1f:a1:37:e0:60 -86  6       Y  US WPA2(PSK/AES/AES) 
+                          Cayman 58:96:30:93:02:79 -70  11      Y  -- WPA2(PSK/AES/AES) 
+                        tl9bb6a4 88:6a:e3:9b:b6:a4 -79  11      Y  US WPA2(PSK/AES/AES) 
+                         cassius 98:0d:67:96:31:ef -85  11      Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                     xfinitywifi 6a:54:25:31:2c:c7 -70  11      Y  US NONE
+                          George 70:54:25:31:2c:c7 -62  11      Y  US WPA2(PSK/AES/AES) 
+                     myqwest4245 04:bf:6d:d9:14:e5 -85  7       Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                        42424242 1c:f2:9a:b5:cb:fc -79  6       Y  US WPA2(PSK/AES/AES) 
+           Happy WiFi Happy LiFi e0:63:da:ed:f2:09 -90  4       Y  US WPA2(PSK/AES/AES) 
+                          Dissly 78:f2:9e:92:65:d8 -62  1       Y  US WPA2(PSK/AES/AES) 
+         Richard's Wi-Fi Network 0c:51:01:e7:27:78 -61  1       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 2a:f1:9e:f4:7e:d4 -88  1       Y  US NONE
+                     xfinitywifi 82:f2:9e:92:65:d8 -62  1       Y  US NONE
+      DIRECT-4c-HP M283 LaserJet da:12:65:bf:3d:4c -89  40,-1   Y  -- WPA2(PSK/AES/AES) 
+                 AdventureAwaits 74:ac:b9:36:78:0d -76  40      Y  -- WPA2(PSK,FT-PSK/AES/AES) 
+              Happy WiFi Shed-5G ee:63:da:ae:88:d7 -87  36      Y  US WPA2(PSK/AES/AES) 
+                 AdventureAwaits 74:ac:b9:c8:0e:01 -85  36      Y  -- WPA2(PSK,FT-PSK/AES/AES) 
+                         XFINITY 8e:f2:9e:92:65:e0 -67  36      Y  US WPA2(802.1x/AES/AES) 
+                      Dissly-5.0 78:f2:9e:92:65:e0 -66  36      Y  US WPA2(PSK/AES/AES) 
+                 AdventureAwaits 74:ac:b9:cb:ad:81 -74  157     Y  -- WPA2(PSK,FT-PSK/AES/AES) 
+                        42424242 1c:f2:9a:b5:cb:f8 -89  149     Y  US WPA2(PSK/AES/AES) 
+                         XFINITY d2:52:61:f2:5d:96 -92  149     Y  US WPA2(802.1x/AES/AES) 
+         Richard's Wi-Fi Network 0c:51:01:e7:27:79 -71  149     Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:54:25:31:2c:c8 -64  44      Y  US NONE
+                          Cayman 26:08:f5:ed:14:7a -84  44      Y  -- WPA2(PSK/AES/AES) 
+                     xfinitywifi 82:f2:9e:92:65:e0 -66  36      Y  US NONE
+                         XFINITY 5a:96:30:9b:02:7e -83  44      Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 5a:96:30:9b:02:7c -83  44      Y  US NONE
+                          George 70:54:25:31:2c:c8 -63  44      Y  US WPA2(PSK/AES/AES) 
+          DIRECT-dNJEFF-DELLmsLn c2:b8:83:c6:60:2e -41  44      Y  -- WPA2(PSK/AES/AES) 
+                          Cayman 58:96:30:93:02:7a -83  44      Y  US WPA2(PSK/AES/AES) 
+
+
+room 1 2020-12-08 09:00:49.309895
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                 CenturyLink0720 54:83:3a:7c:74:27 -78  1       Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                            WP18 60:b7:6e:a0:96:5f -84  11      Y  US WPA2(PSK/AES/AES) 
+                          Cayman 26:08:f5:ed:14:79 -70  1,+1    Y  -- WPA2(PSK/AES/AES) 
+                          Cayman 26:08:f5:ed:14:c5 -84  6,+1    Y  -- WPA2(PSK/AES/AES) 
+                      JZ3050-2.4 98:9d:5d:d0:fc:8d -80  6       Y  -- WPA2(PSK/AES/AES) 
+      DIRECT-0d-HP M102 LaserJet 5e:3a:45:14:9e:0d -75  1       Y  -- WPA2(PSK/AES/AES) 
+                        ouch-air 88:1f:a1:37:e0:60 -86  6       Y  US WPA2(PSK/AES/AES) 
+                        tl9bb6a4 88:6a:e3:9b:b6:a4 -79  11      Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 2a:f1:9e:f4:7e:d4 -88  1       Y  US NONE
+           Happy WiFi Happy LiFi e0:63:da:ed:f2:09 -90  4       Y  US WPA2(PSK/AES/AES) 
+                         cassius 98:0d:67:96:31:ef -85  11      Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                     xfinitywifi 6a:54:25:31:2c:c7 -70  11      Y  US NONE
+                          George 70:54:25:31:2c:c7 -63  11      Y  US WPA2(PSK/AES/AES) 
+                          Cayman 58:96:30:93:02:79 -72  11      Y  -- WPA2(PSK/AES/AES) 
+           Happy WiFi Happy LiFi e0:63:da:ad:88:d7 -79  7       Y  US WPA2(PSK/AES/AES) 
+                     myqwest4245 04:bf:6d:d9:14:e5 -83  7       Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                        42424242 1c:f2:9a:b5:cb:fc -79  6       Y  US WPA2(PSK/AES/AES) 
+                        42424242 1c:f2:9a:b6:26:c7 -74  1       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 82:f2:9e:92:65:d8 -64  1       Y  US NONE
+                          Dissly 78:f2:9e:92:65:d8 -74  1       Y  US WPA2(PSK/AES/AES) 
+         Richard's Wi-Fi Network 0c:51:01:e7:27:78 -62  1       Y  US WPA2(PSK/AES/AES) 
+                 AdventureAwaits 74:ac:b9:36:78:0d -77  40      Y  -- WPA2(PSK,FT-PSK/AES/AES) 
+      DIRECT-4c-HP M283 LaserJet da:12:65:bf:3d:4c -89  40,-1   Y  -- WPA2(PSK/AES/AES) 
+                         XFINITY 8e:f2:9e:92:65:e0 -67  36      Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 82:f2:9e:92:65:e0 -67  36      Y  US NONE
+                     xfinitywifi 9a:9d:5d:d8:fc:88 -90  157     Y  US NONE
+                 AdventureAwaits 74:ac:b9:cb:ad:81 -74  157     Y  -- WPA2(PSK,FT-PSK/AES/AES) 
+                         XFINITY 8e:b0:66:dd:b5:98 -90  149     Y  US WPA2(802.1x/AES/AES) 
+         Richard's Wi-Fi Network 0c:51:01:e7:27:79 -70  149     Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 72:54:25:31:2c:c8 -64  44      Y  US WPA2(802.1x/AES/AES) 
+                         XFINITY 5a:96:30:9b:02:7e -83  44      Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 5a:96:30:9b:02:7c -83  44      Y  US NONE
+                          Cayman 58:96:30:93:02:7a -82  44      Y  US WPA2(PSK/AES/AES) 
+              Happy WiFi Shed-5G ee:63:da:ae:88:d7 -87  36      Y  US WPA2(PSK/AES/AES) 
+                 AdventureAwaits 74:ac:b9:c8:0e:01 -86  36      Y  -- WPA2(PSK,FT-PSK/AES/AES) 
+                      Dissly-5.0 78:f2:9e:92:65:e0 -67  36      Y  US WPA2(PSK/AES/AES) 
+                          George 70:54:25:31:2c:c8 -64  44      Y  US WPA2(PSK/AES/AES) 
+          DIRECT-dNJEFF-DELLmsLn c2:b8:83:c6:60:2e -41  44      Y  -- WPA2(PSK/AES/AES) 
+                          Cayman 26:08:f5:ed:14:7a -86  44      Y  -- WPA2(PSK/AES/AES) 
+
+
+room 1 2020-12-08 09:00:59.310564
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                 CenturyLink0720 54:83:3a:7c:74:27 -78  1       Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                            WP18 60:b7:6e:a0:96:5f -84  11      Y  US WPA2(PSK/AES/AES) 
+                          Cayman 26:08:f5:ed:14:79 -70  1,+1    Y  -- WPA2(PSK/AES/AES) 
+                          Cayman 26:08:f5:ed:14:c5 -84  6,+1    Y  -- WPA2(PSK/AES/AES) 
+                      JZ3050-2.4 98:9d:5d:d0:fc:8d -80  6       Y  -- WPA2(PSK/AES/AES) 
+      DIRECT-0d-HP M102 LaserJet 5e:3a:45:14:9e:0d -75  1       Y  -- WPA2(PSK/AES/AES) 
+                        ouch-air 88:1f:a1:37:e0:60 -86  6       Y  US WPA2(PSK/AES/AES) 
+                        tl9bb6a4 88:6a:e3:9b:b6:a4 -79  11      Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 2a:f1:9e:f4:7e:d4 -88  1       Y  US NONE
+           Happy WiFi Happy LiFi e0:63:da:ed:f2:09 -90  4       Y  US WPA2(PSK/AES/AES) 
+                        42424242 1c:f2:9a:b6:26:c7 -74  1       Y  US WPA2(PSK/AES/AES) 
+           Happy WiFi Happy LiFi e0:63:da:ad:88:d7 -79  7       Y  US WPA2(PSK/AES/AES) 
+                          George 70:54:25:31:2c:c7 -63  11      Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:54:25:31:2c:c7 -70  11      Y  US NONE
+                         cassius 98:0d:67:96:31:ef -86  11      Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                          Cayman 58:96:30:93:02:79 -68  11      Y  -- WPA2(PSK/AES/AES) 
+                     myqwest4245 04:bf:6d:d9:14:e5 -84  7       Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                        42424242 1c:f2:9a:b5:cb:fc -79  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 82:f2:9e:92:65:d8 -74  1       Y  US NONE
+         Richard's Wi-Fi Network 0c:51:01:e7:27:78 -64  1       Y  US WPA2(PSK/AES/AES) 
+                          Dissly 78:f2:9e:92:65:d8 -61  1       Y  US WPA2(PSK/AES/AES) 
+      DIRECT-4c-HP M283 LaserJet da:12:65:bf:3d:4c -90  40,-1   Y  -- WPA2(PSK/AES/AES) 
+                         XFINITY 8e:f2:9e:92:65:e0 -64  36      Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 82:f2:9e:92:65:e0 -64  36      Y  US NONE
+                 AdventureAwaits 74:ac:b9:cb:ad:81 -76  157     Y  -- WPA2(PSK,FT-PSK/AES/AES) 
+                     xfinitywifi 6e:b0:66:dd:b5:98 -92  149     Y  US NONE
+         Richard's Wi-Fi Network 0c:51:01:e7:27:79 -68  149     Y  US WPA2(PSK/AES/AES) 
+                      Dissly-5.0 78:f2:9e:92:65:e0 -64  36      Y  US WPA2(PSK/AES/AES) 
+                 AdventureAwaits 74:ac:b9:36:78:0d -76  40      Y  -- WPA2(PSK,FT-PSK/AES/AES) 
+                         XFINITY 5a:96:30:9b:02:7e -82  44      Y  US WPA2(802.1x/AES/AES) 
+          DIRECT-dNJEFF-DELLmsLn c2:b8:83:c6:60:2e -41  44      Y  -- WPA2(PSK/AES/AES) 
+                     xfinitywifi 5a:96:30:9b:02:7c -82  44      Y  US NONE
+                          George 70:54:25:31:2c:c8 -64  44      Y  US WPA2(PSK/AES/AES) 
+                          Cayman 58:96:30:93:02:7a -82  44      Y  US WPA2(PSK/AES/AES) 
+
+
+room 1 2020-12-08 09:01:09.309915
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                            WP18 60:b7:6e:a0:96:5f -84  11      Y  US WPA2(PSK/AES/AES) 
+                          Cayman 26:08:f5:ed:14:79 -70  1,+1    Y  -- WPA2(PSK/AES/AES) 
+                      JZ3050-2.4 98:9d:5d:d0:fc:8d -80  6       Y  -- WPA2(PSK/AES/AES) 
+      DIRECT-0d-HP M102 LaserJet 5e:3a:45:14:9e:0d -75  1       Y  -- WPA2(PSK/AES/AES) 
+                        ouch-air 88:1f:a1:37:e0:60 -86  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 2a:f1:9e:f4:7e:d4 -88  1       Y  US NONE
+           Happy WiFi Happy LiFi e0:63:da:ed:f2:09 -90  4       Y  US WPA2(PSK/AES/AES) 
+                        42424242 1c:f2:9a:b6:26:c7 -74  1       Y  US WPA2(PSK/AES/AES) 
+           Happy WiFi Happy LiFi e0:63:da:ad:88:d7 -79  7       Y  US WPA2(PSK/AES/AES) 
+                          George 70:54:25:31:2c:c7 -63  11      Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:54:25:31:2c:c7 -70  11      Y  US NONE
+         Richard's Wi-Fi Network 0c:51:01:e7:27:78 -64  1       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 82:f2:9e:92:65:d8 -74  1       Y  US NONE
+                        42424242 1c:f2:9a:b5:cb:fc -79  6       Y  US WPA2(PSK/AES/AES) 
+                     myqwest4245 04:bf:6d:d9:14:e5 -84  7       Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                          Cayman 58:96:30:93:02:79 -74  11      Y  -- WPA2(PSK/AES/AES) 
+                         cassius 98:0d:67:96:31:ef -85  11      Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                        tl9bb6a4 88:6a:e3:9b:b6:a4 -80  11      Y  US WPA2(PSK/AES/AES) 
+                          Cayman 26:08:f5:ed:14:c5 -82  6,+1    Y  -- WPA2(PSK/AES/AES) 
+                 CenturyLink0720 54:83:3a:7c:74:27 -80  1       Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                          Dissly 78:f2:9e:92:65:d8 -80  1       Y  US WPA2(PSK/AES/AES) 
+      DIRECT-4c-HP M283 LaserJet da:12:65:bf:3d:4c -90  40,-1   Y  -- WPA2(PSK/AES/AES) 
+                 AdventureAwaits 74:ac:b9:36:78:0d -79  40      Y  -- WPA2(PSK,FT-PSK/AES/AES) 
+              Happy WiFi Shed-5G ee:63:da:ae:88:d7 -88  36      Y  US WPA2(PSK/AES/AES) 
+                 AdventureAwaits 74:ac:b9:c8:0e:01 -82  36      Y  -- WPA2(PSK,FT-PSK/AES/AES) 
+                         XFINITY 8e:f2:9e:92:65:e0 -65  36      Y  US WPA2(802.1x/AES/AES) 
+                      Dissly-5.0 78:f2:9e:92:65:e0 -65  36      Y  US WPA2(PSK/AES/AES) 
+                 AdventureAwaits 74:ac:b9:cb:ad:81 -77  157     Y  -- WPA2(PSK,FT-PSK/AES/AES) 
+         Richard's Wi-Fi Network 0c:51:01:e7:27:79 -73  149     Y  US WPA2(PSK/AES/AES) 
+                        42424242 1c:f2:9a:b6:26:c3 -89  149     Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 82:f2:9e:92:65:e0 -65  36      Y  US NONE
+                         XFINITY 5a:96:30:9b:02:7e -85  44      Y  US WPA2(802.1x/AES/AES) 
+          DIRECT-dNJEFF-DELLmsLn c2:b8:83:c6:60:2e -41  44      Y  -- WPA2(PSK/AES/AES) 
+                     xfinitywifi 5a:96:30:9b:02:7c -84  44      Y  US NONE
+                          Cayman 26:08:f5:ed:14:7a -85  44      Y  -- WPA2(PSK/AES/AES) 
+                          George 70:54:25:31:2c:c8 -64  44      Y  US WPA2(PSK/AES/AES) 
+                          Cayman 58:96:30:93:02:7a -84  44      Y  US WPA2(PSK/AES/AES) 
+
+
+room 1 2020-12-08 09:01:19.310173
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                          Cayman 26:08:f5:ed:14:79 -70  1,+1    Y  -- WPA2(PSK/AES/AES) 
+                      JZ3050-2.4 98:9d:5d:d0:fc:8d -80  6       Y  -- WPA2(PSK/AES/AES) 
+      DIRECT-0d-HP M102 LaserJet 5e:3a:45:14:9e:0d -75  1       Y  -- WPA2(PSK/AES/AES) 
+                        ouch-air 88:1f:a1:37:e0:60 -86  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 2a:f1:9e:f4:7e:d4 -88  1       Y  US NONE
+           Happy WiFi Happy LiFi e0:63:da:ed:f2:09 -90  4       Y  US WPA2(PSK/AES/AES) 
+                        42424242 1c:f2:9a:b6:26:c7 -74  1       Y  US WPA2(PSK/AES/AES) 
+           Happy WiFi Happy LiFi e0:63:da:ad:88:d7 -79  7       Y  US WPA2(PSK/AES/AES) 
+                          George 70:54:25:31:2c:c7 -63  11      Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:54:25:31:2c:c7 -70  11      Y  US NONE
+                        42424242 1c:f2:9a:b5:cb:fc -79  6       Y  US WPA2(PSK/AES/AES) 
+                     myqwest4245 04:bf:6d:d9:14:e5 -84  7       Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                        tl9bb6a4 88:6a:e3:9b:b6:a4 -80  11      Y  US WPA2(PSK/AES/AES) 
+                         cassius 98:0d:67:96:31:ef -85  11      Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                          Cayman 58:96:30:93:02:79 -71  11      Y  -- WPA2(PSK/AES/AES) 
+                          Cayman 26:08:f5:ed:14:c5 -79  6,+1    Y  -- WPA2(PSK/AES/AES) 
+                 CenturyLink0720 54:83:3a:7c:74:27 -81  1       Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                     xfinitywifi 82:f2:9e:92:65:d8 -67  1       Y  US NONE
+                          Dissly 78:f2:9e:92:65:d8 -65  1       Y  US WPA2(PSK/AES/AES) 
+         Richard's Wi-Fi Network 0c:51:01:e7:27:78 -67  1       Y  US WPA2(PSK/AES/AES) 
+                 AdventureAwaits 74:ac:b9:36:78:0d -79  40      Y  -- WPA2(PSK,FT-PSK/AES/AES) 
+      DIRECT-4c-HP M283 LaserJet da:12:65:bf:3d:4c -89  40,-1   Y  -- WPA2(PSK/AES/AES) 
+                         XFINITY 8e:f2:9e:92:65:e0 -65  36      Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 82:f2:9e:92:65:e0 -65  36      Y  US NONE
+                         XFINITY 32:f1:9e:f4:7e:d5 -84  157     Y  US WPA2(802.1x/AES/AES) 
+                     Hehhehheh-5 20:f1:9e:f4:7e:d5 -84  157     Y  US WPA2(PSK/AES/AES) 
+                 AdventureAwaits 74:ac:b9:cb:ad:81 -72  157     Y  -- WPA2(PSK,FT-PSK/AES/AES) 
+                         XFINITY 8e:b0:66:dd:b5:98 -88  149     Y  US WPA2(802.1x/AES/AES) 
+                         XFINITY 5a:96:30:9b:02:7e -84  44      Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 5a:96:30:9b:02:7c -85  44      Y  US NONE
+                          Cayman 58:96:30:93:02:7a -84  44      Y  US WPA2(PSK/AES/AES) 
+              Happy WiFi Shed-5G ee:63:da:ae:88:d7 -87  36      Y  US WPA2(PSK/AES/AES) 
+                 AdventureAwaits 74:ac:b9:c8:0e:01 -83  36      Y  -- WPA2(PSK,FT-PSK/AES/AES) 
+                      Dissly-5.0 78:f2:9e:92:65:e0 -65  36      Y  US WPA2(PSK/AES/AES) 
+                          Cayman 26:08:f5:ed:14:7a -86  44      Y  -- WPA2(PSK/AES/AES) 
+                          George 70:54:25:31:2c:c8 -64  44      Y  US WPA2(PSK/AES/AES) 
+
+
+room 1 2020-12-08 09:01:29.310090
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        ouch-air 88:1f:a1:37:e0:60 -86  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 2a:f1:9e:f4:7e:d4 -88  1       Y  US NONE
+           Happy WiFi Happy LiFi e0:63:da:ed:f2:09 -90  4       Y  US WPA2(PSK/AES/AES) 
+                        42424242 1c:f2:9a:b6:26:c7 -74  1       Y  US WPA2(PSK/AES/AES) 
+           Happy WiFi Happy LiFi e0:63:da:ad:88:d7 -79  7       Y  US WPA2(PSK/AES/AES) 
+                          George 70:54:25:31:2c:c7 -63  11      Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:54:25:31:2c:c7 -70  11      Y  US NONE
+                        tl9bb6a4 88:6a:e3:9b:b6:a4 -80  11      Y  US WPA2(PSK/AES/AES) 
+                         cassius 98:0d:67:96:31:ef -85  11      Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                 CenturyLink0720 54:83:3a:7c:74:27 -81  1       Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                          Cayman 58:96:30:93:02:79 -71  11      Y  -- WPA2(PSK/AES/AES) 
+                     myqwest4245 04:bf:6d:d9:14:e5 -83  7       Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                        42424242 1c:f2:9a:b5:cb:fc -78  6       Y  US WPA2(PSK/AES/AES) 
+                          Cayman 26:08:f5:ed:14:c5 -79  6,+1    Y  -- WPA2(PSK/AES/AES) 
+                     xfinitywifi 82:f2:9e:92:65:d8 -68  1       Y  US NONE
+      DIRECT-0d-HP M102 LaserJet 5e:3a:45:14:9e:0d -72  1       Y  -- WPA2(PSK/AES/AES) 
+                          Dissly 78:f2:9e:92:65:d8 -66  1       Y  US WPA2(PSK/AES/AES) 
+         Richard's Wi-Fi Network 0c:51:01:e7:27:78 -66  1       Y  US WPA2(PSK/AES/AES) 
+      DIRECT-4c-HP M283 LaserJet da:12:65:bf:3d:4c -90  40,-1   Y  -- WPA2(PSK/AES/AES) 
+                     xfinitywifi 82:f2:9e:92:65:e0 -66  36      Y  US NONE
+                      Dissly-5.0 78:f2:9e:92:65:e0 -65  36      Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6e:b0:66:dd:b5:98 -89  149     Y  US NONE
+                        42424242 1c:f2:9a:b6:26:c3 -90  149     Y  US WPA2(PSK/AES/AES) 
+                 AdventureAwaits 74:ac:b9:36:78:0d -78  40      Y  -- WPA2(PSK,FT-PSK/AES/AES) 
+                         XFINITY 8e:f2:9e:92:65:e0 -65  36      Y  US WPA2(802.1x/AES/AES) 
+                         XFINITY 5a:96:30:9b:02:7e -83  44      Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 5a:96:30:9b:02:7c -83  44      Y  US NONE
+          DIRECT-dNJEFF-DELLmsLn c2:b8:83:c6:60:2e -42  44      Y  -- WPA2(PSK/AES/AES) 
+                          George 70:54:25:31:2c:c8 -64  44      Y  US WPA2(PSK/AES/AES) 
+                          Cayman 58:96:30:93:02:7a -83  44      Y  US WPA2(PSK/AES/AES) 
+
+
+room 1 2020-12-08 09:01:39.309168
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                     xfinitywifi 2a:f1:9e:f4:7e:d4 -88  1       Y  US NONE
+           Happy WiFi Happy LiFi e0:63:da:ed:f2:09 -90  4       Y  US WPA2(PSK/AES/AES) 
+                        42424242 1c:f2:9a:b6:26:c7 -74  1       Y  US WPA2(PSK/AES/AES) 
+           Happy WiFi Happy LiFi e0:63:da:ad:88:d7 -79  7       Y  US WPA2(PSK/AES/AES) 
+                          George 70:54:25:31:2c:c7 -63  11      Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:54:25:31:2c:c7 -70  11      Y  US NONE
+                        42424242 1c:f2:9a:b5:cb:fc -78  6       Y  US WPA2(PSK/AES/AES) 
+                          Cayman 58:96:30:93:02:79 -71  11      Y  -- WPA2(PSK/AES/AES) 
+                         cassius 98:0d:67:96:31:ef -87  11      Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                            WP18 60:b7:6e:a0:96:5f -85  11      Y  US WPA2(PSK/AES/AES) 
+                            WP18 60:b7:6e:a3:12:39 -87  11      Y  US WPA2(PSK/AES/AES) 
+                        tl9bb6a4 88:6a:e3:9b:b6:a4 -80  11      Y  US WPA2(PSK/AES/AES) 
+                     myqwest4245 04:bf:6d:d9:14:e5 -83  7       Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                          Cayman 26:08:f5:ed:14:c5 -81  6,+1    Y  -- WPA2(PSK/AES/AES) 
+                        dissid_2 b0:7f:b9:d7:06:73 -89  3       Y  -- WPA2(PSK/AES/AES) 
+      DIRECT-0d-HP M102 LaserJet 5e:3a:45:14:9e:0d -75  1       Y  -- WPA2(PSK/AES/AES) 
+                 CenturyLink0720 54:83:3a:7c:74:27 -80  1       Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                          Cayman 26:08:f5:ed:14:79 -76  1,+1    Y  -- WPA2(PSK/AES/AES) 
+                     xfinitywifi 82:f2:9e:92:65:d8 -67  1       Y  US NONE
+                          Dissly 78:f2:9e:92:65:d8 -73  1       Y  US WPA2(PSK/AES/AES) 
+         Richard's Wi-Fi Network 0c:51:01:e7:27:78 -67  1       Y  US WPA2(PSK/AES/AES) 
+      DIRECT-4c-HP M283 LaserJet da:12:65:bf:3d:4c -90  40,-1   Y  -- WPA2(PSK/AES/AES) 
+                 AdventureAwaits 74:ac:b9:36:78:0d -79  40      Y  -- WPA2(PSK,FT-PSK/AES/AES) 
+              Happy WiFi Shed-5G ee:63:da:ae:88:d7 -88  36      Y  US WPA2(PSK/AES/AES) 
+                 AdventureAwaits 74:ac:b9:c8:0e:01 -83  36      Y  -- WPA2(PSK,FT-PSK/AES/AES) 
+                         XFINITY 8e:f2:9e:92:65:e0 -65  36      Y  US WPA2(802.1x/AES/AES) 
+                      Dissly-5.0 78:f2:9e:92:65:e0 -65  36      Y  US WPA2(PSK/AES/AES) 
+                 AdventureAwaits 74:ac:b9:cb:ad:81 -72  157     Y  -- WPA2(PSK,FT-PSK/AES/AES) 
+              CenturyLink0720_5G 54:83:3a:7c:74:28 -87  157     Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                         XFINITY d2:52:61:f2:5d:96 -91  149     Y  US WPA2(802.1x/AES/AES) 
+         Richard's Wi-Fi Network 0c:51:01:e7:27:79 -73  149     Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:54:25:31:2c:c8 -65  44      Y  US NONE
+           Happy WiFi Happy LiFi e2:63:da:ae:88:d7 -87  36      Y  US WPA2(PSK/AES/AES) 
+                          Cayman 26:08:f5:ed:14:7a -85  44      Y  -- WPA2(PSK/AES/AES) 
+                     xfinitywifi 82:f2:9e:92:65:e0 -65  36      Y  US NONE
+                     xfinitywifi 5a:96:30:9b:02:7c -84  44      Y  US NONE
+                          George 70:54:25:31:2c:c8 -65  44      Y  US WPA2(PSK/AES/AES) 
+                          Cayman 58:96:30:93:02:7a -84  44      Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 5a:96:30:9b:02:7e -85  44      Y  US WPA2(802.1x/AES/AES) 
+
+
+room 1 2020-12-08 09:01:49.309440
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        42424242 1c:f2:9a:b6:26:c7 -74  1       Y  US WPA2(PSK/AES/AES) 
+           Happy WiFi Happy LiFi e0:63:da:ad:88:d7 -79  7       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:54:25:31:2c:c7 -70  11      Y  US NONE
+                        42424242 1c:f2:9a:b5:cb:fc -78  6       Y  US WPA2(PSK/AES/AES) 
+                          Cayman 26:08:f5:ed:14:79 -76  1,+1    Y  -- WPA2(PSK/AES/AES) 
+                 CenturyLink0720 54:83:3a:7c:74:27 -80  1       Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+      DIRECT-0d-HP M102 LaserJet 5e:3a:45:14:9e:0d -75  1       Y  -- WPA2(PSK/AES/AES) 
+                        dissid_2 b0:7f:b9:d7:06:73 -89  3       Y  -- WPA2(PSK/AES/AES) 
+                     myqwest4245 04:bf:6d:d9:14:e5 -83  7       Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                            WP18 60:b7:6e:a3:12:39 -87  11      Y  US WPA2(PSK/AES/AES) 
+                            WP18 60:b7:6e:a0:96:5f -85  11      Y  US WPA2(PSK/AES/AES) 
+                        tl9bb6a4 88:6a:e3:9b:b6:a4 -79  11      Y  US WPA2(PSK/AES/AES) 
+                          George 70:54:25:31:2c:c7 -64  11      Y  US WPA2(PSK/AES/AES) 
+                         cassius 98:0d:67:96:31:ef -86  11      Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                          Cayman 58:96:30:93:02:79 -73  11      Y  -- WPA2(PSK/AES/AES) 
+                          Cayman 26:08:f5:ed:14:c5 -80  6,+1    Y  -- WPA2(PSK/AES/AES) 
+                          Dissly 78:f2:9e:92:65:d8 -69  1       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 82:f2:9e:92:65:d8 -67  1       Y  US NONE
+         Richard's Wi-Fi Network 0c:51:01:e7:27:78 -66  1       Y  US WPA2(PSK/AES/AES) 
+      DIRECT-4c-HP M283 LaserJet da:12:65:bf:3d:4c -90  40,-1   Y  -- WPA2(PSK/AES/AES) 
+                 AdventureAwaits 74:ac:b9:36:78:0d -79  40      Y  -- WPA2(PSK,FT-PSK/AES/AES) 
+                         XFINITY 8e:f2:9e:92:65:e0 -66  36      Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 82:f2:9e:92:65:e0 -66  36      Y  US NONE
+                 AdventureAwaits 74:ac:b9:cb:ad:81 -73  157     Y  -- WPA2(PSK,FT-PSK/AES/AES) 
+                         XFINITY 72:54:25:31:2c:c8 -65  44      Y  US WPA2(802.1x/AES/AES) 
+                 AdventureAwaits 74:ac:b9:c8:0e:01 -84  36      Y  -- WPA2(PSK,FT-PSK/AES/AES) 
+                      Dissly-5.0 78:f2:9e:92:65:e0 -66  36      Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 5a:96:30:9b:02:7e -84  44      Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 5a:96:30:9b:02:7c -83  44      Y  US NONE
+                          Cayman 26:08:f5:ed:14:7a -85  44      Y  -- WPA2(PSK/AES/AES) 
+          DIRECT-dNJEFF-DELLmsLn c2:b8:83:c6:60:2e -41  44      Y  -- WPA2(PSK/AES/AES) 
+                          George 70:54:25:31:2c:c8 -65  44      Y  US WPA2(PSK/AES/AES) 
+                          Cayman 58:96:30:93:02:7a -84  44      Y  US WPA2(PSK/AES/AES) 
+
+
+room 1 2020-12-08 09:01:59.310624
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        42424242 1c:f2:9a:b5:cb:fc -78  6       Y  US WPA2(PSK/AES/AES) 
+                          Cayman 26:08:f5:ed:14:79 -76  1,+1    Y  -- WPA2(PSK/AES/AES) 
+                 CenturyLink0720 54:83:3a:7c:74:27 -80  1       Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+      DIRECT-0d-HP M102 LaserJet 5e:3a:45:14:9e:0d -75  1       Y  -- WPA2(PSK/AES/AES) 
+                        dissid_2 b0:7f:b9:d7:06:73 -89  3       Y  -- WPA2(PSK/AES/AES) 
+                            WP18 60:b7:6e:a3:12:39 -87  11      Y  US WPA2(PSK/AES/AES) 
+                            WP18 60:b7:6e:a0:96:5f -85  11      Y  US WPA2(PSK/AES/AES) 
+                         cassius 98:0d:67:96:31:ef -86  11      Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                        tl9bb6a4 88:6a:e3:9b:b6:a4 -79  11      Y  US WPA2(PSK/AES/AES) 
+                          George 70:54:25:31:2c:c7 -63  11      Y  US WPA2(PSK/AES/AES) 
+                          Cayman 58:96:30:93:02:79 -71  11      Y  -- WPA2(PSK/AES/AES) 
+                     myqwest4245 04:bf:6d:d9:14:e5 -82  7       Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                          Cayman 26:08:f5:ed:14:c5 -81  6,+1    Y  -- WPA2(PSK/AES/AES) 
+                     xfinitywifi 82:f2:9e:92:65:d8 -79  1       Y  US NONE
+                          Dissly 78:f2:9e:92:65:d8 -72  1       Y  US WPA2(PSK/AES/AES) 
+         Richard's Wi-Fi Network 0c:51:01:e7:27:78 -65  1       Y  US WPA2(PSK/AES/AES) 
+      DIRECT-4c-HP M283 LaserJet da:12:65:bf:3d:4c -89  40,-1   Y  -- WPA2(PSK/AES/AES) 
+                     xfinitywifi 82:f2:9e:92:65:e0 -65  36      Y  US NONE
+                      Dissly-5.0 78:f2:9e:92:65:e0 -64  36      Y  US WPA2(PSK/AES/AES) 
+              CenturyLink0720_5G 54:83:3a:7c:74:28 -88  157     Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                 AdventureAwaits 74:ac:b9:cb:ad:81 -74  157     Y  -- WPA2(PSK,FT-PSK/AES/AES) 
+                     xfinitywifi 6e:b0:66:dd:b5:98 -88  149     Y  US NONE
+                 AdventureAwaits 74:ac:b9:36:78:0d -78  40      Y  -- WPA2(PSK,FT-PSK/AES/AES) 
+                         XFINITY 8e:f2:9e:92:65:e0 -65  36      Y  US WPA2(802.1x/AES/AES) 
+                          Cayman 26:08:f5:ed:14:7a -85  44      Y  -- WPA2(PSK/AES/AES) 
+                         XFINITY 5a:96:30:9b:02:7e -83  44      Y  US WPA2(802.1x/AES/AES) 
+          DIRECT-dNJEFF-DELLmsLn c2:b8:83:c6:60:2e -40  44      Y  -- WPA2(PSK/AES/AES) 
+                     xfinitywifi 5a:96:30:9b:02:7c -83  44      Y  US NONE
+                          George 70:54:25:31:2c:c8 -64  44      Y  US WPA2(PSK/AES/AES) 
+                          Cayman 58:96:30:93:02:7a -83  44      Y  US WPA2(PSK/AES/AES) 
+
+
+room 1 2020-12-08 09:02:09.308305
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        42424242 1c:f2:9a:b5:cb:fc -78  6       Y  US WPA2(PSK/AES/AES) 
+                          Cayman 26:08:f5:ed:14:79 -76  1,+1    Y  -- WPA2(PSK/AES/AES) 
+                 CenturyLink0720 54:83:3a:7c:74:27 -80  1       Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                        dissid_2 b0:7f:b9:d7:06:73 -89  3       Y  -- WPA2(PSK/AES/AES) 
+                            WP18 60:b7:6e:a3:12:39 -87  11      Y  US WPA2(PSK/AES/AES) 
+                            WP18 60:b7:6e:a0:96:5f -85  11      Y  US WPA2(PSK/AES/AES) 
+                        tl9bb6a4 88:6a:e3:9b:b6:a4 -79  11      Y  US WPA2(PSK/AES/AES) 
+                          Cayman 26:08:f5:ed:14:c5 -81  6,+1    Y  -- WPA2(PSK/AES/AES) 
+                          Cayman 58:96:30:93:02:79 -71  11      Y  -- WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:54:25:31:2c:c7 -71  11      Y  US NONE
+                         cassius 98:0d:67:96:31:ef -85  11      Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                          George 70:54:25:31:2c:c7 -64  11      Y  US WPA2(PSK/AES/AES) 
+                     myqwest4245 04:bf:6d:d9:14:e5 -83  7       Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+      DIRECT-0d-HP M102 LaserJet 5e:3a:45:14:9e:0d -72  1       Y  -- WPA2(PSK/AES/AES) 
+         Richard's Wi-Fi Network 0c:51:01:e7:27:78 -66  1       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 82:f2:9e:92:65:d8 -67  1       Y  US NONE
+                          Dissly 78:f2:9e:92:65:d8 -70  1       Y  US WPA2(PSK/AES/AES) 
+                 AdventureAwaits 74:ac:b9:36:78:0d -78  40      Y  -- WPA2(PSK,FT-PSK/AES/AES) 
+      DIRECT-4c-HP M283 LaserJet da:12:65:bf:3d:4c -89  40,-1   Y  -- WPA2(PSK/AES/AES) 
+              Happy WiFi Shed-5G ee:63:da:ae:88:d7 -86  36      Y  US WPA2(PSK/AES/AES) 
+                 AdventureAwaits 74:ac:b9:c8:0e:01 -81  36      Y  -- WPA2(PSK,FT-PSK/AES/AES) 
+                         XFINITY 8e:f2:9e:92:65:e0 -65  36      Y  US WPA2(802.1x/AES/AES) 
+                      Dissly-5.0 78:f2:9e:92:65:e0 -65  36      Y  US WPA2(PSK/AES/AES) 
+              CenturyLink0720_5G 54:83:3a:7c:74:28 -88  157     Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                 AdventureAwaits 74:ac:b9:cb:ad:81 -73  157     Y  -- WPA2(PSK,FT-PSK/AES/AES) 
+           Happy WiFi Happy LiFi e2:63:da:ae:88:d7 -86  36      Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 82:f2:9e:92:65:e0 -65  36      Y  US NONE
+                          Cayman 26:08:f5:ed:14:7a -85  44      Y  -- WPA2(PSK/AES/AES) 
+                         XFINITY 5a:96:30:9b:02:7e -84  44      Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 5a:96:30:9b:02:7c -84  44      Y  US NONE
+                          George 70:54:25:31:2c:c8 -63  44      Y  US WPA2(PSK/AES/AES) 
+          DIRECT-dNJEFF-DELLmsLn c2:b8:83:c6:60:2e -41  44      Y  -- WPA2(PSK/AES/AES) 
+                          Cayman 58:96:30:93:02:7a -84  44      Y  US WPA2(PSK/AES/AES) 
+
+
+room 1 2020-12-08 09:02:19.307614
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        42424242 1c:f2:9a:b5:cb:fc -78  6       Y  US WPA2(PSK/AES/AES) 
+                          Cayman 26:08:f5:ed:14:79 -76  1,+1    Y  -- WPA2(PSK/AES/AES) 
+                 CenturyLink0720 54:83:3a:7c:74:27 -80  1       Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                        dissid_2 b0:7f:b9:d7:06:73 -89  3       Y  -- WPA2(PSK/AES/AES) 
+                            WP18 60:b7:6e:a3:12:39 -87  11      Y  US WPA2(PSK/AES/AES) 
+                            WP18 60:b7:6e:a0:96:5f -85  11      Y  US WPA2(PSK/AES/AES) 
+      DIRECT-0d-HP M102 LaserJet 5e:3a:45:14:9e:0d -72  1       Y  -- WPA2(PSK/AES/AES) 
+                         cassius 98:0d:67:96:31:ef -85  11      Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                          Cayman 58:96:30:93:02:79 -72  11      Y  -- WPA2(PSK/AES/AES) 
+                        tl9bb6a4 88:6a:e3:9b:b6:a4 -80  11      Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:54:25:31:2c:c7 -70  11      Y  US NONE
+                          George 70:54:25:31:2c:c7 -62  11      Y  US WPA2(PSK/AES/AES) 
+                     myqwest4245 04:bf:6d:d9:14:e5 -78  7       Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                          Cayman 26:08:f5:ed:14:c5 -78  6,+1    Y  -- WPA2(PSK/AES/AES) 
+                     xfinitywifi 82:f2:9e:92:65:d8 -65  1       Y  US NONE
+                          Dissly 78:f2:9e:92:65:d8 -64  1       Y  US WPA2(PSK/AES/AES) 
+         Richard's Wi-Fi Network 0c:51:01:e7:27:78 -63  1       Y  US WPA2(PSK/AES/AES) 
+      DIRECT-4c-HP M283 LaserJet da:12:65:bf:3d:4c -89  40,-1   Y  -- WPA2(PSK/AES/AES) 
+                     xfinitywifi 82:f2:9e:92:65:e0 -64  36      Y  US NONE
+              CenturyLink0720_5G 54:83:3a:7c:74:28 -88  157     Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                 AdventureAwaits 74:ac:b9:cb:ad:81 -75  157     Y  -- WPA2(PSK,FT-PSK/AES/AES) 
+         Richard's Wi-Fi Network 0c:51:01:e7:27:79 -70  149     Y  US WPA2(PSK/AES/AES) 
+              Happy WiFi Shed-5G ee:63:da:ae:88:d7 -85  36      Y  US WPA2(PSK/AES/AES) 
+                      Dissly-5.0 78:f2:9e:92:65:e0 -64  36      Y  US WPA2(PSK/AES/AES) 
+                 AdventureAwaits 74:ac:b9:36:78:0d -75  40      Y  -- WPA2(PSK,FT-PSK/AES/AES) 
+                         XFINITY 5a:96:30:9b:02:7e -84  44      Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 5a:96:30:9b:02:7c -84  44      Y  US NONE
+                         XFINITY 8e:f2:9e:92:65:e0 -64  36      Y  US WPA2(802.1x/AES/AES) 
+          DIRECT-dNJEFF-DELLmsLn c2:b8:83:c6:60:2e -44  44      Y  -- WPA2(PSK/AES/AES) 
+                          George 70:54:25:31:2c:c8 -63  44      Y  US WPA2(PSK/AES/AES) 
+                          Cayman 58:96:30:93:02:7a -82  44      Y  US WPA2(PSK/AES/AES) 
+
+
+room 1 2020-12-08 09:02:29.308486
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                          Cayman 26:08:f5:ed:14:79 -76  1,+1    Y  -- WPA2(PSK/AES/AES) 
+                 CenturyLink0720 54:83:3a:7c:74:27 -80  1       Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                        dissid_2 b0:7f:b9:d7:06:73 -89  3       Y  -- WPA2(PSK/AES/AES) 
+                            WP18 60:b7:6e:a3:12:39 -87  11      Y  US WPA2(PSK/AES/AES) 
+                            WP18 60:b7:6e:a0:96:5f -85  11      Y  US WPA2(PSK/AES/AES) 
+      DIRECT-0d-HP M102 LaserJet 5e:3a:45:14:9e:0d -72  1       Y  -- WPA2(PSK/AES/AES) 
+      DIRECT-4c-HP M283 LaserJet da:12:65:bf:3d:4c -89  40,-1   Y  -- WPA2(PSK/AES/AES) 
+                          Cayman 26:08:f5:ed:14:c5 -78  6,+1    Y  -- WPA2(PSK/AES/AES) 
+                     myqwest4245 04:bf:6d:d9:14:e5 -78  7       Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                        tl9bb6a4 88:6a:e3:9b:b6:a4 -80  11      Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:54:25:31:2c:c7 -73  11      Y  US NONE
+                         cassius 98:0d:67:96:31:ef -85  11      Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                          George 70:54:25:31:2c:c7 -66  11      Y  US WPA2(PSK/AES/AES) 
+                          Cayman 58:96:30:93:02:79 -75  11      Y  -- WPA2(PSK/AES/AES) 
+                        42424242 1c:f2:9a:b5:cb:fc -78  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 82:f2:9e:92:65:d8 -58  1       Y  US NONE
+                          Dissly 78:f2:9e:92:65:d8 -64  1       Y  US WPA2(PSK/AES/AES) 
+         Richard's Wi-Fi Network 0c:51:01:e7:27:78 -61  1       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 82:f2:9e:92:65:e0 -63  36      Y  US NONE
+                      Dissly-5.0 78:f2:9e:92:65:e0 -63  36      Y  US WPA2(PSK/AES/AES) 
+                 AdventureAwaits 74:ac:b9:cb:ad:81 -75  157     Y  -- WPA2(PSK,FT-PSK/AES/AES) 
+                       Ortola.n0 5c:b0:66:dd:b5:98 -89  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+         Richard's Wi-Fi Network 0c:51:01:e7:27:79 -70  149     Y  US WPA2(PSK/AES/AES) 
+                 AdventureAwaits 74:ac:b9:36:78:0d -76  40      Y  -- WPA2(PSK,FT-PSK/AES/AES) 
+                         XFINITY 8e:f2:9e:92:65:e0 -64  36      Y  US WPA2(802.1x/AES/AES) 
+                         XFINITY 5a:96:30:9b:02:7e -84  44      Y  US WPA2(802.1x/AES/AES) 
+          DIRECT-dNJEFF-DELLmsLn c2:b8:83:c6:60:2e -45  44      Y  -- WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:54:25:31:2c:c8 -63  44      Y  US NONE
+                          George 70:54:25:31:2c:c8 -63  44      Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 5a:96:30:9b:02:7c -84  44      Y  US NONE
+                          Cayman 58:96:30:93:02:7a -83  44      Y  US WPA2(PSK/AES/AES) 
+
+
+room 1 2020-12-08 09:02:39.308066
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                          Cayman 26:08:f5:ed:14:79 -76  1,+1    Y  -- WPA2(PSK/AES/AES) 
+                 CenturyLink0720 54:83:3a:7c:74:27 -80  1       Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                        dissid_2 b0:7f:b9:d7:06:73 -89  3       Y  -- WPA2(PSK/AES/AES) 
+                            WP18 60:b7:6e:a3:12:39 -87  11      Y  US WPA2(PSK/AES/AES) 
+                            WP18 60:b7:6e:a0:96:5f -85  11      Y  US WPA2(PSK/AES/AES) 
+                          Cayman 26:08:f5:ed:14:c5 -78  6,+1    Y  -- WPA2(PSK/AES/AES) 
+                     myqwest4245 04:bf:6d:d9:14:e5 -78  7       Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                        tl9bb6a4 88:6a:e3:9b:b6:a4 -80  11      Y  US WPA2(PSK/AES/AES) 
+                        42424242 1c:f2:9a:b5:cb:fc -78  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:54:25:31:2c:c7 -68  11      Y  US NONE
+                          Cayman 58:96:30:93:02:79 -72  11      Y  -- WPA2(PSK/AES/AES) 
+                          George 70:54:25:31:2c:c7 -63  11      Y  US WPA2(PSK/AES/AES) 
+                         cassius 98:0d:67:96:31:ef -84  11      Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+           Happy WiFi Happy LiFi e0:63:da:ad:88:d7 -80  7       Y  US WPA2(PSK/AES/AES) 
+                      JZ3050-2.4 98:9d:5d:d0:fc:8d -80  6       Y  -- WPA2(PSK/AES/AES) 
+         Richard's Wi-Fi Network 0c:51:01:e7:27:78 -61  1       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 82:f2:9e:92:65:d8 -65  1       Y  US NONE
+      DIRECT-0d-HP M102 LaserJet 5e:3a:45:14:9e:0d -89  1       Y  -- WPA2(PSK/AES/AES) 
+                          Dissly 78:f2:9e:92:65:d8 -62  1       Y  US WPA2(PSK/AES/AES) 
+      DIRECT-4c-HP M283 LaserJet da:12:65:bf:3d:4c -89  40,-1   Y  -- WPA2(PSK/AES/AES) 
+                 AdventureAwaits 74:ac:b9:36:78:0d -76  40      Y  -- WPA2(PSK,FT-PSK/AES/AES) 
+                 AdventureAwaits 74:ac:b9:c8:0e:01 -82  36      Y  -- WPA2(PSK,FT-PSK/AES/AES) 
+                         XFINITY 8e:f2:9e:92:65:e0 -65  36      Y  US WPA2(802.1x/AES/AES) 
+                      Dissly-5.0 78:f2:9e:92:65:e0 -65  36      Y  US WPA2(PSK/AES/AES) 
+                 AdventureAwaits 74:ac:b9:cb:ad:81 -75  157     Y  -- WPA2(PSK,FT-PSK/AES/AES) 
+              CenturyLink0720_5G 54:83:3a:7c:74:28 -88  157     Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                         XFINITY d2:52:61:f2:5d:96 -90  149     Y  US WPA2(802.1x/AES/AES) 
+         Richard's Wi-Fi Network 0c:51:01:e7:27:79 -72  149     Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:54:25:31:2c:c8 -63  44      Y  US NONE
+                     xfinitywifi 82:f2:9e:92:65:e0 -65  36      Y  US NONE
+                         XFINITY 72:54:25:31:2c:c8 -63  44      Y  US WPA2(802.1x/AES/AES) 
+                         XFINITY 5a:96:30:9b:02:7e -83  44      Y  US WPA2(802.1x/AES/AES) 
+                          Cayman 26:08:f5:ed:14:7a -85  44      Y  -- WPA2(PSK/AES/AES) 
+          DIRECT-dNJEFF-DELLmsLn c2:b8:83:c6:60:2e -41  44      Y  -- WPA2(PSK/AES/AES) 
+                          George 70:54:25:31:2c:c8 -63  44      Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 5a:96:30:9b:02:7c -82  44      Y  US NONE
+                          Cayman 58:96:30:93:02:7a -81  44      Y  US WPA2(PSK/AES/AES) 
+
+
+room 1 2020-12-08 09:02:49.307356
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        tl9bb6a4 88:6a:e3:9b:b6:a4 -80  11      Y  US WPA2(PSK/AES/AES) 
+                        42424242 1c:f2:9a:b5:cb:fc -78  6       Y  US WPA2(PSK/AES/AES) 
+      DIRECT-0d-HP M102 LaserJet 5e:3a:45:14:9e:0d -89  1       Y  -- WPA2(PSK/AES/AES) 
+                      JZ3050-2.4 98:9d:5d:d0:fc:8d -80  6       Y  -- WPA2(PSK/AES/AES) 
+           Happy WiFi Happy LiFi e0:63:da:ad:88:d7 -80  7       Y  US WPA2(PSK/AES/AES) 
+                         cassius 98:0d:67:96:31:ef -84  11      Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                     xfinitywifi 6a:54:25:31:2c:c7 -72  11      Y  US NONE
+                          George 70:54:25:31:2c:c7 -65  11      Y  US WPA2(PSK/AES/AES) 
+                          Cayman 58:96:30:93:02:79 -72  11      Y  -- WPA2(PSK/AES/AES) 
+                     myqwest4245 04:bf:6d:d9:14:e5 -83  7       Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                          Cayman 26:08:f5:ed:14:c5 -79  6,+1    Y  -- WPA2(PSK/AES/AES) 
+                     xfinitywifi 82:f2:9e:92:65:d8 -65  1       Y  US NONE
+                          Dissly 78:f2:9e:92:65:d8 -63  1       Y  US WPA2(PSK/AES/AES) 
+         Richard's Wi-Fi Network 0c:51:01:e7:27:78 -60  1       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi c6:a4:62:f4:79:10 -78  1       Y  US NONE
+                       HOME-7912 cc:a4:62:f4:79:10 -78  1       Y  US WPA2(PSK/AES/AES) 
+      DIRECT-4c-HP M283 LaserJet da:12:65:bf:3d:4c -89  40,-1   Y  -- WPA2(PSK/AES/AES) 
+                         XFINITY 8e:f2:9e:92:65:e0 -65  36      Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 82:f2:9e:92:65:e0 -65  36      Y  US NONE
+                     HOME-D63C-5 84:00:2d:bf:25:e0 -90  157     Y  US WPA2(PSK/AES/AES) 
+              CenturyLink0720_5G 54:83:3a:7c:74:28 -90  157     Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                 AdventureAwaits 74:ac:b9:cb:ad:81 -75  157     Y  -- WPA2(PSK,FT-PSK/AES/AES) 
+         Richard's Wi-Fi Network 0c:51:01:e7:27:79 -70  149     Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 72:54:25:31:2c:c8 -63  44      Y  US WPA2(802.1x/AES/AES) 
+                 AdventureAwaits 74:ac:b9:c8:0e:01 -86  36      Y  -- WPA2(PSK,FT-PSK/AES/AES) 
+                      Dissly-5.0 78:f2:9e:92:65:e0 -65  36      Y  US WPA2(PSK/AES/AES) 
+                 AdventureAwaits 74:ac:b9:36:78:0d -78  40      Y  -- WPA2(PSK,FT-PSK/AES/AES) 
+                         XFINITY 5a:96:30:9b:02:7e -84  44      Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 5a:96:30:9b:02:7c -84  44      Y  US NONE
+                          Cayman 26:08:f5:ed:14:7a -84  44      Y  -- WPA2(PSK/AES/AES) 
+          DIRECT-dNJEFF-DELLmsLn c2:b8:83:c6:60:2e -44  44      Y  -- WPA2(PSK/AES/AES) 
+                          George 70:54:25:31:2c:c8 -63  44      Y  US WPA2(PSK/AES/AES) 
+                          Cayman 58:96:30:93:02:7a -83  44      Y  US WPA2(PSK/AES/AES) 
+
+
+room 1 2020-12-08 09:02:59.307769
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        42424242 1c:f2:9a:b5:cb:fc -78  6       Y  US WPA2(PSK/AES/AES) 
+                      JZ3050-2.4 98:9d:5d:d0:fc:8d -80  6       Y  -- WPA2(PSK/AES/AES) 
+           Happy WiFi Happy LiFi e0:63:da:ad:88:d7 -80  7       Y  US WPA2(PSK/AES/AES) 
+                       HOME-7912 cc:a4:62:f4:79:10 -78  1       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi c6:a4:62:f4:79:10 -78  1       Y  US NONE
+                          Cayman 26:08:f5:ed:14:c5 -79  6,+1    Y  -- WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:54:25:31:2c:c7 -70  11      Y  US NONE
+                          George 70:54:25:31:2c:c7 -65  11      Y  US WPA2(PSK/AES/AES) 
+                         cassius 98:0d:67:96:31:ef -85  11      Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                        tl9bb6a4 88:6a:e3:9b:b6:a4 -82  11      Y  US WPA2(PSK/AES/AES) 
+                          Cayman 58:96:30:93:02:79 -73  11      Y  -- WPA2(PSK/AES/AES) 
+                     myqwest4245 04:bf:6d:d9:14:e5 -77  7       Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                        ouch-air 88:1f:a1:37:e0:60 -88  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 82:f2:9e:92:65:d8 -66  1       Y  US NONE
+                          Dissly 78:f2:9e:92:65:d8 -65  1       Y  US WPA2(PSK/AES/AES) 
+      DIRECT-0d-HP M102 LaserJet 5e:3a:45:14:9e:0d -73  1       Y  -- WPA2(PSK/AES/AES) 
+                        42424242 1c:f2:9a:b6:26:c7 -74  1       Y  US WPA2(PSK/AES/AES) 
+         Richard's Wi-Fi Network 0c:51:01:e7:27:78 -61  1       Y  US WPA2(PSK/AES/AES) 
+      DIRECT-4c-HP M283 LaserJet da:12:65:bf:3d:4c -89  40,-1   Y  -- WPA2(PSK/AES/AES) 
+                     xfinitywifi 82:f2:9e:92:65:e0 -66  36      Y  US NONE
+                      Dissly-5.0 78:f2:9e:92:65:e0 -66  36      Y  US WPA2(PSK/AES/AES) 
+                 AdventureAwaits 74:ac:b9:cb:ad:81 -75  157     Y  -- WPA2(PSK,FT-PSK/AES/AES) 
+                       Ortola.n0 5c:b0:66:dd:b5:98 -89  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+         Richard's Wi-Fi Network 0c:51:01:e7:27:79 -70  149     Y  US WPA2(PSK/AES/AES) 
+                 AdventureAwaits 74:ac:b9:36:78:0d -78  40      Y  -- WPA2(PSK,FT-PSK/AES/AES) 
+                         XFINITY 8e:f2:9e:92:65:e0 -66  36      Y  US WPA2(802.1x/AES/AES) 
+                          Cayman 26:08:f5:ed:14:7a -85  44      Y  -- WPA2(PSK/AES/AES) 
+           Happy WiFi Happy LiFi e2:63:da:ae:88:d7 -85  36      Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 5a:96:30:9b:02:7e -83  44      Y  US WPA2(802.1x/AES/AES) 
+          DIRECT-dNJEFF-DELLmsLn c2:b8:83:c6:60:2e -43  44      Y  -- WPA2(PSK/AES/AES) 
+                          George 70:54:25:31:2c:c8 -63  44      Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 5a:96:30:9b:02:7c -83  44      Y  US NONE
+                          Cayman 58:96:30:93:02:7a -83  44      Y  US WPA2(PSK/AES/AES) 
+
+
+room 1 2020-12-08 09:03:09.307323
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        42424242 1c:f2:9a:b5:cb:fc -78  6       Y  US WPA2(PSK/AES/AES) 
+           Happy WiFi Happy LiFi e0:63:da:ad:88:d7 -80  7       Y  US WPA2(PSK/AES/AES) 
+                       HOME-7912 cc:a4:62:f4:79:10 -78  1       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi c6:a4:62:f4:79:10 -78  1       Y  US NONE
+      DIRECT-4c-HP M283 LaserJet da:12:65:bf:3d:4c -89  40,-1   Y  -- WPA2(PSK/AES/AES) 
+      DIRECT-0d-HP M102 LaserJet 5e:3a:45:14:9e:0d -73  1       Y  -- WPA2(PSK/AES/AES) 
+                        ouch-air 88:1f:a1:37:e0:60 -88  6       Y  US WPA2(PSK/AES/AES) 
+                          Cayman 58:96:30:93:02:79 -73  11      Y  -- WPA2(PSK/AES/AES) 
+                        tl9bb6a4 88:6a:e3:9b:b6:a4 -82  11      Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:54:25:31:2c:c7 -70  11      Y  US NONE
+                          George 70:54:25:31:2c:c7 -63  11      Y  US WPA2(PSK/AES/AES) 
+                         cassius 98:0d:67:96:31:ef -85  11      Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                     myqwest4245 04:bf:6d:d9:14:e5 -83  7       Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                          Cayman 26:08:f5:ed:14:c5 -80  6,+1    Y  -- WPA2(PSK/AES/AES) 
+                      JZ3050-2.4 98:9d:5d:d0:fc:8d -83  6       Y  -- WPA2(PSK/AES/AES) 
+         Richard's Wi-Fi Network 0c:51:01:e7:27:78 -62  1       Y  US WPA2(PSK/AES/AES) 
+                        42424242 1c:f2:9a:b6:26:c7 -75  1       Y  US WPA2(PSK/AES/AES) 
+                 CenturyLink0720 54:83:3a:7c:74:27 -79  1       Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                     xfinitywifi 82:f2:9e:92:65:d8 -65  1       Y  US NONE
+                          Dissly 78:f2:9e:92:65:d8 -63  1       Y  US WPA2(PSK/AES/AES) 
+                 AdventureAwaits 74:ac:b9:36:78:0d -79  40      Y  -- WPA2(PSK,FT-PSK/AES/AES) 
+                         XFINITY 8e:f2:9e:92:65:e0 -65  36      Y  US WPA2(802.1x/AES/AES) 
+                      Dissly-5.0 78:f2:9e:92:65:e0 -64  36      Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 2a:f1:9e:f4:7e:d5 -86  157     Y  US NONE
+                 AdventureAwaits 74:ac:b9:cb:ad:81 -75  157     Y  -- WPA2(PSK,FT-PSK/AES/AES) 
+                         XFINITY 8e:b0:66:dd:b5:98 -88  149     Y  US WPA2(802.1x/AES/AES) 
+         Richard's Wi-Fi Network 0c:51:01:e7:27:79 -71  149     Y  US WPA2(PSK/AES/AES) 
+           Happy WiFi Happy LiFi e2:63:da:ae:88:d7 -85  36      Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 82:f2:9e:92:65:e0 -64  36      Y  US NONE
+                         XFINITY 5a:96:30:9b:02:7e -84  44      Y  US WPA2(802.1x/AES/AES) 
+                          Cayman 26:08:f5:ed:14:7a -85  44      Y  -- WPA2(PSK/AES/AES) 
+                     xfinitywifi 5a:96:30:9b:02:7c -84  44      Y  US NONE
+          DIRECT-dNJEFF-DELLmsLn c2:b8:83:c6:60:2e -43  44      Y  -- WPA2(PSK/AES/AES) 
+                          George 70:54:25:31:2c:c8 -63  44      Y  US WPA2(PSK/AES/AES) 
+                          Cayman 58:96:30:93:02:7a -83  44      Y  US WPA2(PSK/AES/AES) 
+
+
+room 1 2020-12-08 09:03:19.306400
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        42424242 1c:f2:9a:b5:cb:fc -78  6       Y  US WPA2(PSK/AES/AES) 
+                       HOME-7912 cc:a4:62:f4:79:10 -78  1       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi c6:a4:62:f4:79:10 -78  1       Y  US NONE
+      DIRECT-4c-HP M283 LaserJet da:12:65:bf:3d:4c -89  40,-1   Y  -- WPA2(PSK/AES/AES) 
+      DIRECT-0d-HP M102 LaserJet 5e:3a:45:14:9e:0d -73  1       Y  -- WPA2(PSK/AES/AES) 
+                        ouch-air 88:1f:a1:37:e0:60 -88  6       Y  US WPA2(PSK/AES/AES) 
+                          Cayman 58:96:30:93:02:79 -73  11      Y  -- WPA2(PSK/AES/AES) 
+                        tl9bb6a4 88:6a:e3:9b:b6:a4 -82  11      Y  US WPA2(PSK/AES/AES) 
+                 CenturyLink0720 54:83:3a:7c:74:27 -79  1       Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                        42424242 1c:f2:9a:b6:26:c7 -75  1       Y  US WPA2(PSK/AES/AES) 
+                      JZ3050-2.4 98:9d:5d:d0:fc:8d -83  6       Y  -- WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:54:25:31:2c:c7 -72  11      Y  US NONE
+                          George 70:54:25:31:2c:c7 -65  11      Y  US WPA2(PSK/AES/AES) 
+                         cassius 98:0d:67:96:31:ef -85  11      Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+           Happy WiFi Happy LiFi e0:63:da:ad:88:d7 -77  7       Y  US WPA2(PSK/AES/AES) 
+                     myqwest4245 04:bf:6d:d9:14:e5 -82  7       Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                          Cayman 26:08:f5:ed:14:c5 -78  6,+1    Y  -- WPA2(PSK/AES/AES) 
+                   SMA1990034929 60:64:05:97:44:2f -88  3       Y  -- WPA2(PSK/AES/AES) 
+                     xfinitywifi 82:f2:9e:92:65:d8 -65  1       Y  US NONE
+                          Dissly 78:f2:9e:92:65:d8 -62  1       Y  US WPA2(PSK/AES/AES) 
+         Richard's Wi-Fi Network 0c:51:01:e7:27:78 -61  1       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 82:f2:9e:92:65:e0 -65  36      Y  US NONE
+           Happy WiFi Happy LiFi e2:63:da:ae:88:d7 -84  36      Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 32:f1:9e:f4:7e:d5 -86  157     Y  US WPA2(802.1x/AES/AES) 
+                     Hehhehheh-5 20:f1:9e:f4:7e:d5 -86  157     Y  US WPA2(PSK/AES/AES) 
+              CenturyLink0720_5G 54:83:3a:7c:74:28 -89  157     Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                 AdventureAwaits 74:ac:b9:cb:ad:81 -74  157     Y  -- WPA2(PSK,FT-PSK/AES/AES) 
+         Richard's Wi-Fi Network 0c:51:01:e7:27:79 -70  149     Y  US WPA2(PSK/AES/AES) 
+              Happy WiFi Shed-5G ee:63:da:ae:88:d7 -84  36      Y  US WPA2(PSK/AES/AES) 
+                 AdventureAwaits 74:ac:b9:c8:0e:01 -85  36      Y  -- WPA2(PSK,FT-PSK/AES/AES) 
+                      Dissly-5.0 78:f2:9e:92:65:e0 -65  36      Y  US WPA2(PSK/AES/AES) 
+                 AdventureAwaits 74:ac:b9:36:78:0d -78  40      Y  -- WPA2(PSK,FT-PSK/AES/AES) 
+                         XFINITY 8e:f2:9e:92:65:e0 -65  36      Y  US WPA2(802.1x/AES/AES) 
+                         XFINITY 5a:96:30:9b:02:7e -84  44      Y  US WPA2(802.1x/AES/AES) 
+          DIRECT-dNJEFF-DELLmsLn c2:b8:83:c6:60:2e -45  44      Y  -- WPA2(PSK/AES/AES) 
+                     xfinitywifi 5a:96:30:9b:02:7c -83  44      Y  US NONE
+                          George 70:54:25:31:2c:c8 -63  44      Y  US WPA2(PSK/AES/AES) 
+                          Cayman 58:96:30:93:02:7a -83  44      Y  US WPA2(PSK/AES/AES) 
+
+
+room 1 2020-12-08 09:03:29.306684
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        42424242 1c:f2:9a:b5:cb:fc -78  6       Y  US WPA2(PSK/AES/AES) 
+                       HOME-7912 cc:a4:62:f4:79:10 -78  1       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi c6:a4:62:f4:79:10 -78  1       Y  US NONE
+      DIRECT-0d-HP M102 LaserJet 5e:3a:45:14:9e:0d -73  1       Y  -- WPA2(PSK/AES/AES) 
+                        ouch-air 88:1f:a1:37:e0:60 -88  6       Y  US WPA2(PSK/AES/AES) 
+                          Cayman 58:96:30:93:02:79 -73  11      Y  -- WPA2(PSK/AES/AES) 
+                        tl9bb6a4 88:6a:e3:9b:b6:a4 -82  11      Y  US WPA2(PSK/AES/AES) 
+                 CenturyLink0720 54:83:3a:7c:74:27 -79  1       Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                        42424242 1c:f2:9a:b6:26:c7 -75  1       Y  US WPA2(PSK/AES/AES) 
+                      JZ3050-2.4 98:9d:5d:d0:fc:8d -83  6       Y  -- WPA2(PSK/AES/AES) 
+                   SMA1990034929 60:64:05:97:44:2f -88  3       Y  -- WPA2(PSK/AES/AES) 
+                          Cayman 26:08:f5:ed:14:c5 -78  6,+1    Y  -- WPA2(PSK/AES/AES) 
+           Happy WiFi Happy LiFi e0:63:da:ad:88:d7 -77  7       Y  US WPA2(PSK/AES/AES) 
+                         cassius 98:0d:67:96:31:ef -85  11      Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                     xfinitywifi 6a:54:25:31:2c:c7 -70  11      Y  US NONE
+                          George 70:54:25:31:2c:c7 -63  11      Y  US WPA2(PSK/AES/AES) 
+                     myqwest4245 04:bf:6d:d9:14:e5 -81  7       Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                          Cayman 26:08:f5:ed:13:d5 -86  6,+1    Y  -- WPA2(PSK/AES/AES) 
+                     xfinitywifi 82:f2:9e:92:65:d8 -66  1       Y  US NONE
+                          Dissly 78:f2:9e:92:65:d8 -63  1       Y  US WPA2(PSK/AES/AES) 
+         Richard's Wi-Fi Network 0c:51:01:e7:27:78 -58  1       Y  US WPA2(PSK/AES/AES) 
+                 AdventureAwaits 74:ac:b9:36:78:0d -81  40      Y  -- WPA2(PSK,FT-PSK/AES/AES) 
+                     xfinitywifi 82:f2:9e:92:65:e0 -65  36      Y  US NONE
+                      Dissly-5.0 78:f2:9e:92:65:e0 -65  36      Y  US WPA2(PSK/AES/AES) 
+                 AdventureAwaits 74:ac:b9:cb:ad:81 -74  157     Y  -- WPA2(PSK,FT-PSK/AES/AES) 
+         Richard's Wi-Fi Network 0c:51:01:e7:27:79 -69  149     Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8e:f2:9e:92:65:e0 -65  36      Y  US WPA2(802.1x/AES/AES) 
+      DIRECT-4c-HP M283 LaserJet da:12:65:bf:3d:4c -91  40,-1   Y  -- WPA2(PSK/AES/AES) 
+           Happy WiFi Happy LiFi e2:63:da:ae:88:d7 -85  36      Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:54:25:31:2c:c8 -64  44      Y  US NONE
+          DIRECT-dNJEFF-DELLmsLn c2:b8:83:c6:60:2e -43  44      Y  -- WPA2(PSK/AES/AES) 
+                         XFINITY 5a:96:30:9b:02:7e -82  44      Y  US WPA2(802.1x/AES/AES) 
+                          Cayman 26:08:f5:ed:14:7a -83  44      Y  -- WPA2(PSK/AES/AES) 
+                     xfinitywifi 5a:96:30:9b:02:7c -82  44      Y  US NONE
+                          George 70:54:25:31:2c:c8 -64  44      Y  US WPA2(PSK/AES/AES) 
+                          Cayman 58:96:30:93:02:7a -82  44      Y  US WPA2(PSK/AES/AES) 
+
+
+room 1 2020-12-08 09:03:39.315740
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                       HOME-7912 cc:a4:62:f4:79:10 -78  1       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi c6:a4:62:f4:79:10 -78  1       Y  US NONE
+      DIRECT-0d-HP M102 LaserJet 5e:3a:45:14:9e:0d -73  1       Y  -- WPA2(PSK/AES/AES) 
+                        ouch-air 88:1f:a1:37:e0:60 -88  6       Y  US WPA2(PSK/AES/AES) 
+                          Cayman 58:96:30:93:02:79 -73  11      Y  -- WPA2(PSK/AES/AES) 
+                        tl9bb6a4 88:6a:e3:9b:b6:a4 -82  11      Y  US WPA2(PSK/AES/AES) 
+                        42424242 1c:f2:9a:b6:26:c7 -75  1       Y  US WPA2(PSK/AES/AES) 
+                      JZ3050-2.4 98:9d:5d:d0:fc:8d -83  6       Y  -- WPA2(PSK/AES/AES) 
+                   SMA1990034929 60:64:05:97:44:2f -88  3       Y  -- WPA2(PSK/AES/AES) 
+           Happy WiFi Happy LiFi e0:63:da:ad:88:d7 -77  7       Y  US WPA2(PSK/AES/AES) 
+                          Cayman 26:08:f5:ed:13:d5 -86  6,+1    Y  -- WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:54:25:31:2c:c7 -70  11      Y  US NONE
+                         cassius 98:0d:67:96:31:ef -88  11      Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                          George 70:54:25:31:2c:c7 -62  11      Y  US WPA2(PSK/AES/AES) 
+                     myqwest4245 04:bf:6d:d9:14:e5 -82  7       Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                        42424242 1c:f2:9a:b5:cb:fc -76  6       Y  US WPA2(PSK/AES/AES) 
+                          Cayman 26:08:f5:ed:14:c5 -80  6,+1    Y  -- WPA2(PSK/AES/AES) 
+                 CenturyLink0720 54:83:3a:7c:74:27 -79  1       Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                     xfinitywifi 82:f2:9e:92:65:d8 -67  1       Y  US NONE
+                          Dissly 78:f2:9e:92:65:d8 -69  1       Y  US WPA2(PSK/AES/AES) 
+         Richard's Wi-Fi Network 0c:51:01:e7:27:78 -59  1       Y  US WPA2(PSK/AES/AES) 
+                 AdventureAwaits 74:ac:b9:36:78:0d -79  40      Y  -- WPA2(PSK,FT-PSK/AES/AES) 
+      DIRECT-4c-HP M283 LaserJet da:12:65:bf:3d:4c -88  40,-1   Y  -- WPA2(PSK/AES/AES) 
+              Happy WiFi Shed-5G ee:63:da:ae:88:d7 -86  36      Y  US WPA2(PSK/AES/AES) 
+                 AdventureAwaits 74:ac:b9:c8:0e:01 -81  36      Y  -- WPA2(PSK,FT-PSK/AES/AES) 
+                         XFINITY 8e:f2:9e:92:65:e0 -65  36      Y  US WPA2(802.1x/AES/AES) 
+                      Dissly-5.0 78:f2:9e:92:65:e0 -65  36      Y  US WPA2(PSK/AES/AES) 
+                 AdventureAwaits 74:ac:b9:cb:ad:81 -76  157     Y  -- WPA2(PSK,FT-PSK/AES/AES) 
+                         XFINITY d2:52:61:f2:5d:96 -91  149     Y  US WPA2(802.1x/AES/AES) 
+         Richard's Wi-Fi Network 0c:51:01:e7:27:79 -70  149     Y  US WPA2(PSK/AES/AES) 
+           Happy WiFi Happy LiFi e2:63:da:ae:88:d7 -86  36      Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:54:25:31:2c:c8 -63  44      Y  US NONE
+                     xfinitywifi 82:f2:9e:92:65:e0 -65  36      Y  US NONE
+                         XFINITY 5a:96:30:9b:02:7e -83  44      Y  US WPA2(802.1x/AES/AES) 
+                         XFINITY 72:54:25:31:2c:c8 -63  44      Y  US WPA2(802.1x/AES/AES) 
+                          Cayman 26:08:f5:ed:14:7a -84  44      Y  -- WPA2(PSK/AES/AES) 
+          DIRECT-dNJEFF-DELLmsLn c2:b8:83:c6:60:2e -44  44      Y  -- WPA2(PSK/AES/AES) 
+                     xfinitywifi 5a:96:30:9b:02:7c -83  44      Y  US NONE
+                          George 70:54:25:31:2c:c8 -63  44      Y  US WPA2(PSK/AES/AES) 
+                          Cayman 58:96:30:93:02:7a -82  44      Y  US WPA2(PSK/AES/AES) 
+
+
+room 1 2020-12-08 09:03:49.308753
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                       HOME-7912 cc:a4:62:f4:79:10 -78  1       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi c6:a4:62:f4:79:10 -78  1       Y  US NONE
+      DIRECT-0d-HP M102 LaserJet 5e:3a:45:14:9e:0d -73  1       Y  -- WPA2(PSK/AES/AES) 
+                          Cayman 58:96:30:93:02:79 -73  11      Y  -- WPA2(PSK/AES/AES) 
+                        tl9bb6a4 88:6a:e3:9b:b6:a4 -82  11      Y  US WPA2(PSK/AES/AES) 
+                        42424242 1c:f2:9a:b6:26:c7 -75  1       Y  US WPA2(PSK/AES/AES) 
+                      JZ3050-2.4 98:9d:5d:d0:fc:8d -83  6       Y  -- WPA2(PSK/AES/AES) 
+                   SMA1990034929 60:64:05:97:44:2f -88  3       Y  -- WPA2(PSK/AES/AES) 
+                          Cayman 26:08:f5:ed:13:d5 -86  6,+1    Y  -- WPA2(PSK/AES/AES) 
+                 CenturyLink0720 54:83:3a:7c:74:27 -79  1       Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                          Cayman 26:08:f5:ed:14:c5 -80  6,+1    Y  -- WPA2(PSK/AES/AES) 
+                        42424242 1c:f2:9a:b5:cb:fc -76  6       Y  US WPA2(PSK/AES/AES) 
+                     myqwest4245 04:bf:6d:d9:14:e5 -82  7       Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                         cassius 98:0d:67:96:31:ef -88  11      Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                            WP18 60:b7:6e:a0:96:5f -85  11      Y  US WPA2(PSK/AES/AES) 
+                      purplecasa d4:5d:df:3f:fc:90 -88  11      Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:54:25:31:2c:c7 -69  11      Y  US NONE
+                          George 70:54:25:31:2c:c7 -62  11      Y  US WPA2(PSK/AES/AES) 
+           Happy WiFi Happy LiFi e0:63:da:ad:88:d7 -77  7       Y  US WPA2(PSK/AES/AES) 
+                        ouch-air 88:1f:a1:37:e0:60 -79  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 82:f2:9e:92:65:d8 -64  1       Y  US NONE
+                          Dissly 78:f2:9e:92:65:d8 -73  1       Y  US WPA2(PSK/AES/AES) 
+         Richard's Wi-Fi Network 0c:51:01:e7:27:78 -88  1       Y  US WPA2(PSK/AES/AES) 
+                 AdventureAwaits 74:ac:b9:36:78:0d -79  40      Y  -- WPA2(PSK,FT-PSK/AES/AES) 
+      DIRECT-4c-HP M283 LaserJet da:12:65:bf:3d:4c -88  40,-1   Y  -- WPA2(PSK/AES/AES) 
+                 AdventureAwaits 74:ac:b9:c8:0e:01 -82  36      Y  -- WPA2(PSK,FT-PSK/AES/AES) 
+                         XFINITY 8e:f2:9e:92:65:e0 -65  36      Y  US WPA2(802.1x/AES/AES) 
+                      Dissly-5.0 78:f2:9e:92:65:e0 -64  36      Y  US WPA2(PSK/AES/AES) 
+                 AdventureAwaits 74:ac:b9:cb:ad:81 -76  157     Y  -- WPA2(PSK,FT-PSK/AES/AES) 
+         Richard's Wi-Fi Network 0c:51:01:e7:27:79 -70  149     Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 82:f2:9e:92:65:e0 -65  36      Y  US NONE
+          DIRECT-dNJEFF-DELLmsLn c2:b8:83:c6:60:2e -44  44      Y  -- WPA2(PSK/AES/AES) 
+                         XFINITY 72:54:25:31:2c:c8 -63  44      Y  US WPA2(802.1x/AES/AES) 
+              Happy WiFi Shed-5G ee:63:da:ae:88:d7 -86  36      Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 5a:96:30:9b:02:7e -83  44      Y  US WPA2(802.1x/AES/AES) 
+                          George 70:54:25:31:2c:c8 -63  44      Y  US WPA2(PSK/AES/AES) 
+                          Cayman 26:08:f5:ed:14:7a -84  44      Y  -- WPA2(PSK/AES/AES) 
+                     xfinitywifi 5a:96:30:9b:02:7c -82  44      Y  US NONE
+                          Cayman 58:96:30:93:02:7a -81  44      Y  US WPA2(PSK/AES/AES) 
+
+
+room 1 2020-12-08 09:03:59.313413
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+      DIRECT-0d-HP M102 LaserJet 5e:3a:45:14:9e:0d -73  1       Y  -- WPA2(PSK/AES/AES) 
+                          Cayman 58:96:30:93:02:79 -73  11      Y  -- WPA2(PSK/AES/AES) 
+                        tl9bb6a4 88:6a:e3:9b:b6:a4 -82  11      Y  US WPA2(PSK/AES/AES) 
+                        42424242 1c:f2:9a:b6:26:c7 -75  1       Y  US WPA2(PSK/AES/AES) 
+                      JZ3050-2.4 98:9d:5d:d0:fc:8d -83  6       Y  -- WPA2(PSK/AES/AES) 
+                   SMA1990034929 60:64:05:97:44:2f -88  3       Y  -- WPA2(PSK/AES/AES) 
+                          Cayman 26:08:f5:ed:13:d5 -86  6,+1    Y  -- WPA2(PSK/AES/AES) 
+                 CenturyLink0720 54:83:3a:7c:74:27 -79  1       Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                        42424242 1c:f2:9a:b5:cb:fc -76  6       Y  US WPA2(PSK/AES/AES) 
+                         cassius 98:0d:67:96:31:ef -88  11      Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                        ouch-air 88:1f:a1:37:e0:60 -79  6       Y  US WPA2(PSK/AES/AES) 
+           Happy WiFi Happy LiFi e0:63:da:ad:88:d7 -77  7       Y  US WPA2(PSK/AES/AES) 
+                      purplecasa d4:5d:df:3f:fc:90 -88  11      Y  US WPA2(PSK/AES/AES) 
+                            WP18 60:b7:6e:a0:96:5f -85  11      Y  US WPA2(PSK/AES/AES) 
+                          mothra 18:e8:29:c4:ac:ee -88  11      Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:54:25:31:2c:c7 -70  11      Y  US NONE
+                          George 70:54:25:31:2c:c7 -63  11      Y  US WPA2(PSK/AES/AES) 
+                     myqwest4245 04:bf:6d:d9:14:e5 -84  7       Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                          Cayman 26:08:f5:ed:14:c5 -79  6,+1    Y  -- WPA2(PSK/AES/AES) 
+                     xfinitywifi 82:f2:9e:92:65:d8 -65  1       Y  US NONE
+                          Dissly 78:f2:9e:92:65:d8 -63  1       Y  US WPA2(PSK/AES/AES) 
+         Richard's Wi-Fi Network 0c:51:01:e7:27:78 -59  1       Y  US WPA2(PSK/AES/AES) 
+      DIRECT-4c-HP M283 LaserJet da:12:65:bf:3d:4c -88  40,-1   Y  -- WPA2(PSK/AES/AES) 
+                 AdventureAwaits 74:ac:b9:c8:0e:01 -81  36      Y  -- WPA2(PSK,FT-PSK/AES/AES) 
+                      Dissly-5.0 78:f2:9e:92:65:e0 -65  36      Y  US WPA2(PSK/AES/AES) 
+                 AdventureAwaits 74:ac:b9:cb:ad:81 -76  157     Y  -- WPA2(PSK,FT-PSK/AES/AES) 
+         Richard's Wi-Fi Network 0c:51:01:e7:27:79 -69  149     Y  US WPA2(PSK/AES/AES) 
+                       Ortola.n0 5c:b0:66:dd:b5:98 -89  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                 AdventureAwaits 74:ac:b9:36:78:0d -80  40      Y  -- WPA2(PSK,FT-PSK/AES/AES) 
+                         XFINITY 8e:f2:9e:92:65:e0 -65  36      Y  US WPA2(802.1x/AES/AES) 
+           Happy WiFi Happy LiFi e2:63:da:ae:88:d7 -85  36      Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 5a:96:30:9b:02:7e -83  44      Y  US WPA2(802.1x/AES/AES) 
+                          Cayman 26:08:f5:ed:14:7a -84  44      Y  -- WPA2(PSK/AES/AES) 
+                     xfinitywifi 5a:96:30:9b:02:7c -83  44      Y  US NONE
+          DIRECT-dNJEFF-DELLmsLn c2:b8:83:c6:60:2e -45  44      Y  -- WPA2(PSK/AES/AES) 
+                          George 70:54:25:31:2c:c8 -63  44      Y  US WPA2(PSK/AES/AES) 
+                          Cayman 58:96:30:93:02:7a -82  44      Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 82:f2:9e:92:65:e0 -65  36      Y  US NONE
+
+
+room 1 2020-12-08 09:04:09.309085
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        42424242 1c:f2:9a:b6:26:c7 -75  1       Y  US WPA2(PSK/AES/AES) 
+                      JZ3050-2.4 98:9d:5d:d0:fc:8d -83  6       Y  -- WPA2(PSK/AES/AES) 
+                   SMA1990034929 60:64:05:97:44:2f -88  3       Y  -- WPA2(PSK/AES/AES) 
+                          Cayman 26:08:f5:ed:13:d5 -86  6,+1    Y  -- WPA2(PSK/AES/AES) 
+                 CenturyLink0720 54:83:3a:7c:74:27 -79  1       Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                         cassius 98:0d:67:96:31:ef -88  11      Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+           Happy WiFi Happy LiFi e0:63:da:ad:88:d7 -77  7       Y  US WPA2(PSK/AES/AES) 
+                      purplecasa d4:5d:df:3f:fc:90 -88  11      Y  US WPA2(PSK/AES/AES) 
+                            WP18 60:b7:6e:a0:96:5f -85  11      Y  US WPA2(PSK/AES/AES) 
+                          George 70:54:25:31:2c:c7 -63  11      Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:54:25:31:2c:c7 -70  11      Y  US NONE
+                          mothra 18:e8:29:c4:ac:ee -88  11      Y  US WPA2(PSK/AES/AES) 
+                     myqwest4245 04:bf:6d:d9:14:e5 -81  7       Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                        42424242 1c:f2:9a:b5:cb:fc -76  6       Y  US WPA2(PSK/AES/AES) 
+                        ouch-air 88:1f:a1:37:e0:60 -59  6       Y  US WPA2(PSK/AES/AES) 
+                          Cayman 26:08:f5:ed:14:c5 -84  6,+1    Y  -- WPA2(PSK/AES/AES) 
+                          Dissly 78:f2:9e:92:65:d8 -66  1       Y  US WPA2(PSK/AES/AES) 
+      DIRECT-0d-HP M102 LaserJet 5e:3a:45:14:9e:0d -73  1       Y  -- WPA2(PSK/AES/AES) 
+                     xfinitywifi 82:f2:9e:92:65:d8 -68  1       Y  US NONE
+         Richard's Wi-Fi Network 0c:51:01:e7:27:78 -58  1       Y  US WPA2(PSK/AES/AES) 
+      DIRECT-4c-HP M283 LaserJet da:12:65:bf:3d:4c -89  40,-1   Y  -- WPA2(PSK/AES/AES) 
+                 AdventureAwaits 74:ac:b9:36:78:0d -79  40      Y  -- WPA2(PSK,FT-PSK/AES/AES) 
+                 AdventureAwaits 74:ac:b9:c8:0e:01 -83  36      Y  -- WPA2(PSK,FT-PSK/AES/AES) 
+                         XFINITY 8e:f2:9e:92:65:e0 -65  36      Y  US WPA2(802.1x/AES/AES) 
+                      Dissly-5.0 78:f2:9e:92:65:e0 -64  36      Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 2a:f1:9e:f4:7e:d5 -84  157     Y  US NONE
+                 AdventureAwaits 74:ac:b9:cb:ad:81 -74  157     Y  -- WPA2(PSK,FT-PSK/AES/AES) 
+                         XFINITY 8e:b0:66:dd:b5:98 -90  149     Y  US WPA2(802.1x/AES/AES) 
+         Richard's Wi-Fi Network 0c:51:01:e7:27:79 -70  149     Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 82:f2:9e:92:65:e0 -64  36      Y  US NONE
+                          Cayman 26:08:f5:ed:14:7a -84  44      Y  -- WPA2(PSK/AES/AES) 
+                          George 70:54:25:31:2c:c8 -60  44      Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 5a:96:30:9b:02:7e -83  44      Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 5a:96:30:9b:02:7c -82  44      Y  US NONE
+                          Cayman 58:96:30:93:02:7a -82  44      Y  US WPA2(PSK/AES/AES) 
+              Happy WiFi Shed-5G ee:63:da:ae:88:d7 -85  36      Y  US WPA2(PSK/AES/AES) 
+          DIRECT-dNJEFF-DELLmsLn c2:b8:83:c6:60:2e -39  44      Y  -- WPA2(PSK/AES/AES) 
+
+
+room 1 2020-12-08 09:04:19.316558
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                   SMA1990034929 60:64:05:97:44:2f -88  3       Y  -- WPA2(PSK/AES/AES) 
+                          Cayman 26:08:f5:ed:13:d5 -86  6,+1    Y  -- WPA2(PSK/AES/AES) 
+                         cassius 98:0d:67:96:31:ef -88  11      Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                      purplecasa d4:5d:df:3f:fc:90 -88  11      Y  US WPA2(PSK/AES/AES) 
+                            WP18 60:b7:6e:a0:96:5f -85  11      Y  US WPA2(PSK/AES/AES) 
+                          mothra 18:e8:29:c4:ac:ee -88  11      Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 82:f2:9e:92:65:d8 -68  1       Y  US NONE
+      DIRECT-0d-HP M102 LaserJet 5e:3a:45:14:9e:0d -73  1       Y  -- WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:54:25:31:2c:c7 -71  11      Y  US NONE
+                          George 70:54:25:31:2c:c7 -64  11      Y  US WPA2(PSK/AES/AES) 
+                     myqwest4245 04:bf:6d:d9:14:e5 -86  7       Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+           Happy WiFi Happy LiFi e0:63:da:ad:88:d7 -78  7       Y  US WPA2(PSK/AES/AES) 
+                          Cayman 26:08:f5:ed:14:c5 -79  6,+1    Y  -- WPA2(PSK/AES/AES) 
+                        ouch-air 88:1f:a1:37:e0:60 -85  6       Y  US WPA2(PSK/AES/AES) 
+                        42424242 1c:f2:9a:b5:cb:fc -74  6       Y  US WPA2(PSK/AES/AES) 
+                 CenturyLink0720 54:83:3a:7c:74:27 -77  1       Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                          Dissly 78:f2:9e:92:65:d8 -76  1       Y  US WPA2(PSK/AES/AES) 
+         Richard's Wi-Fi Network 0c:51:01:e7:27:78 -58  1       Y  US WPA2(PSK/AES/AES) 
+                  SmartLife-A7E5 ee:fa:bc:49:a7:e5 -90  1       N  CN NONE
+      DIRECT-4c-HP M283 LaserJet da:12:65:bf:3d:4c -89  40,-1   Y  -- WPA2(PSK/AES/AES) 
+                     xfinitywifi 82:f2:9e:92:65:e0 -64  36      Y  US NONE
+                      Dissly-5.0 78:f2:9e:92:65:e0 -64  36      Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 32:f1:9e:f4:7e:d5 -84  157     Y  US WPA2(802.1x/AES/AES) 
+                     Hehhehheh-5 20:f1:9e:f4:7e:d5 -85  157     Y  US WPA2(PSK/AES/AES) 
+                 AdventureAwaits 74:ac:b9:cb:ad:81 -75  157     Y  -- WPA2(PSK,FT-PSK/AES/AES) 
+                     xfinitywifi ca:52:61:f2:5d:96 -92  149     Y  US NONE
+         Richard's Wi-Fi Network 0c:51:01:e7:27:79 -70  149     Y  US WPA2(PSK/AES/AES) 
+              Happy WiFi Shed-5G ee:63:da:ae:88:d7 -85  36      Y  US WPA2(PSK/AES/AES) 
+                 AdventureAwaits 74:ac:b9:36:78:0d -79  40      Y  -- WPA2(PSK,FT-PSK/AES/AES) 
+                         XFINITY 8e:f2:9e:92:65:e0 -64  36      Y  US WPA2(802.1x/AES/AES) 
+                         XFINITY 5a:96:30:9b:02:7e -82  44      Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 5a:96:30:9b:02:7c -82  44      Y  US NONE
+                          George 70:54:25:31:2c:c8 -62  44      Y  US WPA2(PSK/AES/AES) 
+          DIRECT-dNJEFF-DELLmsLn c2:b8:83:c6:60:2e -39  44      Y  -- WPA2(PSK/AES/AES) 
+                          Cayman 26:08:f5:ed:14:7a -84  44      Y  -- WPA2(PSK/AES/AES) 
+                          Cayman 58:96:30:93:02:7a -82  44      Y  US WPA2(PSK/AES/AES) 
+
+

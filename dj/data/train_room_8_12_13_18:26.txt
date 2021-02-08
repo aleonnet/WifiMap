@@ -1,0 +1,2043 @@
+room 8 2020-12-13 18:26:29.688977
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                            lake 60:d2:48:f1:a9:61 -59  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -74  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -81  1       Y  US NONE
+                          Grease 58:19:f8:21:6d:a0 -80  1       Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -82  36      Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -83  36      Y  US NONE
+                         Grease5 58:19:f8:21:6d:a1 -83  36      Y  US WPA2(PSK/AES/AES) 
+                            LORC 60:d2:48:f1:a9:62 -69  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:26:34.692783
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                            lake 60:d2:48:f1:a9:61 -60  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -72  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -82  1       Y  US NONE
+                          Grease 58:19:f8:21:6d:a0 -82  1       Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -86  36      Y  US WPA2(802.1x/AES/AES) 
+                           mjfox 6a:e8:92:86:1b:23 -86  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                           mjfox 84:e8:92:86:1b:24 -87  149     Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -86  36      Y  US NONE
+                         Grease5 58:19:f8:21:6d:a1 -86  36      Y  US WPA2(PSK/AES/AES) 
+                            LORC 60:d2:48:f1:a9:62 -68  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:26:39.689471
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                            lake 60:d2:48:f1:a9:61 -60  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -72  6       Y  US WPA2(PSK/AES/AES) 
+                          Grease 58:19:f8:21:6d:a0 -81  1       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -83  1       Y  US NONE
+                     xfinitywifi 6a:19:f8:21:6d:a1 -87  36      Y  US NONE
+                         Grease5 58:19:f8:21:6d:a1 -85  36      Y  US WPA2(PSK/AES/AES) 
+                            LORC 60:d2:48:f1:a9:62 -68  48      Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -86  36      Y  US WPA2(802.1x/AES/AES) 
+
+
+room 8 2020-12-13 18:26:44.694303
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                            lake 60:d2:48:f1:a9:61 -61  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -72  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -83  1       Y  US NONE
+                          Grease 58:19:f8:21:6d:a0 -81  1       Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -86  36      Y  US WPA2(802.1x/AES/AES) 
+                           mjfox 6a:e8:92:86:1b:23 -87  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                           mjfox 84:e8:92:86:1b:24 -86  149     Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -86  36      Y  US NONE
+                         Grease5 58:19:f8:21:6d:a1 -86  36      Y  US WPA2(PSK/AES/AES) 
+                            LORC 60:d2:48:f1:a9:62 -68  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:26:49.693744
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                            lake 60:d2:48:f1:a9:61 -60  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -72  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -84  1       Y  US NONE
+                          Grease 58:19:f8:21:6d:a0 -81  1       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -86  36      Y  US NONE
+                         Grease5 58:19:f8:21:6d:a1 -86  36      Y  US WPA2(PSK/AES/AES) 
+                           mjfox 6a:e8:92:86:1b:23 -86  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                           mjfox 84:e8:92:86:1b:24 -86  149     Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -86  36      Y  US WPA2(802.1x/AES/AES) 
+                            LORC 60:d2:48:f1:a9:62 -68  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:26:54.694353
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                            lake 60:d2:48:f1:a9:61 -60  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -73  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -83  1       Y  US NONE
+                          Grease 58:19:f8:21:6d:a0 -80  1       Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -86  36      Y  US WPA2(802.1x/AES/AES) 
+                         Grease5 58:19:f8:21:6d:a1 -86  36      Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -87  36      Y  US NONE
+                            LORC 60:d2:48:f1:a9:62 -68  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:26:59.694287
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                            lake 60:d2:48:f1:a9:61 -61  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -71  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -83  1       Y  US NONE
+                          Grease 58:19:f8:21:6d:a0 -81  1       Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -87  36      Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -87  36      Y  US NONE
+                         Grease5 58:19:f8:21:6d:a1 -86  36      Y  US WPA2(PSK/AES/AES) 
+                            LORC 60:d2:48:f1:a9:62 -67  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:27:04.694311
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        yoboseyo fc:ec:da:b1:86:43 -89  11      Y  -- WPA2(PSK/AES/AES) 
+                            lake 60:d2:48:f1:a9:61 -60  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -73  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -82  1       Y  US NONE
+                          Grease 58:19:f8:21:6d:a0 -80  1       Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -87  36      Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -87  36      Y  US NONE
+                         Grease5 58:19:f8:21:6d:a1 -86  36      Y  US WPA2(PSK/AES/AES) 
+                            LORC 60:d2:48:f1:a9:62 -67  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:27:09.694295
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        yoboseyo fc:ec:da:b1:86:43 -90  11      Y  -- WPA2(PSK/AES/AES) 
+                            lake 60:d2:48:f1:a9:61 -60  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -74  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -84  1       Y  US NONE
+                          Grease 58:19:f8:21:6d:a0 -77  1       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -87  36      Y  US NONE
+                         Grease5 58:19:f8:21:6d:a1 -86  36      Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -86  36      Y  US WPA2(802.1x/AES/AES) 
+                            LORC 60:d2:48:f1:a9:62 -67  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:27:14.694355
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        yoboseyo fc:ec:da:b1:86:43 -90  11      Y  -- WPA2(PSK/AES/AES) 
+                            lake 60:d2:48:f1:a9:61 -60  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -73  6       Y  US WPA2(PSK/AES/AES) 
+                          Grease 58:19:f8:21:6d:a0 -81  1       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -82  1       Y  US NONE
+                     xfinitywifi 6a:19:f8:21:6d:a1 -86  36      Y  US NONE
+                         Grease5 58:19:f8:21:6d:a1 -85  36      Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:24 -86  149     Y  US WPA2(PSK/AES/AES) 
+                           mjfox 6a:e8:92:86:1b:23 -86  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                            LORC 60:d2:48:f1:a9:62 -67  48      Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -86  36      Y  US WPA2(802.1x/AES/AES) 
+
+
+room 8 2020-12-13 18:27:19.694290
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        yoboseyo fc:ec:da:b1:86:43 -90  11      Y  -- WPA2(PSK/AES/AES) 
+                            lake 60:d2:48:f1:a9:61 -60  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -73  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -83  1       Y  US NONE
+                          Grease 58:19:f8:21:6d:a0 -81  1       Y  US WPA2(PSK/AES/AES) 
+                         Grease5 58:19:f8:21:6d:a1 -85  36      Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -85  36      Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -85  36      Y  US NONE
+                            LORC 60:d2:48:f1:a9:62 -67  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:27:24.694291
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        yoboseyo fc:ec:da:b1:86:43 -90  11      Y  -- WPA2(PSK/AES/AES) 
+                            lake 60:d2:48:f1:a9:61 -60  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -72  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -82  1       Y  US NONE
+                          Grease 58:19:f8:21:6d:a0 -81  1       Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -85  36      Y  US WPA2(802.1x/AES/AES) 
+                         Grease5 58:19:f8:21:6d:a1 -86  36      Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -85  36      Y  US NONE
+                            LORC 60:d2:48:f1:a9:62 -67  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:27:29.694282
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        yoboseyo fc:ec:da:b1:86:43 -90  11      Y  -- WPA2(PSK/AES/AES) 
+                            lake 60:d2:48:f1:a9:61 -60  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -73  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -83  1       Y  US NONE
+                          Grease 58:19:f8:21:6d:a0 -81  1       Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -86  36      Y  US WPA2(802.1x/AES/AES) 
+                         Grease5 58:19:f8:21:6d:a1 -85  36      Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -85  36      Y  US NONE
+                            LORC 60:d2:48:f1:a9:62 -67  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:27:34.694285
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        yoboseyo fc:ec:da:b1:86:43 -90  11      Y  -- WPA2(PSK/AES/AES) 
+                            lake 60:d2:48:f1:a9:61 -60  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -72  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -84  1       Y  US NONE
+                          Grease 58:19:f8:21:6d:a0 -83  1       Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -85  36      Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -86  36      Y  US NONE
+                           mjfox 6a:e8:92:86:1b:23 -86  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                           mjfox 84:e8:92:86:1b:24 -87  149     Y  US WPA2(PSK/AES/AES) 
+                         Grease5 58:19:f8:21:6d:a1 -86  36      Y  US WPA2(PSK/AES/AES) 
+                            LORC 60:d2:48:f1:a9:62 -67  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:27:39.690648
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        yoboseyo fc:ec:da:b1:86:43 -90  11      Y  -- WPA2(PSK/AES/AES) 
+                            lake 60:d2:48:f1:a9:61 -60  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -72  6       Y  US WPA2(PSK/AES/AES) 
+                          Grease 58:19:f8:21:6d:a0 -81  1       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -83  1       Y  US NONE
+                     xfinitywifi 6a:19:f8:21:6d:a1 -86  36      Y  US NONE
+                         Grease5 58:19:f8:21:6d:a1 -85  36      Y  US WPA2(PSK/AES/AES) 
+                           mjfox 6a:e8:92:86:1b:23 -87  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                           mjfox 84:e8:92:86:1b:24 -87  149     Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -86  36      Y  US WPA2(802.1x/AES/AES) 
+                            LORC 60:d2:48:f1:a9:62 -67  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:27:44.694317
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        yoboseyo fc:ec:da:b1:86:43 -90  11      Y  -- WPA2(PSK/AES/AES) 
+                            lake 60:d2:48:f1:a9:61 -61  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -73  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -82  1       Y  US NONE
+                          Grease 58:19:f8:21:6d:a0 -82  1       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -86  36      Y  US NONE
+                         Grease5 58:19:f8:21:6d:a1 -85  36      Y  US WPA2(PSK/AES/AES) 
+                           mjfox 6a:e8:92:86:1b:23 -86  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                           mjfox 84:e8:92:86:1b:24 -86  149     Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -86  36      Y  US WPA2(802.1x/AES/AES) 
+                            LORC 60:d2:48:f1:a9:62 -67  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:27:49.694306
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        yoboseyo fc:ec:da:b1:86:43 -90  11      Y  -- WPA2(PSK/AES/AES) 
+                            lake 60:d2:48:f1:a9:61 -60  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -73  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -83  1       Y  US NONE
+                          Grease 58:19:f8:21:6d:a0 -81  1       Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -86  36      Y  US WPA2(802.1x/AES/AES) 
+                         Grease5 58:19:f8:21:6d:a1 -85  36      Y  US WPA2(PSK/AES/AES) 
+                           mjfox 6a:e8:92:86:1b:23 -87  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                           mjfox 84:e8:92:86:1b:24 -87  149     Y  US WPA2(PSK/AES/AES) 
+                            LORC 60:d2:48:f1:a9:62 -66  48      Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -86  36      Y  US NONE
+
+
+room 8 2020-12-13 18:27:54.694370
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        yoboseyo fc:ec:da:b1:86:43 -90  11      Y  -- WPA2(PSK/AES/AES) 
+                            lake 60:d2:48:f1:a9:61 -60  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -73  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -82  1       Y  US NONE
+                          Grease 58:19:f8:21:6d:a0 -81  1       Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -85  36      Y  US WPA2(802.1x/AES/AES) 
+                           mjfox 6a:e8:92:86:1b:23 -86  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                           mjfox 84:e8:92:86:1b:24 -86  149     Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -85  36      Y  US NONE
+                         Grease5 58:19:f8:21:6d:a1 -85  36      Y  US WPA2(PSK/AES/AES) 
+                            LORC 60:d2:48:f1:a9:62 -67  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:27:59.694306
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        yoboseyo fc:ec:da:b1:86:43 -90  11      Y  -- WPA2(PSK/AES/AES) 
+                            lake 60:d2:48:f1:a9:61 -60  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -73  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -83  1       Y  US NONE
+                          Grease 58:19:f8:21:6d:a0 -84  1       Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -86  36      Y  US WPA2(802.1x/AES/AES) 
+                           mjfox 6a:e8:92:86:1b:23 -87  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                           mjfox 84:e8:92:86:1b:24 -87  149     Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -85  36      Y  US NONE
+                         Grease5 58:19:f8:21:6d:a1 -86  36      Y  US WPA2(PSK/AES/AES) 
+                            LORC 60:d2:48:f1:a9:62 -67  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:28:04.694327
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        yoboseyo fc:ec:da:b1:86:43 -90  11      Y  -- WPA2(PSK/AES/AES) 
+                            lake 60:d2:48:f1:a9:61 -60  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -73  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -82  1       Y  US NONE
+                          Grease 58:19:f8:21:6d:a0 -81  1       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -86  36      Y  US NONE
+                         Grease5 58:19:f8:21:6d:a1 -86  36      Y  US WPA2(PSK/AES/AES) 
+                            LORC 60:d2:48:f1:a9:62 -67  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:28:09.694359
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        yoboseyo fc:ec:da:b1:86:43 -90  11      Y  -- WPA2(PSK/AES/AES) 
+                            lake 60:d2:48:f1:a9:61 -60  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -72  6       Y  US WPA2(PSK/AES/AES) 
+                          Grease 58:19:f8:21:6d:a0 -82  1       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -82  1       Y  US NONE
+                     xfinitywifi 6a:19:f8:21:6d:a1 -87  36      Y  US NONE
+                         Grease5 58:19:f8:21:6d:a1 -86  36      Y  US WPA2(PSK/AES/AES) 
+                           mjfox 6a:e8:92:86:1b:23 -87  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                           mjfox 84:e8:92:86:1b:24 -87  149     Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -86  36      Y  US WPA2(802.1x/AES/AES) 
+                            LORC 60:d2:48:f1:a9:62 -67  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:28:14.694300
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        yoboseyo fc:ec:da:b1:86:43 -90  11      Y  -- WPA2(PSK/AES/AES) 
+                            lake 60:d2:48:f1:a9:61 -60  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -72  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -82  1       Y  US NONE
+                          Grease 58:19:f8:21:6d:a0 -82  1       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -86  36      Y  US NONE
+                         Grease5 58:19:f8:21:6d:a1 -85  36      Y  US WPA2(PSK/AES/AES) 
+                           mjfox 6a:e8:92:86:1b:23 -87  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                           mjfox 84:e8:92:86:1b:24 -87  149     Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -85  36      Y  US WPA2(802.1x/AES/AES) 
+                            LORC 60:d2:48:f1:a9:62 -67  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:28:19.694285
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        yoboseyo fc:ec:da:b1:86:43 -90  11      Y  -- WPA2(PSK/AES/AES) 
+                            lake 60:d2:48:f1:a9:61 -60  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -73  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -83  1       Y  US NONE
+                          Grease 58:19:f8:21:6d:a0 -81  1       Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -85  36      Y  US WPA2(802.1x/AES/AES) 
+                         Grease5 58:19:f8:21:6d:a1 -86  36      Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -84  36      Y  US NONE
+                            LORC 60:d2:48:f1:a9:62 -67  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:28:24.694292
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        yoboseyo fc:ec:da:b1:86:43 -90  11      Y  -- WPA2(PSK/AES/AES) 
+                            lake 60:d2:48:f1:a9:61 -60  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -72  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -82  1       Y  US NONE
+                          Grease 58:19:f8:21:6d:a0 -73  1       Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -84  36      Y  US WPA2(802.1x/AES/AES) 
+                           mjfox 6a:e8:92:86:1b:23 -87  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                           mjfox 84:e8:92:86:1b:24 -86  149     Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -84  36      Y  US NONE
+                         Grease5 58:19:f8:21:6d:a1 -85  36      Y  US WPA2(PSK/AES/AES) 
+                            LORC 60:d2:48:f1:a9:62 -67  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:28:29.694293
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        yoboseyo fc:ec:da:b1:86:43 -90  11      Y  -- WPA2(PSK/AES/AES) 
+                            lake 60:d2:48:f1:a9:61 -60  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -72  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -83  1       Y  US NONE
+                          Grease 58:19:f8:21:6d:a0 -81  1       Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -85  36      Y  US WPA2(802.1x/AES/AES) 
+                           mjfox 6a:e8:92:86:1b:23 -86  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                           mjfox 84:e8:92:86:1b:24 -87  149     Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -84  36      Y  US NONE
+                         Grease5 58:19:f8:21:6d:a1 -84  36      Y  US WPA2(PSK/AES/AES) 
+                            LORC 60:d2:48:f1:a9:62 -68  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:28:34.694286
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        yoboseyo fc:ec:da:b1:86:43 -90  11      Y  -- WPA2(PSK/AES/AES) 
+                            lake 60:d2:48:f1:a9:61 -60  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -72  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -82  1       Y  US NONE
+                          Grease 58:19:f8:21:6d:a0 -81  1       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -85  36      Y  US NONE
+                           mjfox 6a:e8:92:86:1b:23 -87  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                           mjfox 84:e8:92:86:1b:24 -87  149     Y  US WPA2(PSK/AES/AES) 
+                         Grease5 58:19:f8:21:6d:a1 -85  36      Y  US WPA2(PSK/AES/AES) 
+                            LORC 60:d2:48:f1:a9:62 -67  48      Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -85  36      Y  US WPA2(802.1x/AES/AES) 
+
+
+room 8 2020-12-13 18:28:39.690032
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        yoboseyo fc:ec:da:b1:86:43 -90  11      Y  -- WPA2(PSK/AES/AES) 
+                            lake 60:d2:48:f1:a9:61 -60  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -74  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -75  1       Y  US NONE
+                          Grease 58:19:f8:21:6d:a0 -81  1       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -85  36      Y  US NONE
+                         Grease5 58:19:f8:21:6d:a1 -85  36      Y  US WPA2(PSK/AES/AES) 
+                           mjfox 6a:e8:92:86:1b:23 -87  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                           mjfox 84:e8:92:86:1b:24 -87  149     Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -85  36      Y  US WPA2(802.1x/AES/AES) 
+                            LORC 60:d2:48:f1:a9:62 -67  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:28:44.694292
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        yoboseyo fc:ec:da:b1:86:43 -90  11      Y  -- WPA2(PSK/AES/AES) 
+                            lake 60:d2:48:f1:a9:61 -60  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -72  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -84  1       Y  US NONE
+                          Grease 58:19:f8:21:6d:a0 -82  1       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -85  36      Y  US NONE
+                         Grease5 58:19:f8:21:6d:a1 -85  36      Y  US WPA2(PSK/AES/AES) 
+                           mjfox 6a:e8:92:86:1b:23 -88  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                           mjfox 84:e8:92:86:1b:24 -87  149     Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -84  36      Y  US WPA2(802.1x/AES/AES) 
+                            LORC 60:d2:48:f1:a9:62 -67  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:28:49.694306
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                            lake 60:d2:48:f1:a9:61 -61  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -73  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -83  1       Y  US NONE
+                          Grease 58:19:f8:21:6d:a0 -82  1       Y  US WPA2(PSK/AES/AES) 
+                         Grease5 58:19:f8:21:6d:a1 -86  36      Y  US WPA2(PSK/AES/AES) 
+                           mjfox 6a:e8:92:86:1b:23 -87  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                           mjfox 84:e8:92:86:1b:24 -87  149     Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -86  36      Y  US WPA2(802.1x/AES/AES) 
+                            LORC 60:d2:48:f1:a9:62 -66  48      Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -85  36      Y  US NONE
+
+
+room 8 2020-12-13 18:28:54.694371
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                            lake 60:d2:48:f1:a9:61 -60  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -73  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -81  1       Y  US NONE
+                          Grease 58:19:f8:21:6d:a0 -81  1       Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -86  36      Y  US WPA2(802.1x/AES/AES) 
+                         Grease5 58:19:f8:21:6d:a1 -86  36      Y  US WPA2(PSK/AES/AES) 
+                           mjfox 6a:e8:92:86:1b:23 -86  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                           mjfox 84:e8:92:86:1b:24 -87  149     Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -86  36      Y  US NONE
+                            LORC 60:d2:48:f1:a9:62 -67  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:28:59.694303
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                            lake 60:d2:48:f1:a9:61 -60  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -73  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -82  1       Y  US NONE
+                          Grease 58:19:f8:21:6d:a0 -81  1       Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -86  36      Y  US WPA2(802.1x/AES/AES) 
+                         Grease5 58:19:f8:21:6d:a1 -86  36      Y  US WPA2(PSK/AES/AES) 
+                           mjfox 6a:e8:92:86:1b:23 -86  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                           mjfox 84:e8:92:86:1b:24 -88  149     Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -86  36      Y  US NONE
+                            LORC 60:d2:48:f1:a9:62 -67  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:29:04.691678
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                            lake 60:d2:48:f1:a9:61 -60  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -73  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -84  1       Y  US NONE
+                          Grease 58:19:f8:21:6d:a0 -81  1       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -86  36      Y  US NONE
+                         Grease5 58:19:f8:21:6d:a1 -86  36      Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -86  36      Y  US WPA2(802.1x/AES/AES) 
+                            LORC 60:d2:48:f1:a9:62 -67  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:29:09.694286
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                            lake 60:d2:48:f1:a9:61 -61  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -73  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -82  1       Y  US NONE
+                          Grease 58:19:f8:21:6d:a0 -80  1       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -86  36      Y  US NONE
+                         Grease5 58:19:f8:21:6d:a1 -86  36      Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:24 -87  149     Y  US WPA2(PSK/AES/AES) 
+                           mjfox 6a:e8:92:86:1b:23 -87  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                         XFINITY 8a:19:f8:21:6d:a1 -86  36      Y  US WPA2(802.1x/AES/AES) 
+                            LORC 60:d2:48:f1:a9:62 -67  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:29:14.694280
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                            lake 60:d2:48:f1:a9:61 -60  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -73  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -84  1       Y  US NONE
+                          Grease 58:19:f8:21:6d:a0 -83  1       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -87  36      Y  US NONE
+                         Grease5 58:19:f8:21:6d:a1 -86  36      Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -85  36      Y  US WPA2(802.1x/AES/AES) 
+                            LORC 60:d2:48:f1:a9:62 -67  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:29:19.694284
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                            lake 60:d2:48:f1:a9:61 -60  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -74  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -83  1       Y  US NONE
+                          Grease 58:19:f8:21:6d:a0 -83  1       Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -85  36      Y  US WPA2(802.1x/AES/AES) 
+                         Grease5 58:19:f8:21:6d:a1 -87  36      Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -85  36      Y  US NONE
+                            LORC 60:d2:48:f1:a9:62 -66  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:29:24.690483
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                            lake 60:d2:48:f1:a9:61 -61  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -72  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -83  1       Y  US NONE
+                          Grease 58:19:f8:21:6d:a0 -81  1       Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -85  36      Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -85  36      Y  US NONE
+                         Grease5 58:19:f8:21:6d:a1 -85  36      Y  US WPA2(PSK/AES/AES) 
+                            LORC 60:d2:48:f1:a9:62 -67  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:29:29.694325
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        yoboseyo fc:ec:da:b1:86:43 -90  11      Y  -- WPA2(PSK/AES/AES) 
+                            lake 60:d2:48:f1:a9:61 -61  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -72  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -83  1       Y  US NONE
+                          Grease 58:19:f8:21:6d:a0 -80  1       Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -86  36      Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -85  36      Y  US NONE
+                         Grease5 58:19:f8:21:6d:a1 -86  36      Y  US WPA2(PSK/AES/AES) 
+                            LORC 60:d2:48:f1:a9:62 -67  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:29:34.694289
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        yoboseyo fc:ec:da:b1:86:43 -90  11      Y  -- WPA2(PSK/AES/AES) 
+                            lake 60:d2:48:f1:a9:61 -60  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -73  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -84  1       Y  US NONE
+                          Grease 58:19:f8:21:6d:a0 -82  1       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -85  36      Y  US NONE
+                         Grease5 58:19:f8:21:6d:a1 -85  36      Y  US WPA2(PSK/AES/AES) 
+                           mjfox 6a:e8:92:86:1b:23 -86  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                           mjfox 84:e8:92:86:1b:24 -87  149     Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -85  36      Y  US WPA2(802.1x/AES/AES) 
+                            LORC 60:d2:48:f1:a9:62 -67  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:29:39.694325
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        yoboseyo fc:ec:da:b1:86:43 -90  11      Y  -- WPA2(PSK/AES/AES) 
+                            lake 60:d2:48:f1:a9:61 -60  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -73  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -82  1       Y  US NONE
+                          Grease 58:19:f8:21:6d:a0 -80  1       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -85  36      Y  US NONE
+                         Grease5 58:19:f8:21:6d:a1 -85  36      Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:24 -87  149     Y  US WPA2(PSK/AES/AES) 
+                           mjfox 6a:e8:92:86:1b:23 -87  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                         XFINITY 8a:19:f8:21:6d:a1 -85  36      Y  US WPA2(802.1x/AES/AES) 
+                            LORC 60:d2:48:f1:a9:62 -67  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:29:44.689817
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        yoboseyo fc:ec:da:b1:86:43 -90  11      Y  -- WPA2(PSK/AES/AES) 
+                            lake 60:d2:48:f1:a9:61 -60  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -73  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -82  1       Y  US NONE
+                          Grease 58:19:f8:21:6d:a0 -80  1       Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -85  36      Y  US WPA2(802.1x/AES/AES) 
+                         Grease5 58:19:f8:21:6d:a1 -86  36      Y  US WPA2(PSK/AES/AES) 
+                           mjfox 6a:e8:92:86:1b:23 -87  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                           mjfox 84:e8:92:86:1b:24 -86  149     Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -86  36      Y  US NONE
+                            LORC 60:d2:48:f1:a9:62 -67  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:29:49.694305
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        yoboseyo fc:ec:da:b1:86:43 -90  11      Y  -- WPA2(PSK/AES/AES) 
+                            lake 60:d2:48:f1:a9:61 -60  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -73  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -82  1       Y  US NONE
+                          Grease 58:19:f8:21:6d:a0 -82  1       Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -85  36      Y  US WPA2(802.1x/AES/AES) 
+                           mjfox 6a:e8:92:86:1b:23 -87  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                           mjfox 84:e8:92:86:1b:24 -87  149     Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -86  36      Y  US NONE
+                            LORC 60:d2:48:f1:a9:62 -67  48      Y  US WPA2(PSK/AES/AES) 
+                         Grease5 58:19:f8:21:6d:a1 -86  36      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:29:54.694283
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        yoboseyo fc:ec:da:b1:86:43 -90  11      Y  -- WPA2(PSK/AES/AES) 
+                            lake 60:d2:48:f1:a9:61 -61  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -73  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -83  1       Y  US NONE
+                          Grease 58:19:f8:21:6d:a0 -81  1       Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -85  36      Y  US WPA2(802.1x/AES/AES) 
+                           mjfox 6a:e8:92:86:1b:23 -87  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                           mjfox 84:e8:92:86:1b:24 -86  149     Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -85  36      Y  US NONE
+                         Grease5 58:19:f8:21:6d:a1 -85  36      Y  US WPA2(PSK/AES/AES) 
+                            LORC 60:d2:48:f1:a9:62 -67  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:29:59.689142
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        yoboseyo fc:ec:da:b1:86:43 -90  11      Y  -- WPA2(PSK/AES/AES) 
+                            lake 60:d2:48:f1:a9:61 -60  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -73  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -83  1       Y  US NONE
+                          Grease 58:19:f8:21:6d:a0 -80  1       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -85  36      Y  US NONE
+                         Grease5 58:19:f8:21:6d:a1 -85  36      Y  US WPA2(PSK/AES/AES) 
+                            LORC 60:d2:48:f1:a9:62 -67  48      Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -85  36      Y  US WPA2(802.1x/AES/AES) 
+
+
+room 8 2020-12-13 18:30:04.694330
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        yoboseyo fc:ec:da:b1:86:43 -90  11      Y  -- WPA2(PSK/AES/AES) 
+                            lake 60:d2:48:f1:a9:61 -60  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -73  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -82  1       Y  US NONE
+                          Grease 58:19:f8:21:6d:a0 -81  1       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -86  36      Y  US NONE
+                         Grease5 58:19:f8:21:6d:a1 -86  36      Y  US WPA2(PSK/AES/AES) 
+                           mjfox 6a:e8:92:86:1b:23 -87  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                           mjfox 84:e8:92:86:1b:24 -86  149     Y  US WPA2(PSK/AES/AES) 
+                            LORC 60:d2:48:f1:a9:62 -67  48      Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -86  36      Y  US WPA2(802.1x/AES/AES) 
+
+
+room 8 2020-12-13 18:30:09.694294
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        yoboseyo fc:ec:da:b1:86:43 -90  11      Y  -- WPA2(PSK/AES/AES) 
+                            lake 60:d2:48:f1:a9:61 -60  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -73  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -85  1       Y  US NONE
+                          Grease 58:19:f8:21:6d:a0 -80  1       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -86  36      Y  US NONE
+                         Grease5 58:19:f8:21:6d:a1 -86  36      Y  US WPA2(PSK/AES/AES) 
+                           mjfox 6a:e8:92:86:1b:23 -87  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                           mjfox 84:e8:92:86:1b:24 -87  149     Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -86  36      Y  US WPA2(802.1x/AES/AES) 
+                            LORC 60:d2:48:f1:a9:62 -67  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:30:14.694342
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        yoboseyo fc:ec:da:b1:86:43 -90  11      Y  -- WPA2(PSK/AES/AES) 
+                            lake 60:d2:48:f1:a9:61 -60  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -73  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -84  1       Y  US NONE
+                          Grease 58:19:f8:21:6d:a0 -81  1       Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -86  36      Y  US WPA2(802.1x/AES/AES) 
+                         Grease5 58:19:f8:21:6d:a1 -85  36      Y  US WPA2(PSK/AES/AES) 
+                           mjfox 6a:e8:92:86:1b:23 -86  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                           mjfox 84:e8:92:86:1b:24 -88  149     Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -86  36      Y  US NONE
+                            LORC 60:d2:48:f1:a9:62 -67  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:30:19.694298
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        yoboseyo fc:ec:da:b1:86:43 -90  11      Y  -- WPA2(PSK/AES/AES) 
+                            lake 60:d2:48:f1:a9:61 -60  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -73  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -83  1       Y  US NONE
+                          Grease 58:19:f8:21:6d:a0 -81  1       Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -85  36      Y  US WPA2(802.1x/AES/AES) 
+                           mjfox 6a:e8:92:86:1b:23 -87  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                           mjfox 84:e8:92:86:1b:24 -88  149     Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -85  36      Y  US NONE
+                         Grease5 58:19:f8:21:6d:a1 -86  36      Y  US WPA2(PSK/AES/AES) 
+                            LORC 60:d2:48:f1:a9:62 -67  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:30:24.694298
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        yoboseyo fc:ec:da:b1:86:43 -90  11      Y  -- WPA2(PSK/AES/AES) 
+                            lake 60:d2:48:f1:a9:61 -61  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -73  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -82  1       Y  US NONE
+                          Grease 58:19:f8:21:6d:a0 -80  1       Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -86  36      Y  US WPA2(802.1x/AES/AES) 
+                           mjfox 6a:e8:92:86:1b:23 -87  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                           mjfox 84:e8:92:86:1b:24 -87  149     Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -86  36      Y  US NONE
+                         Grease5 58:19:f8:21:6d:a1 -85  36      Y  US WPA2(PSK/AES/AES) 
+                            LORC 60:d2:48:f1:a9:62 -67  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:30:29.690955
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        yoboseyo fc:ec:da:b1:86:43 -90  11      Y  -- WPA2(PSK/AES/AES) 
+                            lake 60:d2:48:f1:a9:61 -60  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -72  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -80  1       Y  US NONE
+                          Grease 58:19:f8:21:6d:a0 -81  1       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -85  36      Y  US NONE
+                         Grease5 58:19:f8:21:6d:a1 -85  36      Y  US WPA2(PSK/AES/AES) 
+                            LORC 60:d2:48:f1:a9:62 -67  48      Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -85  36      Y  US WPA2(802.1x/AES/AES) 
+
+
+room 8 2020-12-13 18:30:34.694321
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        yoboseyo fc:ec:da:b1:86:43 -90  11      Y  -- WPA2(PSK/AES/AES) 
+                            lake 60:d2:48:f1:a9:61 -60  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -73  6       Y  US WPA2(PSK/AES/AES) 
+                          Grease 58:19:f8:21:6d:a0 -82  1       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -84  1       Y  US NONE
+                     xfinitywifi 6a:19:f8:21:6d:a1 -85  36      Y  US NONE
+                         Grease5 58:19:f8:21:6d:a1 -85  36      Y  US WPA2(PSK/AES/AES) 
+                           mjfox 6a:e8:92:86:1b:23 -87  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                           mjfox 84:e8:92:86:1b:24 -87  149     Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -86  36      Y  US WPA2(802.1x/AES/AES) 
+                            LORC 60:d2:48:f1:a9:62 -67  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:30:39.694290
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        yoboseyo fc:ec:da:b1:86:43 -90  11      Y  -- WPA2(PSK/AES/AES) 
+                            lake 60:d2:48:f1:a9:61 -61  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -72  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -83  1       Y  US NONE
+                          Grease 58:19:f8:21:6d:a0 -82  1       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -86  36      Y  US NONE
+                         Grease5 58:19:f8:21:6d:a1 -86  36      Y  US WPA2(PSK/AES/AES) 
+                           mjfox 6a:e8:92:86:1b:23 -87  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                           mjfox 84:e8:92:86:1b:24 -87  149     Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -86  36      Y  US WPA2(802.1x/AES/AES) 
+                            LORC 60:d2:48:f1:a9:62 -67  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:30:44.694289
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        yoboseyo fc:ec:da:b1:86:43 -91  11      Y  -- WPA2(PSK/AES/AES) 
+                            lake 60:d2:48:f1:a9:61 -61  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -72  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -83  1       Y  US NONE
+                          Grease 58:19:f8:21:6d:a0 -82  1       Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -85  36      Y  US WPA2(802.1x/AES/AES) 
+                         Grease5 58:19:f8:21:6d:a1 -86  36      Y  US WPA2(PSK/AES/AES) 
+                           mjfox 6a:e8:92:86:1b:23 -87  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                           mjfox 84:e8:92:86:1b:24 -87  149     Y  US WPA2(PSK/AES/AES) 
+                            LORC 60:d2:48:f1:a9:62 -67  48      Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -86  36      Y  US NONE
+
+
+room 8 2020-12-13 18:30:49.694308
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        yoboseyo fc:ec:da:b1:86:43 -91  11      Y  -- WPA2(PSK/AES/AES) 
+                            lake 60:d2:48:f1:a9:61 -61  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -72  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -84  1       Y  US NONE
+                          Grease 58:19:f8:21:6d:a0 -81  1       Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -86  36      Y  US WPA2(802.1x/AES/AES) 
+                           mjfox 6a:e8:92:86:1b:23 -87  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                           mjfox 84:e8:92:86:1b:24 -88  149     Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -86  36      Y  US NONE
+                         Grease5 58:19:f8:21:6d:a1 -86  36      Y  US WPA2(PSK/AES/AES) 
+                            LORC 60:d2:48:f1:a9:62 -67  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:30:54.694288
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        yoboseyo fc:ec:da:b1:86:43 -91  11      Y  -- WPA2(PSK/AES/AES) 
+                            lake 60:d2:48:f1:a9:61 -60  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -72  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -84  1       Y  US NONE
+                          Grease 58:19:f8:21:6d:a0 -82  1       Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -85  36      Y  US WPA2(802.1x/AES/AES) 
+                           mjfox 6a:e8:92:86:1b:23 -86  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                           mjfox 84:e8:92:86:1b:24 -86  149     Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -86  36      Y  US NONE
+                         Grease5 58:19:f8:21:6d:a1 -86  36      Y  US WPA2(PSK/AES/AES) 
+                            LORC 60:d2:48:f1:a9:62 -67  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:30:59.694324
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        yoboseyo fc:ec:da:b1:86:43 -91  11      Y  -- WPA2(PSK/AES/AES) 
+                            lake 60:d2:48:f1:a9:61 -60  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -73  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -82  1       Y  US NONE
+                          Grease 58:19:f8:21:6d:a0 -81  1       Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -86  36      Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -87  36      Y  US NONE
+                         Grease5 58:19:f8:21:6d:a1 -86  36      Y  US WPA2(PSK/AES/AES) 
+                            LORC 60:d2:48:f1:a9:62 -68  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:31:04.694298
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        yoboseyo fc:ec:da:b1:86:43 -91  11      Y  -- WPA2(PSK/AES/AES) 
+                            lake 60:d2:48:f1:a9:61 -60  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -73  6       Y  US WPA2(PSK/AES/AES) 
+                          Grease 58:19:f8:21:6d:a0 -81  1       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -83  1       Y  US NONE
+                     xfinitywifi 6a:19:f8:21:6d:a1 -85  36      Y  US NONE
+                         Grease5 58:19:f8:21:6d:a1 -85  36      Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -85  36      Y  US WPA2(802.1x/AES/AES) 
+                            LORC 60:d2:48:f1:a9:62 -67  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:31:09.694505
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        yoboseyo fc:ec:da:b1:86:43 -91  11      Y  -- WPA2(PSK/AES/AES) 
+                            lake 60:d2:48:f1:a9:61 -60  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -73  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -84  1       Y  US NONE
+                          Grease 58:19:f8:21:6d:a0 -81  1       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -85  36      Y  US NONE
+                         Grease5 58:19:f8:21:6d:a1 -85  36      Y  US WPA2(PSK/AES/AES) 
+                           mjfox 6a:e8:92:86:1b:23 -87  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                           mjfox 84:e8:92:86:1b:24 -87  149     Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -86  36      Y  US WPA2(802.1x/AES/AES) 
+                            LORC 60:d2:48:f1:a9:62 -66  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:31:14.689557
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        yoboseyo fc:ec:da:b1:86:43 -91  11      Y  -- WPA2(PSK/AES/AES) 
+                            lake 60:d2:48:f1:a9:61 -61  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -72  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -84  1       Y  US NONE
+                          Grease 58:19:f8:21:6d:a0 -80  1       Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -85  36      Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -85  36      Y  US NONE
+                         Grease5 58:19:f8:21:6d:a1 -85  36      Y  US WPA2(PSK/AES/AES) 
+                            LORC 60:d2:48:f1:a9:62 -67  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:31:19.694290
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        yoboseyo fc:ec:da:b1:86:43 -91  11      Y  -- WPA2(PSK/AES/AES) 
+                            lake 60:d2:48:f1:a9:61 -60  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -73  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -82  1       Y  US NONE
+                          Grease 58:19:f8:21:6d:a0 -82  1       Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -84  36      Y  US WPA2(802.1x/AES/AES) 
+                         Grease5 58:19:f8:21:6d:a1 -86  36      Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -86  36      Y  US NONE
+                            LORC 60:d2:48:f1:a9:62 -67  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:31:24.690722
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        yoboseyo fc:ec:da:b1:86:43 -91  11      Y  -- WPA2(PSK/AES/AES) 
+                            lake 60:d2:48:f1:a9:61 -61  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -73  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -82  1       Y  US NONE
+                          Grease 58:19:f8:21:6d:a0 -81  1       Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -86  36      Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -87  36      Y  US NONE
+                         Grease5 58:19:f8:21:6d:a1 -85  36      Y  US WPA2(PSK/AES/AES) 
+                            LORC 60:d2:48:f1:a9:62 -66  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:31:29.692101
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        yoboseyo fc:ec:da:b1:86:43 -91  11      Y  -- WPA2(PSK/AES/AES) 
+                            lake 60:d2:48:f1:a9:61 -60  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -72  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -82  1       Y  US NONE
+                          Grease 58:19:f8:21:6d:a0 -81  1       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -85  36      Y  US NONE
+                         Grease5 58:19:f8:21:6d:a1 -86  36      Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -85  36      Y  US WPA2(802.1x/AES/AES) 
+                            LORC 60:d2:48:f1:a9:62 -67  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:31:34.691200
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        yoboseyo fc:ec:da:b1:86:43 -91  11      Y  -- WPA2(PSK/AES/AES) 
+                            lake 60:d2:48:f1:a9:61 -60  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -73  6       Y  US WPA2(PSK/AES/AES) 
+                          Grease 58:19:f8:21:6d:a0 -82  1       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -84  1       Y  US NONE
+                     xfinitywifi 6a:19:f8:21:6d:a1 -86  36      Y  US NONE
+                         Grease5 58:19:f8:21:6d:a1 -86  36      Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:24 -87  149     Y  US WPA2(PSK/AES/AES) 
+                           mjfox 6a:e8:92:86:1b:23 -86  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                         XFINITY 8a:19:f8:21:6d:a1 -86  36      Y  US WPA2(802.1x/AES/AES) 
+                            LORC 60:d2:48:f1:a9:62 -68  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:31:39.689673
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        yoboseyo fc:ec:da:b1:86:43 -91  11      Y  -- WPA2(PSK/AES/AES) 
+                            lake 60:d2:48:f1:a9:61 -61  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -73  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -80  1       Y  US NONE
+                          Grease 58:19:f8:21:6d:a0 -79  1       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -87  36      Y  US NONE
+                         Grease5 58:19:f8:21:6d:a1 -86  36      Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -86  36      Y  US WPA2(802.1x/AES/AES) 
+                            LORC 60:d2:48:f1:a9:62 -67  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:31:44.691457
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        yoboseyo fc:ec:da:b1:86:43 -91  11      Y  -- WPA2(PSK/AES/AES) 
+                            lake 60:d2:48:f1:a9:61 -61  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -72  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -82  1       Y  US NONE
+                          Grease 58:19:f8:21:6d:a0 -80  1       Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -86  36      Y  US WPA2(802.1x/AES/AES) 
+                         Grease5 58:19:f8:21:6d:a1 -86  36      Y  US WPA2(PSK/AES/AES) 
+                           mjfox 6a:e8:92:86:1b:23 -86  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                           mjfox 84:e8:92:86:1b:24 -86  149     Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -87  36      Y  US NONE
+                            LORC 60:d2:48:f1:a9:62 -68  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:31:49.699308
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        yoboseyo fc:ec:da:b1:86:43 -91  11      Y  -- WPA2(PSK/AES/AES) 
+                            lake 60:d2:48:f1:a9:61 -61  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -72  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -82  1       Y  US NONE
+                          Grease 58:19:f8:21:6d:a0 -80  1       Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -86  36      Y  US WPA2(802.1x/AES/AES) 
+                         Grease5 58:19:f8:21:6d:a1 -85  36      Y  US WPA2(PSK/AES/AES) 
+                           mjfox 6a:e8:92:86:1b:23 -86  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                           mjfox 84:e8:92:86:1b:24 -86  149     Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -86  36      Y  US NONE
+                            LORC 60:d2:48:f1:a9:62 -67  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:31:54.690202
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        yoboseyo fc:ec:da:b1:86:43 -91  11      Y  -- WPA2(PSK/AES/AES) 
+                            lake 60:d2:48:f1:a9:61 -60  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -72  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -83  1       Y  US NONE
+                          Grease 58:19:f8:21:6d:a0 -81  1       Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -86  36      Y  US WPA2(802.1x/AES/AES) 
+                           mjfox 6a:e8:92:86:1b:23 -87  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                           mjfox 84:e8:92:86:1b:24 -87  149     Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -86  36      Y  US NONE
+                         Grease5 58:19:f8:21:6d:a1 -86  36      Y  US WPA2(PSK/AES/AES) 
+                            LORC 60:d2:48:f1:a9:62 -67  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:31:59.691936
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        yoboseyo fc:ec:da:b1:86:43 -91  11      Y  -- WPA2(PSK/AES/AES) 
+                            lake 60:d2:48:f1:a9:61 -60  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -72  6       Y  US WPA2(PSK/AES/AES) 
+                          Grease 58:19:f8:21:6d:a0 -80  1       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -81  1       Y  US NONE
+                     xfinitywifi 6a:19:f8:21:6d:a1 -87  36      Y  US NONE
+                         Grease5 58:19:f8:21:6d:a1 -86  36      Y  US WPA2(PSK/AES/AES) 
+                           mjfox 6a:e8:92:86:1b:23 -87  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                           mjfox 84:e8:92:86:1b:24 -87  149     Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -86  36      Y  US WPA2(802.1x/AES/AES) 
+                            LORC 60:d2:48:f1:a9:62 -67  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:32:04.692056
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        yoboseyo fc:ec:da:b1:86:43 -90  11      Y  -- WPA2(PSK/AES/AES) 
+                            lake 60:d2:48:f1:a9:61 -60  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -74  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -82  1       Y  US NONE
+                          Grease 58:19:f8:21:6d:a0 -80  1       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -86  36      Y  US NONE
+                         Grease5 58:19:f8:21:6d:a1 -86  36      Y  US WPA2(PSK/AES/AES) 
+                           mjfox 6a:e8:92:86:1b:23 -87  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                           mjfox 84:e8:92:86:1b:24 -86  149     Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -86  36      Y  US WPA2(802.1x/AES/AES) 
+                            LORC 60:d2:48:f1:a9:62 -67  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:32:09.692252
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        yoboseyo fc:ec:da:b1:86:43 -90  11      Y  -- WPA2(PSK/AES/AES) 
+                            lake 60:d2:48:f1:a9:61 -60  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -73  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -81  1       Y  US NONE
+                          Grease 58:19:f8:21:6d:a0 -81  1       Y  US WPA2(PSK/AES/AES) 
+                         Grease5 58:19:f8:21:6d:a1 -85  36      Y  US WPA2(PSK/AES/AES) 
+                           mjfox 6a:e8:92:86:1b:23 -87  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                           mjfox 84:e8:92:86:1b:24 -87  149     Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -85  36      Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -86  36      Y  US NONE
+                            LORC 60:d2:48:f1:a9:62 -66  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:32:14.699408
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        yoboseyo fc:ec:da:b1:86:43 -90  11      Y  -- WPA2(PSK/AES/AES) 
+                            lake 60:d2:48:f1:a9:61 -60  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -73  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -83  1       Y  US NONE
+                          Grease 58:19:f8:21:6d:a0 -81  1       Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -86  36      Y  US WPA2(802.1x/AES/AES) 
+                         Grease5 58:19:f8:21:6d:a1 -85  36      Y  US WPA2(PSK/AES/AES) 
+                           mjfox 6a:e8:92:86:1b:23 -87  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                           mjfox 84:e8:92:86:1b:24 -88  149     Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -86  36      Y  US NONE
+                            LORC 60:d2:48:f1:a9:62 -67  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:32:19.692533
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        yoboseyo fc:ec:da:b1:86:43 -90  11      Y  -- WPA2(PSK/AES/AES) 
+                            lake 60:d2:48:f1:a9:61 -60  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -73  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -83  1       Y  US NONE
+                          Grease 58:19:f8:21:6d:a0 -81  1       Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -85  36      Y  US WPA2(802.1x/AES/AES) 
+                           mjfox 6a:e8:92:86:1b:23 -87  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                           mjfox 84:e8:92:86:1b:24 -86  149     Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -86  36      Y  US NONE
+                         Grease5 58:19:f8:21:6d:a1 -85  36      Y  US WPA2(PSK/AES/AES) 
+                            LORC 60:d2:48:f1:a9:62 -67  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:32:24.692656
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        yoboseyo fc:ec:da:b1:86:43 -90  11      Y  -- WPA2(PSK/AES/AES) 
+                            lake 60:d2:48:f1:a9:61 -61  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -73  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -82  1       Y  US NONE
+                          Grease 58:19:f8:21:6d:a0 -81  1       Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -86  36      Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -85  36      Y  US NONE
+                           mjfox 6a:e8:92:86:1b:23 -88  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                           mjfox 84:e8:92:86:1b:24 -87  149     Y  US WPA2(PSK/AES/AES) 
+                         Grease5 58:19:f8:21:6d:a1 -86  36      Y  US WPA2(PSK/AES/AES) 
+                            LORC 60:d2:48:f1:a9:62 -67  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:32:29.699304
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        yoboseyo fc:ec:da:b1:86:43 -90  11      Y  -- WPA2(PSK/AES/AES) 
+                            lake 60:d2:48:f1:a9:61 -60  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -74  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -82  1       Y  US NONE
+                          Grease 58:19:f8:21:6d:a0 -82  1       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -84  36      Y  US NONE
+                         Grease5 58:19:f8:21:6d:a1 -84  36      Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -85  36      Y  US WPA2(802.1x/AES/AES) 
+                            LORC 60:d2:48:f1:a9:62 -67  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:32:34.693028
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        yoboseyo fc:ec:da:b1:86:43 -90  11      Y  -- WPA2(PSK/AES/AES) 
+                            lake 60:d2:48:f1:a9:61 -61  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -73  6       Y  US WPA2(PSK/AES/AES) 
+                          Grease 58:19:f8:21:6d:a0 -79  1       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -81  1       Y  US NONE
+                         XFINITY 8a:19:f8:21:6d:a1 -84  36      Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -85  36      Y  US NONE
+                         Grease5 58:19:f8:21:6d:a1 -84  36      Y  US WPA2(PSK/AES/AES) 
+                           mjfox 6a:e8:92:86:1b:23 -88  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                           mjfox 84:e8:92:86:1b:24 -87  149     Y  US WPA2(PSK/AES/AES) 
+                            LORC 60:d2:48:f1:a9:62 -67  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:32:39.699288
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        yoboseyo fc:ec:da:b1:86:43 -89  11      Y  -- WPA2(PSK/AES/AES) 
+                            lake 60:d2:48:f1:a9:61 -61  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -72  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -80  1       Y  US NONE
+                          Grease 58:19:f8:21:6d:a0 -81  1       Y  US WPA2(PSK/AES/AES) 
+                         Grease5 58:19:f8:21:6d:a1 -85  36      Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -85  36      Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -84  36      Y  US NONE
+                            LORC 60:d2:48:f1:a9:62 -67  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:32:44.693273
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        yoboseyo fc:ec:da:b1:86:43 -89  11      Y  -- WPA2(PSK/AES/AES) 
+                            lake 60:d2:48:f1:a9:61 -60  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -73  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -82  1       Y  US NONE
+                          Grease 58:19:f8:21:6d:a0 -80  1       Y  US WPA2(PSK/AES/AES) 
+                         Grease5 58:19:f8:21:6d:a1 -86  36      Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -85  36      Y  US WPA2(802.1x/AES/AES) 
+                            LORC 60:d2:48:f1:a9:62 -67  48      Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -86  36      Y  US NONE
+
+
+room 8 2020-12-13 18:32:49.692431
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        yoboseyo fc:ec:da:b1:86:43 -89  11      Y  -- WPA2(PSK/AES/AES) 
+                            lake 60:d2:48:f1:a9:61 -60  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -73  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -82  1       Y  US NONE
+                          Grease 58:19:f8:21:6d:a0 -79  1       Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -85  36      Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -84  36      Y  US NONE
+                         Grease5 58:19:f8:21:6d:a1 -85  36      Y  US WPA2(PSK/AES/AES) 
+                            LORC 60:d2:48:f1:a9:62 -67  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:32:54.693003
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        yoboseyo fc:ec:da:b1:86:43 -89  11      Y  -- WPA2(PSK/AES/AES) 
+                            lake 60:d2:48:f1:a9:61 -60  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -72  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -83  1       Y  US NONE
+                          Grease 58:19:f8:21:6d:a0 -81  1       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -87  36      Y  US NONE
+                         Grease5 58:19:f8:21:6d:a1 -89  36      Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -87  36      Y  US WPA2(802.1x/AES/AES) 
+                            LORC 60:d2:48:f1:a9:62 -67  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:32:59.696460
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        yoboseyo fc:ec:da:b1:86:43 -89  11      Y  -- WPA2(PSK/AES/AES) 
+                            lake 60:d2:48:f1:a9:61 -61  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -72  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -82  1       Y  US NONE
+                          Grease 58:19:f8:21:6d:a0 -80  1       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -86  36      Y  US NONE
+                         Grease5 58:19:f8:21:6d:a1 -88  36      Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:24 -87  149     Y  US WPA2(PSK/AES/AES) 
+                           mjfox 6a:e8:92:86:1b:23 -88  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                            LORC 60:d2:48:f1:a9:62 -67  48      Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -87  36      Y  US WPA2(802.1x/AES/AES) 
+
+
+room 8 2020-12-13 18:33:04.690188
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        yoboseyo fc:ec:da:b1:86:43 -89  11      Y  -- WPA2(PSK/AES/AES) 
+                            lake 60:d2:48:f1:a9:61 -60  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -73  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -83  1       Y  US NONE
+                          Grease 58:19:f8:21:6d:a0 -81  1       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -86  36      Y  US NONE
+                         Grease5 58:19:f8:21:6d:a1 -87  36      Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -86  36      Y  US WPA2(802.1x/AES/AES) 
+                            LORC 60:d2:48:f1:a9:62 -67  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:33:09.692495
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        yoboseyo fc:ec:da:b1:86:43 -89  11      Y  -- WPA2(PSK/AES/AES) 
+                            lake 60:d2:48:f1:a9:61 -60  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -73  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -82  1       Y  US NONE
+                          Grease 58:19:f8:21:6d:a0 -74  1       Y  US WPA2(PSK/AES/AES) 
+                         Grease5 58:19:f8:21:6d:a1 -86  36      Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -85  36      Y  US WPA2(802.1x/AES/AES) 
+                           mjfox 6a:e8:92:86:1b:23 -88  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                           mjfox 84:e8:92:86:1b:24 -87  149     Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -86  36      Y  US NONE
+                            LORC 60:d2:48:f1:a9:62 -67  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:33:14.694232
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        yoboseyo fc:ec:da:b1:86:43 -89  11      Y  -- WPA2(PSK/AES/AES) 
+                            lake 60:d2:48:f1:a9:61 -60  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -71  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -82  1       Y  US NONE
+                          Grease 58:19:f8:21:6d:a0 -80  1       Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -85  36      Y  US WPA2(802.1x/AES/AES) 
+                           mjfox 6a:e8:92:86:1b:23 -87  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                           mjfox 84:e8:92:86:1b:24 -88  149     Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -85  36      Y  US NONE
+                         Grease5 58:19:f8:21:6d:a1 -85  36      Y  US WPA2(PSK/AES/AES) 
+                            LORC 60:d2:48:f1:a9:62 -67  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:33:19.694336
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        yoboseyo fc:ec:da:b1:86:43 -90  11      Y  -- WPA2(PSK/AES/AES) 
+                            lake 60:d2:48:f1:a9:61 -60  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -74  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -82  1       Y  US NONE
+                          Grease 58:19:f8:21:6d:a0 -80  1       Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -85  36      Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -85  36      Y  US NONE
+                           mjfox 6a:e8:92:86:1b:23 -87  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                           mjfox 84:e8:92:86:1b:24 -86  149     Y  US WPA2(PSK/AES/AES) 
+                         Grease5 58:19:f8:21:6d:a1 -85  36      Y  US WPA2(PSK/AES/AES) 
+                            LORC 60:d2:48:f1:a9:62 -66  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:33:24.694774
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        yoboseyo fc:ec:da:b1:86:43 -90  11      Y  -- WPA2(PSK/AES/AES) 
+                            lake 60:d2:48:f1:a9:61 -60  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -74  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -81  1       Y  US NONE
+                          Grease 58:19:f8:21:6d:a0 -81  1       Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -85  36      Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -85  36      Y  US NONE
+                           mjfox 6a:e8:92:86:1b:23 -87  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                           mjfox 84:e8:92:86:1b:24 -87  149     Y  US WPA2(PSK/AES/AES) 
+                         Grease5 58:19:f8:21:6d:a1 -85  36      Y  US WPA2(PSK/AES/AES) 
+                            LORC 60:d2:48:f1:a9:62 -66  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:33:29.694626
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        yoboseyo fc:ec:da:b1:86:43 -90  11      Y  -- WPA2(PSK/AES/AES) 
+                            lake 60:d2:48:f1:a9:61 -60  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -74  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -82  1       Y  US NONE
+                          Grease 58:19:f8:21:6d:a0 -80  1       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -86  36      Y  US NONE
+                         Grease5 58:19:f8:21:6d:a1 -85  36      Y  US WPA2(PSK/AES/AES) 
+                           mjfox 6a:e8:92:86:1b:23 -87  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                           mjfox 84:e8:92:86:1b:24 -87  149     Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -85  36      Y  US WPA2(802.1x/AES/AES) 
+                            LORC 60:d2:48:f1:a9:62 -67  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:33:34.699318
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        yoboseyo fc:ec:da:b1:86:43 -90  11      Y  -- WPA2(PSK/AES/AES) 
+                            lake 60:d2:48:f1:a9:61 -60  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -72  6       Y  US WPA2(PSK/AES/AES) 
+                          Grease 58:19:f8:21:6d:a0 -80  1       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -82  1       Y  US NONE
+                     xfinitywifi 6a:19:f8:21:6d:a1 -85  36      Y  US NONE
+                         Grease5 58:19:f8:21:6d:a1 -85  36      Y  US WPA2(PSK/AES/AES) 
+                           mjfox 6a:e8:92:86:1b:23 -87  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                           mjfox 84:e8:92:86:1b:24 -87  149     Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -86  36      Y  US WPA2(802.1x/AES/AES) 
+                            LORC 60:d2:48:f1:a9:62 -67  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:33:39.694943
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        yoboseyo fc:ec:da:b1:86:43 -90  11      Y  -- WPA2(PSK/AES/AES) 
+                            lake 60:d2:48:f1:a9:61 -60  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -73  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -82  1       Y  US NONE
+                          Grease 58:19:f8:21:6d:a0 -81  1       Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -85  36      Y  US WPA2(802.1x/AES/AES) 
+                         Grease5 58:19:f8:21:6d:a1 -86  36      Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -86  36      Y  US NONE
+                            LORC 60:d2:48:f1:a9:62 -67  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:33:44.692599
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        yoboseyo fc:ec:da:b1:86:43 -90  11      Y  -- WPA2(PSK/AES/AES) 
+                            lake 60:d2:48:f1:a9:61 -61  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -73  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -84  1       Y  US NONE
+                          Grease 58:19:f8:21:6d:a0 -80  1       Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -85  36      Y  US WPA2(802.1x/AES/AES) 
+                           mjfox 6a:e8:92:86:1b:23 -88  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                           mjfox 84:e8:92:86:1b:24 -88  149     Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -85  36      Y  US NONE
+                         Grease5 58:19:f8:21:6d:a1 -86  36      Y  US WPA2(PSK/AES/AES) 
+                            LORC 60:d2:48:f1:a9:62 -67  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:33:49.699294
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        yoboseyo fc:ec:da:b1:86:43 -90  11      Y  -- WPA2(PSK/AES/AES) 
+                            lake 60:d2:48:f1:a9:61 -60  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -73  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -81  1       Y  US NONE
+                          Grease 58:19:f8:21:6d:a0 -80  1       Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -86  36      Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -86  36      Y  US NONE
+                         Grease5 58:19:f8:21:6d:a1 -85  36      Y  US WPA2(PSK/AES/AES) 
+                            LORC 60:d2:48:f1:a9:62 -66  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:33:54.695377
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        yoboseyo fc:ec:da:b1:86:43 -90  11      Y  -- WPA2(PSK/AES/AES) 
+                            lake 60:d2:48:f1:a9:61 -60  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -73  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -83  1       Y  US NONE
+                          Grease 58:19:f8:21:6d:a0 -79  1       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -85  36      Y  US NONE
+                         Grease5 58:19:f8:21:6d:a1 -85  36      Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -85  36      Y  US WPA2(802.1x/AES/AES) 
+                            LORC 60:d2:48:f1:a9:62 -67  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:33:59.695508
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        yoboseyo fc:ec:da:b1:86:43 -90  11      Y  -- WPA2(PSK/AES/AES) 
+                            lake 60:d2:48:f1:a9:61 -60  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -74  6       Y  US WPA2(PSK/AES/AES) 
+                          Grease 58:19:f8:21:6d:a0 -80  1       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -82  1       Y  US NONE
+                     xfinitywifi 6a:19:f8:21:6d:a1 -84  36      Y  US NONE
+                         Grease5 58:19:f8:21:6d:a1 -85  36      Y  US WPA2(PSK/AES/AES) 
+                           mjfox 6a:e8:92:86:1b:23 -87  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                           mjfox 84:e8:92:86:1b:24 -87  149     Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -85  36      Y  US WPA2(802.1x/AES/AES) 
+                            LORC 60:d2:48:f1:a9:62 -66  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:34:04.695683
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        yoboseyo fc:ec:da:b1:86:43 -90  11      Y  -- WPA2(PSK/AES/AES) 
+                            lake 60:d2:48:f1:a9:61 -61  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -73  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -85  1       Y  US NONE
+                          Grease 58:19:f8:21:6d:a0 -83  1       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -85  36      Y  US NONE
+                         Grease5 58:19:f8:21:6d:a1 -85  36      Y  US WPA2(PSK/AES/AES) 
+                           mjfox 6a:e8:92:86:1b:23 -87  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                           mjfox 84:e8:92:86:1b:24 -87  149     Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -85  36      Y  US WPA2(802.1x/AES/AES) 
+                            LORC 60:d2:48:f1:a9:62 -67  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:34:09.695829
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        yoboseyo fc:ec:da:b1:86:43 -90  11      Y  -- WPA2(PSK/AES/AES) 
+                            lake 60:d2:48:f1:a9:61 -60  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -72  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -84  1       Y  US NONE
+                          Grease 58:19:f8:21:6d:a0 -82  1       Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -85  36      Y  US WPA2(802.1x/AES/AES) 
+                         Grease5 58:19:f8:21:6d:a1 -85  36      Y  US WPA2(PSK/AES/AES) 
+                           mjfox 6a:e8:92:86:1b:23 -88  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                           mjfox 84:e8:92:86:1b:24 -88  149     Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -85  36      Y  US NONE
+                            LORC 60:d2:48:f1:a9:62 -66  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:34:14.695957
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        yoboseyo fc:ec:da:b1:86:43 -90  11      Y  -- WPA2(PSK/AES/AES) 
+                            lake 60:d2:48:f1:a9:61 -61  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -73  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -83  1       Y  US NONE
+                          Grease 58:19:f8:21:6d:a0 -81  1       Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -84  36      Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -84  36      Y  US NONE
+                         Grease5 58:19:f8:21:6d:a1 -85  36      Y  US WPA2(PSK/AES/AES) 
+                            LORC 60:d2:48:f1:a9:62 -67  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:34:19.696179
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        yoboseyo fc:ec:da:b1:86:43 -90  11      Y  -- WPA2(PSK/AES/AES) 
+                            lake 60:d2:48:f1:a9:61 -61  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -72  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -82  1       Y  US NONE
+                          Grease 58:19:f8:21:6d:a0 -81  1       Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -85  36      Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -84  36      Y  US NONE
+                           mjfox 6a:e8:92:86:1b:23 -88  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                           mjfox 84:e8:92:86:1b:24 -86  149     Y  US WPA2(PSK/AES/AES) 
+                         Grease5 58:19:f8:21:6d:a1 -85  36      Y  US WPA2(PSK/AES/AES) 
+                            LORC 60:d2:48:f1:a9:62 -66  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:34:24.689251
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                            lake 60:d2:48:f1:a9:61 -60  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -73  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -83  1       Y  US NONE
+                          Grease 58:19:f8:21:6d:a0 -83  1       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -86  36      Y  US NONE
+                         Grease5 58:19:f8:21:6d:a1 -86  36      Y  US WPA2(PSK/AES/AES) 
+                           mjfox 6a:e8:92:86:1b:23 -87  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                           mjfox 84:e8:92:86:1b:24 -87  149     Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -86  36      Y  US WPA2(802.1x/AES/AES) 
+                            LORC 60:d2:48:f1:a9:62 -66  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:34:29.696623
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                            lake 60:d2:48:f1:a9:61 -60  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -73  6       Y  US WPA2(PSK/AES/AES) 
+                          Grease 58:19:f8:21:6d:a0 -82  1       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -84  1       Y  US NONE
+                     xfinitywifi 6a:19:f8:21:6d:a1 -85  36      Y  US NONE
+                         Grease5 58:19:f8:21:6d:a1 -85  36      Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:24 -88  149     Y  US WPA2(PSK/AES/AES) 
+                           mjfox 6a:e8:92:86:1b:23 -87  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                         XFINITY 8a:19:f8:21:6d:a1 -85  36      Y  US WPA2(802.1x/AES/AES) 
+                            LORC 60:d2:48:f1:a9:62 -67  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:34:34.689361
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                            lake 60:d2:48:f1:a9:61 -61  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -73  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -82  1       Y  US NONE
+                          Grease 58:19:f8:21:6d:a0 -80  1       Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -85  36      Y  US WPA2(802.1x/AES/AES) 
+                         Grease5 58:19:f8:21:6d:a1 -85  36      Y  US WPA2(PSK/AES/AES) 
+                           mjfox 6a:e8:92:86:1b:23 -87  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                           mjfox 84:e8:92:86:1b:24 -87  149     Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -86  36      Y  US NONE
+                            LORC 60:d2:48:f1:a9:62 -67  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:34:39.693214
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        yoboseyo fc:ec:da:b1:86:43 -90  11      Y  -- WPA2(PSK/AES/AES) 
+                            lake 60:d2:48:f1:a9:61 -60  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -73  6       Y  US WPA2(PSK/AES/AES) 
+                          Grease 58:19:f8:21:6d:a0 -82  1       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -84  1       Y  US NONE
+                     xfinitywifi 6a:19:f8:21:6d:a1 -84  36      Y  US NONE
+                         Grease5 58:19:f8:21:6d:a1 -85  36      Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:24 -87  149     Y  US WPA2(PSK/AES/AES) 
+                           mjfox 6a:e8:92:86:1b:23 -87  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                         XFINITY 8a:19:f8:21:6d:a1 -85  36      Y  US WPA2(802.1x/AES/AES) 
+                            LORC 60:d2:48:f1:a9:62 -67  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:34:44.696720
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        yoboseyo fc:ec:da:b1:86:43 -90  11      Y  -- WPA2(PSK/AES/AES) 
+                            lake 60:d2:48:f1:a9:61 -61  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -71  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -83  1       Y  US NONE
+                          Grease 58:19:f8:21:6d:a0 -73  1       Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -85  36      Y  US WPA2(802.1x/AES/AES) 
+                           mjfox 6a:e8:92:86:1b:23 -86  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                           mjfox 84:e8:92:86:1b:24 -87  149     Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -85  36      Y  US NONE
+                         Grease5 58:19:f8:21:6d:a1 -85  36      Y  US WPA2(PSK/AES/AES) 
+                            LORC 60:d2:48:f1:a9:62 -66  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:34:49.699324
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        yoboseyo fc:ec:da:b1:86:43 -90  11      Y  -- WPA2(PSK/AES/AES) 
+                            lake 60:d2:48:f1:a9:61 -61  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -72  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -83  1       Y  US NONE
+                          Grease 58:19:f8:21:6d:a0 -80  1       Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -85  36      Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -85  36      Y  US NONE
+                         Grease5 58:19:f8:21:6d:a1 -85  36      Y  US WPA2(PSK/AES/AES) 
+                           mjfox 6a:e8:92:86:1b:23 -87  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                           mjfox 84:e8:92:86:1b:24 -89  149     Y  US WPA2(PSK/AES/AES) 
+                            LORC 60:d2:48:f1:a9:62 -66  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:34:54.697249
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        yoboseyo fc:ec:da:b1:86:43 -90  11      Y  -- WPA2(PSK/AES/AES) 
+                            lake 60:d2:48:f1:a9:61 -60  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -73  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -83  1       Y  US NONE
+                          Grease 58:19:f8:21:6d:a0 -81  1       Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -85  36      Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -85  36      Y  US NONE
+                         Grease5 58:19:f8:21:6d:a1 -84  36      Y  US WPA2(PSK/AES/AES) 
+                           mjfox 6a:e8:92:86:1b:23 -87  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                           mjfox 84:e8:92:86:1b:24 -87  149     Y  US WPA2(PSK/AES/AES) 
+                            LORC 60:d2:48:f1:a9:62 -67  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:34:59.697367
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        yoboseyo fc:ec:da:b1:86:43 -90  11      Y  -- WPA2(PSK/AES/AES) 
+                            lake 60:d2:48:f1:a9:61 -60  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -73  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -81  1       Y  US NONE
+                          Grease 58:19:f8:21:6d:a0 -82  1       Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -86  36      Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -84  36      Y  US NONE
+                         Grease5 58:19:f8:21:6d:a1 -85  36      Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:24 -87  149     Y  US WPA2(PSK/AES/AES) 
+                           mjfox 6a:e8:92:86:1b:23 -87  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                            LORC 60:d2:48:f1:a9:62 -67  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:35:04.697491
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        yoboseyo fc:ec:da:b1:86:43 -90  11      Y  -- WPA2(PSK/AES/AES) 
+                            lake 60:d2:48:f1:a9:61 -60  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -73  6       Y  US WPA2(PSK/AES/AES) 
+                          Grease 58:19:f8:21:6d:a0 -83  1       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -82  1       Y  US NONE
+                     xfinitywifi 6a:19:f8:21:6d:a1 -85  36      Y  US NONE
+                         Grease5 58:19:f8:21:6d:a1 -85  36      Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:24 -89  149     Y  US WPA2(PSK/AES/AES) 
+                           mjfox 6a:e8:92:86:1b:23 -88  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                         XFINITY 8a:19:f8:21:6d:a1 -85  36      Y  US WPA2(802.1x/AES/AES) 
+                            LORC 60:d2:48:f1:a9:62 -67  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:35:09.697646
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        yoboseyo fc:ec:da:b1:86:43 -90  11      Y  -- WPA2(PSK/AES/AES) 
+                            lake 60:d2:48:f1:a9:61 -60  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -73  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -81  1       Y  US NONE
+                          Grease 58:19:f8:21:6d:a0 -81  1       Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -84  36      Y  US WPA2(802.1x/AES/AES) 
+                           mjfox 6a:e8:92:86:1b:23 -87  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                           mjfox 84:e8:92:86:1b:24 -87  149     Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -85  36      Y  US NONE
+                         Grease5 58:19:f8:21:6d:a1 -85  36      Y  US WPA2(PSK/AES/AES) 
+                            LORC 60:d2:48:f1:a9:62 -67  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:35:14.697749
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        yoboseyo fc:ec:da:b1:86:43 -90  11      Y  -- WPA2(PSK/AES/AES) 
+                            lake 60:d2:48:f1:a9:61 -60  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -73  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -83  1       Y  US NONE
+                          Grease 58:19:f8:21:6d:a0 -81  1       Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -85  36      Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -86  36      Y  US NONE
+                         Grease5 58:19:f8:21:6d:a1 -85  36      Y  US WPA2(PSK/AES/AES) 
+                            LORC 60:d2:48:f1:a9:62 -67  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:35:19.697935
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        yoboseyo fc:ec:da:b1:86:43 -90  11      Y  -- WPA2(PSK/AES/AES) 
+                            lake 60:d2:48:f1:a9:61 -61  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -72  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -83  1       Y  US NONE
+                          Grease 58:19:f8:21:6d:a0 -81  1       Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -85  36      Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -84  36      Y  US NONE
+                           mjfox 6a:e8:92:86:1b:23 -87  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                           mjfox 84:e8:92:86:1b:24 -87  149     Y  US WPA2(PSK/AES/AES) 
+                         Grease5 58:19:f8:21:6d:a1 -85  36      Y  US WPA2(PSK/AES/AES) 
+                            LORC 60:d2:48:f1:a9:62 -67  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:35:24.698110
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        yoboseyo fc:ec:da:b1:86:43 -90  11      Y  -- WPA2(PSK/AES/AES) 
+                            lake 60:d2:48:f1:a9:61 -61  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -72  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -83  1       Y  US NONE
+                          Grease 58:19:f8:21:6d:a0 -80  1       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -85  36      Y  US NONE
+                         Grease5 58:19:f8:21:6d:a1 -85  36      Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -85  36      Y  US WPA2(802.1x/AES/AES) 
+                            LORC 60:d2:48:f1:a9:62 -68  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:35:29.692346
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        yoboseyo fc:ec:da:b1:86:43 -90  11      Y  -- WPA2(PSK/AES/AES) 
+                            lake 60:d2:48:f1:a9:61 -60  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -71  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -82  1       Y  US NONE
+                          Grease 58:19:f8:21:6d:a0 -80  1       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -85  36      Y  US NONE
+                         Grease5 58:19:f8:21:6d:a1 -85  36      Y  US WPA2(PSK/AES/AES) 
+                           mjfox 6a:e8:92:86:1b:23 -89  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                           mjfox 84:e8:92:86:1b:24 -86  149     Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -84  36      Y  US WPA2(802.1x/AES/AES) 
+                            LORC 60:d2:48:f1:a9:62 -67  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:35:34.697842
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        yoboseyo fc:ec:da:b1:86:43 -90  11      Y  -- WPA2(PSK/AES/AES) 
+                            lake 60:d2:48:f1:a9:61 -60  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -73  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -82  1       Y  US NONE
+                          Grease 58:19:f8:21:6d:a0 -80  1       Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -85  36      Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -84  36      Y  US NONE
+                         Grease5 58:19:f8:21:6d:a1 -85  36      Y  US WPA2(PSK/AES/AES) 
+                           mjfox 6a:e8:92:86:1b:23 -88  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                           mjfox 84:e8:92:86:1b:24 -88  149     Y  US WPA2(PSK/AES/AES) 
+                            LORC 60:d2:48:f1:a9:62 -67  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:35:39.698503
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        yoboseyo fc:ec:da:b1:86:43 -89  11      Y  -- WPA2(PSK/AES/AES) 
+                            lake 60:d2:48:f1:a9:61 -60  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -74  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -72  1       Y  US NONE
+                          Grease 58:19:f8:21:6d:a0 -81  1       Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -86  36      Y  US WPA2(802.1x/AES/AES) 
+                           mjfox 6a:e8:92:86:1b:23 -87  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                           mjfox 84:e8:92:86:1b:24 -87  149     Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -86  36      Y  US NONE
+                         Grease5 58:19:f8:21:6d:a1 -86  36      Y  US WPA2(PSK/AES/AES) 
+                            LORC 60:d2:48:f1:a9:62 -67  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:35:44.698827
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        yoboseyo fc:ec:da:b1:86:43 -89  11      Y  -- WPA2(PSK/AES/AES) 
+                            lake 60:d2:48:f1:a9:61 -61  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -74  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -81  1       Y  US NONE
+                          Grease 58:19:f8:21:6d:a0 -80  1       Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -86  36      Y  US WPA2(802.1x/AES/AES) 
+                           mjfox 6a:e8:92:86:1b:23 -86  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                           mjfox 84:e8:92:86:1b:24 -86  149     Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -86  36      Y  US NONE
+                         Grease5 58:19:f8:21:6d:a1 -86  36      Y  US WPA2(PSK/AES/AES) 
+                            LORC 60:d2:48:f1:a9:62 -68  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:35:49.698847
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        yoboseyo fc:ec:da:b1:86:43 -89  11      Y  -- WPA2(PSK/AES/AES) 
+                            lake 60:d2:48:f1:a9:61 -61  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -70  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -81  1       Y  US NONE
+                          Grease 58:19:f8:21:6d:a0 -80  1       Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -86  36      Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -85  36      Y  US NONE
+                           mjfox 6a:e8:92:86:1b:23 -88  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                           mjfox 84:e8:92:86:1b:24 -87  149     Y  US WPA2(PSK/AES/AES) 
+                         Grease5 58:19:f8:21:6d:a1 -85  36      Y  US WPA2(PSK/AES/AES) 
+                            LORC 60:d2:48:f1:a9:62 -68  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:35:54.698983
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        yoboseyo fc:ec:da:b1:86:43 -89  11      Y  -- WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -70  6       Y  US WPA2(PSK/AES/AES) 
+                            lake 60:d2:48:f1:a9:61 -60  11,-1   Y  US WPA2(PSK/AES/AES) 
+                          Grease 58:19:f8:21:6d:a0 -82  1       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -83  1       Y  US NONE
+                     xfinitywifi 6a:19:f8:21:6d:a1 -86  36      Y  US NONE
+                         Grease5 58:19:f8:21:6d:a1 -85  36      Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:24 -86  149     Y  US WPA2(PSK/AES/AES) 
+                           mjfox 6a:e8:92:86:1b:23 -87  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                         XFINITY 8a:19:f8:21:6d:a1 -85  36      Y  US WPA2(802.1x/AES/AES) 
+                            LORC 60:d2:48:f1:a9:62 -68  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:35:59.699235
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        yoboseyo fc:ec:da:b1:86:43 -89  11      Y  -- WPA2(PSK/AES/AES) 
+                            lake 60:d2:48:f1:a9:61 -61  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -73  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -82  1       Y  US NONE
+                          Grease 58:19:f8:21:6d:a0 -81  1       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -86  36      Y  US NONE
+                         Grease5 58:19:f8:21:6d:a1 -87  36      Y  US WPA2(PSK/AES/AES) 
+                           mjfox 6a:e8:92:86:1b:23 -87  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                           mjfox 84:e8:92:86:1b:24 -86  149     Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -87  36      Y  US WPA2(802.1x/AES/AES) 
+                            LORC 60:d2:48:f1:a9:62 -68  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:36:04.699288
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        yoboseyo fc:ec:da:b1:86:43 -89  11      Y  -- WPA2(PSK/AES/AES) 
+                            lake 60:d2:48:f1:a9:61 -60  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -74  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -82  1       Y  US NONE
+                          Grease 58:19:f8:21:6d:a0 -79  1       Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -86  36      Y  US WPA2(802.1x/AES/AES) 
+                         Grease5 58:19:f8:21:6d:a1 -85  36      Y  US WPA2(PSK/AES/AES) 
+                           mjfox 6a:e8:92:86:1b:23 -87  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                           mjfox 84:e8:92:86:1b:24 -86  149     Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -85  36      Y  US NONE
+                            LORC 60:d2:48:f1:a9:62 -68  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:36:09.699343
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        yoboseyo fc:ec:da:b1:86:43 -89  11      Y  -- WPA2(PSK/AES/AES) 
+                            lake 60:d2:48:f1:a9:61 -60  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -74  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -81  1       Y  US NONE
+                          Grease 58:19:f8:21:6d:a0 -79  1       Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -85  36      Y  US WPA2(802.1x/AES/AES) 
+                           mjfox 6a:e8:92:86:1b:23 -86  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                           mjfox 84:e8:92:86:1b:24 -87  149     Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -86  36      Y  US NONE
+                         Grease5 58:19:f8:21:6d:a1 -85  36      Y  US WPA2(PSK/AES/AES) 
+                            LORC 60:d2:48:f1:a9:62 -68  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:36:14.699538
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        yoboseyo fc:ec:da:b1:86:43 -89  11      Y  -- WPA2(PSK/AES/AES) 
+                            lake 60:d2:48:f1:a9:61 -61  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -73  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -82  1       Y  US NONE
+                          Grease 58:19:f8:21:6d:a0 -81  1       Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -85  36      Y  US WPA2(802.1x/AES/AES) 
+                           mjfox 6a:e8:92:86:1b:23 -88  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                           mjfox 84:e8:92:86:1b:24 -87  149     Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -85  36      Y  US NONE
+                         Grease5 58:19:f8:21:6d:a1 -85  36      Y  US WPA2(PSK/AES/AES) 
+                            LORC 60:d2:48:f1:a9:62 -68  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:36:19.699318
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        yoboseyo fc:ec:da:b1:86:43 -89  11      Y  -- WPA2(PSK/AES/AES) 
+                            lake 60:d2:48:f1:a9:61 -61  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -73  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -83  1       Y  US NONE
+                          Grease 58:19:f8:21:6d:a0 -80  1       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -85  36      Y  US NONE
+                           mjfox 6a:e8:92:86:1b:23 -87  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                           mjfox 84:e8:92:86:1b:24 -87  149     Y  US WPA2(PSK/AES/AES) 
+                         Grease5 58:19:f8:21:6d:a1 -86  36      Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -86  36      Y  US WPA2(802.1x/AES/AES) 
+                            LORC 60:d2:48:f1:a9:62 -68  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:36:24.689816
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        yoboseyo fc:ec:da:b1:86:43 -89  11      Y  -- WPA2(PSK/AES/AES) 
+                            lake 60:d2:48:f1:a9:61 -61  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -73  6       Y  US WPA2(PSK/AES/AES) 
+                          Grease 58:19:f8:21:6d:a0 -81  1       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -80  1       Y  US NONE
+                         XFINITY 8a:19:f8:21:6d:a1 -86  36      Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -86  36      Y  US NONE
+                         Grease5 58:19:f8:21:6d:a1 -86  36      Y  US WPA2(PSK/AES/AES) 
+                           mjfox 6a:e8:92:86:1b:23 -86  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                           mjfox 84:e8:92:86:1b:24 -86  149     Y  US WPA2(PSK/AES/AES) 
+                            LORC 60:d2:48:f1:a9:62 -68  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:36:29.699384
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        yoboseyo fc:ec:da:b1:86:43 -89  11      Y  -- WPA2(PSK/AES/AES) 
+                            lake 60:d2:48:f1:a9:61 -61  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -71  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -81  1       Y  US NONE
+                          Grease 58:19:f8:21:6d:a0 -82  1       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -85  36      Y  US NONE
+                         Grease5 58:19:f8:21:6d:a1 -86  36      Y  US WPA2(PSK/AES/AES) 
+                           mjfox 6a:e8:92:86:1b:23 -87  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                           mjfox 84:e8:92:86:1b:24 -87  149     Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -85  36      Y  US WPA2(802.1x/AES/AES) 
+                            LORC 60:d2:48:f1:a9:62 -68  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:36:34.699379
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        yoboseyo fc:ec:da:b1:86:43 -89  11      Y  -- WPA2(PSK/AES/AES) 
+                            lake 60:d2:48:f1:a9:61 -60  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -73  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -82  1       Y  US NONE
+                          Grease 58:19:f8:21:6d:a0 -79  1       Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -86  36      Y  US WPA2(802.1x/AES/AES) 
+                         Grease5 58:19:f8:21:6d:a1 -86  36      Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -86  36      Y  US NONE
+                            LORC 60:d2:48:f1:a9:62 -68  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:36:39.689236
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        yoboseyo fc:ec:da:b1:86:43 -89  11      Y  -- WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -82  1       Y  US NONE
+                            lake 60:d2:48:f1:a9:61 -60  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -73  6       Y  US WPA2(PSK/AES/AES) 
+                          Grease 58:19:f8:21:6d:a0 -80  1       Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -85  36      Y  US WPA2(802.1x/AES/AES) 
+                           mjfox 6a:e8:92:86:1b:23 -87  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                           mjfox 84:e8:92:86:1b:24 -87  149     Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -85  36      Y  US NONE
+                         Grease5 58:19:f8:21:6d:a1 -86  36      Y  US WPA2(PSK/AES/AES) 
+                            LORC 60:d2:48:f1:a9:62 -68  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:36:44.691415
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        yoboseyo fc:ec:da:b1:86:43 -89  11      Y  -- WPA2(PSK/AES/AES) 
+                            lake 60:d2:48:f1:a9:61 -60  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -73  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -82  1       Y  US NONE
+                          Grease 58:19:f8:21:6d:a0 -80  1       Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -86  36      Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -85  36      Y  US NONE
+                         Grease5 58:19:f8:21:6d:a1 -85  36      Y  US WPA2(PSK/AES/AES) 
+                            LORC 60:d2:48:f1:a9:62 -68  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:36:49.699498
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                            lake 60:d2:48:f1:a9:61 -60  11,-1   Y  US WPA2(PSK/AES/AES) 
+                        yoboseyo fc:ec:da:b1:86:43 -90  11      Y  -- WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -73  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -82  1       Y  US NONE
+                          Grease 58:19:f8:21:6d:a0 -79  1       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -85  36      Y  US NONE
+                         Grease5 58:19:f8:21:6d:a1 -85  36      Y  US WPA2(PSK/AES/AES) 
+                           mjfox 6a:e8:92:86:1b:23 -87  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                           mjfox 84:e8:92:86:1b:24 -86  149     Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -86  36      Y  US WPA2(802.1x/AES/AES) 
+                            LORC 60:d2:48:f1:a9:62 -68  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:36:54.699341
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        yoboseyo fc:ec:da:b1:86:43 -90  11      Y  -- WPA2(PSK/AES/AES) 
+                            lake 60:d2:48:f1:a9:61 -60  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -73  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -82  1       Y  US NONE
+                          Grease 58:19:f8:21:6d:a0 -80  1       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -85  36      Y  US NONE
+                         Grease5 58:19:f8:21:6d:a1 -86  36      Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:24 -86  149     Y  US WPA2(PSK/AES/AES) 
+                           mjfox 6a:e8:92:86:1b:23 -88  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                         XFINITY 8a:19:f8:21:6d:a1 -85  36      Y  US WPA2(802.1x/AES/AES) 
+                            LORC 60:d2:48:f1:a9:62 -68  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:36:59.696808
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        yoboseyo fc:ec:da:b1:86:43 -90  11      Y  -- WPA2(PSK/AES/AES) 
+                            lake 60:d2:48:f1:a9:61 -60  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -73  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -82  1       Y  US NONE
+                          Grease 58:19:f8:21:6d:a0 -80  1       Y  US WPA2(PSK/AES/AES) 
+                         Grease5 58:19:f8:21:6d:a1 -86  36      Y  US WPA2(PSK/AES/AES) 
+                           mjfox 6a:e8:92:86:1b:23 -87  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                           mjfox 84:e8:92:86:1b:24 -87  149     Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -85  36      Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -86  36      Y  US NONE
+                            LORC 60:d2:48:f1:a9:62 -68  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:37:04.699278
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        yoboseyo fc:ec:da:b1:86:43 -90  11      Y  -- WPA2(PSK/AES/AES) 
+                            lake 60:d2:48:f1:a9:61 -60  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -73  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -83  1       Y  US NONE
+                          Grease 58:19:f8:21:6d:a0 -79  1       Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -85  36      Y  US WPA2(802.1x/AES/AES) 
+                         Grease5 58:19:f8:21:6d:a1 -86  36      Y  US WPA2(PSK/AES/AES) 
+                           mjfox 6a:e8:92:86:1b:23 -87  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                           mjfox 84:e8:92:86:1b:24 -87  149     Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -85  36      Y  US NONE
+                            LORC 60:d2:48:f1:a9:62 -68  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:37:09.691081
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        yoboseyo fc:ec:da:b1:86:43 -90  11      Y  -- WPA2(PSK/AES/AES) 
+                            lake 60:d2:48:f1:a9:61 -60  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -72  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -74  1       Y  US NONE
+                          Grease 58:19:f8:21:6d:a0 -80  1       Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -85  36      Y  US WPA2(802.1x/AES/AES) 
+                           mjfox 6a:e8:92:86:1b:23 -88  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                           mjfox 84:e8:92:86:1b:24 -88  149     Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -87  36      Y  US NONE
+                         Grease5 58:19:f8:21:6d:a1 -85  36      Y  US WPA2(PSK/AES/AES) 
+                            LORC 60:d2:48:f1:a9:62 -68  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:37:14.699328
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        yoboseyo fc:ec:da:b1:86:43 -90  11      Y  -- WPA2(PSK/AES/AES) 
+                            lake 60:d2:48:f1:a9:61 -60  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -74  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -83  1       Y  US NONE
+                          Grease 58:19:f8:21:6d:a0 -79  1       Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -87  36      Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -86  36      Y  US NONE
+                           mjfox 6a:e8:92:86:1b:23 -87  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                           mjfox 84:e8:92:86:1b:24 -87  149     Y  US WPA2(PSK/AES/AES) 
+                         Grease5 58:19:f8:21:6d:a1 -86  36      Y  US WPA2(PSK/AES/AES) 
+                            LORC 60:d2:48:f1:a9:62 -68  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:37:19.699343
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        yoboseyo fc:ec:da:b1:86:43 -90  11      Y  -- WPA2(PSK/AES/AES) 
+                            lake 60:d2:48:f1:a9:61 -59  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -74  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -81  1       Y  US NONE
+                          Grease 58:19:f8:21:6d:a0 -80  1       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -84  36      Y  US NONE
+                         Grease5 58:19:f8:21:6d:a1 -85  36      Y  US WPA2(PSK/AES/AES) 
+                           mjfox 6a:e8:92:86:1b:23 -86  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                           mjfox 84:e8:92:86:1b:24 -86  149     Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -85  36      Y  US WPA2(802.1x/AES/AES) 
+                            LORC 60:d2:48:f1:a9:62 -67  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:37:24.695198
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        yoboseyo fc:ec:da:b1:86:43 -90  11      Y  -- WPA2(PSK/AES/AES) 
+                            lake 60:d2:48:f1:a9:61 -62  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -73  6       Y  US WPA2(PSK/AES/AES) 
+                          Grease 58:19:f8:21:6d:a0 -81  1       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -83  1       Y  US NONE
+                     xfinitywifi 6a:19:f8:21:6d:a1 -84  36      Y  US NONE
+                         Grease5 58:19:f8:21:6d:a1 -84  36      Y  US WPA2(PSK/AES/AES) 
+                           mjfox 6a:e8:92:86:1b:23 -86  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                           mjfox 84:e8:92:86:1b:24 -87  149     Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -85  36      Y  US WPA2(802.1x/AES/AES) 
+                            LORC 60:d2:48:f1:a9:62 -67  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:37:29.699305
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        yoboseyo fc:ec:da:b1:86:43 -90  11      Y  -- WPA2(PSK/AES/AES) 
+                            lake 60:d2:48:f1:a9:61 -60  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -73  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -80  1       Y  US NONE
+                          Grease 58:19:f8:21:6d:a0 -80  1       Y  US WPA2(PSK/AES/AES) 
+                         Grease5 58:19:f8:21:6d:a1 -86  36      Y  US WPA2(PSK/AES/AES) 
+                           mjfox 6a:e8:92:86:1b:23 -86  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                           mjfox 84:e8:92:86:1b:24 -86  149     Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -85  36      Y  US WPA2(802.1x/AES/AES) 
+                            LORC 60:d2:48:f1:a9:62 -67  48      Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -85  36      Y  US NONE
+
+
+room 8 2020-12-13 18:37:34.695098
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        yoboseyo fc:ec:da:b1:86:43 -90  11      Y  -- WPA2(PSK/AES/AES) 
+                            lake 60:d2:48:f1:a9:61 -61  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -72  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -74  1       Y  US NONE
+                          Grease 58:19:f8:21:6d:a0 -81  1       Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -85  36      Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -85  36      Y  US NONE
+                         Grease5 58:19:f8:21:6d:a1 -85  36      Y  US WPA2(PSK/AES/AES) 
+                            LORC 60:d2:48:f1:a9:62 -67  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:37:39.696120
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        yoboseyo fc:ec:da:b1:86:43 -90  11      Y  -- WPA2(PSK/AES/AES) 
+                            lake 60:d2:48:f1:a9:61 -60  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -73  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -82  1       Y  US NONE
+                          Grease 58:19:f8:21:6d:a0 -81  1       Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -84  36      Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -84  36      Y  US NONE
+                           mjfox 6a:e8:92:86:1b:23 -86  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                           mjfox 84:e8:92:86:1b:24 -86  149     Y  US WPA2(PSK/AES/AES) 
+                         Grease5 58:19:f8:21:6d:a1 -85  36      Y  US WPA2(PSK/AES/AES) 
+                            LORC 60:d2:48:f1:a9:62 -67  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:37:44.696994
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        yoboseyo fc:ec:da:b1:86:43 -90  11      Y  -- WPA2(PSK/AES/AES) 
+                            lake 60:d2:48:f1:a9:61 -61  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -72  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -83  1       Y  US NONE
+                          Grease 58:19:f8:21:6d:a0 -80  1       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -84  36      Y  US NONE
+                         Grease5 58:19:f8:21:6d:a1 -85  36      Y  US WPA2(PSK/AES/AES) 
+                            LORC 60:d2:48:f1:a9:62 -67  48      Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -85  36      Y  US WPA2(802.1x/AES/AES) 
+
+
+room 8 2020-12-13 18:37:49.699288
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        yoboseyo fc:ec:da:b1:86:43 -90  11      Y  -- WPA2(PSK/AES/AES) 
+                            lake 60:d2:48:f1:a9:61 -61  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -73  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -81  1       Y  US NONE
+                          Grease 58:19:f8:21:6d:a0 -80  1       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -85  36      Y  US NONE
+                         Grease5 58:19:f8:21:6d:a1 -85  36      Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -84  36      Y  US WPA2(802.1x/AES/AES) 
+                            LORC 60:d2:48:f1:a9:62 -67  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:37:54.699301
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        yoboseyo fc:ec:da:b1:86:43 -90  11      Y  -- WPA2(PSK/AES/AES) 
+                            lake 60:d2:48:f1:a9:61 -61  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -72  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -82  1       Y  US NONE
+                          Grease 58:19:f8:21:6d:a0 -81  1       Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -84  36      Y  US WPA2(802.1x/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -84  36      Y  US NONE
+                         Grease5 58:19:f8:21:6d:a1 -84  36      Y  US WPA2(PSK/AES/AES) 
+                           mjfox 6a:e8:92:86:1b:23 -86  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                           mjfox 84:e8:92:86:1b:24 -85  149     Y  US WPA2(PSK/AES/AES) 
+                            LORC 60:d2:48:f1:a9:62 -67  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:37:59.699283
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        yoboseyo fc:ec:da:b1:86:43 -90  11      Y  -- WPA2(PSK/AES/AES) 
+                            lake 60:d2:48:f1:a9:61 -61  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -72  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -83  1       Y  US NONE
+                          Grease 58:19:f8:21:6d:a0 -80  1       Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -85  36      Y  US WPA2(802.1x/AES/AES) 
+                         Grease5 58:19:f8:21:6d:a1 -84  36      Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -85  36      Y  US NONE
+                            LORC 60:d2:48:f1:a9:62 -67  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:38:04.699299
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        yoboseyo fc:ec:da:b1:86:43 -89  11      Y  -- WPA2(PSK/AES/AES) 
+                            lake 60:d2:48:f1:a9:61 -60  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -78  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -81  1       Y  US NONE
+                          Grease 58:19:f8:21:6d:a0 -80  1       Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -85  36      Y  US WPA2(802.1x/AES/AES) 
+                           mjfox 6a:e8:92:86:1b:23 -87  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                           mjfox 84:e8:92:86:1b:24 -86  149     Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -84  36      Y  US NONE
+                         Grease5 58:19:f8:21:6d:a1 -84  36      Y  US WPA2(PSK/AES/AES) 
+                            LORC 60:d2:48:f1:a9:62 -66  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:38:09.699281
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        yoboseyo fc:ec:da:b1:86:43 -89  11      Y  -- WPA2(PSK/AES/AES) 
+                            lake 60:d2:48:f1:a9:61 -62  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -73  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -83  1       Y  US NONE
+                          Grease 58:19:f8:21:6d:a0 -81  1       Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -85  36      Y  US WPA2(802.1x/AES/AES) 
+                           mjfox 6a:e8:92:86:1b:23 -86  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                           mjfox 84:e8:92:86:1b:24 -86  149     Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -85  36      Y  US NONE
+                         Grease5 58:19:f8:21:6d:a1 -85  36      Y  US WPA2(PSK/AES/AES) 
+                            LORC 60:d2:48:f1:a9:62 -67  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:38:14.699283
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        yoboseyo fc:ec:da:b1:86:43 -89  11      Y  -- WPA2(PSK/AES/AES) 
+                            lake 60:d2:48:f1:a9:61 -61  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -76  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -82  1       Y  US NONE
+                          Grease 58:19:f8:21:6d:a0 -80  1       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -85  36      Y  US NONE
+                           mjfox 6a:e8:92:86:1b:23 -87  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                           mjfox 84:e8:92:86:1b:24 -86  149     Y  US WPA2(PSK/AES/AES) 
+                         Grease5 58:19:f8:21:6d:a1 -84  36      Y  US WPA2(PSK/AES/AES) 
+                            LORC 60:d2:48:f1:a9:62 -67  48      Y  US WPA2(PSK/AES/AES) 
+                         XFINITY 8a:19:f8:21:6d:a1 -84  36      Y  US WPA2(802.1x/AES/AES) 
+
+
+room 8 2020-12-13 18:38:19.699314
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        yoboseyo fc:ec:da:b1:86:43 -89  11      Y  -- WPA2(PSK/AES/AES) 
+                            lake 60:d2:48:f1:a9:61 -61  11,-1   Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:23 -73  6       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a0 -83  1       Y  US NONE
+                          Grease 58:19:f8:21:6d:a0 -82  1       Y  US WPA2(PSK/AES/AES) 
+                     xfinitywifi 6a:19:f8:21:6d:a1 -85  36      Y  US NONE
+                         Grease5 58:19:f8:21:6d:a1 -85  36      Y  US WPA2(PSK/AES/AES) 
+                           mjfox 84:e8:92:86:1b:24 -88  149     Y  US WPA2(PSK/AES/AES) 
+                           mjfox 6a:e8:92:86:1b:23 -88  149     Y  US WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                         XFINITY 8a:19:f8:21:6d:a1 -86  36      Y  US WPA2(802.1x/AES/AES) 
+                            LORC 60:d2:48:f1:a9:62 -66  48      Y  US WPA2(PSK/AES/AES) 
+
+
+room 8 2020-12-13 18:38:24.699284
+
+

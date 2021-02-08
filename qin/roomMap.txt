@@ -1,0 +1,9 @@
+1 office
+2 bedroom
+3 bathroom
+4 livingroom
+5 kitchen
+6 famility room
+7 rec room
+8 basement
+9 utility room 

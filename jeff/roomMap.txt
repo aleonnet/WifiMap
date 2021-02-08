@@ -1,0 +1,7 @@
+1 bedroom 1
+2 bedroom 2
+3 bedroom 3
+4 livingroom
+5 kitchen
+6 loft
+7 garage

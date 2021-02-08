@@ -17,7 +17,7 @@ class RoomTrain:
         pattern = 'train_room_*.txt'
         out_name = 'train_raw_combined.txt'
         self.train_filename = combinetxt(self.dir_path, pattern, out_name)
-        return "Data Combined"
+        return "Data Combined. Start preprocessing..."
 
     def preprocess(self):
 
@@ -31,7 +31,7 @@ class RoomTrain:
         self.X_train, self.y_train = get_attributes(
             self.train_df, self.sorted_bssid)
         # print(self.train_df.head())
-        return "Preprocess Finished"
+        return "Preprocess Finished. Start training..."
 
     def train(self):
         self.modelname = self.dir_path + '/values/model.sav'

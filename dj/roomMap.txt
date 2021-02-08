@@ -1,0 +1,8 @@
+1 bedroomL
+2 bedroomO
+3 bedroomW
+4 loft
+5 greatroom
+6 kitchen
+7 office
+8 bedroomB
