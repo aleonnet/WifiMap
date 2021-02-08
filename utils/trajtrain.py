@@ -30,7 +30,9 @@ class TrajTrain:
     def calc_pred(self, test_file_name):
         test_df, _ = load_data(
             test_file_name, sorted_bssid=self.sorted_bssid, process=test_process)
+        print(test_df)
         X_test, _ = get_attributes(test_df, self.sorted_bssid)
+
         y_proba = self.classifier.predict_proba(X_test)
         return pd.DataFrame(y_proba)
 
@@ -46,7 +48,6 @@ class TrajTrain:
                     test_file_name = os.path.join(self.dir_path, 'data', 'traj_' + line1.strip(
                         '\n')+'_'+line2.strip('\n')+'.txt')
                     if test_file_name in self.all_trajs:
-                        print(test_file_name)
                         self.valid_trajs.append(test_file_name)
                     else:
                         print('Wifi data not collected for traj',
@@ -59,6 +60,7 @@ class TrajTrain:
 
     def train(self):
         for test_file_name in self.valid_trajs:
+            print(test_file_name)
             df = self.calc_pred(test_file_name)
-            print(df)
+            print(df.info)
         return 'Trajectory Trained'

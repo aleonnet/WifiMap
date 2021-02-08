@@ -1,4 +1,4 @@
-room unkown 2021-02-07 19:34:34.335503
+room unknown 2021-02-07 19:34:34.335503
                             SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
       DIRECT-33-HP M281 LaserJet 76:40:bb:7c:af:33 -92  40,-1   Y  -- WPA2(PSK/AES/AES) 
                      CSMwireless 04:bd:88:76:f5:91 -90  36,+1   Y  -- NONE
@@ -38,7 +38,7 @@ room unkown 2021-02-07 19:34:34.335503
                      CSMwireless 04:bd:88:76:f9:f1 -38  149,+1  Y  -- NONE
 
 
-room unkown 2021-02-07 19:34:38.355184
+room unknown 2021-02-07 19:34:38.355184
                             SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
                          eduroam 04:bd:88:76:f4:32 -90  149,+1  Y  -- WPA2(802.1x/AES/AES) 
       DIRECT-33-HP M281 LaserJet 76:40:bb:7c:af:33 -90  40,-1   Y  -- WPA2(PSK/AES/AES) 
@@ -79,7 +79,7 @@ room unkown 2021-02-07 19:34:38.355184
                      CSMwireless 04:bd:88:76:f9:f1 -39  149,+1  Y  -- NONE
 
 
-room unkown 2021-02-07 19:34:42.346161
+room unknown 2021-02-07 19:34:42.346161
                             SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
       DIRECT-33-HP M281 LaserJet 76:40:bb:7c:af:33 -91  40,-1   Y  -- WPA2(PSK/AES/AES) 
                          eduroam 04:bd:88:76:f4:32 -90  149,+1  Y  -- WPA2(802.1x/AES/AES) 

@@ -15,47 +15,49 @@ def txt_to_dict(file_name):
     data_dict = {'room': [], 'time': [], 'bssid': [], 'rssi': []}
     bssid_set = set()
     while True:
-        headline = filef.readline().split()
+        headline = filef.readline()
         if not headline:
             break
-        bssid_list = []
-        rssi_list = []
+        headline = headline.split()
         line = filef.readline()  # skip the title line
-        while "BSSID" not in line:
+        while 'BSSID' not in line:
             headline = line.split()
             line = filef.readline()  # skip the empty line
             if not line:
                 break
-        line = filef.readline().split()  # first data line
-        pattern = '([0-9A-F]{2}[:-]){5}([0-9A-F]{2})'
-        flags = re.I  # ignore case
-        valid = True
-        while line:
-            for i in range(len(line)):
-                match = re.search(pattern, line[i], flags)
-                if match:
-                    try:
-                        bssid_set.add(line[i])
-                        bssid_list.append(line[i])
-                        rssi_list.append(int(line[i + 1]))
-                    except ValueError as e:
-                        valid = False
-                        print(e)
-                    break
-            line = filef.readline().split()
-        if "raw" in file_name:
-            line = filef.readline()  # skip empty line
-        if bssid_list and valid:
-            zipped_lists = zip(rssi_list, bssid_list)
-            sorted_pairs = sorted(zipped_lists, reverse=True)
-            tuples = zip(*sorted_pairs)
-            rssi_list, bssid_list = [list(tuple) for tuple in tuples]
-            if headline[1] == 'unknown':
-                headline[1] = '0'
-            data_dict['room'].append(int(headline[1]))  # int
-            data_dict['time'].append(headline[2] + "-" + headline[3])
-            data_dict['bssid'].append(bssid_list)
-            data_dict['rssi'].append(rssi_list)  # int
+        if 'BSSID' in line:
+            bssid_list = []
+            rssi_list = []
+            line = filef.readline().split()  # first data line
+            pattern = '([0-9A-F]{2}[:-]){5}([0-9A-F]{2})'
+            flags = re.I  # ignore case
+            valid = True
+            while line:
+                for i in range(len(line)):
+                    match = re.search(pattern, line[i], flags)
+                    if match:
+                        try:
+                            bssid_set.add(line[i])
+                            bssid_list.append(line[i])
+                            rssi_list.append(int(line[i + 1]))
+                        except ValueError as e:
+                            valid = False
+                            print(e)
+                        break
+                line = filef.readline().split()
+            if "raw" in file_name:
+                line = filef.readline()  # skip empty line
+            if bssid_list and valid:
+                zipped_lists = zip(rssi_list, bssid_list)
+                sorted_pairs = sorted(zipped_lists, reverse=True)
+                tuples = zip(*sorted_pairs)
+                rssi_list, bssid_list = [list(tuple) for tuple in tuples]
+                if headline[1] == 'unknown':
+                    headline[1] = '0'
+                data_dict['room'].append(int(headline[1]))  # int
+                data_dict['time'].append(headline[2] + "-" + headline[3])
+                data_dict['bssid'].append(bssid_list)
+                data_dict['rssi'].append(rssi_list)  # int
     filef.close()
     return data_dict, sorted(bssid_set)
 
