@@ -94,23 +94,23 @@ class TrajTrain:
             for i in range(len(self.rooms)):
                 y = np.atleast_2d(sim_df[i]).T
                 fitted_model = fitter(model, X, y)
-                if 0 < fitted_model.mean.value < len(sim_df)*2 and fitted_model.stddev.value < len(sim_df)+1:
-                    models.append((i, fitted_model.mean.value,
-                                   fitted_model.stddev.value))
+                # if 0 < fitted_model.mean.value < len(sim_df)*2 and fitted_model.stddev.value < len(sim_df)+1:
+                models.append((i, fitted_model.mean.value,
+                               fitted_model.stddev.value))
                 y_pred = fitted_model(x)
                 # print(y_pred.shape)
                 fitted.append(y_pred.flatten())
             self.plot_guassian_fit(X, sim_df, x, fitted, short_name)
-
-            order_result = calc_order(self, fitted, short_name, 4)
+            dump([fitted, models], open(
+                '/Users/mili/Desktop/test/' + short_name+'.txt', 'wb'))
+            order_result = self.calc_order(fitted, short_name, 4)
             # print(fitted)
 
         self.master.lift()
         return 'Trajectory Trained'
 
-    def _calc_order(self, fitted, short_name, window):
-        dump(fitted, open(
-            '/Users/mili/Desktop/test/' + short_name+'.txt', 'wb'))
+    def calc_order(self, fitted, short_name, window):
+
         order_df = pd.DataFrame(fitted)
         order = order_df.idxmax().values.tolist()
         voted = []
