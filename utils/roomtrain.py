@@ -20,6 +20,9 @@ class RoomTrain:
         return "Data Combined"
 
     def preprocess(self):
+
+        if 'test' in self.dir_path:
+            self.train_filename = self.dir_path + '/values/trainAndroid.txt'
         self.train_df, self.sorted_bssid = load_data(
             self.train_filename, process=train_process)
 

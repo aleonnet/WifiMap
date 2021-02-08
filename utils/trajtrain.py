@@ -14,9 +14,7 @@ from astropy import modeling
 from matplotlib import cm
 
 import tkinter as tk
-import matplotlib
-matplotlib.use("TkAgg")
-
+from scipy.interpolate import UnivariateSpline
 
 # %%
 
@@ -30,11 +28,7 @@ class TrajTrain:
             with open(self.modelname, 'rb') as f:
                 self.train_df, self.sorted_bssid, self.rooms, self.rooms_mean, self.classifier = load(
                     f)
-            self.colors = cm.jet(np.linspace(0, 1, len(self.rooms)))
-            for i in range(len(self.rooms)):
-                print(self.colors[i])
-            for i in range(len(self.rooms)):
-                print(self.colors[i])
+            self.colors = cm.get_cmap('jet', len(self.rooms))
         except:
             print('You must do room-level training first.')
 
@@ -79,6 +73,7 @@ class TrajTrain:
     def train(self):
         fitter = modeling.fitting.LevMarLSQFitter()
         model = modeling.models.Gaussian1D()
+        result = []
         for test_file_name in self.valid_trajs:
             short_name = test_file_name.split('/')[-1][:-4]
             print(short_name)
@@ -88,8 +83,9 @@ class TrajTrain:
             # print(sim_df)
             fitted = []
             models = []
-            X = np.atleast_2d(np.linspace(1, n_steps, num=n_steps)).T
-            x = np.atleast_2d(np.linspace(1, n_steps, num=n_steps*10)).T
+            room_sizes = []
+            X = np.atleast_2d(np.linspace(0, n_steps-1, num=n_steps)).T
+            x = np.atleast_2d(np.linspace(0, n_steps-1, num=n_steps*10)).T
             # print(X, x)
             for i in range(len(self.rooms)):
                 y = np.atleast_2d(sim_df[i]).T
@@ -97,41 +93,29 @@ class TrajTrain:
                 # if 0 < fitted_model.mean.value < len(sim_df)*2 and fitted_model.stddev.value < len(sim_df)+1:
                 models.append((i, fitted_model.mean.value,
                                fitted_model.stddev.value))
+                room_sizes.append(calc_size(fitted_model.mean.value,
+                                            fitted_model.stddev.value))
                 y_pred = fitted_model(x)
                 # print(y_pred.shape)
                 fitted.append(y_pred.flatten())
             self.plot_guassian_fit(X, sim_df, x, fitted, short_name)
             dump([fitted, models], open(
                 '/Users/mili/Desktop/test/' + short_name+'.txt', 'wb'))
-            order_result = self.calc_order(fitted, short_name, 4)
-            # print(fitted)
+            order_result = calc_order(fitted, 4)
+            # print(order_result)
+            # print(room_sizes)
+            result.append((short_name.split(
+                '_')[-1], x.flatten(), order_result, room_sizes))
+        dump([self.rooms, result], open(
+            self.dir_path + '/values/traj.sav', 'wb'))
 
-        self.master.lift()
         return 'Trajectory Trained'
-
-    def calc_order(self, fitted, short_name, window):
-
-        order_df = pd.DataFrame(fitted)
-        order = order_df.idxmax().values.tolist()
-        voted = []
-        voted_r = []
-        for i in range(len(order)):
-            voted.append(stats.mode(order[max(0, i-window+1):i+1])[0][0])
-            voted_r.append(stats.mode(
-                order[i:min(i+window, len(order))])[0][0])
-        result = [stats.mode([order[i], voted[i], voted_r[i]])[0][0]
-                  for i in range(len(order))]
-        # print(order)
-        # print(voted)
-        # print(voted_r)
-        # print(result)
-        return result
 
     def plot_guassian_fit(self, X, sim_df, x, fitted, short_name):
 
         window = tk.Toplevel(self.master)
         window.title(short_name)
-
+        window.geometry('500x600')
         fig = Figure(figsize=(5, 5))
 
         plot1 = fig.add_subplot(111)
@@ -140,9 +124,9 @@ class TrajTrain:
             y = np.atleast_2d(sim_df[i]).T
             y_pred = fitted[i]
             plot1.scatter(
-                X, y, s=10, color=self.colors[i], label=self.rooms[i] + ' Raw')
+                X, y, s=10, color=self.colors(i), label=self.rooms[i] + ' Raw')
             plot1.plot(
-                x, y_pred, color=self.colors[i], label=self.rooms[i] + ' Gaussian')
+                x, y_pred, color=self.colors(i), label=self.rooms[i] + ' Gaussian')
 
         plot1.set_xlabel('Time')
         plot1.set_ylabel('Similarity Score')
@@ -159,3 +143,33 @@ class TrajTrain:
         button = tk.Button(master=window, text="Exit",
                            fg='red', command=window.destroy)
         button.pack(side=tk.BOTTOM, fill=tk.BOTH)
+
+
+def calc_order(fitted, window):
+    order_df = pd.DataFrame(fitted)
+    order = order_df.idxmax().values.tolist()
+    voted = []
+    voted_r = []
+    for i in range(len(order)):
+        voted.append(stats.mode(order[max(0, i-window+1):i+1])[0][0])
+        voted_r.append(stats.mode(
+            order[i:min(i+window, len(order))])[0][0])
+    result = [stats.mode([order[i], voted[i], voted_r[i]])[0][0]
+              for i in range(len(order))]
+    # print(order)
+    # print(voted)
+    # print(voted_r)
+    # print(result)
+    return result
+
+
+def make_norm_dist(x, mean, sd):
+    return 1.0/(sd*np.sqrt(2*np.pi))*np.exp(-(x - mean)**2/(2*sd**2))
+
+
+def calc_size(mean, sd):
+    x = np.linspace(mean-2*sd, mean+2*sd, 1000)
+    line = make_norm_dist(x, mean, sd)
+    spline = UnivariateSpline(x, line-np.max(line)/2, s=0)
+    r1, r2 = spline.roots()  # find the roots
+    return r2-r1

@@ -13,7 +13,7 @@ import tkinter as tk
 import tkinter.ttk as ttk
 import tkinter.font as tkfont
 import tkinter.scrolledtext as st
-
+from pickle import load, dump
 
 from .scan import *
 from .roomtrain import RoomTrain
@@ -220,7 +220,7 @@ class RoomTrainGUI:
             folder = dir_path + '/data'
             Path(folder).mkdir(parents=True, exist_ok=True)
             self.file_name = folder + '/train_room_' + self.room_id + \
-                '_' + datetime.now().strftime('%m_%d_%H:%M')+'.txt'
+                '_' + datetime.now().strftime('%m_%d_%H_%M')+'.txt'
 
             x = threading.Thread(target=self.thread)
             x.start()
@@ -326,7 +326,7 @@ class TrajTrainGUI:
         Path(self.folder).mkdir(parents=True, exist_ok=True)
         self.f, self.path_f = None, None
         self.path_name = self.folder + '/train_traj_' + \
-            datetime.now().strftime('%m_%d_%H:%M')+'.txt'
+            datetime.now().strftime('%m_%d_%H_%M')+'.txt'
 
     def exit_train(self):
         if self.f:
@@ -433,7 +433,7 @@ class TrajTrainGUI:
                 self.canvas.itemconfig(i, fill=self.color)
             c = self.canvas.coords(item)
             self.paths.append([datetime.now().strftime(
-                '%m_%d_%H:%M'), (c[2], c[3], c[0], c[1])])
+                '%m_%d_%H_%M'), (c[2], c[3], c[0], c[1])])
             self.canvas.create_line(c[2], c[3], c[0], c[1], arrow=self.arrow, arrowshape=(16, 20, 6),
                                     fill='blue', width=self.width, tags="draggable")
             self.clear_radio()
@@ -492,7 +492,7 @@ class TrajTrainGUI:
                 self.line_start = None
                 line = (x_origin, y_origin, x, y)
                 self.paths.append(
-                    [datetime.now().strftime('%m_%d_%H:%M'), line])
+                    [datetime.now().strftime('%m_%d_%H_%M'), line])
                 self.arrow = tk.LAST
                 self.color = 'black'
                 self.width = 4
@@ -506,15 +506,52 @@ class FloorPlan:
     def __init__(self, master, title):
         self.master = master
         self.master.title(title)
-        self.master.geometry('1000x800')
+        self.master.geometry('800x800')
+
+        self.canvas = tk.Canvas(
+            self.master, bg="white", width=600, height=800)
+
+        x1 = 0
+        x2 = 600
+        for k in range(0, 900, 50):
+            y1 = k
+            y2 = k
+            self.canvas.create_line(
+                x1, y1, x2, y2, fill='#eeeeee')
+
+        y1 = 0
+        y2 = 800
+        for k in range(0, 700, 50):
+            x1 = k
+            x2 = k
+            self.canvas.create_line(x1, y1, x2, y2, fill='#eeeeee')
+
+        self.canvas.pack(side=tk.LEFT)
 
         self.frame = tk.Frame(self.master)
 
-        self.exitButton = tk.Button(self.frame, text='Exit', fg='red', width=25,
+        self.drawButton = tk.Button(self.frame, text='Draw Floorplan',
+                                    command=self.draw_raw, pady=10)
+        self.drawButton.pack(expand=True, fill=tk.BOTH, pady=10)
+
+        self.exitButton = tk.Button(self.frame, text='Exit', fg='red',
                                     command=self.master.destroy)
-        self.exitButton.pack(pady=10)
+        self.exitButton.pack(expand=True, fill=tk.BOTH, pady=10)
 
         self.frame.pack(expand=True)
+
+        self.load_raw()
+
+    def load_raw(self):
+        self.rooms, self.result = load(open(
+            dir_path + '/values/traj.sav', 'rb'))
+
+    def draw_raw(self):
+        for path, x, order, room_sizes in self.result:
+            path = [int(i) for i in path.split('(, )')]
+            self.canvas.create_line(path)
+            print(path)
+
 
 # %%
 
