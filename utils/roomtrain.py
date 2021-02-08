@@ -24,6 +24,7 @@ class RoomTrain:
             self.train_filename, process=train_process)
 
         self.rooms, self.rooms_mean = get_room_mean(self.train_df)
+        # print(self.rooms, self.rooms_mean)
         self.X_train, self.y_train = get_attributes(
             self.train_df, self.sorted_bssid)
         # print(self.train_df.head())

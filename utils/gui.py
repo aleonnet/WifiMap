@@ -336,7 +336,7 @@ class TrajTrainGUI:
         self.master.destroy()
 
     def traj_train(self):
-        self.train = TrajTrain(dir_path)
+        self.train = TrajTrain(dir_path, self.master)
         x = threading.Thread(target=self.train1)
         x.start()
 

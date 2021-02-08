@@ -114,20 +114,26 @@ def dict_to_data_frame(data_dict, sorted_bssid):
 # function load_data(file_name, sorted_bssid=None, process=no_process, value=-100)
 
 
-def no_process(data_frame, value):
+def no_process(data_frame, value, sorted_bssid):
     pass
 
 
-def test_process(data_frame, value):
+def test_process(data_frame, value, sorted_bssid):
     data_frame.fillna(value, inplace=True)
 
 
-def train_process(data_frame, value):
+def train_process(data_frame, value, sorted_bssid):
+    # print('original df\n', data_frame)
     rooms = set(data_frame['room'])
     for i in range(1, len(rooms) + 1):
-        data_frame.loc[data_frame['room'] == i].fillna(
-            data_frame.loc[data_frame['room'] == i].mean(), inplace=True)
+        tmp_df = data_frame.loc[data_frame['room'] == i, sorted_bssid]
+        # print('room', i, tmp_df)
+        tmp_df.fillna(tmp_df.mean(), inplace=True)
+        # print('tmp_df fillna', tmp_df)
+        data_frame.fillna(tmp_df.mean(), inplace=True)
+    # print('filled df\n', data_frame)
     data_frame.fillna(value, inplace=True)
+    # print('filled df\n', data_frame)
 
 
 def get_room_mean(data_frame):
@@ -144,7 +150,7 @@ def load_data(file_name, sorted_bssid=None, process=no_process, value=-100):
     if not sorted_bssid:
         sorted_bssid = origin_sorted_bssid
     data_frame = dict_to_data_frame(data_dict, sorted_bssid)
-    process(data_frame, value)
+    process(data_frame, value, sorted_bssid)
     return data_frame, sorted_bssid
 
 

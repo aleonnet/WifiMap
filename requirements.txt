@@ -2,4 +2,5 @@ tqdm
 sklearn
 matplotlib
 pandas
+astropy
 opencv-python
