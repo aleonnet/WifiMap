@@ -21,6 +21,3 @@
 * On your Mac, choose Apple menu <picture><source media="(not all)" srcset="https://help.apple.com/assets/5E3B07C0094622B541F026E3/5E3B07C3094622B541F026EA/en_US/0e2c53fa5a413cc7ff5099226fb50188.png" originalimagename="SharedGlobalArt/IL_AppleLogo_11~dark.png"><img src="https://help.apple.com/assets/5E3B07C0094622B541F026E3/5E3B07C3094622B541F026EA/en_US/2f77cc85238452e25cb517130188bf99.png" alt="" height="20" width="16" originalimagename="SharedGlobalArt/IL_AppleLogo_11.png"></picture> > System Preferences, then click Energy Saver.
 * Keep your Mac from going to sleep automatically: Select “Prevent computer from sleeping automatically when the display is off.”
 
-**Please checkout the following youtube tutorial for more details: [https://youtu.be/taj_8SRbmqU](https://youtu.be/taj_8SRbmqU)**
-
-[![YouTube tutorial](https://i.ytimg.com/vi/taj_8SRbmqU/hqdefault.jpg)](https://youtu.be/taj_8SRbmqU)
