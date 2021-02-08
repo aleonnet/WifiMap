@@ -314,11 +314,11 @@ class TrajTrainGUI:
         self.train_label.pack(pady=10)
         self.train_btn = tk.Button(
             frame, text='Trajectory Train', pady=10, command=self.traj_train)
-        self.train_btn.pack(pady=10)
+        self.train_btn.pack(pady=10, expand=True, fill=tk.BOTH)
 
         self.exitButton = tk.Button(
             frame, text='Exit', fg='red', command=self.exit_train)
-        self.exitButton.pack(pady=10)
+        self.exitButton.pack(pady=10, expand=True, fill=tk.BOTH)
 
         frame.pack(side=tk.LEFT, padx=10, pady=10, expand=True)
 
@@ -389,7 +389,7 @@ class TrajTrainGUI:
         while self.monitor_mode:
             try:
                 self.f = open(self.file_name, 'a')
-                self.f.write('room unkown ' + str(datetime.now()) + '\n')
+                self.f.write('room unknown ' + str(datetime.now()) + '\n')
                 self.f.write(scan())
                 self.f.write('\n\n')
                 self.pbar.update(1)
@@ -411,7 +411,8 @@ class TrajTrainGUI:
         if self.monitor_mode and self.paths:
             if self.f:
                 self.f.close()
-            self.file_name = self.folder + '/' + str(self.paths[-1]) + '.txt'
+            self.file_name = self.folder + '/traj_' + \
+                str(self.paths[-1][0]) + '_' + str(self.paths[-1][1]) + '.txt'
             self.monitor_btn['text'] = 'Stop Scan'
             self.monitor_btn.configure(highlightbackground='black')
             x = threading.Thread(target=self.doWork)
@@ -431,7 +432,8 @@ class TrajTrainGUI:
             for i in items:
                 self.canvas.itemconfig(i, fill=self.color)
             c = self.canvas.coords(item)
-            self.paths.append([str(datetime.now()), (c[2], c[3], c[0], c[1])])
+            self.paths.append([datetime.now().strftime(
+                '%m_%d_%H:%M'), (c[2], c[3], c[0], c[1])])
             self.canvas.create_line(c[2], c[3], c[0], c[1], arrow=self.arrow, arrowshape=(16, 20, 6),
                                     fill='blue', width=self.width, tags="draggable")
             self.clear_radio()
@@ -489,7 +491,8 @@ class TrajTrainGUI:
                 x_origin, y_origin = self.line_start
                 self.line_start = None
                 line = (x_origin, y_origin, x, y)
-                self.paths.append([str(datetime.now()), line])
+                self.paths.append(
+                    [datetime.now().strftime('%m_%d_%H:%M'), line])
                 self.arrow = tk.LAST
                 self.color = 'black'
                 self.width = 4
