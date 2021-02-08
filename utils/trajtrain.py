@@ -1,11 +1,12 @@
 # %%
+from scipy import stats
 from .ml.preprocess import *
 from .ml.combinetxt import combinetxt
 from matplotlib.backends.backend_tkagg import (FigureCanvasTkAgg,
                                                NavigationToolbar2Tk)
 from matplotlib.figure import Figure
 from sklearn.ensemble import RandomForestClassifier
-from pickle import load
+from pickle import load, dump
 from glob import glob
 import os
 import numpy as np
@@ -15,6 +16,7 @@ from matplotlib import cm
 import tkinter as tk
 import matplotlib
 matplotlib.use("TkAgg")
+
 
 # %%
 
@@ -87,7 +89,7 @@ class TrajTrain:
             fitted = []
             models = []
             X = np.atleast_2d(np.linspace(1, n_steps, num=n_steps)).T
-            x = np.atleast_2d(np.linspace(1, n_steps)).T
+            x = np.atleast_2d(np.linspace(1, n_steps, num=n_steps*10)).T
             # print(X, x)
             for i in range(len(self.rooms)):
                 y = np.atleast_2d(sim_df[i]).T
@@ -96,11 +98,34 @@ class TrajTrain:
                     models.append((i, fitted_model.mean.value,
                                    fitted_model.stddev.value))
                 y_pred = fitted_model(x)
-                fitted.append(y_pred)
+                # print(y_pred.shape)
+                fitted.append(y_pred.flatten())
             self.plot_guassian_fit(X, sim_df, x, fitted, short_name)
+
+            order_result = calc_order(self, fitted, short_name, 4)
+            # print(fitted)
 
         self.master.lift()
         return 'Trajectory Trained'
+
+    def _calc_order(self, fitted, short_name, window):
+        dump(fitted, open(
+            '/Users/mili/Desktop/test/' + short_name+'.txt', 'wb'))
+        order_df = pd.DataFrame(fitted)
+        order = order_df.idxmax().values.tolist()
+        voted = []
+        voted_r = []
+        for i in range(len(order)):
+            voted.append(stats.mode(order[max(0, i-window+1):i+1])[0][0])
+            voted_r.append(stats.mode(
+                order[i:min(i+window, len(order))])[0][0])
+        result = [stats.mode([order[i], voted[i], voted_r[i]])[0][0]
+                  for i in range(len(order))]
+        # print(order)
+        # print(voted)
+        # print(voted_r)
+        # print(result)
+        return result
 
     def plot_guassian_fit(self, X, sim_df, x, fitted, short_name):
 
@@ -109,7 +134,6 @@ class TrajTrain:
 
         fig = Figure(figsize=(5, 5))
 
-        # adding the subplot
         plot1 = fig.add_subplot(111)
 
         for i in range(len(self.rooms)):
