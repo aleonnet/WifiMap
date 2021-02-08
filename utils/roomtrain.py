@@ -14,7 +14,9 @@ class RoomTrain:
         self.dir_path = dir_path
 
     def combine(self):
-        self.train_filename = combinetxt(self.dir_path)
+        pattern = 'train_room_*.txt'
+        out_name = 'train_raw_combined.txt'
+        self.train_filename = combinetxt(self.dir_path, pattern, out_name)
         return "Data Combined"
 
     def preprocess(self):

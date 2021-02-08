@@ -17,6 +17,7 @@ import tkinter.scrolledtext as st
 
 from .scan import *
 from .roomtrain import RoomTrain
+from .trajtrain import TrajTrain
 
 # %%
 
@@ -171,6 +172,7 @@ class RoomTrainGUI:
     def doWork(self):
         if self.scan_flag:
             try:
+                self.f = open(self.file_name, 'w')
                 self.f.write('room ' + str(self.room_id) +
                              ' ' + str(datetime.now()) + '\n')
                 self.f.write(scan())
@@ -178,8 +180,9 @@ class RoomTrainGUI:
                 self.count += 1
                 self.pbar.update(1)
                 self.update_pbar()
+                self.f.close()
             except (RuntimeError, TypeError, NameError) as err:
-                pass
+                print('End Wifi Scanning')
 
             if self.count == self.count_stop:
                 self.stop_scan()
@@ -195,7 +198,8 @@ class RoomTrainGUI:
     def stop_scan(self):
         self.scan_flag = False
         self.rt.stop()
-        self.f.close()
+        if self.f:
+            self.f.close()
         self.pbar.close()
         self.scan_btn['text'] = 'Start Scan'
 
@@ -215,8 +219,9 @@ class RoomTrainGUI:
             self.interval = self.room_form.get_interval()
             folder = dir_path + '/data'
             Path(folder).mkdir(parents=True, exist_ok=True)
-            self.f = open(folder + '/train_room_' + self.room_id + '_' +
-                          datetime.now().strftime('%m_%d_%H:%M')+'.txt', 'w')
+            self.file_name = folder + '/train_room_' + self.room_id + \
+                '_' + datetime.now().strftime('%m_%d_%H:%M')+'.txt'
+
             x = threading.Thread(target=self.thread)
             x.start()
             self.scan_btn['text'] = 'Stop Scan'
@@ -301,11 +306,18 @@ class TrajTrainGUI:
         self.monitor_btn.pack(expand=True, fill=tk.BOTH)
 
         self.path_label = st.ScrolledText(
-            frame, width=30, height=20, pady=10, font=('TkDefaultFont', '15'))
+            frame, width=30, height=10, pady=10, font=('TkDefaultFont', '15'))
         self.path_label.pack()
 
-        self.exitButton = tk.Button(frame, text='Exit', fg='red', width=25,
-                                    command=self.exit_train)
+        self.train_info = tk.StringVar()
+        self.train_label = tk.Label(frame, textvariable=self.train_info)
+        self.train_label.pack(pady=10)
+        self.train_btn = tk.Button(
+            frame, text='Trajectory Train', pady=10, command=self.traj_train)
+        self.train_btn.pack(pady=10)
+
+        self.exitButton = tk.Button(
+            frame, text='Exit', fg='red', command=self.exit_train)
         self.exitButton.pack(pady=10)
 
         frame.pack(side=tk.LEFT, padx=10, pady=10, expand=True)
@@ -321,8 +333,28 @@ class TrajTrainGUI:
             self.f.close()
         if self.path_f:
             self.path_f.close()
-        self.path_f.close()
         self.master.destroy()
+
+    def traj_train(self):
+        self.train = TrajTrain(dir_path)
+        x = threading.Thread(target=self.train1)
+        x.start()
+
+    def train1(self):
+        s = self.train.combine()
+        self.train_info.set(s)
+        x = threading.Thread(target=self.train2)
+        x.start()
+
+    def train2(self):
+        s = self.train.preprocess()
+        self.train_info.set(s)
+        x = threading.Thread(target=self.train3)
+        x.start()
+
+    def train3(self):
+        s = self.train.train()
+        self.train_info.set(s)
 
     def clear_radio(self):
         self.monitor_btn.configure(highlightbackground='red')
@@ -338,10 +370,9 @@ class TrajTrainGUI:
         self.path_label.delete('1.0', tk.END)
         self.path_label.insert(tk.INSERT, path_info)
         self.path_label.configure(state='disabled')
-        if self.path_f:
-            self.path_f.close()
         self.path_f = open(self.path_name, 'w')
-        self.path_f.write(path_info)
+        self.path_f.write(path_info + '\n')
+        self.path_f.close()
 
     def update_pbar(self):
         progress = str(self.pbar).split('|')
@@ -357,19 +388,18 @@ class TrajTrainGUI:
         self.update_pbar()
         while self.monitor_mode:
             try:
+                self.f = open(self.file_name, 'w')
                 self.f.write('room unkown ' + str(datetime.now()) + '\n')
                 self.f.write(scan())
                 self.f.write('\n\n')
                 self.pbar.update(1)
                 self.update_pbar()
+                self.f.close()
             except (RuntimeError, TypeError, NameError) as err:
-                pass
+                print('End Wifi Scanning')
 
     def changeMode(self):
-        if self.draw_mode == self.v.get():
-            self.clear_radio()
-        else:
-            self.draw_mode = self.v.get()
+        self.draw_mode = self.v.get()
 
     def mouse_motion(self, event):
         x, y = event.x, event.y
@@ -381,8 +411,7 @@ class TrajTrainGUI:
         if self.monitor_mode and self.paths:
             if self.f:
                 self.f.close()
-            filename = self.folder + '/' + str(self.paths[-1]) + '.txt'
-            self.f = open(filename, 'w')
+            self.file_name = self.folder + '/' + str(self.paths[-1]) + '.txt'
             self.monitor_btn['text'] = 'Stop Scan'
             self.monitor_btn.configure(highlightbackground='black')
             x = threading.Thread(target=self.doWork)
@@ -422,6 +451,7 @@ class TrajTrainGUI:
             if len(items) > 0:
                 item = items[-1]
                 self.canvas.itemconfig(item, fill='blue')
+            self.clear_radio()
 
         self.update_path()
 

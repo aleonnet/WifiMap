@@ -2,6 +2,7 @@
 from sklearn.ensemble import RandomForestClassifier
 from pickle import load
 
+from .ml.combinetxt import combinetxt
 from .ml.preprocess import *
 
 # %%
@@ -16,25 +17,28 @@ class TrajTrain:
                 f)
 
     def combine(self):
-        self.train_filename = combinetxt(self.dir_path)
-        return "Data Combined"
+        pattern = 'train_traj_*.txt'
+        out_name = 'train_traj_combined.txt'
+        self.path_filename = combinetxt(self.dir_path, pattern, out_name)
+        return "Path Combined"
+
+    def calc_pred(self, test_filename):
+        test_df, _ = load_data(
+            test_filename, sorted_bssid=self.sorted_bssid, process=test_process)
+        X_test, _ = get_attributes(test_df, self.sorted_bssid)
+        y_proba = self.classifier.predict_proba(X_test)
+        return pd.DataFrame(y_proba)
 
     def preprocess(self):
-        self.train_df, self.sorted_bssid = load_data(
-            self.train_filename, process=train_process)
+        try:
+            with open(self.path_filename) as f:
+                for line1 in f:
+                    line2 = next(f)
+                    print(line1, line2)
+        except StopIteration:
+            print('End reading', self.path_filename)
 
-        self.rooms, self.rooms_mean = get_room_mean(self.train_df)
-        self.X_train, self.y_train = get_attributes(
-            self.train_df, self.sorted_bssid)
-        # print(self.train_df.head())
         return "Preprocess Finished"
 
     def train(self):
-
-        self.classifier = RandomForestClassifier(
-            n_estimators=500, random_state=42)
-
-        self.classifier.fit(self.X_train, self.y_train)
-        dump([self.train_df, self.sorted_bssid, self.rooms, self.rooms_mean, self.classifier],
-             open(self.modelname, 'wb'))
-        return "Model Trained"
+        return "Trajectory Trained"

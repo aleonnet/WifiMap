@@ -7,10 +7,7 @@ from pathlib import Path
 # %%
 
 
-def combinetxt(dir_path):
-
-    pattern = 'train_room_*.txt'
-    out_name = 'train_raw_combined.txt'
+def combinetxt(dir_path, pattern, out_name):
     folder = dir_path + '/values'
     Path(folder).mkdir(parents=True, exist_ok=True)
 
