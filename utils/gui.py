@@ -73,14 +73,14 @@ class Main:
         self.butnew("Floor Plan Construction",
                     "Floor Plan Construction", FloorPlan)
 
-        self.exitButton = tk.Button(self.frame, text='Exit', fg='red', width=25,
+        self.exitButton = tk.Button(self.frame, bg='grey', fg='red', text='Exit', width=25,
                                     command=self.master.destroy)
         self.exitButton.pack(side=tk.BOTTOM, pady=10)
 
         self.frame.pack(expand=True)
 
     def butnew(self, text, title, _class):
-        tk.Button(self.frame, text=text, width=25, pady=10,
+        tk.Button(self.frame, bg='grey', fg='black', text=text, width=25, pady=10,
                   command=lambda: self.new_window(title, _class)).pack(pady=10)
 
     def new_window(self, title, _class):
@@ -120,7 +120,7 @@ class RoomTrainGUI:
             self.frame, width=30, height=9, font=('TkDefaultFont', '15'))
         self.room_label.grid(row=1, column=0, padx=10, pady=10)
         self.edit_file()
-        btn_save = tk.Button(self.frame, text="Save",
+        btn_save = tk.Button(self.frame, bg='grey', fg='black', text="Save",
                              command=self.save_file)
         btn_save.grid(row=2, column=0)
 
@@ -131,7 +131,7 @@ class RoomTrainGUI:
 
         self.pbar_label.grid(row=3, column=0, columnspan=2, pady=10)
         self.scan_flag = False
-        self.scan_btn = tk.Button(self.frame, text='Start Scan', width=25, pady=10,
+        self.scan_btn = tk.Button(self.frame, bg='grey', fg='black', text='Start Scan', width=25, pady=10,
                                   command=self.scan_click)
         self.scan_btn.grid(row=4, column=0, columnspan=2, pady=5)
 
@@ -139,11 +139,11 @@ class RoomTrainGUI:
         self.train_label = tk.Label(self.frame, textvariable=self.train_info)
 
         self.train_label.grid(row=5, column=0, columnspan=2, pady=10)
-        self.train_btn = tk.Button(self.frame, text='Room-Level Train', width=25, pady=10,
+        self.train_btn = tk.Button(self.frame, bg='grey', fg='black', text='Room-Level Train', width=25, pady=10,
                                    command=self.room_train)
         self.train_btn.grid(row=6, column=0, columnspan=2, pady=5)
 
-        self.exitButton = tk.Button(self.frame, text='Exit', fg='red', width=25,
+        self.exitButton = tk.Button(self.frame, bg='grey', fg='red', text='Exit', width=25,
                                     command=self.exit_train)
         self.exitButton.grid(row=7, column=0, columnspan=2, pady=10)
         self.frame.pack(expand=True)
@@ -306,7 +306,7 @@ class TrajTrainGUI:
         self.pbar_label.pack()
 
         self.monitor_mode = False
-        self.monitor_btn = tk.Button(frame, text="Start Scan", pady=10, highlightbackground='black',
+        self.monitor_btn = tk.Button(frame, bg='grey', fg='black', text="Start Scan", pady=10, highlightbackground='black',
                                      command=self.monitor)
         self.monitor_btn.pack(expand=True, fill=tk.BOTH)
 
@@ -512,7 +512,7 @@ class FloorPlan:
     def __init__(self, master, title):
         self.master = master
         self.master.title(title)
-        self.master.geometry('800x800')
+        self.master.geometry('850x800')
         self.width = 600
         self.height = 800
 
@@ -538,11 +538,19 @@ class FloorPlan:
 
         self.frame = tk.Frame(self.master)
 
-        self.drawButton = tk.Button(self.frame, text='Draw Floorplan',
+        self.drawButton = tk.Button(self.frame, bg='grey', fg='black', text='Draw Raw Floorplan',
                                     command=self.draw_raw, pady=10)
         self.drawButton.pack(expand=True, fill=tk.BOTH, pady=10)
 
-        self.exitButton = tk.Button(self.frame, text='Exit', fg='red',
+        self.drawButton = tk.Button(self.frame, bg='grey', fg='black', text='Draw Shifted Floorplan',
+                                    command=self.draw_shifted, pady=10)
+        self.drawButton.pack(expand=True, fill=tk.BOTH, pady=10)
+
+        self.drawButton = tk.Button(self.frame, bg='grey', fg='black', text='Draw Final Floorplan',
+                                    command=self.draw_final, pady=10)
+        self.drawButton.pack(expand=True, fill=tk.BOTH, pady=10)
+
+        self.exitButton = tk.Button(self.frame, bg='grey', fg='red', text='Exit',
                                     command=self.master.destroy)
         self.exitButton.pack(expand=True, fill=tk.BOTH, pady=10)
 
@@ -621,6 +629,12 @@ class FloorPlan:
         print(self.hori_order)
         for path, direction, i_interval, intervals in to_draw:
             self.calc_and_draw(path, direction, i_interval, intervals)
+
+    def draw_shifted(self):
+        pass
+
+    def draw_final(self):
+        pass
 
     def update_order(self, path, room_order):
         direction = ''
