@@ -556,8 +556,6 @@ class FloorPlan:
 
         self.frame.pack(expand=True)
 
-        self.load_raw()
-
     def load_raw(self):
         self.rooms, self.result = load(open(
             dir_path + '/values/traj.sav', 'rb'))
@@ -572,7 +570,8 @@ class FloorPlan:
         self.hori_order = defaultdict(int)  # right list
 
     def draw_raw(self):
-        to_draw = []
+        self.load_raw()
+        self.to_draw = []
         for path, x, order, room_sizes in self.result:
             path = [int(''.join([c for c in i if c.isdigit()]))
                     for i in path.split(' ')]
@@ -591,8 +590,9 @@ class FloorPlan:
             mean_order = [[x[0]-mean_order[0][0], -1]] + \
                 mean_order + [[2*x[-1]-mean_order[-1][0], -1]]
             # print(mean_order)
-            direction = self.update_order(path, [i[1]
-                                                 for i in mean_order[1:-1]])
+            room_order = [i[1]
+                          for i in mean_order[1:-1]]
+            direction = self.update_order(path, room_order)
             intervals = defaultdict(list)
             for i in range(1, len(mean_order)-1):
                 loc, room_id_z = mean_order[i]
@@ -622,19 +622,31 @@ class FloorPlan:
             for i in range(1, len(mean_order)-1):
                 loc, room_id_z = mean_order[i]
                 ordered_intervals.append([room_id_z, intervals[room_id_z]])
-            to_draw.append([path, direction, x[-1]-x[0], ordered_intervals])
+            self.to_draw.append(
+                [path, direction, x[-1]-x[0], ordered_intervals, room_order])
         self.vert_order = {i: j for i, j in self.vert_order.items() if j > 0}
         self.hori_order = {i: j for i, j in self.hori_order.items() if j > 0}
+        self.hori_order[(2, 0)] = 4
+        self.hori_order[(1, 0)] = 4
         print(self.vert_order)
         print(self.hori_order)
-        for path, direction, i_interval, intervals in to_draw:
-            self.calc_and_draw(path, direction, i_interval, intervals)
+        for path, direction, i_interval, intervals, room_order in self.to_draw:
+            self.calc_and_draw(path, 'disabled', i_interval,
+                               intervals, room_order)
 
     def draw_shifted(self):
-        pass
+        self.draw_raw()
+        self.canvas.delete("all")
+        for path, x, order, room_sizes in self.result:
+            path = [int(''.join([c for c in i if c.isdigit()]))
+                    for i in path.split(' ')]
+            self.canvas.create_line(path)
+        for path, direction, i_interval, intervals, room_order in self.to_draw:
+            self.calc_and_draw(path, direction, i_interval,
+                               intervals, room_order)
 
     def draw_final(self):
-        pass
+        self.canvas.delete("all")
 
     def update_order(self, path, room_order):
         direction = ''
@@ -667,7 +679,7 @@ class FloorPlan:
             print(direction, old_order)
         return direction
 
-    def calc_and_draw(self, path, direction, i_interval, intervals):
+    def calc_and_draw(self, path, direction, i_interval, intervals, room_order):
         x1, y1, x2, y2 = path
         delta_x = x2-x1
         delta_y = y2-y1
@@ -691,54 +703,98 @@ class FloorPlan:
             x4 = int(xb + h*delta_y)
             y4 = int(yb - h*delta_x)
 
-            # if direction == 'up':
-            #     y11 += shift
-            #     y22 += shift
-            #     y3 += shift
-            #     y4 += shift
-            # elif direction == 'down':
-            #     y11 += shift
-            #     y22 += shift
-            #     y3 += shift
-            #     y4 += shift
-            # elif direction == 'left':
-            #     x11 += shift
-            #     x22 += shift
-            #     x3 += shift
-            #     x4 += shift
-            # elif direction == 'right':
-            #     x11 += shift
-            #     x22 += shift
-            #     x3 += shift
-            #     x4 += shift
+            if direction == 'down':
+                room_order = room_order[::-1]
+                direction == 'up'
+            elif direction == 'left':
+                room_order = room_order[::-1]
+                direction == 'right'
+            order_set = set()
+            for p in range(len(room_order)-1):
+                for j in range(i+1, len(room_order)):
+                    order_set.add((room_order[p], room_order[j]))
+            if direction == 'up':  # vertical
+                shift = 0
+                flag = 0
+                for p, q in self.hori_order.keys():
+                    if (p, q) in order_set:
+                        flag += self.hori_order[(p, q)]
+                    if (q, p) in order_set:
+                        flag -= self.hori_order[(p, q)]
+                if flag < 0:
+                    shift = -int(h*abs(delta_y))
+                elif flag > 0:
+                    shift = int(h*abs(delta_y))
+                shift = -int(h*abs(delta_y))
+                x11 += shift
+                x22 += shift
+                x3 += shift
+                x4 += shift
 
-            # if abs(delta_y/delta_x) > 1:  # vertical path
-            #     if room_id_z in self.hori_order:
-            #         # shift left
-            #         shift = -int(h*abs(delta_y))
-            #     else:
-            #         # shift right
-            #         shift = int(h*abs(delta_y))
-            #     x11 += shift
-            #     x22 += shift
-            #     x3 += shift
-            #     x4 += shift
-            # else:
-            #     if room_id_z in self.vert_order:
-            #         # shift down
-            #         shift = -int(h*abs(delta_x))
-            #     else:
-            #         # shift up
-            #         shift = int(h*abs(delta_x))
-            #     y11 += shift
-            #     y22 += shift
-            #     y3 += shift
-            #     y4 += shift
+            elif direction == 'right':  # horizontal
+                shift = 0
+                flag = 0
+                for p, q in self.vert_order.keys():
+                    if (p, q) in order_set:
+                        flag += self.vert_order[(p, q)]
+                    if (q, p) in order_set:
+                        flag -= self.vert_order[(p, q)]
+                if flag < 0:
+                    shift = -int(h*abs(delta_x))
+                elif flag > 0:
+                    shift = int(h*abs(delta_x))
+                y11 += shift
+                y22 += shift
+                y3 += shift
+                y4 += shift
+                # if direction == 'up':
+                #     y11 += shift
+                #     y22 += shift
+                #     y3 += shift
+                #     y4 += shift
+                # elif direction == 'down':
+                #     y11 += shift
+                #     y22 += shift
+                #     y3 += shift
+                #     y4 += shift
+                # elif direction == 'left':
+                #     x11 += shift
+                #     x22 += shift
+                #     x3 += shift
+                #     x4 += shift
+                # elif direction == 'right':
+                #     x11 += shift
+                #     x22 += shift
+                #     x3 += shift
+                #     x4 += shift
+
+                # if abs(delta_y/delta_x) > 1:  # vertical path
+                #     if room_id_z in self.hori_order:
+                #         # shift left
+                #         shift = -int(h*abs(delta_y))
+                #     else:
+                #         # shift right
+                #         shift = int(h*abs(delta_y))
+                #     x11 += shift
+                #     x22 += shift
+                #     x3 += shift
+                #     x4 += shift
+                # else:
+                #     if room_id_z in self.vert_order:
+                #         # shift down
+                #         shift = -int(h*abs(delta_x))
+                #     else:
+                #         # shift up
+                #         shift = int(h*abs(delta_x))
+                #     y11 += shift
+                #     y22 += shift
+                #     y3 += shift
+                #     y4 += shift
 
             self.create_polygon(x11, y11, x22, y22, x3, y3, x4, y4,
                                 fill=self.hex_colors[room_id_z], outline=self.hex_colors[room_id_z], alpha=.2)
             self.canvas.create_text(
-                sum([x11, x22, x3, x4])/4, sum([y11, y22, y3, y4])/4, text=self.rooms[room_id_z])
+                sum([x11, x22, x3, x4])/4, sum([y11, y22, y3, y4])/4, text=self.rooms[room_id_z]+direction)
 
     def create_polygon(self, *args, **kwargs):
         if "alpha" in kwargs:
