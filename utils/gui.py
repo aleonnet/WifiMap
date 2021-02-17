@@ -733,81 +733,83 @@ class FloorPlan:
                         else:
                             image[p][q] = [0, 0, 0]
                 images[i] = image
-            # dump([g_images, b_images, images], open(
-            #     '/Users/mili/Desktop/test/images.sav', 'wb'))
+                cv.imshow('final'+str(i), image)
+                # dump([g_images, b_images, images], open(
+                #     '/Users/mili/Desktop/test/images.sav', 'wb'))
 
-            grayImage = cv.cvtColor(image, cv.COLOR_BGR2GRAY)
-            # print(grayImage)
-            imageray = cv.cvtColor(image, cv.COLOR_BGR2GRAY)
-            ret, thresh = cv.threshold(imageray, 2, 255, 0)
-            contours, hierarchy = cv.findContours(
-                thresh, cv.RETR_TREE, cv.CHAIN_APPROX_SIMPLE)
-            # cv.drawContours(image, contours, -1, (0, 255, 0), 3)
-            rect = cv.minAreaRect(contours[0])
-            box = cv.boxPoints(rect)
-            box = np.int0(box)
-            # cv.drawContours(image, [box], 0, (0, 0, 255), 2)
-            epsilon = 0.1*cv.arcLength(contours[0], True)
-            approx = cv.approxPolyDP(contours[0], epsilon, True)
-            # cv.drawContours(image, [approx], 0, (255, 0, 255), 2)
+                grayImage = cv.cvtColor(image, cv.COLOR_BGR2GRAY)
+                # print(grayImage)
+                imageray = cv.cvtColor(image, cv.COLOR_BGR2GRAY)
+                ret, thresh = cv.threshold(imageray, 2, 255, 0)
+                contours, hierarchy = cv.findContours(
+                    thresh, cv.RETR_TREE, cv.CHAIN_APPROX_SIMPLE)
+                # cv.drawContours(image, contours, -1, (0, 255, 0), 3)
+                rect = cv.minAreaRect(contours[0])
+                box = cv.boxPoints(rect)
+                box = np.int0(box)
+                # cv.drawContours(image, [box], 0, (0, 0, 255), 2)
+                epsilon = 0.1*cv.arcLength(contours[0], True)
+                approx = cv.approxPolyDP(contours[0], epsilon, True)
+                # cv.drawContours(image, [approx], 0, (255, 0, 255), 2)
 
-            # self.height, self.width = 5, 5
-            # grayImage = [[0, 0, 0, 0, 1],
-            #              [0, 0, 0, 1, 1],
-            #              [0, 1, 1, 1, 1],
-            #              [1, 1, 1, 1, 1],
-            #              [1, 1, 1, 1, 1]]
-            rowbounds = defaultdict(list)
-            colbounds = defaultdict(list)
-            rows, cols = [0]*self.height, [0]*self.width
-            for i in range(len(grayImage)):
-                for j in range(len(grayImage[0])):
-                    if grayImage[i][j]:
-                        rowbounds[i].append(j)
-                        colbounds[j].append(i)
-            for h in range(self.height):
-                rows[h] = sum([i > 0 for i in grayImage[h]])
-            for w in range(self.width):
+                # self.height, self.width = 5, 5
+                # grayImage = [[0, 0, 0, 0, 1],
+                #              [0, 0, 0, 1, 1],
+                #              [0, 1, 1, 1, 1],
+                #              [1, 1, 1, 1, 1],
+                #              [1, 1, 1, 1, 1]]
+                rowbounds = defaultdict(list)
+                colbounds = defaultdict(list)
+                rows, cols = [0]*self.height, [0]*self.width
+                for i in range(len(grayImage)):
+                    for j in range(len(grayImage[0])):
+                        if grayImage[i][j]:
+                            rowbounds[i].append(j)
+                            colbounds[j].append(i)
                 for h in range(self.height):
-                    if grayImage[h][w] > 0:
-                        cols[w] += 1
-            rows = [max(i)-min(i) for i in rowbounds.values()]
-            cols = [max(i)-min(i) for i in colbounds.values()]
-            rows = [i for i in rows if i != 0]
-            cols = [i for i in cols if i != 0]
-            rows.sort()
-            cols.sort()
-            rows = rows[(len(rows)//4):]
-            cols = cols[(len(cols)//4):]
-            row_median, col_median = median(rows), median(cols
-                                                          )
-            row_median, col_median = sum(rows)/len(rows), sum(cols)/len(cols)
-            print("rows, cols, row_median, col_median",
-                  row_median, col_median)  # rows, cols,
-            area_sum = 0
-            x, y = 0, 0
-            for i in range(len(contours)):
-                cnt = contours[i]
-                M = cv.moments(cnt)
-                # print(M)
-                cx = int(M['m10']/M['m00'])
-                cy = int(M['m01']/M['m00'])
-                print("cx, cy", cx, cy)
-                area = cv.contourArea(cnt)
-                x += cx * area
-                y += cy * area
-                area_sum += area
+                    rows[h] = sum([i > 0 for i in grayImage[h]])
+                for w in range(self.width):
+                    for h in range(self.height):
+                        if grayImage[h][w] > 0:
+                            cols[w] += 1
+                rows = [max(i)-min(i) for i in rowbounds.values()]
+                cols = [max(i)-min(i) for i in colbounds.values()]
+                rows = [i for i in rows if i != 0]
+                cols = [i for i in cols if i != 0]
+                rows.sort()
+                cols.sort()
+                rows = rows[(len(rows)//4):]
+                cols = cols[(len(cols)//4):]
+                row_median, col_median = median(rows), median(cols
+                                                              )
+                row_median, col_median = sum(
+                    rows)/len(rows), sum(cols)/len(cols)
+                print("rows, cols, row_median, col_median",
+                      row_median, col_median)  # rows, cols,
+                area_sum = 0
+                x, y = 0, 0
+                for i in range(len(contours)):
+                    cnt = contours[i]
+                    M = cv.moments(cnt)
+                    # print(M)
+                    cx = int(M['m10']/M['m00'])
+                    cy = int(M['m01']/M['m00'])
+                    print("cx, cy", cx, cy)
+                    area = cv.contourArea(cnt)
+                    x += cx * area
+                    y += cy * area
+                    area_sum += area
 
-            center = (int(x/area_sum), int(y/area_sum))
-            radius = int((row_median + col_median)/2)
-            cv.circle(image, center, radius, (255, 0, 125), 2)
-            # cv.imshow('image'+str(i), image)
-            x = int(x/area_sum)
-            y = int(y/area_sum)
-            row_median //= 2
-            col_median //= 2
-            self.canvas.create_rectangle(x-row_median, y-col_median,
-                                         x+row_median, y+col_median)
+                center = (int(x/area_sum), int(y/area_sum))
+                radius = int((row_median + col_median)/2)
+                cv.circle(image, center, radius, (255, 0, 125), 2)
+                # cv.imshow('image'+str(i), image)
+                x = int(x/area_sum)
+                y = int(y/area_sum)
+                row_median //= 2
+                col_median //= 2
+                self.canvas.create_rectangle(x-row_median, y-col_median,
+                                             x+row_median, y+col_median)
             # cvRects.append(Rectangle(x-row_median, y-col_median,
             #                          x+row_median, y+col_median))
             self.final_calced = True
