@@ -21,6 +21,8 @@ from pickle import load
 import numpy as np
 from matplotlib import cm, colors
 from collections import defaultdict
+import cv2 as cv
+from numpy.lib.function_base import median
 from .scan import *
 from .roomtrain import RoomTrain
 from .trajtrain import TrajTrain
@@ -613,8 +615,13 @@ class FloorPlan:
                 self.rooms_path_direction[i].append(direction)
                 self.rooms_shift[i].append(shift)
             # print(room_widths)
-
         # print(self.rooms_raw)
+        self.shift_calced = False
+        self.rooms_shifted = defaultdict(list)
+        self.rooms_center_shifted = defaultdict(list)
+        self.final_calced = False
+        self.rooms_final = defaultdict(list)
+        self.rooms_center_final = defaultdict(list)
 
     def draw_grid(self):
         grid_size = 50
@@ -645,58 +652,179 @@ class FloorPlan:
 
     def draw_raw(self):
         self.reset_canvas()
-        for i in self.rooms_raw.keys():
-            for coords in self.rooms_raw[i]:
-                x1, y1, x2, y2, x3, y3, x4, y4 = coords
-                self.create_polygon(x1, y1, x2, y2, x3, y3, x4, y4,
+        self.draw_polys(self.rooms_raw, self.rooms_center_raw)
+
+    def draw_polys(self, rooms, room_lables):
+        # print(rooms, room_lables)
+        for i in rooms.keys():
+            for coords in rooms[i]:
+                self.create_polygon(*coords,
                                     fill=self.hex_colors[i], outline=self.hex_colors[i], alpha=.2)
-            for coords in self.rooms_center_raw[i]:
-                x, y = coords
-                self.canvas.create_text(x, y, text=self.rooms[i])
+            for coords in room_lables[i]:
+                self.canvas.create_text(*coords, text=self.rooms[i])
 
     def draw_shifted(self):
         self.reset_canvas()
-        for i in self.rooms_raw.keys():
-            coords = self.rooms_raw[i]
-            center_coords = self.rooms_center_raw[i]
-            directions = self.rooms_path_direction[i]
-            shifts = self.rooms_shift[i]
-            length = len(directions)
-            avg_x = sum([x[0] for x in center_coords])/length
-            avg_y = sum([x[1] for x in center_coords])/length
-            for j in range(length):
-                direction = directions[j]
-                x1, y1, x2, y2, x3, y3, x4, y4 = coords[j]
-                x, y = center_coords[j]
-                shift = shifts[j]
-                if direction == self.Direction.VERTICAL:
-                    if x > avg_x:
-                        shift = -shift
-                    elif x == avg_x:
-                        shift = 0
-                    x1 += shift
-                    x2 += shift
-                    x3 += shift
-                    x4 += shift
-                    x += shift
-                else:
-                    if y > avg_y:
-                        shift = -shift
-                    elif y == avg_y:
-                        shift = 0
-                    y1 += shift
-                    y2 += shift
-                    y3 += shift
-                    y4 += shift
-                    y += shift
+        self.calc_shifted()
+        self.draw_polys(self.rooms_shifted, self.rooms_center_shifted)
 
-                self.create_polygon(x1, y1, x2, y2, x3, y3, x4, y4,
-                                    fill=self.hex_colors[i], outline=self.hex_colors[i], alpha=.2)
-                self.canvas.create_text(
-                    x, y, text=self.rooms[i])
+    def calc_shifted(self):
+        if not self.shift_calced:
+            for i in self.rooms_raw.keys():
+                coords = self.rooms_raw[i]
+                center_coords = self.rooms_center_raw[i]
+                directions = self.rooms_path_direction[i]
+                shifts = self.rooms_shift[i]
+                length = len(directions)
+                avg_x = sum([x[0] for x in center_coords])/length
+                avg_y = sum([x[1] for x in center_coords])/length
+                for j in range(length):
+                    direction = directions[j]
+                    x1, y1, x2, y2, x3, y3, x4, y4 = coords[j]
+                    x, y = center_coords[j]
+                    shift = shifts[j]
+                    if direction == self.Direction.VERTICAL:
+                        if x > avg_x:
+                            shift = -shift
+                        elif x == avg_x:
+                            shift = 0
+                        x1 += shift
+                        x2 += shift
+                        x3 += shift
+                        x4 += shift
+                        x += shift
+                    else:
+                        if y > avg_y:
+                            shift = -shift
+                        elif y == avg_y:
+                            shift = 0
+                        y1 += shift
+                        y2 += shift
+                        y3 += shift
+                        y4 += shift
+                        y += shift
+                    self.rooms_shifted[i].append(
+                        (x1, y1, x2, y2, x3, y3, x4, y4))
+                    self.rooms_center_shifted[i].append((x, y))
+            self.shift_calced = True
 
     def draw_final(self):
         self.reset_canvas()
+        self.calc_shifted()
+        self.calc_final()
+        self.draw_polys(self.rooms_final, self.rooms_center_final)
+
+    def calc_final(self):
+        if not self.final_calced:
+            b_images = self.calc_image((1, 0, 0))
+            g_images = self.calc_image((0, 1, 0))
+
+            images = {}
+            for i in self.room_range:
+                image = np.zeros([self.height, self.width, 3],
+                                 dtype=np.uint8) + b_images[i]
+                for j in self.room_range:
+                    if j != i:
+                        image += g_images[j]
+                for p in range(self.height):
+                    for q in range(self.width):
+                        if image[p][q][0] > image[p][q][1]:
+                            image[p][q] = [0, 0, 128]
+                        else:
+                            image[p][q] = [0, 0, 0]
+                images[i] = image
+            # dump([g_images, b_images, images], open(
+            #     '/Users/mili/Desktop/test/images.sav', 'wb'))
+
+            grayImage = cv.cvtColor(image, cv.COLOR_BGR2GRAY)
+            # print(grayImage)
+            imageray = cv.cvtColor(image, cv.COLOR_BGR2GRAY)
+            ret, thresh = cv.threshold(imageray, 2, 255, 0)
+            contours, hierarchy = cv.findContours(
+                thresh, cv.RETR_TREE, cv.CHAIN_APPROX_SIMPLE)
+            # cv.drawContours(image, contours, -1, (0, 255, 0), 3)
+            rect = cv.minAreaRect(contours[0])
+            box = cv.boxPoints(rect)
+            box = np.int0(box)
+            # cv.drawContours(image, [box], 0, (0, 0, 255), 2)
+            epsilon = 0.1*cv.arcLength(contours[0], True)
+            approx = cv.approxPolyDP(contours[0], epsilon, True)
+            # cv.drawContours(image, [approx], 0, (255, 0, 255), 2)
+
+            # self.height, self.width = 5, 5
+            # grayImage = [[0, 0, 0, 0, 1],
+            #              [0, 0, 0, 1, 1],
+            #              [0, 1, 1, 1, 1],
+            #              [1, 1, 1, 1, 1],
+            #              [1, 1, 1, 1, 1]]
+            rowbounds = defaultdict(list)
+            colbounds = defaultdict(list)
+            rows, cols = [0]*self.height, [0]*self.width
+            for i in range(len(grayImage)):
+                for j in range(len(grayImage[0])):
+                    if grayImage[i][j]:
+                        rowbounds[i].append(j)
+                        colbounds[j].append(i)
+            for h in range(self.height):
+                rows[h] = sum([i > 0 for i in grayImage[h]])
+            for w in range(self.width):
+                for h in range(self.height):
+                    if grayImage[h][w] > 0:
+                        cols[w] += 1
+            rows = [max(i)-min(i) for i in rowbounds.values()]
+            cols = [max(i)-min(i) for i in colbounds.values()]
+            rows = [i for i in rows if i != 0]
+            cols = [i for i in cols if i != 0]
+            rows.sort()
+            cols.sort()
+            rows = rows[(len(rows)//4):]
+            cols = cols[(len(cols)//4):]
+            row_median, col_median = median(rows), median(cols
+                                                          )
+            row_median, col_median = sum(rows)/len(rows), sum(cols)/len(cols)
+            print("rows, cols, row_median, col_median",
+                  row_median, col_median)  # rows, cols,
+            area_sum = 0
+            x, y = 0, 0
+            for i in range(len(contours)):
+                cnt = contours[i]
+                M = cv.moments(cnt)
+                # print(M)
+                cx = int(M['m10']/M['m00'])
+                cy = int(M['m01']/M['m00'])
+                print("cx, cy", cx, cy)
+                area = cv.contourArea(cnt)
+                x += cx * area
+                y += cy * area
+                area_sum += area
+
+            center = (int(x/area_sum), int(y/area_sum))
+            radius = int((row_median + col_median)/2)
+            cv.circle(image, center, radius, (255, 0, 125), 2)
+            # cv.imshow('image'+str(i), image)
+            x = int(x/area_sum)
+            y = int(y/area_sum)
+            row_median //= 2
+            col_median //= 2
+            self.canvas.create_rectangle(x-row_median, y-col_median,
+                                         x+row_median, y+col_median)
+            # cvRects.append(Rectangle(x-row_median, y-col_median,
+            #                          x+row_median, y+col_median))
+            self.final_calced = True
+
+    def calc_image(self, color):
+        images = {}
+        for i in self.room_range:
+            images[i] = np.zeros([self.height, self.width, 3], dtype=np.uint8)
+        for i in self.rooms_shifted.keys():
+            image = images[i]
+            for coords in self.rooms_shifted[i]:
+                pts = np.array(coords).reshape((-1, 1, 2))
+                tmp = np.zeros([self.height, self.width, 3], dtype=np.uint8)
+                cv.fillPoly(tmp, [pts], color, cv.LINE_8)
+                image += tmp
+            images[i] = image
+        return images
 
     def calc_raw_coords(self, start, end, width, x1, y1, delta_x, delta_y, direction):
         x11 = x1 + start*delta_x
