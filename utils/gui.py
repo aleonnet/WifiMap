@@ -573,6 +573,7 @@ class FloorPlan:
         self.load_raw()
         self.to_draw = []
         for path, x, order, room_sizes in self.result:
+            # print(path, x, order, )
             path = [int(''.join([c for c in i if c.isdigit()]))
                     for i in path.split(' ')]
             self.canvas.create_line(path)
@@ -589,7 +590,7 @@ class FloorPlan:
             mean_order.sort(key=lambda x: x[0])
             mean_order = [[x[0]-mean_order[0][0], -1]] + \
                 mean_order + [[2*x[-1]-mean_order[-1][0], -1]]
-            # print(mean_order)
+            # print(room_order)
             room_order = [i[1]
                           for i in mean_order[1:-1]]
             direction = self.update_order(path, room_order)
