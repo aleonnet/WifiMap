@@ -3,6 +3,7 @@ import os
 import sys
 from glob import glob
 from pathlib import Path
+from tkinter.constants import HORIZONTAL, VERTICAL
 from tqdm import tqdm
 import threading
 from threading import Timer
@@ -272,9 +273,9 @@ class TrajTrainGUI:
 
         self.v = tk.IntVar(self.master, 0)
 
-        values = {"Draw": Mode.DRAW,
-                  "Reverse": Mode.REVERSE,
-                  "Delete": Mode.DELETE
+        values = {"Draw": self.Mode.DRAW,
+                  "Reverse": self.Mode.REVERSE,
+                  "Delete": self.Mode.DELETE
                   }
 
         frame = tk.Frame(self.master)
@@ -369,7 +370,7 @@ class TrajTrainGUI:
 
     def clear_radio(self):
         self.monitor_btn.configure(highlightbackground='red')
-        self.draw_mode = Mode.MOVE.value
+        self.draw_mode = self.Mode.MOVE.value
         for rd in self.radios:
             rd.deselect()
 
@@ -438,7 +439,7 @@ class TrajTrainGUI:
         item = self.canvas.find_withtag(tk.CURRENT)
         self.dnd_item = (item, event.x, event.y)
 
-        if self.draw_mode == Mode.REVERSE.value:
+        if self.draw_mode == self.Mode.REVERSE.value:
             items = self.canvas.find_withtag("draggable")
             for i in items:
                 self.canvas.itemconfig(i, fill=self.color)
@@ -448,7 +449,7 @@ class TrajTrainGUI:
             self.canvas.create_line(c[2], c[3], c[0], c[1], arrow=self.arrow, arrowshape=(16, 20, 6),
                                     fill='blue', width=self.width, tags="draggable")
             self.clear_radio()
-        elif self.draw_mode == Mode.DELETE.value:
+        elif self.draw_mode == self.Mode.DELETE.value:
             delete_c = self.canvas.coords(item)
             pre_t = 0
             for i in range(len(self.paths)):
@@ -469,7 +470,7 @@ class TrajTrainGUI:
         self.update_path()
 
     def button_motion(self, event):
-        if self.draw_mode == Mode.MOVE.value:
+        if self.draw_mode == self.Mode.MOVE.value:
             x, y = event.x, event.y
             item, x0, y0 = self.dnd_item
             pre_c = self.canvas.coords(item)
@@ -491,7 +492,7 @@ class TrajTrainGUI:
         self.update_path()
 
     def draw(self, event):
-        if self.draw_mode == Mode.DRAW.value:
+        if self.draw_mode == self.Mode.DRAW.value:
             items = self.canvas.find_withtag("draggable")
             for i in items:
                 self.canvas.itemconfig(i, fill=self.color)
@@ -512,9 +513,20 @@ class TrajTrainGUI:
                 self.clear_radio()
                 self.update_path()
 
+    class Mode(Enum):
+        DRAW = 1
+        SELECT = 2
+        REVERSE = 3
+        MOVE = 4
+        DELETE = 5
+
 
 # %%
 class FloorPlan:
+    class Direction(Enum):
+        VERTICAL = 1
+        HORIZONTAL = 2
+
     def __init__(self, master, title):
         self.master = master
         self.master.title(title)
@@ -581,9 +593,9 @@ class FloorPlan:
             x1, y1, x2, y2 = path
             delta_x = x2-x1
             delta_y = y2-y1
-            direction = 'horizontal'
+            direction = self.Direction.HORIZONTAL
             if abs(delta_y/delta_x) > 1:
-                direction = 'vertical'
+                direction = self.Direction.VERTICAL
 
             x_length = x[-1]
             room_widths = {}
@@ -657,7 +669,7 @@ class FloorPlan:
                 x1, y1, x2, y2, x3, y3, x4, y4 = coords[j]
                 x, y = center_coords[j]
                 shift = shifts[j]
-                if direction == 'vertical':
+                if direction == self.Direction.VERTICAL:
                     if x > avg_x:
                         shift = -shift
                     elif x == avg_x:
@@ -681,7 +693,7 @@ class FloorPlan:
                 self.create_polygon(x1, y1, x2, y2, x3, y3, x4, y4,
                                     fill=self.hex_colors[i], outline=self.hex_colors[i], alpha=.2)
                 self.canvas.create_text(
-                    x, y, text=self.rooms[i]+direction+str(shift))
+                    x, y, text=self.rooms[i])
 
     def draw_final(self):
         self.reset_canvas()
@@ -701,7 +713,7 @@ class FloorPlan:
         x4 = int(x22 + h*delta_y)
         y4 = int(y22 - h*delta_x)
         shift = (abs(h*delta_x))
-        if direction == 'vertical':
+        if direction == self.Direction.VERTICAL:
             shift = abs(h*delta_y)
         return (x1, y1, x2, y2, x3, y3, x4, y4), ((x11+x22)//2, (y11+y22)//2), int(shift)
 
@@ -762,14 +774,6 @@ class RoomForm(tk.LabelFrame):
         if self.duration.get() == 'infinite':
             return 0
         return float(self.duration.get())
-
-
-class Mode(Enum):
-    DRAW = 1
-    SELECT = 2
-    REVERSE = 3
-    MOVE = 4
-    DELETE = 5
 
 
 class RepeatedTimer(object):
