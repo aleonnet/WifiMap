@@ -566,8 +566,12 @@ class FloorPlan:
         self.load_raw()
         self.colors = cm.get_cmap('jet', len(self.rooms))
         self.hex_colors = []
+        self.cv_colors = []
         for i in self.room_range:
-            self.hex_colors.append(colors.rgb2hex(self.colors(i)))
+            rgb = self.colors(i)
+            self.hex_colors.append(colors.rgb2hex(rgb))
+            self.cv_colors.append(
+                (int(255*rgb[2]), int(255*rgb[1]), int(255*rgb[0])))
 
     def load_raw(self):
         self.rooms, self.result = load(open(
@@ -663,6 +667,15 @@ class FloorPlan:
             for coords in room_lables[i]:
                 self.canvas.create_text(*coords, text=self.rooms[i])
 
+    def draw_recs(self, rooms, room_lables):
+        # print(rooms, room_lables)
+        for i in rooms.keys():
+            for coords in rooms[i]:
+                self.create_rectangle(*coords,
+                                      fill=self.hex_colors[i], outline=self.hex_colors[i])
+            for coords in room_lables[i]:
+                self.canvas.create_text(*coords, text=self.rooms[i])
+
     def draw_shifted(self):
         self.reset_canvas()
         self.calc_shifted()
@@ -712,7 +725,7 @@ class FloorPlan:
         self.reset_canvas()
         self.calc_shifted()
         self.calc_final()
-        self.draw_polys(self.rooms_final, self.rooms_center_final)
+        self.draw_recs(self.rooms_final, self.rooms_center_final)
 
     def calc_final(self):
         if not self.final_calced:
@@ -729,89 +742,58 @@ class FloorPlan:
                 for p in range(self.height):
                     for q in range(self.width):
                         if image[p][q][0] > image[p][q][1]:
-                            image[p][q] = [0, 0, 128]
+                            image[p][q] = image[p][q][0]
                         else:
-                            image[p][q] = [0, 0, 0]
-                images[i] = image
-                cv.imshow('final'+str(i), image)
-                # dump([g_images, b_images, images], open(
-                #     '/Users/mili/Desktop/test/images.sav', 'wb'))
-
+                            image[p][q] = (0, 0, 0)
+                norm_img = np.zeros((self.height, self.width))
+                image = cv.normalize(image,  norm_img, 0, 255, cv.NORM_MINMAX)
+                cv_color = self.cv_colors[i]
+                for p in range(800):
+                    for q in range(600):
+                        tmps = [int(tmp * image[p][q][0]/255)
+                                for tmp in cv_color]
+                        image[p][q] = tuple(tmps)
                 grayImage = cv.cvtColor(image, cv.COLOR_BGR2GRAY)
-                # print(grayImage)
-                imageray = cv.cvtColor(image, cv.COLOR_BGR2GRAY)
-                ret, thresh = cv.threshold(imageray, 2, 255, 0)
-                contours, hierarchy = cv.findContours(
-                    thresh, cv.RETR_TREE, cv.CHAIN_APPROX_SIMPLE)
-                # cv.drawContours(image, contours, -1, (0, 255, 0), 3)
-                rect = cv.minAreaRect(contours[0])
-                box = cv.boxPoints(rect)
-                box = np.int0(box)
-                # cv.drawContours(image, [box], 0, (0, 0, 255), 2)
-                epsilon = 0.1*cv.arcLength(contours[0], True)
-                approx = cv.approxPolyDP(contours[0], epsilon, True)
-                # cv.drawContours(image, [approx], 0, (255, 0, 255), 2)
-
-                # self.height, self.width = 5, 5
-                # grayImage = [[0, 0, 0, 0, 1],
-                #              [0, 0, 0, 1, 1],
-                #              [0, 1, 1, 1, 1],
-                #              [1, 1, 1, 1, 1],
-                #              [1, 1, 1, 1, 1]]
                 rowbounds = defaultdict(list)
                 colbounds = defaultdict(list)
-                rows, cols = [0]*self.height, [0]*self.width
-                for i in range(len(grayImage)):
-                    for j in range(len(grayImage[0])):
-                        if grayImage[i][j]:
-                            rowbounds[i].append(j)
-                            colbounds[j].append(i)
-                for h in range(self.height):
-                    rows[h] = sum([i > 0 for i in grayImage[h]])
-                for w in range(self.width):
-                    for h in range(self.height):
-                        if grayImage[h][w] > 0:
-                            cols[w] += 1
-                rows = [max(i)-min(i) for i in rowbounds.values()]
-                cols = [max(i)-min(i) for i in colbounds.values()]
-                rows = [i for i in rows if i != 0]
-                cols = [i for i in cols if i != 0]
+                for p in range(self.height):
+                    for q in range(self.width):
+                        if grayImage[p][q]:
+                            rowbounds[p].append(q)
+                            colbounds[q].append(p)
+                rows = [max(ii)-min(ii) for ii in rowbounds.values()]
+                cols = [max(ii)-min(ii) for ii in colbounds.values()]
+                rows = [ii for ii in rows if ii != 0]
+                cols = [ii for ii in cols if ii != 0]
                 rows.sort()
                 cols.sort()
                 rows = rows[(len(rows)//4):]
                 cols = cols[(len(cols)//4):]
-                row_median, col_median = median(rows), median(cols
-                                                              )
+                row_median, col_median = median(rows), median(cols)
                 row_median, col_median = sum(
                     rows)/len(rows), sum(cols)/len(cols)
-                print("rows, cols, row_median, col_median",
-                      row_median, col_median)  # rows, cols,
                 area_sum = 0
                 x, y = 0, 0
-                for i in range(len(contours)):
-                    cnt = contours[i]
-                    M = cv.moments(cnt)
-                    # print(M)
-                    cx = int(M['m10']/M['m00'])
-                    cy = int(M['m01']/M['m00'])
-                    print("cx, cy", cx, cy)
-                    area = cv.contourArea(cnt)
-                    x += cx * area
-                    y += cy * area
-                    area_sum += area
-
+                for p in range(self.height):
+                    for q in range(self.width):
+                        if grayImage[p][q]:
+                            area_sum += grayImage[p][q]
+                            x += grayImage[p][q]*q
+                            y += grayImage[p][q]*p
                 center = (int(x/area_sum), int(y/area_sum))
                 radius = int((row_median + col_median)/2)
-                cv.circle(image, center, radius, (255, 0, 125), 2)
-                # cv.imshow('image'+str(i), image)
+                cv.circle(image, center, radius, cv_color, 2)
+                cv.imshow('image'+str(i), image)
                 x = int(x/area_sum)
                 y = int(y/area_sum)
                 row_median //= 2
                 col_median //= 2
-                self.canvas.create_rectangle(x-row_median, y-col_median,
-                                             x+row_median, y+col_median)
-            # cvRects.append(Rectangle(x-row_median, y-col_median,
-            #                          x+row_median, y+col_median))
+                self.rooms_final[i].append((x-row_median, y-col_median,
+                                            x+row_median, y+col_median))
+                self.rooms_center_final[i].append((x, y))
+                images[i] = image
+            dump([g_images, b_images, images], open(
+                '/Users/mili/Desktop/test/images.sav', 'wb'))
             self.final_calced = True
 
     def calc_image(self, color):
@@ -846,6 +828,17 @@ class FloorPlan:
         if direction == self.Direction.VERTICAL:
             shift = abs(h*delta_y)
         return (x1, y1, x2, y2, x3, y3, x4, y4), ((x11+x22)//2, (y11+y22)//2), int(shift)
+
+    def create_rectangle(self, x1, y1, x2, y2, **kwargs):
+        if 'alpha' in kwargs:
+            alpha = int(kwargs.pop('alpha') * 255)
+            fill = kwargs.pop('fill')
+            fill = self.master.winfo_rgb(fill) + (alpha,)
+            image = Image.new('RGBA', (x2-x1, y2-y1), fill)
+            self.images.append(ImageTk.PhotoImage(image))
+            self.canvas.create_image(
+                x1, y1, image=self.images[-1], anchor='nw')
+        self.canvas.create_rectangle(x1, y1, x2, y2, **kwargs)
 
     def create_polygon(self, *args, **kwargs):
         if "alpha" in kwargs:
