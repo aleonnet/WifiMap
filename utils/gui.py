@@ -656,14 +656,15 @@ class FloorPlan:
         self.reset_canvas()
         self.draw_polys(self.rooms_raw, self.rooms_center_raw, 0.2, 2)
 
-    def draw_polys(self, rooms, room_lables, ap, w):
+    def draw_polys(self, rooms, room_lables, ap, w, fsize='15'):
         # print(rooms, room_lables)
         for i in rooms.keys():
             for coords in rooms[i]:
                 self.create_polygon(*coords,
                                     fill=self.hex_colors[i], outline=self.hex_colors[i], alpha=ap, width=w)
             for coords in room_lables[i]:
-                self.canvas.create_text(*coords, text=self.rooms[i])
+                self.canvas.create_text(
+                    *coords, text=self.rooms[i], font=('TkDefaultFont', fsize))
 
     def draw_shifted(self):
         self.reset_canvas()
@@ -715,10 +716,12 @@ class FloorPlan:
         self.calc_shifted()
         self.calc_final()
         self.draw_full_image()
-        self.draw_polys(self.rooms_final, self.rooms_center_final, 0.2, 5)
+        self.draw_polys(self.rooms_final,
+                        self.rooms_center_final, 0.4, 5, fsize='20')
 
     def calc_final(self):
         if not self.final_calced:
+            self.pbar = tqdm(total=100)
             b_images = self.calc_image((1, 0, 0))
             g_images = self.calc_image((0, 1, 0))
 
@@ -782,8 +785,12 @@ class FloorPlan:
                                             x+row_median, y+col_median,
                                             x-row_median, y+col_median,))
                 self.rooms_center_final[i].append(center)
+
+                self.pbar.update(100//len(self.room_range))
             self.calc_full_image()
             # cv.imshow('full_image', self.full_image)
+            dump([self.rooms, self.rooms_final, self.rooms_center_final], open(
+                dir_path + '/values/floorplan.sav', 'wb'))
             self.final_calced = True
 
     def calc_full_image(self):
@@ -849,7 +856,7 @@ class FloorPlan:
                 ImageDraw.Draw(image).polygon(
                     args, fill=fill)
                 ImageDraw.Draw(image).line(
-                    args, fill=outline, width=width)
+                    args+(args[0], args[1]), fill=outline, width=width)
 
                 # prevent the Image from being garbage-collected
                 self.images.append(ImageTk.PhotoImage(image))
