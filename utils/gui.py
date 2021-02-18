@@ -715,14 +715,14 @@ class FloorPlan:
         self.calc_shifted()
         self.calc_final()
         self.draw_full_image()
-        self.draw_polys(self.rooms_final, self.rooms_center_final, 0.6, 5)
+        # self.draw_polys(self.rooms_final, self.rooms_center_final, 0.2, 5)
 
     def calc_final(self):
         if not self.final_calced:
             b_images = self.calc_image((1, 0, 0))
             g_images = self.calc_image((0, 1, 0))
 
-            images = {}
+            # images = {}
             self.full_image = np.zeros([self.height, self.width, 3],
                                        dtype=np.uint8)
             for i in self.room_range:
@@ -731,30 +731,25 @@ class FloorPlan:
                 for j in self.room_range:
                     if j != i:
                         image += g_images[j]
+                rowbounds = defaultdict(list)
+                colbounds = defaultdict(list)
+                area_sum = 0
+                x, y = 0, 0
                 for p in range(self.height):
                     for q in range(self.width):
                         if image[p][q][0] > image[p][q][1]:
-                            image[p][q] = image[p][q][0]
-                        else:
-                            image[p][q] = (0, 0, 0)
-                norm_img = np.zeros((self.height, self.width))
-                image = cv.normalize(image,  norm_img, 0, 255, cv.NORM_MINMAX)
-                cv_color = self.cv_colors[i]
-                for p in range(800):
-                    for q in range(600):
-                        tmps = [int(tmp * image[p][q][0]/255)
-                                for tmp in cv_color]
-                        # if not any(tmps):
-                        #     tmps = (255, 255, 255)
-                        image[p][q] = tuple(tmps)
-                grayImage = cv.cvtColor(image, cv.COLOR_BGR2GRAY)
-                rowbounds = defaultdict(list)
-                colbounds = defaultdict(list)
-                for p in range(self.height):
-                    for q in range(self.width):
-                        if grayImage[p][q]:
+                            scale = image[p][q][0]
+                            image[p][q] = scale
                             rowbounds[p].append(q)
                             colbounds[q].append(p)
+                            area_sum += scale
+                            x += scale*q
+                            y += scale*p
+                        else:
+                            image[p][q] = (0, 0, 0)
+                x = int(x/area_sum)
+                y = int(y/area_sum)
+
                 rows = [max(ii)-min(ii) for ii in rowbounds.values()]
                 cols = [max(ii)-min(ii) for ii in colbounds.values()]
                 rows = [ii for ii in rows if ii != 0]
@@ -766,36 +761,45 @@ class FloorPlan:
                 row_median, col_median = median(rows), median(cols)
                 row_median, col_median = sum(
                     rows)/len(rows), sum(cols)/len(cols)
-                area_sum = 0
-                x, y = 0, 0
-                for p in range(self.height):
-                    for q in range(self.width):
-                        if grayImage[p][q]:
-                            area_sum += grayImage[p][q]
-                            x += grayImage[p][q]*q
-                            y += grayImage[p][q]*p
-                center = (int(x/area_sum), int(y/area_sum))
-                radius = int((row_median + col_median)/2)
-                cv.circle(image, center, radius, cv_color, 2)
-                x = int(x/area_sum)
-                y = int(y/area_sum)
                 row_median = int(row_median/2)
                 col_median = int(col_median/2)
+
+                norm_img = np.zeros((self.height, self.width))
+                image = cv.normalize(image,  norm_img, 0, 255, cv.NORM_MINMAX)
+                cv_color = self.cv_colors[i]
+                for p in range(800):
+                    for q in range(600):
+                        scale = image[p][q][0]
+                        image[p][q] = tuple([int(tmp*scale/255)
+                                             for tmp in cv_color])
+                center = (x, y)
+                radius = int((row_median + col_median)/2)
+                cv.circle(image, center, radius, cv_color, 2)
+
+                # images[i] = image
+                self.full_image += image
                 self.rooms_final[i].append((x-row_median, y-col_median,
                                             x+row_median, y-col_median,
                                             x+row_median, y+col_median,
                                             x-row_median, y+col_median,))
-                self.rooms_center_final[i].append((x, y))
-                images[i] = image
-                self.full_image += image
+                self.rooms_center_final[i].append(center)
+            self.calc_full_image()
             # cv.imshow('full_image', self.full_image)
             self.final_calced = True
 
-    def draw_full_image(self):
-        print("draw_image")
-        image = cv.cvtColor(self.full_image, cv.COLOR_BGR2RGB)
+    def calc_full_image(self):
+        mask_image = np.zeros([self.height, self.width, 3],
+                              dtype=np.uint8)
+        mask_image.fill(255)
+        blended_image = cv.addWeighted(
+            self.full_image, 0.7, mask_image, 0.3, 0)
+        image = cv.cvtColor(blended_image, cv.COLOR_BGR2RGB)
+        image = Image.fromarray(image)
+        image.putalpha(128)
         # dump(image, open('/Users/mili/Desktop/test/full_image.sav', 'wb'))
-        self.imgtk = ImageTk.PhotoImage(image=Image.fromarray(image))
+        self.imgtk = ImageTk.PhotoImage(image=image)
+
+    def draw_full_image(self):
         self.canvas.create_image(
             self.width//2, self.height//2, image=self.imgtk)
         # self.canvas.create_image(0, 0, image=image, anchor="nw")
