@@ -733,6 +733,8 @@ class FloorPlan:
             g_images = self.calc_image((0, 1, 0))
 
             images = {}
+            self.full_image = np.zeros([self.height, self.width, 3],
+                                       dtype=np.uint8)
             for i in self.room_range:
                 image = np.zeros([self.height, self.width, 3],
                                  dtype=np.uint8) + b_images[i]
@@ -783,7 +785,7 @@ class FloorPlan:
                 center = (int(x/area_sum), int(y/area_sum))
                 radius = int((row_median + col_median)/2)
                 cv.circle(image, center, radius, cv_color, 2)
-                cv.imshow('image'+str(i), image)
+
                 x = int(x/area_sum)
                 y = int(y/area_sum)
                 row_median //= 2
@@ -792,6 +794,8 @@ class FloorPlan:
                                             x+row_median, y+col_median))
                 self.rooms_center_final[i].append((x, y))
                 images[i] = image
+                self.full_image += image
+            cv.imshow('full_image', self.full_image)
             dump([g_images, b_images, images], open(
                 '/Users/mili/Desktop/test/images.sav', 'wb'))
             self.final_calced = True
