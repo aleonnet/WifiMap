@@ -715,7 +715,7 @@ class FloorPlan:
         self.calc_shifted()
         self.calc_final()
         self.draw_full_image()
-        # self.draw_polys(self.rooms_final, self.rooms_center_final, 0.2, 5)
+        self.draw_polys(self.rooms_final, self.rooms_center_final, 0.2, 5)
 
     def calc_final(self):
         if not self.final_calced:
@@ -749,7 +749,7 @@ class FloorPlan:
                             image[p][q] = (0, 0, 0)
                 x = int(x/area_sum)
                 y = int(y/area_sum)
-
+                center = (x, y)
                 rows = [max(ii)-min(ii) for ii in rowbounds.values()]
                 cols = [max(ii)-min(ii) for ii in colbounds.values()]
                 rows = [ii for ii in rows if ii != 0]
@@ -772,10 +772,9 @@ class FloorPlan:
                         scale = image[p][q][0]
                         image[p][q] = tuple([int(tmp*scale/255)
                                              for tmp in cv_color])
-                center = (x, y)
-                radius = int((row_median + col_median)/2)
-                cv.circle(image, center, radius, cv_color, 2)
 
+                # radius = int((row_median + col_median)/2)
+                # cv.circle(image, center, radius, cv_color, 2)
                 # images[i] = image
                 self.full_image += image
                 self.rooms_final[i].append((x-row_median, y-col_median,
@@ -788,21 +787,15 @@ class FloorPlan:
             self.final_calced = True
 
     def calc_full_image(self):
-        mask_image = np.zeros([self.height, self.width, 3],
-                              dtype=np.uint8)
-        mask_image.fill(255)
-        blended_image = cv.addWeighted(
-            self.full_image, 0.7, mask_image, 0.3, 0)
-        image = cv.cvtColor(blended_image, cv.COLOR_BGR2RGB)
+        image = cv.cvtColor(self.full_image, cv.COLOR_BGR2RGB)
         image = Image.fromarray(image)
-        image.putalpha(128)
+        image.putalpha(64)
         # dump(image, open('/Users/mili/Desktop/test/full_image.sav', 'wb'))
         self.imgtk = ImageTk.PhotoImage(image=image)
 
     def draw_full_image(self):
         self.canvas.create_image(
             self.width//2, self.height//2, image=self.imgtk)
-        # self.canvas.create_image(0, 0, image=image, anchor="nw")
 
     def calc_image(self, color):
         images = {}
@@ -845,13 +838,18 @@ class FloorPlan:
                     + (int(kwargs.pop("alpha") * 255),)
                 outline = kwargs.pop(
                     "outline") if "outline" in kwargs else None
+                width = kwargs.pop(
+                    "width") if "width" in kwargs else None
 
                 # We need to find a rectangle the polygon is inscribed in
                 # (max(args[::2]), max(args[1::2])) are x and y of the bottom right point of this rectangle
                 # and they also are the width and height of it respectively (the image will be inserted into
                 # (0, 0) coords for simplicity)
                 image = Image.new("RGBA", (max(args[::2]), max(args[1::2])))
-                ImageDraw.Draw(image).polygon(args, fill=fill, outline=outline)
+                ImageDraw.Draw(image).polygon(
+                    args, fill=fill)
+                ImageDraw.Draw(image).line(
+                    args, fill=outline, width=width)
 
                 # prevent the Image from being garbage-collected
                 self.images.append(ImageTk.PhotoImage(image))
