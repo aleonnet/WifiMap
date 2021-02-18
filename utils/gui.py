@@ -16,8 +16,6 @@ import tkinter.font as tkfont
 import tkinter.scrolledtext as st
 from pickle import load, dump
 from PIL import Image, ImageDraw, ImageTk
-import tkinter as tk
-from pickle import load
 import numpy as np
 from matplotlib import cm, colors
 from collections import defaultdict
@@ -656,30 +654,21 @@ class FloorPlan:
 
     def draw_raw(self):
         self.reset_canvas()
-        self.draw_polys(self.rooms_raw, self.rooms_center_raw)
+        self.draw_polys(self.rooms_raw, self.rooms_center_raw, 0.2, 2)
 
-    def draw_polys(self, rooms, room_lables):
+    def draw_polys(self, rooms, room_lables, ap, w):
         # print(rooms, room_lables)
         for i in rooms.keys():
             for coords in rooms[i]:
                 self.create_polygon(*coords,
-                                    fill=self.hex_colors[i], outline=self.hex_colors[i], alpha=.2)
-            for coords in room_lables[i]:
-                self.canvas.create_text(*coords, text=self.rooms[i])
-
-    def draw_recs(self, rooms, room_lables):
-        # print(rooms, room_lables)
-        for i in rooms.keys():
-            for coords in rooms[i]:
-                self.create_rectangle(*coords,
-                                      fill=self.hex_colors[i], outline=self.hex_colors[i])
+                                    fill=self.hex_colors[i], outline=self.hex_colors[i], alpha=ap, width=w)
             for coords in room_lables[i]:
                 self.canvas.create_text(*coords, text=self.rooms[i])
 
     def draw_shifted(self):
         self.reset_canvas()
         self.calc_shifted()
-        self.draw_polys(self.rooms_shifted, self.rooms_center_shifted)
+        self.draw_polys(self.rooms_shifted, self.rooms_center_shifted, 0.2, 2)
 
     def calc_shifted(self):
         if not self.shift_calced:
@@ -725,7 +714,8 @@ class FloorPlan:
         self.reset_canvas()
         self.calc_shifted()
         self.calc_final()
-        self.draw_recs(self.rooms_final, self.rooms_center_final)
+        self.draw_full_image()
+        self.draw_polys(self.rooms_final, self.rooms_center_final, 0.6, 5)
 
     def calc_final(self):
         if not self.final_calced:
@@ -754,6 +744,8 @@ class FloorPlan:
                     for q in range(600):
                         tmps = [int(tmp * image[p][q][0]/255)
                                 for tmp in cv_color]
+                        # if not any(tmps):
+                        #     tmps = (255, 255, 255)
                         image[p][q] = tuple(tmps)
                 grayImage = cv.cvtColor(image, cv.COLOR_BGR2GRAY)
                 rowbounds = defaultdict(list)
@@ -769,8 +761,8 @@ class FloorPlan:
                 cols = [ii for ii in cols if ii != 0]
                 rows.sort()
                 cols.sort()
-                rows = rows[(len(rows)//4):]
-                cols = cols[(len(cols)//4):]
+                rows = rows[(len(rows)//3):]
+                cols = cols[(len(cols)//3):]
                 row_median, col_median = median(rows), median(cols)
                 row_median, col_median = sum(
                     rows)/len(rows), sum(cols)/len(cols)
@@ -785,20 +777,28 @@ class FloorPlan:
                 center = (int(x/area_sum), int(y/area_sum))
                 radius = int((row_median + col_median)/2)
                 cv.circle(image, center, radius, cv_color, 2)
-
                 x = int(x/area_sum)
                 y = int(y/area_sum)
-                row_median //= 2
-                col_median //= 2
+                row_median = int(row_median/2)
+                col_median = int(col_median/2)
                 self.rooms_final[i].append((x-row_median, y-col_median,
-                                            x+row_median, y+col_median))
+                                            x+row_median, y-col_median,
+                                            x+row_median, y+col_median,
+                                            x-row_median, y+col_median,))
                 self.rooms_center_final[i].append((x, y))
                 images[i] = image
                 self.full_image += image
-            cv.imshow('full_image', self.full_image)
-            dump([g_images, b_images, images], open(
-                '/Users/mili/Desktop/test/images.sav', 'wb'))
+            # cv.imshow('full_image', self.full_image)
             self.final_calced = True
+
+    def draw_full_image(self):
+        print("draw_image")
+        image = cv.cvtColor(self.full_image, cv.COLOR_BGR2RGB)
+        # dump(image, open('/Users/mili/Desktop/test/full_image.sav', 'wb'))
+        self.imgtk = ImageTk.PhotoImage(image=Image.fromarray(image))
+        self.canvas.create_image(
+            self.width//2, self.height//2, image=self.imgtk)
+        # self.canvas.create_image(0, 0, image=image, anchor="nw")
 
     def calc_image(self, color):
         images = {}
@@ -832,17 +832,6 @@ class FloorPlan:
         if direction == self.Direction.VERTICAL:
             shift = abs(h*delta_y)
         return (x1, y1, x2, y2, x3, y3, x4, y4), ((x11+x22)//2, (y11+y22)//2), int(shift)
-
-    def create_rectangle(self, x1, y1, x2, y2, **kwargs):
-        if 'alpha' in kwargs:
-            alpha = int(kwargs.pop('alpha') * 255)
-            fill = kwargs.pop('fill')
-            fill = self.master.winfo_rgb(fill) + (alpha,)
-            image = Image.new('RGBA', (x2-x1, y2-y1), fill)
-            self.images.append(ImageTk.PhotoImage(image))
-            self.canvas.create_image(
-                x1, y1, image=self.images[-1], anchor='nw')
-        self.canvas.create_rectangle(x1, y1, x2, y2, **kwargs)
 
     def create_polygon(self, *args, **kwargs):
         if "alpha" in kwargs:
