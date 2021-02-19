@@ -874,14 +874,15 @@ class RoomForm(tk.LabelFrame):
         super().__init__(master, text="Room-level Training Options")
 
         room_label = tk.Label(self, text="Room ID")
-        self.room = tk.Spinbox(self, values=(1, 2, 3, 4), width=5)
+        self.room = tk.Spinbox(self, values=[i for i in range(1, 50)], width=5)
 
         interval_label = tk.Label(self, text="Scan Interval (s)")
-        self.interval = tk.Spinbox(self, values=(5, 6, 7, 8), width=5)
+        self.interval = tk.Spinbox(
+            self, values=[i for i in range(5, 30)], width=5)
 
         duration_label = tk.Label(self, text="Scan Duration (m)")
         self.duration = tk.Spinbox(self, values=(
-            'infinite', 0.2, 1, 5, 10, 15, 30), width=5)
+            'infinite', 0.2, 1, 5, 10, 15, 30, 60, 120), width=5)
         room_label.grid(sticky=tk.W, row=0, column=0)
         self.room.grid(row=0, column=1, pady=10)
         interval_label.grid(sticky=tk.W, row=1, column=0)
