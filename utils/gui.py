@@ -189,7 +189,7 @@ class RoomTrainGUI:
                 self.pbar.update(1)
                 self.update_pbar()
                 self.f.close()
-            except (RuntimeError, TypeError, NameError) as err:
+            except:
                 print('End Wifi Scanning')
 
             if self.count == self.count_stop:
@@ -399,7 +399,6 @@ class TrajTrainGUI:
     def doWork(self):
         self.pbar = tqdm(total=0,
                          bar_format='{l_bar}{bar:10}{r_bar}')
-        self.update_pbar()
         while self.monitor_mode:
             try:
                 self.f = open(self.file_name, 'a')
@@ -409,7 +408,7 @@ class TrajTrainGUI:
                 self.pbar.update(1)
                 self.update_pbar()
                 self.f.close()
-            except (RuntimeError, TypeError, NameError) as err:
+            except:
                 print('End Wifi Scanning')
 
     def changeMode(self):
@@ -421,18 +420,19 @@ class TrajTrainGUI:
         self.label.config(text=text)
 
     def monitor(self):
-        self.monitor_mode = not self.monitor_mode
-        if self.monitor_mode and self.paths:
-            if self.f:
-                self.f.close()
-            self.file_name = self.folder + '/traj_' + \
-                str(self.paths[-1][0]) + '_' + str(self.paths[-1][1]) + '.txt'
-            self.monitor_btn['text'] = 'Stop Scan'
-            self.monitor_btn.configure(highlightbackground='black')
-            x = threading.Thread(target=self.doWork)
-            x.start()
-        else:
-            self.monitor_btn['text'] = 'Start Scan'
+        if self.paths:
+            self.monitor_mode = not self.monitor_mode
+            if self.monitor_mode:
+                if self.f:
+                    self.f.close()
+                self.file_name = self.folder + '/traj_' + \
+                    str(self.paths[-1][0]) + '_' + str(self.paths[-1][1]) + '.txt'
+                self.monitor_btn['text'] = 'Stop Scan'
+                self.monitor_btn.configure(highlightbackground='black')
+                x = threading.Thread(target=self.doWork)
+                x.start()
+            else:
+                self.monitor_btn['text'] = 'Start Scan'
 
     def compare(self, c1, c2):
         return sum([abs(c1[i]-c2[i]) for i in range(len(c1))]) < 1
