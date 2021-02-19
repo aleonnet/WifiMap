@@ -73,6 +73,8 @@ class Main:
         self.butnew("Trajectory Training", "Trajectory Training", TrajTrainGUI)
         self.butnew("Floor Plan Construction",
                     "Floor Plan Construction", FloorPlan)
+        self.butnew("Floor Plan Edit",
+                    "Floor Plan Edit", FloorPlanEdit)
 
         self.exitButton = tk.Button(self.frame, bg='grey', fg='red', text='Exit', width=25,
                                     command=self.master.destroy)
@@ -543,15 +545,15 @@ class FloorPlan:
 
         self.frame = tk.Frame(self.master)
 
-        self.drawButton = tk.Button(self.frame, bg='grey', fg='black', text='Draw Raw Floorplan',
+        self.drawButton = tk.Button(self.frame, bg='grey', fg='black', text='Draw Raw Floor Plan',
                                     command=self.draw_raw, pady=10)
         self.drawButton.pack(expand=True, fill=tk.BOTH, pady=10)
 
-        self.drawButton = tk.Button(self.frame, bg='grey', fg='black', text='Draw Shifted Floorplan',
+        self.drawButton = tk.Button(self.frame, bg='grey', fg='black', text='Draw Shifted Floor Plan',
                                     command=self.draw_shifted, pady=10)
         self.drawButton.pack(expand=True, fill=tk.BOTH, pady=10)
 
-        self.drawButton = tk.Button(self.frame, bg='grey', fg='black', text='Draw Final Floorplan',
+        self.drawButton = tk.Button(self.frame, bg='grey', fg='black', text='Draw Final Floor Plan',
                                     command=self.draw_final, pady=10)
         self.drawButton.pack(expand=True, fill=tk.BOTH, pady=10)
 
@@ -789,7 +791,7 @@ class FloorPlan:
                 self.pbar.update(100//len(self.room_range))
             self.calc_full_image()
             # cv.imshow('full_image', self.full_image)
-            dump([self.rooms, self.rooms_final, self.rooms_center_final], open(
+            dump([self.rooms_final, self.rooms_center_final, self.rooms, self.hex_colors], open(
                 dir_path + '/values/floorplan.sav', 'wb'))
             self.final_calced = True
 
@@ -867,6 +869,116 @@ class FloorPlan:
 
 
 # %%
+class FloorPlanEdit:
+    def __init__(self, master, title):
+        self.master = master
+        self.master.title(title)
+        self.master.geometry('1000x800')
+        self.line_start = None
+
+        self.width = 600
+        self.height = 800
+
+        self.canvas = tk.Canvas(
+            self.master, bg="white", width=self.width, height=self.height)
+        self.canvas.bind("<Motion>", self.mouse_motion)
+
+        self.draw_grid()
+
+        self.canvas.pack(side=tk.LEFT)
+
+        self.canvas.tag_bind("draggable", "<Button1-Motion>",
+                             self.button_drag)
+
+        toolbar = tk.Frame(self.master)
+
+        self.label = tk.Label(toolbar)
+        self.label.pack(expand=True, fill=tk.BOTH, pady=10)
+
+        self.resetButton = tk.Button(toolbar, bg='grey', fg='black', text='Reset Floor Plan',
+                                     command=self.reset, pady=10)
+        self.resetButton.pack(expand=True, fill=tk.BOTH, pady=10)
+
+        self.saveButton = tk.Button(toolbar, bg='grey', fg='black', text='Save Floor Plan',
+                                    command=self.save, pady=10)
+        self.saveButton.pack(expand=True, fill=tk.BOTH, pady=10)
+
+        self.exitButton = tk.Button(toolbar, bg='grey', fg='red', text='Exit',
+                                    command=self.master.destroy)
+        self.exitButton.pack(expand=True, fill=tk.BOTH, pady=10)
+
+        toolbar.pack(expand=True)
+        self.room_coords, self.room_center_coords, self.room_labels, self.hex_colors,  = None, None, None, None
+
+        self.load_raw()
+        self.draw_polys(self.room_coords, self.room_center_coords,
+                        self.room_labels, self.hex_colors)
+
+    def mouse_motion(self, event):
+        x, y = event.x, event.y
+        text = "Mouse position: ({}, {})".format(x, y)
+        self.label.config(text=text)
+
+    def reset(self):
+        print('reset')
+
+    def save(self):
+        print('save')
+
+    def button_drag(self, event):
+        print('move')
+
+    def resize(self):
+        print('resize')
+
+    def load_raw(self):
+        self.room_coords, self.room_center_coords, self.room_labels, self.hex_colors = load(open(
+            dir_path + '/values/floorplan.sav', 'rb'))
+
+    def draw_polys(self, room_coords, room_center_coords, room_lables, colors, fsize='20'):
+        # print(rooms, room_lables)
+        for i in room_coords.keys():
+            color = colors[i]
+            for coords in room_coords[i]:
+                self.canvas.create_polygon(*coords,
+                                           fill=color, outline=color, tags='draggable')
+            for coords in room_center_coords[i]:
+                self.canvas.create_text(
+                    *coords, text=self.room_labels[i], fill=self.get_complementary(color), font=('TkDefaultFont', fsize))
+
+    def get_complementary(self, color):
+        # strip the # from the beginning
+        color = color[1:]
+
+        # convert the string into hex
+        color = int(color, 16)
+
+        # invert the three bytes
+        # as good as substracting each of RGB component by 255(FF)
+        comp_color = 0xFFFFFF ^ color
+
+        # convert the color back to hex by prefixing a #
+        comp_color = "#%06X" % comp_color
+
+        # return the result
+        return comp_color
+
+    def draw_grid(self):
+        grid_size = 50
+        x1 = 0
+        x2 = self.width
+        for k in range(0, self.height+grid_size, grid_size):
+            y1 = k
+            y2 = k
+            self.canvas.create_line(
+                x1, y1, x2, y2, fill='#eeeeee')
+
+        y1 = 0
+        y2 = self.height
+        for k in range(0, self.width+grid_size, grid_size):
+            x1 = k
+            x2 = k
+            self.canvas.create_line(x1, y1, x2, y2, fill='#eeeeee')
 
 
 class RoomForm(tk.LabelFrame):
