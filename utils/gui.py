@@ -340,7 +340,8 @@ class TrajTrainGUI:
         for k in range(0, self.width+grid_size, grid_size):
             x1 = k
             x2 = k
-            self.canvas.create_line(x1, y1, x2, y2, fill=self.master.cget('bg'))
+            self.canvas.create_line(
+                x1, y1, x2, y2, fill=self.master.cget('bg'))
 
     def exit_train(self):
         if self.f:
@@ -643,7 +644,8 @@ class FloorPlan:
         for k in range(0, self.width+grid_size, grid_size):
             x1 = k
             x2 = k
-            self.canvas.create_line(x1, y1, x2, y2, fill=self.master.cget('bg'))
+            self.canvas.create_line(
+                x1, y1, x2, y2, fill=self.master.cget('bg'))
 
     def draw_path(self):
         for path in self.paths:
@@ -911,9 +913,7 @@ class FloorPlanEdit:
                                     command=self.master.destroy)
         self.exitButton.pack(expand=True, fill=tk.BOTH, pady=10)
 
-        toolbar.pack(expand=True,fill=tk.X, padx=10)
-        self.room_coords, self.room_center_coords, self.room_labels, self.hex_colors,  = None, None, None, None
-
+        toolbar.pack(expand=True, fill=tk.X, padx=10)
         self.reset_canvas()
 
     def mouse_motion(self, event):
@@ -925,10 +925,23 @@ class FloorPlanEdit:
         # print('reset')
         self.canvas.delete("all")
         self.draw_grid()
+        self.room_coords, self.room_center_coords, self.room_labels, self.hex_colors,  = {}, {}, [], []
         self.load_draw()
 
     def save(self):
         # print('save')
+        for key in range(len(self.room_labels)):
+            room_label = self.room_labels[key]
+            items = self.canvas.find_withtag(room_label)
+            for item in items:
+                coords = self.canvas.coords(item)
+                if 'center' in self.canvas.gettags(item):
+                    self.room_center_coords[key] = [tuple(coords)]
+                    print('center', key, coords)
+                if 'rect' in self.canvas.gettags(item):
+                    self.room_coords[key] = [tuple(coords)]
+                    print('rect', key, coords)
+
         dump([self.room_coords, self.room_center_coords, self.room_labels, self.hex_colors], open(
             dir_path + '/values/floorplan.sav', 'wb'))
 
@@ -938,18 +951,12 @@ class FloorPlanEdit:
         item, x0, y0 = self.dnd_item
         tags = self.canvas.gettags(item)
         # print(tags, len(tags),  tags[1])
-        if len(tags) > 1:
-            room_label = tags[1]
-            items = self.canvas.find_withtag(room_label)
-            # print(items)
-            # dx = x - x0
-            # dy = y - y0
-            for i in items:
-                self.canvas.move(i, x - x0, y - y0)
-            # for key, value in self.room_labels.items():
-            #     if value == room_label:
-            #         self.drag(self.room_coords[key], dx, dy)
-            #         self.drag(self.room_center_coords[key], dx, dy)
+        for tag in tags:
+            if tag in self.room_labels:
+                items = self.canvas.find_withtag(tag)
+                for i in items:
+                    self.canvas.move(i, x - x0, y - y0)
+                break
 
         self.dnd_item = (item, x, y)
 
@@ -970,8 +977,13 @@ class FloorPlanEdit:
         # print(tags)
 
     def load_draw(self):
-        self.room_coords, self.room_center_coords, self.room_labels, self.hex_colors = load(open(
-            dir_path + '/values/floorplan.sav', 'rb'))
+        try:
+            self.room_coords, self.room_center_coords, self.room_labels, self.hex_colors = load(open(
+                dir_path + '/values/floorplan.sav', 'rb'))
+            print(self.room_coords, self.room_center_coords,
+                  self.room_labels, self.hex_colors)
+        except:
+            print('Floor Plan not constructed.')
         self.draw_polys(self.room_coords, self.room_center_coords,
                         self.room_labels, self.hex_colors)
 
@@ -982,14 +994,14 @@ class FloorPlanEdit:
             room_label = room_labels[i]
             for coords in room_coords[i]:
                 self.canvas.create_polygon(*coords,
-                                           fill=color, outline=color, stipple='gray25', tags=['draggable', room_label])
+                                           fill=color, outline=color, stipple='gray25', tags=['rect', 'draggable', room_label])
                 radius = 5
                 for j in range(0, len(coords), 2):
                     self.canvas.create_oval(
                         coords[j] - radius, coords[j+1] - radius, coords[j] + radius, coords[j+1] + radius, fill=color, outline=color, width=4, tags=['resizable', room_label])
             for coords in room_center_coords[i]:
                 self.canvas.create_text(
-                    *coords, text=room_label, fill=self.get_complementary(color), font=('TkDefaultFont', fsize), tags=['draggable', room_label])
+                    *coords, text=room_label, fill=self.get_complementary(color), font=('TkDefaultFont', fsize), tags=['center', 'draggable', room_label])
 
     def get_complementary(self, color):
         # strip the # from the beginning
@@ -1023,7 +1035,8 @@ class FloorPlanEdit:
         for k in range(0, self.width+grid_size, grid_size):
             x1 = k
             x2 = k
-            self.canvas.create_line(x1, y1, x2, y2, fill=self.master.cget('bg'))
+            self.canvas.create_line(
+                x1, y1, x2, y2, fill=self.master.cget('bg'))
 
 
 class RoomForm(tk.LabelFrame):
