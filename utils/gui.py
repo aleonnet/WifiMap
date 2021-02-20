@@ -252,7 +252,7 @@ class TrajTrainGUI:
     def __init__(self, master, title):
         self.master = master
         self.master.title(title)
-        self.master.geometry('1000x800')
+        self.master.geometry('850x800')
         self.line_start = None
 
         self.paths = []
@@ -260,7 +260,7 @@ class TrajTrainGUI:
         self.height = 800
 
         self.canvas = tk.Canvas(
-            self.master, bg="white", width=self.width, height=self.height)
+            self.master, bg='white', width=self.width, height=self.height)
         self.canvas.bind("<Button-1>", self.draw)
         self.canvas.bind("<Motion>", self.mouse_motion)
 
@@ -333,14 +333,14 @@ class TrajTrainGUI:
             y1 = k
             y2 = k
             self.canvas.create_line(
-                x1, y1, x2, y2, fill='#eeeeee')
+                x1, y1, x2, y2, fill=self.master.cget('bg'))
 
         y1 = 0
         y2 = self.height
         for k in range(0, self.width+grid_size, grid_size):
             x1 = k
             x2 = k
-            self.canvas.create_line(x1, y1, x2, y2, fill='#eeeeee')
+            self.canvas.create_line(x1, y1, x2, y2, fill=self.master.cget('bg'))
 
     def exit_train(self):
         if self.f:
@@ -426,7 +426,8 @@ class TrajTrainGUI:
                 if self.f:
                     self.f.close()
                 self.file_name = self.folder + '/traj_' + \
-                    str(self.paths[-1][0]) + '_' + str(self.paths[-1][1]) + '.txt'
+                    str(self.paths[-1][0]) + '_' + \
+                    str(self.paths[-1][1]) + '.txt'
                 self.monitor_btn['text'] = 'Stop Scan'
                 self.monitor_btn.configure(highlightbackground='black')
                 x = threading.Thread(target=self.doWork)
@@ -537,7 +538,7 @@ class FloorPlan:
         self.height = 800
 
         self.canvas = tk.Canvas(
-            self.master, bg="white", width=self.width, height=self.height)
+            self.master, bg='white', width=self.width, height=self.height)
 
         self.draw_grid()
 
@@ -635,14 +636,14 @@ class FloorPlan:
             y1 = k
             y2 = k
             self.canvas.create_line(
-                x1, y1, x2, y2, fill='#eeeeee')
+                x1, y1, x2, y2, fill=self.master.cget('bg'))
 
         y1 = 0
         y2 = self.height
         for k in range(0, self.width+grid_size, grid_size):
             x1 = k
             x2 = k
-            self.canvas.create_line(x1, y1, x2, y2, fill='#eeeeee')
+            self.canvas.create_line(x1, y1, x2, y2, fill=self.master.cget('bg'))
 
     def draw_path(self):
         for path in self.paths:
@@ -873,22 +874,25 @@ class FloorPlanEdit:
     def __init__(self, master, title):
         self.master = master
         self.master.title(title)
-        self.master.geometry('1000x800')
+        self.master.geometry('850x800')
         self.line_start = None
 
         self.width = 600
         self.height = 800
 
         self.canvas = tk.Canvas(
-            self.master, bg="white", width=self.width, height=self.height)
+            self.master, bg='white', width=self.width, height=self.height)
         self.canvas.bind("<Motion>", self.mouse_motion)
 
-        self.draw_grid()
-
         self.canvas.pack(side=tk.LEFT)
-
+        self.canvas.tag_bind("draggable", "<ButtonPress-1>",
+                             self.button_press)
         self.canvas.tag_bind("draggable", "<Button1-Motion>",
                              self.button_drag)
+        self.canvas.tag_bind("resizable", "<ButtonPress-1>",
+                             self.button_press)
+        self.canvas.tag_bind("resizable", "<Button1-Motion>",
+                             self.button_resize)
 
         toolbar = tk.Frame(self.master)
 
@@ -896,7 +900,7 @@ class FloorPlanEdit:
         self.label.pack(expand=True, fill=tk.BOTH, pady=10)
 
         self.resetButton = tk.Button(toolbar, bg='grey', fg='black', text='Reset Floor Plan',
-                                     command=self.reset, pady=10)
+                                     command=self.reset_canvas, pady=10)
         self.resetButton.pack(expand=True, fill=tk.BOTH, pady=10)
 
         self.saveButton = tk.Button(toolbar, bg='grey', fg='black', text='Save Floor Plan',
@@ -907,44 +911,85 @@ class FloorPlanEdit:
                                     command=self.master.destroy)
         self.exitButton.pack(expand=True, fill=tk.BOTH, pady=10)
 
-        toolbar.pack(expand=True)
+        toolbar.pack(expand=True,fill=tk.X, padx=10)
         self.room_coords, self.room_center_coords, self.room_labels, self.hex_colors,  = None, None, None, None
 
-        self.load_raw()
-        self.draw_polys(self.room_coords, self.room_center_coords,
-                        self.room_labels, self.hex_colors)
+        self.reset_canvas()
 
     def mouse_motion(self, event):
         x, y = event.x, event.y
         text = "Mouse position: ({}, {})".format(x, y)
         self.label.config(text=text)
 
-    def reset(self):
-        print('reset')
+    def reset_canvas(self):
+        # print('reset')
+        self.canvas.delete("all")
+        self.draw_grid()
+        self.load_draw()
 
     def save(self):
-        print('save')
+        # print('save')
+        dump([self.room_coords, self.room_center_coords, self.room_labels, self.hex_colors], open(
+            dir_path + '/values/floorplan.sav', 'wb'))
 
     def button_drag(self, event):
-        print('move')
+        # print('move')
+        x, y = event.x, event.y
+        item, x0, y0 = self.dnd_item
+        tags = self.canvas.gettags(item)
+        # print(tags, len(tags),  tags[1])
+        if len(tags) > 1:
+            room_label = tags[1]
+            items = self.canvas.find_withtag(room_label)
+            # print(items)
+            # dx = x - x0
+            # dy = y - y0
+            for i in items:
+                self.canvas.move(i, x - x0, y - y0)
+            # for key, value in self.room_labels.items():
+            #     if value == room_label:
+            #         self.drag(self.room_coords[key], dx, dy)
+            #         self.drag(self.room_center_coords[key], dx, dy)
 
-    def resize(self):
+        self.dnd_item = (item, x, y)
+
+    # def drag(self, coords, dx, dy):
+    #     for i in range(0, len(coords), 2):
+    #         coords[i] += dx
+    #         coords[i+1] += dy
+
+    def button_resize(self, event):
         print('resize')
 
-    def load_raw(self):
+    def button_press(self, event):
+        # print('press')
+        item = self.canvas.find_withtag(tk.CURRENT)
+        # print(item)
+        self.dnd_item = (item, event.x, event.y)
+        # tags = self.canvas.gettags(item)
+        # print(tags)
+
+    def load_draw(self):
         self.room_coords, self.room_center_coords, self.room_labels, self.hex_colors = load(open(
             dir_path + '/values/floorplan.sav', 'rb'))
+        self.draw_polys(self.room_coords, self.room_center_coords,
+                        self.room_labels, self.hex_colors)
 
-    def draw_polys(self, room_coords, room_center_coords, room_lables, colors, fsize='20'):
+    def draw_polys(self, room_coords, room_center_coords, room_labels, colors, fsize='20'):
         # print(rooms, room_lables)
         for i in room_coords.keys():
             color = colors[i]
+            room_label = room_labels[i]
             for coords in room_coords[i]:
                 self.canvas.create_polygon(*coords,
-                                           fill=color, outline=color, tags='draggable')
+                                           fill=color, outline=color, stipple='gray25', tags=['draggable', room_label])
+                radius = 5
+                for j in range(0, len(coords), 2):
+                    self.canvas.create_oval(
+                        coords[j] - radius, coords[j+1] - radius, coords[j] + radius, coords[j+1] + radius, fill=color, outline=color, width=4, tags=['resizable', room_label])
             for coords in room_center_coords[i]:
                 self.canvas.create_text(
-                    *coords, text=self.room_labels[i], fill=self.get_complementary(color), font=('TkDefaultFont', fsize))
+                    *coords, text=room_label, fill=self.get_complementary(color), font=('TkDefaultFont', fsize), tags=['draggable', room_label])
 
     def get_complementary(self, color):
         # strip the # from the beginning
@@ -971,14 +1016,14 @@ class FloorPlanEdit:
             y1 = k
             y2 = k
             self.canvas.create_line(
-                x1, y1, x2, y2, fill='#eeeeee')
+                x1, y1, x2, y2, fill=self.master.cget('bg'))
 
         y1 = 0
         y2 = self.height
         for k in range(0, self.width+grid_size, grid_size):
             x1 = k
             x2 = k
-            self.canvas.create_line(x1, y1, x2, y2, fill='#eeeeee')
+            self.canvas.create_line(x1, y1, x2, y2, fill=self.master.cget('bg'))
 
 
 class RoomForm(tk.LabelFrame):
