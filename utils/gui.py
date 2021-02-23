@@ -891,10 +891,10 @@ class FloorPlanEdit:
                              self.button_press)
         self.canvas.tag_bind("draggable", "<Button1-Motion>",
                              self.button_drag)
-        self.canvas.tag_bind("resizable", "<ButtonPress-1>",
-                             self.button_press)
-        self.canvas.tag_bind("resizable", "<Button1-Motion>",
-                             self.button_resize)
+        # self.canvas.tag_bind("resizable", "<ButtonPress-1>",
+        #                      self.button_press)
+        # self.canvas.tag_bind("resizable", "<Button1-Motion>",
+        #                      self.button_resize)
 
         toolbar = tk.Frame(self.master)
 
@@ -930,17 +930,15 @@ class FloorPlanEdit:
 
     def save(self):
         # print('save')
-        for key in range(len(self.room_labels)):
-            room_label = self.room_labels[key]
-            items = self.canvas.find_withtag(room_label)
-            for item in items:
-                coords = self.canvas.coords(item)
-                if 'center' in self.canvas.gettags(item):
-                    self.room_center_coords[key] = [tuple(coords)]
-                    print('center', key, coords)
-                if 'rect' in self.canvas.gettags(item):
-                    self.room_coords[key] = [tuple(coords)]
-                    print('rect', key, coords)
+        # for key in range(len(self.room_labels)):
+        #     room_label = self.room_labels[key]
+        #     items = self.canvas.find_withtag(room_label)
+        #     for item in items:
+        #         coords = self.canvas.coords(item)
+        #         if 'center' in self.canvas.gettags(item):
+        #             self.room_center_coords[key] = [tuple(coords)]
+        #         if 'rect' in self.canvas.gettags(item):
+        #             self.room_coords[key] = [tuple(coords)]
 
         dump([self.room_coords, self.room_center_coords, self.room_labels, self.hex_colors], open(
             dir_path + '/values/floorplan.sav', 'wb'))
@@ -949,24 +947,36 @@ class FloorPlanEdit:
         # print('move')
         x, y = event.x, event.y
         item, x0, y0 = self.dnd_item
+        self.dnd_item = (item, x, y)
         tags = self.canvas.gettags(item)
         # print(tags, len(tags),  tags[1])
+
         for tag in tags:
-            if tag in self.room_labels:
-                items = self.canvas.find_withtag(tag)
-                for i in items:
-                    self.canvas.move(i, x - x0, y - y0)
-                break
+            for room_index, room_label in enumerate(self.room_labels):
+                if tag == room_label:
+                    if 'corner' in tags:
+                        self.canvas.delete(room_label)
+                        color = self.hex_colors[room_index]
+                        center_x, center_y = self.room_center_coords[room_index][0]
+                        opposite_x, opposite_y = 2*center_x - x0, 2*center_y - y0
+                        new_center_x, new_center_y = (
+                            x+opposite_x)//2, (y+opposite_y)//2
+                        self.room_center_coords[room_index] = [
+                            (new_center_x, new_center_y)]
+                        self.canvas.create_text(
+                            new_center_x, new_center_y, text=room_label, fill=self.get_complementary(color), font=('TkDefaultFont', self.fsize), tags=['center', 'draggable', room_label])
 
-        self.dnd_item = (item, x, y)
-
-    # def drag(self, coords, dx, dy):
-    #     for i in range(0, len(coords), 2):
-    #         coords[i] += dx
-    #         coords[i+1] += dy
-
-    def button_resize(self, event):
-        print('resize')
+                    else:
+                        items = self.canvas.find_withtag(room_label)
+                        for item in items:
+                            self.canvas.move(item, x - x0, y - y0)
+                            coords = self.canvas.coords(item)
+                            if 'center' in self.canvas.gettags(item):
+                                self.room_center_coords[room_index] = [
+                                    tuple(coords)]
+                            if 'rect' in self.canvas.gettags(item):
+                                self.room_coords[room_index] = [tuple(coords)]
+                    break
 
     def button_press(self, event):
         # print('press')
@@ -980,12 +990,13 @@ class FloorPlanEdit:
         try:
             self.room_coords, self.room_center_coords, self.room_labels, self.hex_colors = load(open(
                 dir_path + '/values/floorplan.sav', 'rb'))
-            print(self.room_coords, self.room_center_coords,
-                  self.room_labels, self.hex_colors)
+            # print(self.room_coords, self.room_center_coords,
+            #       self.room_labels, self.hex_colors)
         except:
             print('Floor Plan not constructed.')
+        self.fsize = '20'
         self.draw_polys(self.room_coords, self.room_center_coords,
-                        self.room_labels, self.hex_colors)
+                        self.room_labels, self.hex_colors, fsize=self.fsize)
 
     def draw_polys(self, room_coords, room_center_coords, room_labels, colors, fsize='20'):
         # print(rooms, room_lables)
@@ -998,7 +1009,7 @@ class FloorPlanEdit:
                 radius = 5
                 for j in range(0, len(coords), 2):
                     self.canvas.create_oval(
-                        coords[j] - radius, coords[j+1] - radius, coords[j] + radius, coords[j+1] + radius, fill=color, outline=color, width=4, tags=['resizable', room_label])
+                        coords[j] - radius, coords[j+1] - radius, coords[j] + radius, coords[j+1] + radius, fill=color, outline=color, width=4, tags=['corner', 'draggable', room_label])
             for coords in room_center_coords[i]:
                 self.canvas.create_text(
                     *coords, text=room_label, fill=self.get_complementary(color), font=('TkDefaultFont', fsize), tags=['center', 'draggable', room_label])

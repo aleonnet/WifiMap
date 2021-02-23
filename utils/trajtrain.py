@@ -81,6 +81,8 @@ class TrajTrain:
             n_steps = len(sim_df)
             # print(sim_df.shape, n_steps)
             # print(sim_df)
+            if n_steps < 3:
+                continue
             fitted = []
             models = []
             room_sizes = []
