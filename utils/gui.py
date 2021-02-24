@@ -268,6 +268,9 @@ class TrajTrainGUI:
 
         self.canvas.pack(side=tk.LEFT)
 
+        self.big_arrow = (24, 30, 10)
+        self.small_arrow = (8, 10, 3)
+
         self.canvas.tag_bind("draggable", "<ButtonPress-1>",
                              self.button_press)
         self.canvas.tag_bind("draggable", "<Button1-Motion>",
@@ -446,11 +449,12 @@ class TrajTrainGUI:
         if self.draw_mode == self.Mode.REVERSE.value:
             items = self.canvas.find_withtag("draggable")
             for i in items:
-                self.canvas.itemconfig(i, fill=self.color)
+                self.canvas.itemconfig(
+                    i, fill=self.color, arrowshape=self.small_arrow)
             c = self.canvas.coords(item)
             self.paths.append([datetime.now().strftime(
                 '%m_%d_%H_%M'), (c[2], c[3], c[0], c[1])])
-            self.canvas.create_line(c[2], c[3], c[0], c[1], arrow=self.arrow, arrowshape=(16, 20, 6),
+            self.canvas.create_line(c[2], c[3], c[0], c[1], arrow=self.arrow, arrowshape=self.big_arrow,
                                     fill='blue', width=self.width, tags="draggable")
             self.clear_radio()
         elif self.draw_mode == self.Mode.DELETE.value:
@@ -465,10 +469,12 @@ class TrajTrainGUI:
 
             items = self.canvas.find_withtag("draggable")
             for i in items:
-                self.canvas.itemconfig(i, fill=self.color)
+                self.canvas.itemconfig(
+                    i, fill=self.color, arrowshape=self.small_arrow)
             if len(items) > 0:
                 item = items[-1]
-                self.canvas.itemconfig(item, fill='blue')
+                self.canvas.itemconfig(
+                    item, fill='blue', arrowshape=self.big_arrow)
             self.clear_radio()
 
         self.update_path()
@@ -489,17 +495,20 @@ class TrajTrainGUI:
             self.canvas.tag_raise(item, 'all')
             items = self.canvas.find_withtag("draggable")
             for i in items:
-                self.canvas.itemconfig(i, fill=self.color)
+                self.canvas.itemconfig(
+                    i, fill=self.color, arrowshape=self.small_arrow)
             if len(items) > 0:
                 item = items[-1]
-                self.canvas.itemconfig(item, fill='blue')
+                self.canvas.itemconfig(
+                    item, fill='blue', arrowshape=self.big_arrow)
         self.update_path()
 
     def draw(self, event):
         if self.draw_mode == self.Mode.DRAW.value:
             items = self.canvas.find_withtag("draggable")
             for i in items:
-                self.canvas.itemconfig(i, fill=self.color)
+                self.canvas.itemconfig(
+                    i, fill=self.color, arrowshape=self.small_arrow)
             x, y = event.x, event.y
             if not self.line_start:
                 self.line_start = (x, y)
@@ -512,7 +521,7 @@ class TrajTrainGUI:
                 self.arrow = tk.LAST
                 self.color = 'black'
                 self.width = 4
-                self.canvas.create_line(*line, arrow=self.arrow, arrowshape=(16, 20, 6),
+                self.canvas.create_line(*line, arrow=self.arrow, arrowshape=self.big_arrow,
                                         fill='blue', width=self.width, tags="draggable")
                 self.clear_radio()
                 self.update_path()
@@ -954,17 +963,50 @@ class FloorPlanEdit:
         for tag in tags:
             for room_index, room_label in enumerate(self.room_labels):
                 if tag == room_label:
-                    if 'corner' in tags:
-                        self.canvas.delete(room_label)
+                    if 'corner' in ("").join(tags):
+
+                        corner_id = -int(tags[0].split(' ')[1])
+                        print(("").join(tags), corner_id)
+                        coords = self.room_coords[room_index][0]
+                        opposite_x, opposite_y = 0, 0
+                        for j in range(0, len(coords), 2):
+                            id = (j//2 % 2 + 1)*(-1)**(j > 2)
+                            if id == corner_id:
+                                opposite_x, opposite_y = coords[j], coords[j+1]
+                                break
+
+                        self.canvas.move(item, x - x0, y - y0)
+                        coords = self.canvas.coords(item)
+                        print(x, y, x0, y0, coords)
+
+                        # self.canvas.delete(room_label)
                         color = self.hex_colors[room_index]
                         center_x, center_y = self.room_center_coords[room_index][0]
-                        opposite_x, opposite_y = 2*center_x - x0, 2*center_y - y0
+
                         new_center_x, new_center_y = (
                             x+opposite_x)//2, (y+opposite_y)//2
                         self.room_center_coords[room_index] = [
                             (new_center_x, new_center_y)]
+                        print(center_x, center_y, x, y, opposite_x,
+                              opposite_y, new_center_x, new_center_y)
+                        self.room_center_coords[room_index] = [
+                            (new_center_x, new_center_y)]
+                        dx = opposite_x - new_center_x
+                        dy = opposite_y - new_center_y
+                        coords = (new_center_x+dx, new_center_y-dy,
+                                  new_center_x+dx, new_center_y+dy, new_center_x-dx, new_center_y+dy, new_center_x-dx, new_center_y-dy)
+
+                        self.canvas.delete(room_label)
+                        self.canvas.create_polygon(*coords,
+                                                   fill=color, outline=color, stipple='gray25', tags=['rect', 'draggable', room_label])
+
                         self.canvas.create_text(
                             new_center_x, new_center_y, text=room_label, fill=self.get_complementary(color), font=('TkDefaultFont', self.fsize), tags=['center', 'draggable', room_label])
+                        # radius = 5
+                        # self.room_coords[room_index] = [coords]
+                        # for j in range(0, len(coords), 2):
+                        #     self.canvas.create_oval(
+                        #         coords[j] - radius, coords[j+1] - radius, coords[j] + radius, coords[j+1] + radius, fill=color, outline=color, width=4, tags=['corner '+str((j//2 % 2 + 1)*(-1)**(j > 2)), 'draggable', room_label])
 
                     else:
                         items = self.canvas.find_withtag(room_label)
@@ -1009,8 +1051,9 @@ class FloorPlanEdit:
                 radius = 5
                 for j in range(0, len(coords), 2):
                     self.canvas.create_oval(
-                        coords[j] - radius, coords[j+1] - radius, coords[j] + radius, coords[j+1] + radius, fill=color, outline=color, width=4, tags=['corner', 'draggable', room_label])
+                        coords[j] - radius, coords[j+1] - radius, coords[j] + radius, coords[j+1] + radius, fill=color, outline=color, width=4, tags=['corner '+str((j//2 % 2 + 1)*(-1)**(j > 2)), 'draggable', room_label])
             for coords in room_center_coords[i]:
+                print(coords)
                 self.canvas.create_text(
                     *coords, text=room_label, fill=self.get_complementary(color), font=('TkDefaultFont', fsize), tags=['center', 'draggable', room_label])
 
