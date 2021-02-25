@@ -965,21 +965,30 @@ class FloorPlanEdit:
                 if tag == room_label:
                     color = self.hex_colors[room_index]
                     if 'corner' in (" ").join(tags):
-                        opposite_id = -int(tags[0].split(' ')[1])
-                        opposite_x, opposite_y = 0, 0
-                        pre_coords = self.room_coords[room_index][0]
-                        print((" ").join(tags), pre_coords, opposite_id)
-                        for j in range(0, len(pre_coords), 2):
-                            id = (j//2 % 2 + 1)*(-1)**(j > 2)
-                            print(id, pre_coords[j], pre_coords[j+1])
-                            if id == opposite_id:
-                                opposite_x, opposite_y = pre_coords[j], pre_coords[j+1]
-                                print('found')
-                                break
-                        self.canvas.create_oval(
-                            x - 5, y - 5, x+5, y+5, fill=color, outline=color, width=4, tags=['corner '+str(-opposite_id), 'draggable', room_label])
-                        self.canvas.create_oval(
-                            opposite_x - 5, opposite_y - 5, opposite_x+5, opposite_y+5, fill=self.get_complementary(color), outline=color, width=4, tags=['corner '+str(opposite_id), 'draggable', room_label])
+                        corner_id = int(tags[0].split(' ')[1])
+                        opposite_id = (corner_id+4) % 8
+                        pre_coords = list(self.room_coords[room_index][0])
+                        opposite_x, opposite_y = pre_coords[opposite_id], pre_coords[opposite_id+1]
+                        print((" ").join(tags), pre_coords,
+                              corner_id, opposite_id)
+                        # self.canvas.create_oval(
+                        #     x - 5, y - 5, x+5, y+5, fill=color, outline=color, width=4, tags=['corner '+str(corner_id), 'draggable', room_label])
+                        # self.canvas.create_oval(
+                        #     opposite_x - 5, opposite_y - 5, opposite_x+5, opposite_y+5, fill=self.get_complementary(color), outline=color, width=4, tags=['corner '+str(opposite_id), 'draggable', room_label])
+                        pre_coords[corner_id] = x
+                        pre_coords[corner_id+1] = y
+                        pre_coords[(corner_id+2) % 8] = x
+                        pre_coords[(corner_id+3) % 8] = opposite_y
+                        pre_coords[(corner_id+6) % 8] = opposite_x
+                        pre_coords[(corner_id+7) % 8] = y
+
+                        # for j in range(0, len(pre_coords), 2):
+                        #     id = (j//2 % 2 + 1)*(-1)**(j > 2)
+                        #     # print(id, pre_coords[j], pre_coords[j+1])
+                        #     if id == opposite_id:
+                        #         opposite_x, opposite_y = pre_coords[j], pre_coords[j+1]
+                        #         # print('found')
+                        #         break
 
                         # self.canvas.move(item, x - x0, y - y0)
                         # coords = self.canvas.coords(item)
@@ -990,18 +999,27 @@ class FloorPlanEdit:
 
                         new_center_x, new_center_y = (
                             x+opposite_x)//2, (y+opposite_y)//2
-                        print(x, y, opposite_x, opposite_y,
-                              new_center_x, new_center_y)
-                        dx = opposite_x - new_center_x
-                        dy = opposite_y - new_center_y
-                        # rect_coords = (new_center_x+dx, new_center_y-dy,
-                        #                new_center_x+dx, new_center_y+dy, new_center_x-dx, new_center_y+dy, new_center_x-dx, new_center_y-dy)
-                        # center_coords = (new_center_x, new_center_y)
-                        # # self.canvas.delete(room_label)
-                        # self.room_center_coords[room_index] = [center_coords]
-                        # self.room_coords[room_index] = [rect_coords]
+                        # print('x, y, opposite_x, opposite_y, new_center_x, new_center_y', x, y, opposite_x, opposite_y,
+                        #       new_center_x, new_center_y)
+                        # rect_coords = (x, y, x, opposite_y,
+                        #                opposite_x, opposite_y, opposite_x, y)
+                        center_coords = (new_center_x, new_center_y)
+                        self.room_center_coords[room_index] = [center_coords]
+                        self.room_coords[room_index] = [tuple(pre_coords)]
+
+                        # self.canvas.delete(room_label)
+
                         # self.draw_room_poly(
-                        #     rect_coords, center_coords, color, room_label)
+                        #     rect_coords, self.room_center_coords[room_index][0], color, room_label)
+                        # items = self.canvas.find_enclosed(
+                        #     x-10, y-10, x+10, y+10)
+                        # print('x, y', x, y)
+                        # for i in items:
+                        #     print(self.canvas.gettags(i),
+                        #           self.canvas.coords(i))
+                        #     self.dnd_item = (i, x, y)
+                        self.draw_room_poly(
+                            self.room_coords[room_index][0], self.room_center_coords[room_index][0], color, room_label)
 
                     else:
                         items = self.canvas.find_withtag(room_label)
@@ -1042,7 +1060,7 @@ class FloorPlanEdit:
             room_label = room_labels[i]
             for j in range(len(room_coords[i])):
                 rect = room_coords[i][0]
-                center = room_center_coords[i]
+                center = room_center_coords[i][0]
                 self.draw_room_poly(rect, center, color, room_label)
 
     def draw_room_poly(self, rect_coords, center_coords, color, room_label):
@@ -1051,7 +1069,7 @@ class FloorPlanEdit:
         radius = 5
         for j in range(0, len(rect_coords), 2):
             self.canvas.create_oval(
-                rect_coords[j] - radius, rect_coords[j+1] - radius, rect_coords[j] + radius, rect_coords[j+1] + radius, fill=color, outline=color, width=4, tags=['corner '+str((j//2 % 2 + 1)*(-1)**(j > 2)), 'draggable', room_label])
+                rect_coords[j] - radius, rect_coords[j+1] - radius, rect_coords[j] + radius, rect_coords[j+1] + radius, fill=color, outline=color, width=4, tags=['corner '+str(j), 'draggable', room_label])
         self.canvas.create_text(
             *center_coords, text=room_label, fill=self.get_complementary(color), font=('TkDefaultFont', self.fsize), tags=['center', 'draggable', room_label])
 
