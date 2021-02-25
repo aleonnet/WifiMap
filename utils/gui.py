@@ -982,8 +982,6 @@ class FloorPlanEdit:
                         for i in items:
                             i_tags = self.canvas.gettags(i)
                             item_dict[i_tags[0]] = i
-                            print(i_tags)
-                        print(item_dict)
 
                         corner_id = int(tags[0].split(' ')[1])
                         moved_id_1 = (corner_id+2) % 8
@@ -991,12 +989,6 @@ class FloorPlanEdit:
                         moved_id_2 = (corner_id+6) % 8
                         coords = list(self.room_coords[room_index][0])
                         opposite_x, opposite_y = coords[opposite_id], coords[opposite_id+1]
-                        # print((" ").join(tags), coords,
-                        #       corner_id, opposite_id)
-                        # self.canvas.create_oval(
-                        #     x - 5, y - 5, x+5, y+5, fill=color, outline=color, width=4, tags=['corner '+str(corner_id), 'draggable', room_label])
-                        # self.canvas.create_oval(
-                        #     opposite_x - 5, opposite_y - 5, opposite_x+5, opposite_y+5, fill=self.get_complementary(color), outline=color, width=4, tags=['corner '+str(opposite_id), 'draggable', room_label])
 
                         self.canvas.move(
                             item_dict['corner ' + str(corner_id)], x - x0, y - y0)
@@ -1036,11 +1028,14 @@ class FloorPlanEdit:
                         for item in items:
                             self.canvas.move(item, x - x0, y - y0)
                             coords = self.canvas.coords(item)
-                            if 'center' in self.canvas.gettags(item):
+                            i_tags = self.canvas.gettags(item)
+                            if 'center' in i_tags:
                                 self.room_center_coords[room_index] = [
                                     tuple(coords)]
-                            if 'rect' in self.canvas.gettags(item):
+                            elif 'rect' in i_tags:
                                 self.room_coords[room_index] = [tuple(coords)]
+                            else:
+                                self.canvas.tag_raise(item)
                     break
 
     def button_press(self, event):
