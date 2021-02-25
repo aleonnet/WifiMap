@@ -575,14 +575,6 @@ class FloorPlan:
         self.frame.pack(expand=True)
 
         self.load_raw()
-        self.colors = cm.get_cmap('jet', len(self.rooms))
-        self.hex_colors = []
-        self.cv_colors = []
-        for i in self.room_range:
-            rgb = self.colors(i)
-            self.hex_colors.append(colors.rgb2hex(rgb))
-            self.cv_colors.append(
-                (int(255*rgb[2]), int(255*rgb[1]), int(255*rgb[0])))
 
     def load_raw(self):
         self.rooms, self.result = load(open(
@@ -611,7 +603,7 @@ class FloorPlan:
             delta_x = x2-x1
             delta_y = y2-y1
             direction = self.Direction.HORIZONTAL
-            if abs(delta_y/delta_x) > 1:
+            if delta_x == 0 or abs(delta_y/delta_x) > 1:
                 direction = self.Direction.VERTICAL
 
             x_length = x[-1]
@@ -637,6 +629,15 @@ class FloorPlan:
         self.final_calced = False
         self.rooms_final = defaultdict(list)
         self.rooms_center_final = defaultdict(list)
+
+        self.colors = cm.get_cmap('jet', len(self.rooms))
+        self.hex_colors = []
+        self.cv_colors = []
+        for i in self.room_range:
+            rgb = self.colors(i)
+            self.hex_colors.append(colors.rgb2hex(rgb))
+            self.cv_colors.append(
+                (int(255*rgb[2]), int(255*rgb[1]), int(255*rgb[0])))
 
     def draw_grid(self):
         grid_size = 50
