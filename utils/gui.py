@@ -965,61 +965,59 @@ class FloorPlanEdit:
                 if tag == room_label:
                     color = self.hex_colors[room_index]
                     if 'corner' in (" ").join(tags):
+                        items = self.canvas.find_withtag(room_label)
+                        item_dict = {}
+                        for i in items:
+                            i_tags = self.canvas.gettags(i)
+                            item_dict[i_tags[0]] = i
+                            print(i_tags)
+                        print(item_dict)
+
                         corner_id = int(tags[0].split(' ')[1])
+                        moved_id_1 = (corner_id+2) % 8
                         opposite_id = (corner_id+4) % 8
-                        pre_coords = list(self.room_coords[room_index][0])
-                        opposite_x, opposite_y = pre_coords[opposite_id], pre_coords[opposite_id+1]
-                        print((" ").join(tags), pre_coords,
-                              corner_id, opposite_id)
+                        moved_id_2 = (corner_id+6) % 8
+                        coords = list(self.room_coords[room_index][0])
+                        opposite_x, opposite_y = coords[opposite_id], coords[opposite_id+1]
+                        # print((" ").join(tags), coords,
+                        #       corner_id, opposite_id)
                         # self.canvas.create_oval(
                         #     x - 5, y - 5, x+5, y+5, fill=color, outline=color, width=4, tags=['corner '+str(corner_id), 'draggable', room_label])
                         # self.canvas.create_oval(
                         #     opposite_x - 5, opposite_y - 5, opposite_x+5, opposite_y+5, fill=self.get_complementary(color), outline=color, width=4, tags=['corner '+str(opposite_id), 'draggable', room_label])
-                        pre_coords[corner_id] = x
-                        pre_coords[corner_id+1] = y
-                        pre_coords[(corner_id+2) % 8] = x
-                        pre_coords[(corner_id+3) % 8] = opposite_y
-                        pre_coords[(corner_id+6) % 8] = opposite_x
-                        pre_coords[(corner_id+7) % 8] = y
 
-                        # for j in range(0, len(pre_coords), 2):
-                        #     id = (j//2 % 2 + 1)*(-1)**(j > 2)
-                        #     # print(id, pre_coords[j], pre_coords[j+1])
-                        #     if id == opposite_id:
-                        #         opposite_x, opposite_y = pre_coords[j], pre_coords[j+1]
-                        #         # print('found')
-                        #         break
+                        self.canvas.move(
+                            item_dict['corner ' + str(corner_id)], x - x0, y - y0)
+                        coords[corner_id] = x
+                        coords[corner_id + 1] = y
 
-                        # self.canvas.move(item, x - x0, y - y0)
-                        # coords = self.canvas.coords(item)
-                        # print(x, y, x0, y0, coords)
+                        self.canvas.move(
+                            item_dict['corner ' + str(moved_id_1)], x - coords[moved_id_1], opposite_y-coords[moved_id_1 + 1])
+                        coords[moved_id_1] = x
+                        coords[moved_id_1 + 1] = opposite_y
 
-                        # self.canvas.delete(room_label)
-                        # center_x, center_y = self.room_center_coords[room_index][0]
+                        self.canvas.move(
+                            item_dict['corner ' + str(moved_id_2)], opposite_x - coords[moved_id_2], y - coords[moved_id_2 + 1])
+                        coords[moved_id_2] = opposite_x
+                        coords[moved_id_2 + 1] = y
+
+                        self.canvas.delete(item_dict['rect'])
+                        self.canvas.create_polygon(
+                            *coords, fill=color, outline=color, tags=['rect', 'draggable', room_label])
+
+                        self.room_coords[room_index] = [tuple(coords)]
 
                         new_center_x, new_center_y = (
                             x+opposite_x)//2, (y+opposite_y)//2
                         # print('x, y, opposite_x, opposite_y, new_center_x, new_center_y', x, y, opposite_x, opposite_y,
                         #       new_center_x, new_center_y)
-                        # rect_coords = (x, y, x, opposite_y,
-                        #                opposite_x, opposite_y, opposite_x, y)
                         center_coords = (new_center_x, new_center_y)
+                        center_x, center_y = self.room_center_coords[room_index][0]
+                        self.canvas.move(
+                            item_dict['center'], new_center_x - center_x, new_center_y - center_y)
+                        self.canvas.tag_raise(item_dict['center'])
+
                         self.room_center_coords[room_index] = [center_coords]
-                        self.room_coords[room_index] = [tuple(pre_coords)]
-
-                        # self.canvas.delete(room_label)
-
-                        # self.draw_room_poly(
-                        #     rect_coords, self.room_center_coords[room_index][0], color, room_label)
-                        # items = self.canvas.find_enclosed(
-                        #     x-10, y-10, x+10, y+10)
-                        # print('x, y', x, y)
-                        # for i in items:
-                        #     print(self.canvas.gettags(i),
-                        #           self.canvas.coords(i))
-                        #     self.dnd_item = (i, x, y)
-                        self.draw_room_poly(
-                            self.room_coords[room_index][0], self.room_center_coords[room_index][0], color, room_label)
 
                     else:
                         items = self.canvas.find_withtag(room_label)
