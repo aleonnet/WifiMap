@@ -1,4 +1,0 @@
-1 livingroom
-2 kitchen
-3 family room
-

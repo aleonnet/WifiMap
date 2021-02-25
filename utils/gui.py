@@ -66,7 +66,16 @@ class Main:
             self.frame, height=2, textvariable=self.text)
         self.selectLabel.pack()
         if subfolders:
-            self.combo.current(0)
+            f = open("startup.txt", "r")
+            user = f.read()
+            i = 0
+            while i < len(subfolders):
+                if subfolders[i] == user:
+                    self.combo.current(i)
+                    break
+                i += 1
+            if i == len(subfolders):
+                self.combo.current(0)
             self.display_user()
 
         self.butnew("Room Level Training", "Room Level Training", RoomTrainGUI)
@@ -102,6 +111,8 @@ class Main:
             subfolders = [i.split('/')[-2]
                           for i in glob(get_script_path() + "/*/")]
             self.combo['values'] = subfolders
+        f = open('startup.txt', 'w')
+        f.write(user)
 
 # %%
 
