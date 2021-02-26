@@ -701,8 +701,8 @@ class FloorPlan:
         self.reset_canvas()
         self.calc_shifted()
         self.draw_polys(self.rooms_shifted, self.rooms_center_shifted, 0.0, 2)
-        dump([self.rooms_shifted, self.rooms_center_shifted], open(
-            '/Users/mili/Documents/WifiFloorplan/PythonTest/shifted.sav', 'wb'))
+        # dump([self.rooms_shifted, self.rooms_center_shifted], open(
+        #     '/Users/mili/Documents/WifiFloorplan/PythonTest/shifted.sav', 'wb'))
 
     def calc_shifted(self):
         if not self.shift_calced:
