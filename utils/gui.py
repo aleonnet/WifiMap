@@ -647,6 +647,7 @@ class FloorPlan:
         for i in self.room_range:
             rgb = self.colors(i)
             self.hex_colors.append(colors.rgb2hex(rgb))
+            print('Color', i, colors.rgb2hex(rgb))
             self.cv_colors.append(
                 (int(255*rgb[2]), int(255*rgb[1]), int(255*rgb[0])))
 
@@ -686,16 +687,20 @@ class FloorPlan:
         # print(rooms, room_lables)
         for i in rooms.keys():
             for coords in rooms[i]:
-                self.create_polygon(*coords,
-                                    fill=self.hex_colors[i], outline=self.hex_colors[i], alpha=ap, width=w)
+                self.canvas.create_polygon(
+                    *coords, fill='', outline=self.hex_colors[i])
+                # self.create_polygon(*coords,
+                #                     fill=self.hex_colors[i], outline=self.hex_colors[i], alpha=ap, width=w)
             for coords in room_lables[i]:
                 self.canvas.create_text(
-                    *coords, text=self.rooms[i], font=('TkDefaultFont', fsize))
+                    *coords, text=self.rooms[i], fill=self.hex_colors[i], font=('TkDefaultFont', fsize))
 
     def draw_shifted(self):
         self.reset_canvas()
         self.calc_shifted()
         self.draw_polys(self.rooms_shifted, self.rooms_center_shifted, 0.2, 2)
+        dump([self.rooms_shifted, self.rooms_center_shifted], open(
+            '/Users/mili/Documents/WifiFloorplan/PythonTest/shifted.sav', 'wb'))
 
     def calc_shifted(self):
         if not self.shift_calced:
@@ -823,7 +828,7 @@ class FloorPlan:
         image = cv.cvtColor(self.full_image, cv.COLOR_BGR2RGB)
         image = Image.fromarray(image)
         image.putalpha(64)
-        # dump(image, open('/Users/mili/Desktop/test/full_image.sav', 'wb'))
+        # dump(image, open('/Users/mili/Documents/WifiFloorplan/PythonTest/full_image.sav', 'wb'))
         self.imgtk = ImageTk.PhotoImage(image=image)
 
     def draw_full_image(self):
