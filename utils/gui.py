@@ -681,16 +681,18 @@ class FloorPlan:
 
     def draw_raw(self):
         self.reset_canvas()
-        self.draw_polys(self.rooms_raw, self.rooms_center_raw, 0.2, 2)
+        self.draw_polys(self.rooms_raw, self.rooms_center_raw, 0.0, 2)
 
     def draw_polys(self, rooms, room_lables, ap, w, fsize='15'):
         # print(rooms, room_lables)
         for i in rooms.keys():
             for coords in rooms[i]:
-                self.canvas.create_polygon(
-                    *coords, fill='', outline=self.hex_colors[i])
-                # self.create_polygon(*coords,
-                #                     fill=self.hex_colors[i], outline=self.hex_colors[i], alpha=ap, width=w)
+                if ap:
+                    self.create_polygon(*coords,
+                                        fill=self.hex_colors[i], outline=self.hex_colors[i], alpha=ap, width=w)
+                else:
+                    self.create_polygon(*coords,
+                                        fill='', outline=self.hex_colors[i], width=w)
             for coords in room_lables[i]:
                 self.canvas.create_text(
                     *coords, text=self.rooms[i], fill=self.hex_colors[i], font=('TkDefaultFont', fsize))
@@ -698,7 +700,7 @@ class FloorPlan:
     def draw_shifted(self):
         self.reset_canvas()
         self.calc_shifted()
-        self.draw_polys(self.rooms_shifted, self.rooms_center_shifted, 0.2, 2)
+        self.draw_polys(self.rooms_shifted, self.rooms_center_shifted, 0.0, 2)
         dump([self.rooms_shifted, self.rooms_center_shifted], open(
             '/Users/mili/Documents/WifiFloorplan/PythonTest/shifted.sav', 'wb'))
 
@@ -748,7 +750,7 @@ class FloorPlan:
         self.calc_final()
         self.draw_full_image()
         self.draw_polys(self.rooms_final,
-                        self.rooms_center_final, 0.4, 5, fsize='20')
+                        self.rooms_center_final, 0.2, 5, fsize='20')
 
     def calc_final(self):
         if not self.final_calced:
